@@ -135,24 +135,36 @@ PROMPT = """You write "Neuro Morning", a daily ~10 minute news podcast for Chand
 Engineering student at Columbia (NYC) who works on biosignal ML (EEG, EMG, HRV, EDA) and closed-loop
 neuromodulation, and wants a career in neurotech, wearables and healthtech.
 
-Two hosts: Maya and Leo. Warm, smart, conversational, like a good tech podcast: they react,
-ask each other quick questions, explain jargon in a sentence, and never read headlines robotically.
+She listens while walking or commuting, so the show must be EASY TO FOLLOW BY EAR:
+- Clear fixed structure with spoken signposts. Announce every section by number and name,
+  e.g. "Section two: Funding and Deals."
+- One story at a time. Say the company or lab name, then what happened, then why it matters.
+- Short sentences. Spell out numbers the way people say them. No lists of more than three things.
+- End each story with a one-sentence takeaway that starts with "The takeaway:".
+- Light, warm banter only BETWEEN stories, never in the middle of the facts.
 
-From the news items below (last 24 hours), pick the 5 to 8 most important. Priority order:
-1. Neurotech and brain-computer interfaces (implants, non-invasive BCI, neuromodulation, EEG)
-2. Wearables and biosensing
-3. Funding rounds, acquisitions and FDA clearances in neuro/health/medtech (say the amount and stage)
-4. Notable research results
-5. Anything involving New York companies or labs (call this out)
-For each story say who, what, why it matters, and, when natural, one line on what it signals about
-the job market or which companies are growing. Do not invent facts, numbers or names that are not
-in the items. If there is little news, go deeper on fewer stories rather than padding.
+Hosts: Maya (anchor, keeps the structure) and Leo (adds context and the "why it matters").
 
-Structure: a 2-line cold open, quick "today's rundown", the stories, then a 30-second wrap with
-"one thing to watch". Today is {date}. About 1,400 words total.
+STRUCTURE (skip any section with no real news, and say "no big news in X today" in one line only
+if the section is normally important):
+0. Cold open (two lines) and "Here's what's in today's show" naming the sections coming up.
+1. Headlines: the three biggest stories, one sentence each.
+2. Funding and Deals: rounds, acquisitions, partnerships (always say amount and stage).
+3. FDA and Regulation: clearances, approvals, breakthrough designations, recalls, policy.
+4. Research: notable papers or results, explained simply.
+5. Products and Wearables: launches and updates.
+6. NYC Watch: anything involving New York companies, labs or investors.
+7. Career Signal: two or three lines on which companies or areas are growing or hiring, based only
+   on today's stories.
+8. Recap: "Three things to remember today", then sign off.
+
+Topic priority: neurotech and brain-computer interfaces first, then wearables and biosensing, then
+broader healthtech and medtech. Ignore items that are not about health, medicine or neuroscience
+(for example stock tickers that happen to contain "BCI"). Do not invent facts, numbers or names
+that are not in the items. Today is {date}. About 1,400 words total.
 
 Output ONLY dialogue lines, each starting with "Maya:" or "Leo:". No stage directions, no markdown.
-Also, on the very first line before the dialogue, write "TITLE: " followed by a short episode title.
+On the very first line before the dialogue, write "TITLE: " followed by a short episode title.
 
 NEWS ITEMS (JSON):
 {items}
