@@ -11,92 +11,134 @@
   <itunes:block>Yes</itunes:block>
   <itunes:category text="Science"/>
   <item>
-   <title>Protecting Brainwaves, Primate Telemetry, and Big Moves in Wearable Sensing</title>
+   <title>Smart Rings Win Clearance and the Hidden Privacy Flaws in EEG</title>
    <description>Full transcript:
 
-Maya: If you spent your weekend trying to filter out electrode motion artifacts, put down the notch filter and take a breath.
+Maya: Good morning, Chandni. Today is Sunday, November eighth, twenty twenty-six.
 
-Leo: Good morning, Chandni. It is Sunday, November eighth, 2026, and you are listening to Neuro Morning, your daily briefing on neurotechnology, biosignals, and the future of closed-loop health.
+Leo: Happy Sunday. Let us jump right into your morning neurotech and medtech briefing.
 
-Maya: Today we are looking at real signal progress across the stack, from brand new research tackling core BCI hardware roadblocks to federated machine learning built specifically to protect EEG data.
+Maya: Section one: Who Expanded.
 
-Leo: We also have major translational stories on the docket: AI-driven brain-computer interface paradigms for Alzheimer care, neural telemetry in freely moving primates out of an international consortium, and clinical validation proving heart rate variability can catch postoperative complications before standard vitals do.
+Maya: First up, Samsung has secured regulatory clearance from both the United States Food and Drug Administration and the South Korean ministry for its sleep apnea detection feature on the Galaxy Ring. This update allows the smart ring to passively track breathing disturbances during sleep and flag potential signs of moderate to severe obstructive sleep apnea.
 
-Maya: Plus, in the commercial world, iRhythm updates its FDA timeline for the next-generation Zio wearable, and New York based Blackstone Life Sciences drops four hundred and fifty-five million dollars into miniature cardiac medtech with Boston Scientific.
+Leo: This matters because smart rings are rapidly graduating from wellness novelties to regulated clinical screening tools. Samsung is validating optical photoplethysmography sensors directly against gold-standard sleep clinic metrics.
 
-Leo: Let us jump right into our lead story from TechCrunch covering Tether Evo. Their research team just published new work directly addressing one of the most stubborn bottlenecks in the entire brain-computer interface field.
+Maya: The takeaway: Regulators are embracing finger-based biosensors for automated medical screening at population scale.
 
-Maya: For anyone building neural decoders, you know the classic physical headache: keeping high-bandwidth electrode interfaces stable over time while preserving signal fidelity and minimizing tissue response.
+Leo: That sets a very high bar for every wearable competitor on the market.
 
-Leo: Exactly. In BCI, whether you are dealing with invasive microwire arrays or flexible thin-film grids, the foreign body response and micromotion between the sensor and brain tissue inevitably lead to signal drift and degraded signal-to-noise ratio. Tether Evo is focusing their latest research on solving those fundamental mechanical and interface barriers so systems can record reliably over extended horizons.
+Maya: Next, Blackstone Life Sciences has entered a four hundred fifty-five million dollar collaboration with Boston Scientific. Under the agreement, Blackstone will co-fund the clinical development of Boston Scientific's next-generation miniature heart pump system.
 
-Maya: Why this matters so much for biosignal ML engineers is that algorithmic decoding is only ever as good as the raw neural input. If your underlying electrophysiological manifold is shifting every two weeks because of electrode impedance changes or mechanical shearing, your models constantly need recalibration.
+Leo: This matters because high-risk mechanical circulatory support requires massive upfront capital for long-term clinical trials. Boston Scientific offloads trial risk while maintaining commercial control, showing how private equity is bankrolling advanced implantable devices.
 
-Leo: Which is a nightmare for true closed-loop systems that need stable latent spaces. For Chandni and anyone looking at the neurotech job market, Tether Evo tackling these interface dynamics signals that industry teams are actively hiring across that sweet spot where neural engineering meets biocompatible materials and continuous calibration pipelines.
+Maya: The takeaway: Mega-collaborations between private equity and medtech giants are becoming the go-to model for funding complex implantable hardware.
 
-Maya: Moving from the physical sensor level up to the data architecture, Bioengineer dot org highlighted a major paper this weekend where engineers unveiled what they are calling the SAFE framework to protect brainwave data in federated AI.
+Leo: It is a smart way to de-risk hard engineering in capital-intensive device programs.
 
-Leo: This is huge for Chandni's wheelhouse. Federated learning, in a sentence, is a distributed machine learning approach where you train models across decentralized edge devices without ever sending raw personal data to a central server.
+Maya: In digital health, pharmaceutical giant Eli Lilly has formed a partnership with telehealth platform Hims and Hers Health. The deal broadens patient access to weight management therapies and digital clinical support through the telehealth provider's platform.
 
-Maya: But as EEG and non-invasive neural monitoring move into consumer wearables, sleep headbands, and outpatient clinical headsets, brainwave data is uniquely vulnerable. You can infer cognitive states, emotional valence, and even biometric identity from raw frequency spectra. The SAFE framework introduces a privacy-preserving architecture specifically tuned for neural time-series data.
+Leo: This matters because major pharmaceutical companies are bypassing traditional clinic pipelines. They are integrating therapeutic distribution directly into digital health software stacks and remote patient management platforms.
 
-Leo: What makes this so tricky for standard federated learning is that EEG signals have massive inter-subject variability and non-stationarity. If you apply generic differential privacy noise to gradient updates, you often completely obliterate the subtle spectral features your decoder needs, like microvolt-level event-related potentials or subtle beta bursts.
+Maya: The takeaway: Digital clinics are transforming into the primary front door for continuous chronic disease management.
 
-Maya: SAFE shields the raw neural representations during local model updates while maintaining the mathematical signal structure required for collaborative training. If you are an ML engineer in digital health, mastering federated learning and privacy-preserving algorithms for physiological streams is rapidly becoming one of the most bankable skills in the neurotech sector. Companies want models trained on tens of thousands of users, but regulatory bodies will simply not allow raw neurodata pools to sit in vulnerable centralized databases.
+Leo: That is a massive shift in how clinical therapies reach patients.
 
-Leo: Speaking of AI frameworks tackling massive clinical hurdles, we also saw a new review published outlining an AI-driven BCI framework designed specifically for Alzheimer disease care.
+Maya: On the executive front, insulin delivery pioneer MiniMed has appointed David Segal as its new chief medical officer. Segal is a veteran in diabetes care and digital health, brought in to lead clinical strategy as the insulin pump maker operates as an independent business.
 
-Maya: Most mainstream BCI headlines focus on motor restoration for paralysis or ALS, but there is an accelerating pivot toward cognitive state tracking and neuromodulatory intervention for neurodegenerative disorders.
+Leo: This matters because standalone device spin-offs need strong clinical credibility to win over payers and health systems, especially as closed-loop insulin systems merge deeper with continuous glucose monitoring algorithms.
 
-Leo: The proposed framework focuses on using electrophysiological biomarkers to detect early microstructural cognitive shifts, coupled with closed-loop neurostimulation to stabilize oscillatory networks that degrade in Alzheimer disease, like impaired gamma rhythm synchronization.
+Maya: The takeaway: Independent device makers are hiring digital health veterans to steer automated therapeutic hardware toward integrated care models.
 
-Maya: And alongside that, ColombiaOne ran an in-depth feature with Meron Gribetz on the concept of digital pills and brain tech for psychiatric disorders, specifically major depression. Gribetz has been talking about replacing systemic pharmacological interventions with targeted, electroceutical neuromodulation that adapts to the patient in real time.
+Leo: That is it for corporate expansions.
 
-Leo: That phrase digital pill really captures where psychiatric medtech wants to go: moving away from blunt-force medications that take six weeks to balance neurotransmitters and bring heavy systemic side effects, toward sub-second electrical or sensory stimulation triggered only when neural correlates of depressive relapse or dysregulation flare up.
+Maya: That is it for expansion. Section two: New Research and Products.
 
-Maya: If you want to build closed-loop neuromodulation, this is the frontier. You have to identify the biomarker, verify it in noisy ambulatory recordings, and trigger therapeutic delivery without inducing tolerance.
+Maya: We begin with a critical paper on biosignal privacy published in Bioengineer. Researchers evaluated federated learning architectures applied to electroencephalography data and found that even though raw EEG recordings remain on local devices, private brain patterns can still be reverse-engineered from shared model gradients.
 
-Leo: But to make any of these closed-loop paradigms truly translation-ready, you have to test them in complex, naturalistic settings. That brings us to our fourth story: KAIST, the Korea Advanced Institute of Science and Technology, is co-leading a massive European Research Council project investigating brain activity in freely moving monkeys.
+Leo: This matters directly for your work in biosignal machine learning. Federated learning is often sold as an ironclad privacy solution for brain-computer interfaces, but gradient updates still leak sensitive neural features unless paired with strict differential privacy.
 
-Maya: We have to underline how difficult this is. For decades, the vast majority of non-human primate neurophysiology has been constrained to head-fixed animals sitting in primate chairs looking at computer monitors.
+Maya: The takeaway: Edge machine learning for neural data requires cryptographic privacy safeguards beyond standard federated training to prevent identity and brain-state leakage.
 
-Leo: Which gives you pristine, low-noise recordings, but severely limits our understanding of how the brain navigates dynamic, three-dimensional social environments, real physical foraging, and unconstrained motor coordination.
+Leo: A serious wake-up call for distributed neurotech pipelines.
 
-Maya: The KAIST consortium is deploying wireless, high-channel neural logging and telemetry systems to track unconstrained cortical and subcortical dynamics during natural behavior.
+Maya: In clinical biosensing, a new study demonstrates that heart rate variability metrics can reliably predict postoperative surgical complications before clinical symptoms appear. Continuous HRV monitoring captured early autonomic nervous system dysfunction, flagging systemic inflammation and cardiovascular instability.
 
-Leo: Think about what that requires on the engineering side: ultra-low-power embedded systems, high-bandwidth wireless transceivers that do not overheat the skull, on-device signal compression, and machine learning pipelines that can synchronize kinematics with multi-unit neural spike trains. This research is directly laying the empirical groundwork for real-world neuromodulation in humans who do not spend their days sitting perfectly still in a clinical chair.
+Leo: This matters because heart rate variability is proving to be a high-fidelity surrogate marker for autonomic stress in acute clinical pathways, not just a recovery metric for athletic smartwatches.
 
-Maya: Now, let us pivot down the spinal cord to the autonomic nervous system and clinical biosignals. A compelling new clinical study out on Bioengineer dot org demonstrated that heart rate variability can accurately predict postoperative complications.
+Maya: The takeaway: Continuous autonomic monitoring using HRV provides early warning alerts that can beat traditional vital signs in post-op recovery.
 
-Leo: HRV, as Chandni knows intimately, is the variation in time intervals between consecutive heartbeats, reflecting the dynamic push-and-pull balance between your sympathetic and parasympathetic autonomic branches.
+Leo: Simple optical and ECG sensors saving lives with better math.
 
-Maya: In this study, continuous postoperative autonomic tracking showed that a collapse in vagal tone and abnormal HRV metrics preceded clinical deterioration, such as infection, sepsis, and hemodynamic instability, long before conventional vitals like blood pressure or body temperature showed significant alerts.
+Maya: Moving to brain-computer interfaces, a new review proposes an artificial intelligence-driven BCI framework tailored for Alzheimer's disease care. The proposed architecture pairs closed-loop sensory neuromodulation with real-time neural decoding to stimulate cognitive memory networks and track neurodegeneration over time.
 
-Leo: This is a textbook example of why continuous biosignal ML is revolutionizing hospital wards. Standard nursing checks happen every four to six hours. An acute physiological decompensation can spiral in forty-five minutes. By running lightweight anomaly detection algorithms over real-time beat-to-beat interval arrays, the clinical team gets an early warning indicator.
+Leo: This matters because researchers are moving beyond motor prosthetics. They are adapting closed-loop neuromodulation for neurodegenerative disease, where tracking disease progression is just as vital as delivering therapeutic electrical or sensory pulses.
 
-Maya: If you are looking at healthtech companies working on smart hospital patches or consumer rings entering hospital-at-home monitoring, real-time HRV modeling is table stakes. It proves that autonomic biosignals are not just for wellness readiness scores; they are hard clinical diagnostic metrics.
+Maya: The takeaway: Closed-loop neuromodulation is expanding into cognitive therapies that combine real-time diagnostics with targeted neural stimulation.
 
-Leo: Let us round out the morning with the business and regulatory movements shaping the medtech landscape. In commercial wearables, iRhythm raised its revenue outlook for 2026 and confirmed it is targeting 2027 for the FDA filing of its next-generation Zio MCT device.
+Leo: That aligns beautifully with closed-loop engineering.
 
-Maya: Zio MCT is their mobile cardiac telemetry wearable. iRhythm has practically written the playbook on scaling clinical-grade wearable biosensing, proving that long-wear adhesive biosensors paired with deep learning beat analysis can build a massive, profitable clinical service business.
+Maya: Meanwhile, hardware reviews highlighted SereniBrain, a new consumer EEG headband. Unlike many commercial wellness wearables that lock users into proprietary scores, this platform provides direct, unmasked access to raw multi-channel EEG time-series data.
 
-Leo: Pushing their MCT filing toward 2027 shows they are playing a deliberate regulatory long game, ensuring their signal pipelines and clinical evidence packages are completely ironclad. For engineers, iRhythm's continuous upward guidance demonstrates that clinical remote biosensing is financially resilient.
+Leo: This matters because developers and researchers have long struggled with consumer neurotech black boxes. Transparent access to raw microvolt signals allows engineers to benchmark their own artifact removal and feature extraction pipelines.
 
-Maya: And speaking of serious capital flowing into physiological devices, right here in New York, private equity giant Blackstone Life Sciences has structured a major four hundred and fifty-five million dollar co-funding agreement with Boston Scientific.
+Maya: The takeaway: Wearable neurotech hardware is slowly pivoting toward transparent, open biosignal streaming for clinical and academic builders.
 
-Leo: That four hundred and fifty-five million dollars is specifically earmarked to accelerate development of Boston Scientific's next-generation miniature heart pump system.
+Leo: It is refreshing to see hardware that actually lets engineers see their raw signals.
 
-Maya: It is a fascinating hybrid financing structure. Instead of Boston Scientific carrying all the research and development burn on their balance sheet, New York based Blackstone is stepping in to co-fund the engineering and clinical pipeline, sharing the upside upon commercialization.
+Maya: That wraps up research. Section three: NYC Watch.
 
-Leo: It underscores that despite macroeconomic caution in early-stage consumer tech, there is massive, nine-figure institutional capital available for miniature, life-critical implantable hardware. When you look at the medtech ecosystem across New York and the East Coast, strategic capital is hungry for high-barrier physical engineering.
+Maya: New York-based private equity titan Blackstone is driving medtech headlines from its Midtown Manhattan headquarters. Blackstone Life Sciences finalized its four hundred fifty-five million dollar co-development deal with Boston Scientific to accelerate miniature implantable heart pumps.
 
-Maya: Time for our wrap, Leo. What is your one thing to watch heading into this week?
+Leo: This matters locally because New York City has become a major capital hub steering late-stage medical technology and device innovation. Life sciences investors in Manhattan are deploying deep pools of capital into complex, high-stakes bioengineering systems that blend fluid dynamics, biosensors, and embedded controls.
 
-Leo: Watch how non-invasive biosignal security develops. With the SAFE framework landing this weekend, expect privacy-preserving federated ML to become a mandatory talking point for any startup pitching non-invasive EEG or continuous physiological monitoring to investors and institutional review boards.
+Maya: The takeaway: New York City venture and private equity firms are increasingly steering the capital that brings invasive medtech devices to market.
 
-Maya: Clean your sensors, secure your gradients, and go build something remarkable. That is Neuro Morning for Sunday, November eighth. Have a great day in the lab, Chandni.
+Leo: Always exciting to see world-scale bioengineering deals orchestrated right down the street in Midtown.
 
-Leo: Catch you tomorrow.
+Maya: Moving right along. Section four: Trends.
+
+Maya: Our first trend is the growing regulatory split between clinically validated wearables and unverified consumer wellness claims. Today we saw Samsung win official FDA clearance for sleep apnea screening on the Galaxy Ring. At the same time, Indian tech executive Deepinder Goyal and his venture Eternal are facing intense clinical backlash over the Temple health wearable, which critics accuse of marketing pseudo-scientific claims without peer-reviewed data.
+
+Leo: The bar for wearable biosensors is rising fast. Regulators and clinicians are demanding validated clinical endpoints. If a wearable device wants to track sleep disturbances, autonomic recovery, or brain states, the math must be backed by clinical trials rather than clever lifestyle marketing.
+
+Maya: The takeaway: The wearables market is dividing cleanly into certified medical biosensing tools on one side and disputed wellness gadgets on the other.
+
+Leo: Substance is finally winning over hype.
+
+Maya: Our second trend is the urgent push for trust and security in biosignal machine learning. The new study showing privacy leakage in federated EEG models highlights that standard distributed machine learning is not inherently secure for brain waves. Coupled with recent reports in health tech questioning overhyped cardiovascular artificial intelligence models, clinicians and engineers are prioritizing robust validation over black-box promises.
+
+Leo: Biosignals like EEG, EMG, and HRV are uniquely identifiable biometric markers. As we connect wearables to cloud and distributed edge models, bioengineers cannot simply apply off-the-shelf neural networks and hope for the best. Rigorous signal validation, artifact isolation, and mathematical privacy guarantees are becoming mandatory engineering requirements.
+
+Maya: The takeaway: Future neurotech architectures must engineer privacy and biological interpretability into models from day one.
+
+Leo: Which brings us directly to how Chandni can position herself.
+
+Maya: That brings us to Section five: Career Signal.
+
+Maya: Looking across today's stories, consumer device giants like Samsung and neurotech players like BrainCo and SereniBrain are building next-generation physiological sensing pipelines. At the same time, clinical trial groups like Abbott and Boston Scientific are integrating digital sensing into implantable therapies.
+
+Leo: If you are looking at where to pitch your skills, focus on the bridge between raw biosignal processing and regulated clinical utility. Companies launching optical, electrical, and mechanical sensors desperately need biomedical engineers who understand both digital signal processing and algorithmic privacy.
+
+Maya: For example, with companies building distributed health models, Chandni could pitch roles in privacy-preserving biosignal machine learning. She could demonstrate how to protect EEG and EMG gradient updates against model-inversion attacks using differential privacy and edge feature filtering.
+
+Leo: Alternatively, with smart ring and headband makers pushing toward medical clearances, she could pitch roles developing robust autonomic biomarker algorithms. Her experience with heart rate variability and electrodermal activity is precisely what engineering teams need to translate noisy, motion-corrupted wearable data into clinical-grade physiological metrics.
+
+Maya: The takeaway: Position yourself as an engineer who builds transparent, privacy-first biosignal machine learning pipelines that can survive medical regulatory scrutiny.
+
+Leo: That is a very powerful pitch in this market.
+
+Maya: Finally, Section six: Recap.
+
+Maya: Three things to remember today. First, Samsung secured FDA clearance for sleep apnea detection on the Galaxy Ring, raising the stakes for clinical wearable sensing.
+
+Leo: Second, federated learning on EEG signals leaks private neural data, proving that edge brain-computer interfaces need advanced cryptographic privacy controls.
+
+Maya: Third, heart rate variability monitoring demonstrated real-world predictive value for postoperative complications, underscoring the growing clinical demand for autonomic biosignal machine learning.
+
+Leo: That is all for this Sunday edition. Stay curious, keep building, and enjoy your morning walk.
+
+Maya: Thank you for listening to Neuro Morning. We will be back tomorrow with your daily briefing. Have a great day, Chandni.
 
 Sources from the last 24 hours:
 - Siemens Healthineers rebrands and carves out in vitro diagnostics biz (Fierce Biotech MedTech): https://www.fiercebiotech.com/medtech/siemens-healthineers-rebrands-and-carves-out-vitro-diagnostics-biz
@@ -109,40 +151,40 @@ Sources from the last 24 hours:
 - Bracco invests $230M in first US diagnostic imaging manufacturing facility (Fierce Biotech MedTech): https://www.fiercebiotech.com/medtech/bracco-invests-230m-first-us-diagnostic-imaging-manufacturing-facility
 - STAT+: Why the latest heart drug failures should make us all more skeptical of AI hype (STAT Health Tech): https://www.statnews.com/2026/11/08/heart-drug-failures-lessons-for-artificial-intelligence-from-aha-conference/?utm_campaign=rss
 - Review proposes AI-driven BCI framework for Alzheimer’s care - Bioengineer.org (Google News: neurotech): https://news.google.com/rss/articles/CBMijAFBVV95cUxPRFp1aGpHcUYwVWhnb3hiNVhBZDI0OVVNbUpGN0lhMnpIaEQ2RTdDWkljaUU0ZUZzZHlhVTMxc2dkQ0o2Ums2eks0VW9NT0E1X0UwQWN0c0J3VG1fWlB4WXVpcDA3V0ZlcFB0ZU5jRXJSZkxvTGRENFFvXzBnVXpMNEJaSTAzaGJnMXN3cA?oc=5
-- Tether Evo’s latest research addresses one of the biggest challenges in brain-computer interfaces - TechCrunch (Google News: neurotech): https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYW9udFBiLWFEWGZfVVVxcFUxVHFuX1hRWDIyNzZLSENPSEtsX2JCQjZYd2J2eDByQXh3SEZlY1RvQV9lbW5FVnZEVE5DaG9md2pTVEhnd01UY29zUFNBWk9xeEpHNnQzM0VCY0g0cnYydF9qajQtZFM1QmNvaWVSTjJqTTgwdmhNaEtqVzl3ZmVjeDktYXBIcFM2LUQ5LTVsa0dQbldtRWpSSGI2cEhNYnRzNUlvV3RiLVp1QUlndVQ2RXBzaEJqMVZTZnVyOFZX?oc=5
 - FI BCI NV, SERIE A (CFI-BCNVAE0.SN) Seasonal returns chart - Yahoo Finance - Yahoo Finance Singapore (Google News: neurotech): https://news.google.com/rss/articles/CBMib0FVX3lxTE5fYzVzQUt5bTV2WW9BakRlOHlhU0tNby1uZWZ5OHU0UHNPOXJ0MnlhM01vQlY5R1I2N3Vxd3llTmUxcGxaUmozemlFanBNUDItanpfTkUwR09QUDJRcHdNY0V4eHZuem1fOUtuZUpxWQ?oc=5
+- Ethan Gregg - FloWrestling (Google News: neurotech): https://news.google.com/rss/articles/CBMihAFBVV95cUxNcWhpR19fdV9BQ0RoSDhXeE9JaG9ILV9uWDhRcTRPMmpBd2x0WEg3eVkwWG9rcDBWc3lsRWtkakNMcVZxR0d0Z2JuR2EwcFJfU0Vvak1sMFlJcm0taHdPdlFhbFdnbXhFYUlzRWc4YXlKVjVhd0RnRGlOa25nQ1g3cGRidVQ?oc=5
 - BCI Minerals Ltd News — HAN:BC3 - TradingView (Google News: neurotech): https://news.google.com/rss/articles/CBMickFVX3lxTE1NTU0xQnpzMjA2OFFSeWFWYVRIYk8tVS0tMHlZNHVfTFZ5NktXTV9jUi1iZTVFMUx5MmRhTGI3aFJQSXpTRWprdS1RcEZRMWpld2VRMzljVEs1c3NkRU9CQzhJODd2WDNaNjVSX2tjemUyZw?oc=5
 - Bar Council scraps upper age limit for LLB Admissions; Supreme Court closes challenge - Education Times (Google News: neurotech): https://news.google.com/rss/articles/CBMi3wFBVV95cUxQU0x1SFJXQ3h0bDJTLVczd3Bzem4zakJwa1FHRDdPb2ZJRXgyYmJxNkFrZWpwLWczUUpfVkhqUndxbUpQaDNaMGlTR29GSVVZN1hzWHVaTmtFQUZLYWozZ3NPSDRyOC1IQmtvWkN1UXFZS1ZkTGpXWEE2enVaY01XeE00SWY5dzBlQzhtbXdCb1ZsTjUwLURLOVByUC1TMm11eF85ZjBsWHJzMTZUN2hzR2ZWTjVmX3VfMW1CVkZPbFNsbi1LV0I2bGI4TkdvRGEzbjdjUWtnM0ZLSHdsOGNJ?oc=5
+- China's BrainCo Bets Wearables Beat Surgery in Brain-Tech Race - The Tech Buzz (Google News: neurotech): https://news.google.com/rss/articles/CBMimwFBVV95cUxOYjhsMHc0SUpMaWRoN2t4dzlfNzdFQi1DRVBBbkFQNk9Pc2xCajVZVWEtX2dMOGFjRThaM0FvWXBWY2pjZUhxQVNBcjVCR3o3RmMxdGRZZktjUlpvVXQyZFVjYTlDWmo2SlZ1UlJ0RjdfMnVZMEFPaHhId0Q4eWNGV19VRWxsMHlPQVo5U0lGMUNpcTF0c0RLZ0JDdw?oc=5
 - Can a Digital Pill Help Treat Depression? Meron Gribetz on Brain Tech - ColombiaOne.com (Google News: neurotech): https://news.google.com/rss/articles/CBMijAFBVV95cUxNOTlyaVN6R2hnOWhpcnEyUENrNTVETS1qOVRjVTlFV3ljYXhKcG05bjV3dmFhY2Vpb0RfZzM0VlhZYlZOSEIwMWE2Q0dMQU9zdk9jUGZGem5xLVQtMWY3b1lBSEpyUGROLXItTnNuanVRVUtyWGZnTF9jWXlxc1YzVjcxUk0yTXBmX1hXaw?oc=5
+- Federated EEG Learning Leaks Privacy Despite Local Data - Bioengineer.org (Google News: neurotech): https://news.google.com/rss/articles/CBMihwFBVV95cUxOQlVFajVGcFpEYU5Zb2xaZ1NvQXhrSXEtLXF4empQQndFcER5Wk16Q19aX1JJbFp3Tlo0T3cwelNPSGVmTFU4U1BCUDFjb3R3REJYZXpKdUJ5Z2tYclNLTS1YMW0yRzdVYjg1Q29pQXVUbjRSd0lnYS1wMXN4NGY5MjdpV0xMWlU?oc=5
 - JBCCI promotes investment, sustainable industrial growth in Bangladesh - Daily Sun (Google News: neurotech): https://news.google.com/rss/articles/CBMisAFBVV95cUxPT1Qycmhma3ZJWktlZEFjSURzMDQ0WUpQWWh5UlZNRHYtdWZOVXJkUTBtOUVPUlhkbEdLM3J3RVVVVmMtbFZRdlUzTk8zT3d3ZGlvS3FqbU4zcDJEbExiRjNFOXY1bDJBaGIyVmhPSnBWQjMyVktyd3NLVk5nNlBjWUJMNXppZFBVUFBXSHpDVGcySkVDM2JndTEyRlcxS2JkbGcwdU8zWU5Va1BzbXFfOQ?oc=5
-- KAIST Co-Leads ERC Project Investigating Brain Activity in Freely Moving Monkeys - Bioengineer.org (Google News: neurotech): https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnpJV3d4S0VsRjNUQzBDenVBdHBILTV2ZEZENWluRjBvT0Y0VGhiU0R3UmN4akIyZzYxUFJoVFkzUE1XWDJ4QWFUdWVHb0MxOS1lTUktYUlmdTJUVmpKdHJ3QWdCX29hODNVTWhCMkNlNG4zMGZHcEFSMVI1M3VITmpBS1poam0wV3RJU0RFeXVBLWtXMkstN1B5OGc4TllHZV9zY0h6X2c?oc=5
+- Putting Young Innovators Center Stage: Leaders In Future Tech+ Wraps with ¥526 Million in Investment Intentions and 31 Enterprise Landings - The Malaysian Reserve (Google News: neurotech): https://news.google.com/rss/articles/CBMikwJBVV95cUxOWXRTU0ZxMU9YWU41VEhRWC1JUW1TcFlnVWVpbk5zTXJTT2xwNkZFY2xobjNHMjBtTWFhQ2RvRXpsN2tHQTNwM2pIVGs4QkxYRUZqbFF6eW1DMmdLX2lSblRTS1pYcG9JdldlVGpqRlR5VGh5SDl5Y0FvXzNmeGRxUUNWa3BpQXJBYmZVRXJBTVFYMGtiZVVsODBrT00zTWdYREQweHJDcUJvYXhiMFJyNm1FWWJkOV9wd2Y0VER1ZF9MSVpkT0U5TmNQOF8wQWZQTkhMMzIwNFZtbHRWOWd4SGM0empCUWtqOHk0eWJYY045bmNvWE53YS1oMC1WSUVuUGxKcVhzcUZyYzFacDhuWDE4WQ?oc=5
 - JBCCI backs summit to boost investment, sustainable industrial growth - Daily Observer (Google News: neurotech): https://news.google.com/rss/articles/CBMiSkFVX3lxTE85SVlPWURCSmdIZk5iTnA3NzRLdE5YY2U3dFFodkVfX0JwNTgzanBheEVpZVIwYi1xT0taUFV3UHYyS3JNaHR0Z3Bn?oc=5
-- Engineers Unveil SAFE Framework to Shield Brainwave Data in Federated AI - Bioengineer.org (Google News: neurotech): https://news.google.com/rss/articles/CBMingFBVV95cUxNb2l0VHlsNHNZMVA2TG1lbGptc0pzZkp4Njl5SFV0TWxYLTZ0eE9HM2xsQ1NpeUZNY0YzN1hfcDUzVHhQZ3psRGtqYmFhV1l1WHV5S2hoM0ZXeE5zWWVwTFBOaElIcGVYd1hES0lLQnR0V01JaUFSN1J6cHBmc3RxTC1ScnAwc00wMHlIZnQ0X3RUVzItc2IySjBvSUlWQQ?oc=5
-- NLIU Bhopal's Cell For Studies In Intellectual Property Rights Invites Entries For 1st IP Blog Writing... - Live Law (Google News: neurotech): https://news.google.com/rss/articles/CBMi9gFBVV95cUxNMHRUTEhvZm1hRC1pVVI3eDFXV25WVjhOaEpMc1pwQlBBWGh3OWFOU1V3TVdNRGZ3M2xaV3k5ajZ1VkFXSDNFYXpfUGN1SjExclItMFBaRmlxU19GTTd5MC1vckJ2QmllaWVfdnVKS1pMS2tZelZpeElFVjZIdWwxSU5yYnBqTWV4REhNREFBb2ZmcExRbWZ2VHB6aDhqNUo5dER5WmRtM0FTWVFId2wtUU95cmJPaFVWWEZJWWVRam0zZmNWMEt4N0VxanZYVlBDSFB3RjFLbVVUbmN2YUhodlFPSjR2M3hDeG85Q2d6ajdrdllkNHfSAfYBQVVfeXFMTTB0VExIb2ZtYUQtaVVSN3gxV1duVlY4TmhKTHNacEJQQVhodzlhTlNVd01XTURmdzNsWld5OWo2dVZBV0gzRWF6X1BjdUoxMXJSLTBQWkZpcVNfRk03eTAtb3JCdkJpZWllX3Z1SktaTEtrWXpWaXhJRVY2SHVsMUlOcmJwak1leERITURBQW9mZnBMUW1mdlRwemg4ajVKOXREeVpkbTNBU1lRSHdsLVFPeXJiT2hVVlhGSVllUWptM2ZjVjBLeDdFcWp2WFZQQ0hQd0YxS21VVG5jdmFIaHZRT0o0djN4Q3hvOUNnemo3a3ZZZDR3?oc=5
+- KAIST Co-Leads ERC Project Investigating Brain Activity in Freely Moving Monkeys - Bioengineer.org (Google News: neurotech): https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnpJV3d4S0VsRjNUQzBDenVBdHBILTV2ZEZENWluRjBvT0Y0VGhiU0R3UmN4akIyZzYxUFJoVFkzUE1XWDJ4QWFUdWVHb0MxOS1lTUktYUlmdTJUVmpKdHJ3QWdCX29hODNVTWhCMkNlNG4zMGZHcEFSMVI1M3VITmpBS1poam0wV3RJU0RFeXVBLWtXMkstN1B5OGc4TllHZV9zY0h6X2c?oc=5
 - Team8 raises $365 million to back the next generation of AI-native enterprise companies - ynetnews (Google News: neuro funding): https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZY3hvVkpSdFlpRjJ1M1VBU1luaXJOR0dfTFRXaVNjNmEtczhJMlpCa0tCZ0pwWDlva3BGdGhFNWxqT1RaUjZ2YkNUUm1vQXJSajN2Zy0yQ1JMTFU1WGVhR1Jn?oc=5
-- VCs try on wearables - PEI Private Equity (Google News: neuro funding): https://news.google.com/rss/articles/CBMickFVX3lxTFBxazRhenoyS3VFQ3N1STNZYVJoT2V5N21rVUhnZk1aMl9BWkc4X25OTHRILVE2UTY4OFk2UkRqaFU0X2tFRU01Q25sWkxNWVl4T1ROZmhmRnkzQWRFS0F0TTFKdndFQWoyMEpvd0JRWVJ6QQ?oc=5
-- iRhythm Raises 2026 Revenue Outlook and Expects 2027 Zio MCT FDA Filing - TOKENPOST (Google News: neuro funding): https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNZDFHdkFydWxMUlNTUTFwcXFVZHFJNktIMWNRUkdoc2wtWDVabU9OSTctOEZnRENLSGtsSEVfY3RYRWlFSVMtYkR0eWtSMmJtU2FkZFNCZ2U?oc=5
 - RadNet posts record Q3 revenue and EBITDA, rais... - Pluang (Google News: neuro funding): https://news.google.com/rss/articles/CBMipAFBVV95cUxORlR0VnFVaFJNZGNGc2RlRm5nUFV4ckF1VGVUb29TSGFldklvZjZ0aUctV1dsN0xiSGNfNTJpQkVhWjBWdzRWeW9oUGVtTzN2cEwzVFlmbDJMT0FudEFMY0s2RkRUajQ4UzZCVXo4TkoxQUUwbi1SZHl1V2o4aFNQOVZXLTIxTjdqN1RmXzNpZEV3UnVQS3RRUF9uck1nSDhneXFyUA?oc=5
 - Europe's Digital Medicine of Tomorrow: Insights from Vienna, Poland, Austria, and Moldova - Vindobona.org (Google News: neuro funding): https://news.google.com/rss/articles/CBMiugFBVV95cUxOb29ZX01RMFNpLUZaaU91MGE2Y0lNa3JJWG5vTjFfdWlmWXN3bFlDOGxVaTRORU1jdzRGeVRPRnlHMDBoLS1XWk9rVHhoc0h2X1JrNXZtbmF5dWlVUEVfOXZEQ1M0QlZJWTBaSTB4TENEaUx1Mk1EN1dXRzNKWXJWYXc3bHF3c1VRMlJFYllsR2JxdVhTT1BWOEVSTXBBcTlFcXNDNk0ySFQ2RTZ3eks5Q2tFS25kc0NJV2c?oc=5
-- Eternal CEO Deepinder Goyal’s Temple wearable faces fresh criticism over scientific claims - Social News XYZ (Google News: neuro funding): https://news.google.com/rss/articles/CBMixwFBVV95cUxQOWRJdmU2YWZxMk42WWQ4a1p6aFV5MVo2VTZ6STl1VmllSTlPRnhrWmU5M2ZlMXJiaS10cGZJYXpkb0hyTXpCdjcyYl9wNE5PLTNMaFhCTFB6a2ZpdVBGMFJ2Q1RhMlVmcUNZMzlmQlp3dlV6Q05BNVExWTNXRW5rUDdhT1FFNzRlY3hIMkNycVBNQWRWeFFQc3dWcE1JZlFJVDB6U3FGQmp5WkVIdTJ2NmN4b1F1OS1YMjZ0Tk03cTdjYmlwZlBr0gHHAUFVX3lxTFA5ZEl2ZTZhZnEyTjZZZDhrWnpoVXkxWjZVNnpJOXVWaWVJOU9GeGtaZTkzZmUxcmJpLXRwZklhemRvSHJNekJ2NzJiX3A0Tk8tM0xoWEJMUHprZml1UEYwUnZDVGEyVWZxQ1kzOWZCWnd2VXpDTkE1UTFZM1dFbmtQN2FPUUU3NGVjeEgyQ3JxUE1BZFZ4UVBzd1ZwTUlmUUlUMHpTcUZCanlaRUh1MnY2Y3hvUXU5LVgyNnROTTdxN2NiaXBmUGs?oc=5
+- Eternal CEO Deepinder Goyal’s Temple wearable faces fresh criticism over scientific claims - The Healthy Indian Project (THIP) (Google News: neuro funding): https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVmpMNVVlZWZmX0ZoaEVWbGxzeGtzQ1JhQXJ5NFJtd1JtcXlLQVVyWENRbmpfM0hQb1lNTkNubHc0WnY3V0FWa0psa2taNXQ5QWZIRzc3cWQzdE9uNXo5UEdWWFpqeEZFNFNwTExJTUtVbUtYYlZMR0hXa0JPM0QtYlVIMGpLanJwZ0pDdW9UNFVRNWp1QVpIb1hDTms4d1FBNjlDb1ZJR2ZTRjJ3R21PaG5jOTBiUmRtRElGNXhXX053Um8?oc=5
 - Deepinder Goyal’s 'Temple' Wearable Faces Scrutiny, Investor Ranveer Allahbadia Under Fire - Lokmat Times (Google News: neuro funding): https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVWhoaDRZbVdnaXBDWmRMLVZPVU9iNDRxYmtMaUljd1NmaUJzc3l5X1BIVG8xYXBwQW5LUzBIOGEyNVdCUVExSWhYUUVCbGZNUDAybEsxTUx4eXRya0kyQjA1dU1mWHNlNlVrNElISmtmVGcySTktb3p3eVl1bTVhcVJQbDVuRXBPeFFKM0dyNVRLWXdjcENVb3J0d3lBT1NuZW43TnFyakIyVXZBNFpkN0ZlcTlIRy1jMU10Mi1uVm91S3IyYUx5OUtSUjBGWEF00gHWAUFVX3lxTE1CY2szMlhXYzhJc2xxbkUxM2VtdjU3UUZZbFhoTlh2VkQ1LXNKS08yUVBNc1VTUXF0dEJqU3JMdDVKdHVJbHB0N3d3OWpGMXRtbjk2RjhDYjR5YmRkd0RibmxFV3ZuTGNDRFdrRUNBZkZqalVSWElZZTIzLWJyeWoydTN0dVVhYUpPaHQtNmtydVNZU0ZEY2ZYaVRIdGJMZGtxRUtQVWo2TGpveTBDQWhsQ2VTT2pjTUdkaEg4QW9UckZyVDJGUmM0aXd1UW1QSE5JX2xRb0E?oc=5
 - Yamaichi Electronics Raises Forecasts and Dividend on Strong Socket Demand - TipRanks (Google News: neuro funding): https://news.google.com/rss/articles/CBMixAFBVV95cUxPMjZWb2szQWgxZ0VTcmlHaVZ5azJkMmlPRGtOY0NTSjU1R1hHVGxLOVc5Mi1tWGg5TEtBejNHVTRNX2R6YXV3ZGsyYnhtdm5hMGp1ODMxOTY4TlBYWGtieHdVdUdpOWtQMU9wbDA4VmEwOWJaU2JsOERma1hlbEVzVXVsdEVla2loelRucXI2SFB0ZHZleW1aTzZvRGlLYjNqdHJnc2FCVUhoVG9hVTNQMTlDU3dFWFk4ekJZZ0hKbFNxZTdE?oc=5
 - Neuromodulation Device: Types and FDA Class - CASRAI (Google News: FDA neuro devices): https://news.google.com/rss/articles/CBMiXEFVX3lxTFBqRWtPQ2R1bXBndC0tX28td25yTzItaDlLa3picVJfN3VZdXNibkZSYlpYbndacWNzWG9LQUdGWGM1SzFRN2lOODNQZGU2VUc4c2pGdl9RY2U1Wmp0?oc=5
-- Big pharma chase rare obesity drugs as safety risks test trillion-won bets - Chosunbiz (Google News: FDA neuro devices): https://news.google.com/rss/articles/CBMigAFBVV95cUxQeWhiYjFVMVdsbW9pSXdia2w2dHdyc3BiM3p2b20zdkt3NktXLVFpYmJKdjZkM2RxbHJjZGE3QUFfXy1nb3BDanRXOGFVamV0dnJlbWtzeV9keTE5WVlIb2M5Nmd5bVRtcVU3RzNpalVwQjIxOFl4WlNHOFZyV2JjStIBlAFBVV95cUxPMVRZR3FONVRMSVNVYmlaYjhJQm80UmFFeVB0N3UxN2hzRnd4eGtFczZZdEpWSDYtamFGbm1QRUdTdUFXdk5UUTFrNGdmc292RjFLRU1DSllleFAtSjhicFQ4N19STlFXNkVyUmRQSzBsd1FzTE14b2ZhNm8tUExPVlRaQ2w0djVDaU10VmhLQjJSTThJ?oc=5
+- Upgraded Sleep Apnea Feature Now Available on Galaxy Ring Following Regulatory Approvals From US FDA and Korea MFDS - samsung.com (Google News: FDA neuro devices): https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbDhzcU9KWDNQVndZWnd3a1A4NkhpdUpEVmcyYjJ0U1pVeWc1OTlyZGpNSUlYX3FJQ1JQeFNZVUxyT09hcWZsN0F3OWpwbzBvdGhMNXNQR25KOU5kV0x1WEdLU1doVmRsdFZwQ2FwWkhMTzBKTEw4RW9Jb1dQeHpfU1dmZ3hZUm0wQmtGVTJ2ZmhiVnRKbFRTbjdXZmdpT0lWN1NlODRWQWd4RzZaZDk2YjYzRHBaeUwxWlRXc2xzODNzTjBCYUVjOGhyNlpmVG44WGttRjVsdUdNcU0?oc=5
 - FDA Grants Accelerated Approval to New Treatment for Head and Neck Squamous Cell Carcinoma - Medical Dialogues (Google News: FDA neuro devices): https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMU01Q0lCYTVON1RRNmk4Nmh2SjVHd1pILTROSkw2VG5GbDJuc2tSWGhFMVozRElqOUo3S1ZmOUZwMGt4OUJRX0pKaXZDMFprMHkySnMwdDJnNjRlSl9GRkJTdUpZb0JjN0h6OWhvNjhiOHFCUmpnYUo1OWlRRjlhM1l1bFpzRkJzaGdrTVc2TGx3RTI0VDB1Qm9sZjlSS1ktRUtyWTNjUUVMdUJWcElQdjlnbkxUcjhYM25VNERNX3dzaFZObzBLWWx3SzNSV2FVVzhYMjZ30gHbAUFVX3lxTE1GRHJndlkzTDFHeElMbE5MeWIwemFYcjhqOHU5aDU0SHRvenFodDRVTVdBa3dKWXBuZXpfU2RvUWJwR0JjTXN6NG1kUWdyeG1tUVNsaUNnOWpqbkJzVlk3QnJxNTFZTlNhZkZmZnhZUG9HMXlOdzRGRUdyakdMaUU2a3F0bDBsVHlPUVNvVTZLZF9QbVBVWU51N0dvc240VW1aZzNTYkowb2ZmWHBXbUh1cHR3YldVZkZnYWptLUdiekhERG1IUFlGWDV4N1hjQU1STU9rN3ItT1BYYw?oc=5
-- Bayer's Asundexian Cuts Recurrent Stroke Risk by 26% Without Added Bleeding, Wins China Approval as FDA Review Advances - Tech Times (Google News: FDA neuro devices): https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMUstbzlTaEJrM2JPZktqcnFfc3lmdG1rUlBqd0xkZkk4cS0yTGRwbnVJMDd0VTU1N2Z3S3lwU0dHSnJDTVNyTHlqQXhhZGFrUFNCWGluTHZNcVZMX2FYcERkREtGN0c3Y1BSOWtxOE81MlIxa2RjVU1HQkROZjE0Wk51SlBncWNUd2Nqc0ZjdzJJTTBYd05DWmQzX0RGRVRlLTlINzZqTm9TM25ZT0w5ajFmWU4wU2kxQWtCTlNVNVJwSlh0cVFKWFZJRDFGSnlwX2ZVQXJPdTBUSG5RcjFqUlVVVQ?oc=5
 - Heart Rate Variability Predicts Postoperative Complications - Bioengineer.org (Google News: wearables): https://news.google.com/rss/articles/CBMijAFBVV95cUxQTXJUV3VHUDE3allkbjRjR3BwendFdTBhbldXckZmYUlaTGtoMExtd1I1SG9PeHp0aEJHMktyWVY1X0Zab2lwUU5wNVphYmZicnJxeVRLaVAxM2R5a3FtNXlXZGpZaGl0c3JUVDhzZXc1UkF5MlNjb2JVYTdRWmkxODNNRlZVNm5wemJ0NA?oc=5
+- SereniBrain review: The rare EEG headband that does not hide the data - Gadgets &amp; Wearables (Google News: wearables): https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZZHRiUzdjdjkzV0dMbGx6Z2ZWejQ5YzlRR3lzanN4dkhYRmVyZWtuek1NejJjRlg4and3cm9Yb3hoRnJCWGNOd21OMWRVSjFZUkFZdm5VVDFFVDRZT2JjTmJ5WVhnQWplWkprM0x4VQ?oc=5
 - WAVwatch 2.2 Review: A Sound Therapy Wearable That Defies Testing - Techaeris (Google News: wearables): https://news.google.com/rss/articles/CBMiY0FVX3lxTE1jYW5tOF94cXBjRXVzNzJrN2dwYWtPVDlKSmZ4ejE3UEFyOENPSnp2Vk5KTzN2Y0NzeWdhMDB5YjEybzRxazJFV2I0SWYyQ2tGS3hfU1hMektOZkN3aGREdEc0aw?oc=5
-- A smartwatch may offer more, but a fitness band could be all you need during the Amazon Great Indian Festival Sale - TradingView (Google News: wearables): https://news.google.com/rss/articles/CBMimAJBVV95cUxPYjBUM3JKZ3RlejFIemRscF82d3BaUkJVbVY1cHBOMW54ckJiZVkxVmN4M0x1NGtUQzQ1YWF5MkV0OWpsZnpsZ0UxakNzVHR2VlNNRTdYbmVEYUxBUFNJYW9NRU1XWWFBdmNVQWQ0YjNHcHlZeXY1My1XNzh4MDdJLWZ3VERuQWFhODh4MmticF9XczlQUVlKeFhaN1NWZWYzTmdIbF9SNkN4WS1wS3RiRUdNd3RYeUVHSVBibzlXcW9ZNFlCSlZENmpuSGpvVk0yOXU2ay1Ya0RkdnpCZy1xbFpoRlRiWVZkWUdYSTNjSzNZeEFteWhQeFVDVmlYNXZ2blpQTm5nZEdnWjJpanMybk9vNUo2UGUw?oc=5
 - WHO Seeks Input on Wearables for Population Health Monitoring - Mirage News (Google News: wearables): https://news.google.com/rss/articles/CBMihgFBVV95cUxNSm9wYVpPUXlVUVhOZi1TMUZ6OE83Zm9vWG9Vd2ZSSTI2NHY2UE1EX2JncDZJOENqaHRsczZTelgtSk91RGxDQzZlUVhJN3prOThTTHI0MWFacTBmOFQ1dE5ZX2xGTEVxbUVVRDJoN0s0MHJHZm5ma2swaTJIQ1c2QWR4TEZJUQ?oc=5
-- iRhythm Holdings to present at Wells Fargo healthcare conference - scanx.trade (Google News: wearables): https://news.google.com/rss/articles/CBMitgFBVV95cUxNNEQxMThvYUhhUWJjeXE5VG1vYVltUHZFY2JXdGJLcUdRNjU2cFItUzNaUF9uSWsxNDd6N1VlQlphemhfZ1VZanFOV1pHc3FzN2NLWUNLVU1DTU43THUyV0s3Qk5CMndpWEJsSVdrclBLMnloYnNtZWdYeXhWaUJNN3FmLTJxMVk4cjBoWlJUSUw5S1BqYmV5bjY2bW5qSHJjYUdkaHZOSlBCVEZuc0JHMDFOYUFRZw?oc=5
 - Fitness: The joys and struggles of wearable tech - Montreal Gazette (Google News: wearables): https://news.google.com/rss/articles/CBMimwFBVV95cUxQdnliUWZyTVVqdWg2bERvM2ExRFhYTFdTRlV3U3NuSWNreXp1azlmS0R2VWdaZ3hTa1BJeWpKck5wYjc2US01eDIxazhpSkhHQzZ2dGpqNDlGcmNfLURoc1pHRkRGVkZGeWhBbUZObXpLWWE2aDBCek90RUFDYjgtdzhWNmtKdnliSmJidnQwcE9oVDdRZ2lEUWFuRQ?oc=5
+- A smartwatch may offer more, but a fitness band could be all you need during the Amazon Great Indian Festival Sale - TradingView (Google News: wearables): https://news.google.com/rss/articles/CBMimAJBVV95cUxPYjBUM3JKZ3RlejFIemRscF82d3BaUkJVbVY1cHBOMW54ckJiZVkxVmN4M0x1NGtUQzQ1YWF5MkV0OWpsZnpsZ0UxakNzVHR2VlNNRTdYbmVEYUxBUFNJYW9NRU1XWWFBdmNVQWQ0YjNHcHlZeXY1My1XNzh4MDdJLWZ3VERuQWFhODh4MmticF9XczlQUVlKeFhaN1NWZWYzTmdIbF9SNkN4WS1wS3RiRUdNd3RYeUVHSVBibzlXcW9ZNFlCSlZENmpuSGpvVk0yOXU2ay1Ya0RkdnpCZy1xbFpoRlRiWVZkWUdYSTNjSzNZeEFteWhQeFVDVmlYNXZ2blpQTm5nZEdnWjJpanMybk9vNUo2UGUw?oc=5
 - Microneedle Biosensors Advance Minimally Invasive Transdermal Diagnostics and Real-Time Health Monitoring - Bioengineer.org (Google News: wearables): https://news.google.com/rss/articles/CBMiygFBVV95cUxOaWFOY3hRb1R4QmxyMlZnQ2R1MXFjR3FZcDdTWFhHQ0d5TVB6Smw1d0o2NVhsWExxb0FqOWtKeDZBTVlCdXRlOUZYX1haM2xRbFNhUDRHVkkydnAwMW1ZazA1S1lDT1JWQ1RVNmNKb21BZW83ay1COVUtd1MxckVub0pfdW5ubGlNVVNJVDdveDU4aGxkaGc1cG1qaFJsckVIV0RPcngwZEwzQV9COVVzQkZyeUxkellLZjdZdVVvakgyc0JUMGphR2V3?oc=5
-- Zorio X6 Smart Band Launches at 3,999 with Free AI App - RS Web Solutions (Google News: wearables): https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSVhpUWNOcmphUXlaRy1OQ1c5c0EtM0htVU0wQWNZMFpHWFJwbTl1YVllcmtoNWMzaFY5RW9PZ1B6MUtaUk10bnNpNjZnVV9oWXZrakdWZXF2a3dYTkNIRkJ5LWNKWkZOWEk0RGp2endGeUhzN3BuVmFNR0h2NWdSQUZxTmRPMTQxOHotaUxSVHFPMjl3TGhWQlgwc09UaHhGaWFrMUFjNWN3MVJxMVNNNWZwQ18yeVdzcGpZaWJfUVQ0Q09ScU1rN01faGNNSlpqRzJFcVF3?oc=5</description>
-   <pubDate>Sun, 08 Nov 2026 22:00:31 +0000</pubDate>
+- iRhythm Holdings to present at Wells Fargo healthcare conference - scanx.trade (Google News: wearables): https://news.google.com/rss/articles/CBMitgFBVV95cUxNNEQxMThvYUhhUWJjeXE5VG1vYVltUHZFY2JXdGJLcUdRNjU2cFItUzNaUF9uSWsxNDd6N1VlQlphemhfZ1VZanFOV1pHc3FzN2NLWUNLVU1DTU43THUyV0s3Qk5CMndpWEJsSVdrclBLMnloYnNtZWdYeXhWaUJNN3FmLTJxMVk4cjBoWlJUSUw5S1BqYmV5bjY2bW5qSHJjYUdkaHZOSlBCVEZuc0JHMDFOYUFRZw?oc=5
+- Eli Lilly Partners With Hims &amp; Hers to Expand GLP-1 Access - Healthcare Digital (Google News: digital health): https://news.google.com/rss/articles/CBMilwFBVV95cUxNQWdSTVBoUkFnbG4zOGpYbDNHQjY4WVFDVUtFeGFtMGNpdVNrQ0JWdUlfQTFjRW1OREY5UTdncHVfRkZLTlA4V2IyaE55LVZidkZUU3BWczliX3lEOGVObHR6QlQ4Rk9JLV9SYnI3STBzelRQV2JseHVacXR0LTRFWThIZzlnQzd3bFo0U3loNThtV1lMcGZV?oc=5
+- Innovative Medicines Initiative (IMI) Guide - CASRAI (Google News: digital health): https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zWjE5dHhvWFlmN2VqVkdDck5admxfcGE2TXpKVGFtODRYb09JV3VBWXJJUDlzR25uanlscXVmV1dxaDJISldMWF90bEMzU21TVF9WQmNoSHV3NFFiNFFkcWpKTUtvUmRZ?oc=5</description>
+   <pubDate>Sun, 08 Nov 2026 23:01:44 +0000</pubDate>
    <guid isPermaLink="false">neuro-morning-2026-11-08</guid>
-   <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-08.mp3" length="5511212" type="audio/mpeg"/>
-   <itunes:duration>688</itunes:duration>
+   <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-08.mp3" length="5742956" type="audio/mpeg"/>
+   <itunes:duration>717</itunes:duration>
    <itunes:explicit>false</itunes:explicit>
    <podcast:transcript url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-08.vtt" type="text/vtt" language="en"/>
   </item>

@@ -1,127 +1,190 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:07.333
-<v Maya>If you spent your weekend trying to filter out electrode motion artifacts, put down the notch filter and take a breath.
+00:00:00.000 --> 00:00:04.626
+<v Maya>Good morning, Chandni. Today is Sunday, November eighth, twenty twenty-six.
 
-00:00:07.333 --> 00:00:18.979
-<v Leo>Good morning, Chandni. It is Sunday, November eighth, 2026, and you are listening to Neuro Morning, your daily briefing on neurotechnology, biosignals, and the future of closed-loop health.
+00:00:04.626 --> 00:00:09.621
+<v Leo>Happy Sunday. Let us jump right into your morning neurotech and medtech briefing.
 
-00:00:18.979 --> 00:00:30.934
-<v Maya>Today we are looking at real signal progress across the stack, from brand new research tackling core BCI hardware roadblocks to federated machine learning built specifically to protect EEG data.
+00:00:09.621 --> 00:00:11.225
+<v Maya>Section one: Who Expanded.
 
-00:00:30.934 --> 00:00:50.591
-<v Leo>We also have major translational stories on the docket: AI-driven brain-computer interface paradigms for Alzheimer care, neural telemetry in freely moving primates out of an international consortium, and clinical validation proving heart rate variability can catch postoperative complications before standard vitals do.
+00:00:11.225 --> 00:00:33.181
+<v Maya>First up, Samsung has secured regulatory clearance from both the United States Food and Drug Administration and the South Korean ministry for its sleep apnea detection feature on the Galaxy Ring. This update allows the smart ring to passively track breathing disturbances during sleep and flag potential signs of moderate to severe obstructive sleep apnea.
 
-00:00:50.591 --> 00:01:05.996
-<v Maya>Plus, in the commercial world, iRhythm updates its FDA timeline for the next-generation Zio wearable, and New York based Blackstone Life Sciences drops four hundred and fifty-five million dollars into miniature cardiac medtech with Boston Scientific.
+00:00:33.181 --> 00:00:47.367
+<v Leo>This matters because smart rings are rapidly graduating from wellness novelties to regulated clinical screening tools. Samsung is validating optical photoplethysmography sensors directly against gold-standard sleep clinic metrics.
 
-00:01:05.996 --> 00:01:19.615
-<v Leo>Let us jump right into our lead story from TechCrunch covering Tether Evo. Their research team just published new work directly addressing one of the most stubborn bottlenecks in the entire brain-computer interface field.
+00:00:47.367 --> 00:00:54.459
+<v Maya>The takeaway: Regulators are embracing finger-based biosensors for automated medical screening at population scale.
 
-00:01:19.615 --> 00:01:32.062
-<v Maya>For anyone building neural decoders, you know the classic physical headache: keeping high-bandwidth electrode interfaces stable over time while preserving signal fidelity and minimizing tissue response.
+00:00:54.459 --> 00:00:58.777
+<v Leo>That sets a very high bar for every wearable competitor on the market.
 
-00:01:32.062 --> 00:01:57.265
-<v Leo>Exactly. In BCI, whether you are dealing with invasive microwire arrays or flexible thin-film grids, the foreign body response and micromotion between the sensor and brain tissue inevitably lead to signal drift and degraded signal-to-noise ratio. Tether Evo is focusing their latest research on solving those fundamental mechanical and interface barriers so systems can record reliably over extended horizons.
+00:00:58.777 --> 00:01:14.750
+<v Maya>Next, Blackstone Life Sciences has entered a four hundred fifty-five million dollar collaboration with Boston Scientific. Under the agreement, Blackstone will co-fund the clinical development of Boston Scientific's next-generation miniature heart pump system.
 
-00:01:57.265 --> 00:02:16.306
-<v Maya>Why this matters so much for biosignal ML engineers is that algorithmic decoding is only ever as good as the raw neural input. If your underlying electrophysiological manifold is shifting every two weeks because of electrode impedance changes or mechanical shearing, your models constantly need recalibration.
+00:01:14.750 --> 00:01:31.588
+<v Leo>This matters because high-risk mechanical circulatory support requires massive upfront capital for long-term clinical trials. Boston Scientific offloads trial risk while maintaining commercial control, showing how private equity is bankrolling advanced implantable devices.
 
-00:02:16.306 --> 00:02:37.873
-<v Leo>Which is a nightmare for true closed-loop systems that need stable latent spaces. For Chandni and anyone looking at the neurotech job market, Tether Evo tackling these interface dynamics signals that industry teams are actively hiring across that sweet spot where neural engineering meets biocompatible materials and continuous calibration pipelines.
+00:01:31.588 --> 00:01:40.592
+<v Maya>The takeaway: Mega-collaborations between private equity and medtech giants are becoming the go-to model for funding complex implantable hardware.
 
-00:02:37.873 --> 00:02:52.293
-<v Maya>Moving from the physical sensor level up to the data architecture, Bioengineer dot org highlighted a major paper this weekend where engineers unveiled what they are calling the SAFE framework to protect brainwave data in federated AI.
+00:01:40.592 --> 00:01:45.711
+<v Leo>It is a smart way to de-risk hard engineering in capital-intensive device programs.
 
-00:02:52.293 --> 00:03:06.650
-<v Leo>This is huge for Chandni's wheelhouse. Federated learning, in a sentence, is a distributed machine learning approach where you train models across decentralized edge devices without ever sending raw personal data to a central server.
+00:01:45.711 --> 00:02:01.624
+<v Maya>In digital health, pharmaceutical giant Eli Lilly has formed a partnership with telehealth platform Hims and Hers Health. The deal broadens patient access to weight management therapies and digital clinical support through the telehealth provider's platform.
 
-00:03:06.650 --> 00:03:30.313
-<v Maya>But as EEG and non-invasive neural monitoring move into consumer wearables, sleep headbands, and outpatient clinical headsets, brainwave data is uniquely vulnerable. You can infer cognitive states, emotional valence, and even biometric identity from raw frequency spectra. The SAFE framework introduces a privacy-preserving architecture specifically tuned for neural time-series data.
+00:02:01.624 --> 00:02:15.624
+<v Leo>This matters because major pharmaceutical companies are bypassing traditional clinic pipelines. They are integrating therapeutic distribution directly into digital health software stacks and remote patient management platforms.
 
-00:03:30.313 --> 00:03:52.312
-<v Leo>What makes this so tricky for standard federated learning is that EEG signals have massive inter-subject variability and non-stationarity. If you apply generic differential privacy noise to gradient updates, you often completely obliterate the subtle spectral features your decoder needs, like microvolt-level event-related potentials or subtle beta bursts.
+00:02:15.624 --> 00:02:22.840
+<v Maya>The takeaway: Digital clinics are transforming into the primary front door for continuous chronic disease management.
 
-00:03:52.312 --> 00:04:25.525
-<v Maya>SAFE shields the raw neural representations during local model updates while maintaining the mathematical signal structure required for collaborative training. If you are an ML engineer in digital health, mastering federated learning and privacy-preserving algorithms for physiological streams is rapidly becoming one of the most bankable skills in the neurotech sector. Companies want models trained on tens of thousands of users, but regulatory bodies will simply not allow raw neurodata pools to sit in vulnerable centralized databases.
+00:02:22.840 --> 00:02:26.996
+<v Leo>That is a massive shift in how clinical therapies reach patients.
 
-00:04:25.525 --> 00:04:36.741
-<v Leo>Speaking of AI frameworks tackling massive clinical hurdles, we also saw a new review published outlining an AI-driven BCI framework designed specifically for Alzheimer disease care.
+00:02:26.996 --> 00:02:44.388
+<v Maya>On the executive front, insulin delivery pioneer MiniMed has appointed David Segal as its new chief medical officer. Segal is a veteran in diabetes care and digital health, brought in to lead clinical strategy as the insulin pump maker operates as an independent business.
 
-00:04:36.741 --> 00:04:49.743
-<v Maya>Most mainstream BCI headlines focus on motor restoration for paralysis or ALS, but there is an accelerating pivot toward cognitive state tracking and neuromodulatory intervention for neurodegenerative disorders.
+00:02:44.388 --> 00:02:58.584
+<v Leo>This matters because standalone device spin-offs need strong clinical credibility to win over payers and health systems, especially as closed-loop insulin systems merge deeper with continuous glucose monitoring algorithms.
 
-00:04:49.743 --> 00:05:06.750
-<v Leo>The proposed framework focuses on using electrophysiological biomarkers to detect early microstructural cognitive shifts, coupled with closed-loop neurostimulation to stabilize oscillatory networks that degrade in Alzheimer disease, like impaired gamma rhythm synchronization.
+00:02:58.584 --> 00:03:07.855
+<v Maya>The takeaway: Independent device makers are hiring digital health veterans to steer automated therapeutic hardware toward integrated care models.
 
-00:05:06.750 --> 00:05:28.133
-<v Maya>And alongside that, ColombiaOne ran an in-depth feature with Meron Gribetz on the concept of digital pills and brain tech for psychiatric disorders, specifically major depression. Gribetz has been talking about replacing systemic pharmacological interventions with targeted, electroceutical neuromodulation that adapts to the patient in real time.
+00:03:07.855 --> 00:03:10.157
+<v Leo>That is it for corporate expansions.
 
-00:05:28.133 --> 00:05:49.515
-<v Leo>That phrase digital pill really captures where psychiatric medtech wants to go: moving away from blunt-force medications that take six weeks to balance neurotransmitters and bring heavy systemic side effects, toward sub-second electrical or sensory stimulation triggered only when neural correlates of depressive relapse or dysregulation flare up.
+00:03:10.157 --> 00:03:14.313
+<v Maya>That is it for expansion. Section two: New Research and Products.
 
-00:05:49.515 --> 00:06:02.456
-<v Maya>If you want to build closed-loop neuromodulation, this is the frontier. You have to identify the biomarker, verify it in noisy ambulatory recordings, and trigger therapeutic delivery without inducing tolerance.
+00:03:14.313 --> 00:03:35.159
+<v Maya>We begin with a critical paper on biosignal privacy published in Bioengineer. Researchers evaluated federated learning architectures applied to electroencephalography data and found that even though raw EEG recordings remain on local devices, private brain patterns can still be reverse-engineered from shared model gradients.
 
-00:06:02.456 --> 00:06:23.407
-<v Leo>But to make any of these closed-loop paradigms truly translation-ready, you have to test them in complex, naturalistic settings. That brings us to our fourth story: KAIST, the Korea Advanced Institute of Science and Technology, is co-leading a massive European Research Council project investigating brain activity in freely moving monkeys.
+00:03:35.159 --> 00:03:52.295
+<v Leo>This matters directly for your work in biosignal machine learning. Federated learning is often sold as an ironclad privacy solution for brain-computer interfaces, but gradient updates still leak sensitive neural features unless paired with strict differential privacy.
 
-00:06:23.407 --> 00:06:36.347
-<v Maya>We have to underline how difficult this is. For decades, the vast majority of non-human primate neurophysiology has been constrained to head-fixed animals sitting in primate chairs looking at computer monitors.
+00:03:52.295 --> 00:04:03.357
+<v Maya>The takeaway: Edge machine learning for neural data requires cryptographic privacy safeguards beyond standard federated training to prevent identity and brain-state leakage.
 
-00:06:36.347 --> 00:06:50.027
-<v Leo>Which gives you pristine, low-noise recordings, but severely limits our understanding of how the brain navigates dynamic, three-dimensional social environments, real physical foraging, and unconstrained motor coordination.
+00:04:03.357 --> 00:04:07.130
+<v Leo>A serious wake-up call for distributed neurotech pipelines.
 
-00:06:50.027 --> 00:07:00.811
-<v Maya>The KAIST consortium is deploying wireless, high-channel neural logging and telemetry systems to track unconstrained cortical and subcortical dynamics during natural behavior.
+00:04:07.130 --> 00:04:27.399
+<v Maya>In clinical biosensing, a new study demonstrates that heart rate variability metrics can reliably predict postoperative surgical complications before clinical symptoms appear. Continuous HRV monitoring captured early autonomic nervous system dysfunction, flagging systemic inflammation and cardiovascular instability.
 
-00:07:00.811 --> 00:07:29.156
-<v Leo>Think about what that requires on the engineering side: ultra-low-power embedded systems, high-bandwidth wireless transceivers that do not overheat the skull, on-device signal compression, and machine learning pipelines that can synchronize kinematics with multi-unit neural spike trains. This research is directly laying the empirical groundwork for real-world neuromodulation in humans who do not spend their days sitting perfectly still in a clinical chair.
+00:04:27.399 --> 00:04:39.932
+<v Leo>This matters because heart rate variability is proving to be a high-fidelity surrogate marker for autonomic stress in acute clinical pathways, not just a recovery metric for athletic smartwatches.
 
-00:07:29.156 --> 00:07:44.377
-<v Maya>Now, let us pivot down the spinal cord to the autonomic nervous system and clinical biosignals. A compelling new clinical study out on Bioengineer dot org demonstrated that heart rate variability can accurately predict postoperative complications.
+00:04:39.932 --> 00:04:49.140
+<v Maya>The takeaway: Continuous autonomic monitoring using HRV provides early warning alerts that can beat traditional vital signs in post-op recovery.
 
-00:07:44.377 --> 00:07:57.317
-<v Leo>HRV, as Chandni knows intimately, is the variation in time intervals between consecutive heartbeats, reflecting the dynamic push-and-pull balance between your sympathetic and parasympathetic autonomic branches.
+00:04:49.140 --> 00:04:53.040
+<v Leo>Simple optical and ECG sensors saving lives with better math.
 
-00:07:57.317 --> 00:08:16.297
-<v Maya>In this study, continuous postoperative autonomic tracking showed that a collapse in vagal tone and abnormal HRV metrics preceded clinical deterioration, such as infection, sepsis, and hemodynamic instability, long before conventional vitals like blood pressure or body temperature showed significant alerts.
+00:04:53.040 --> 00:05:13.739
+<v Maya>Moving to brain-computer interfaces, a new review proposes an artificial intelligence-driven BCI framework tailored for Alzheimer's disease care. The proposed architecture pairs closed-loop sensory neuromodulation with real-time neural decoding to stimulate cognitive memory networks and track neurodegeneration over time.
 
-00:08:16.297 --> 00:08:38.973
-<v Leo>This is a textbook example of why continuous biosignal ML is revolutionizing hospital wards. Standard nursing checks happen every four to six hours. An acute physiological decompensation can spiral in forty-five minutes. By running lightweight anomaly detection algorithms over real-time beat-to-beat interval arrays, the clinical team gets an early warning indicator.
+00:05:13.739 --> 00:05:30.067
+<v Leo>This matters because researchers are moving beyond motor prosthetics. They are adapting closed-loop neuromodulation for neurodegenerative disease, where tracking disease progression is just as vital as delivering therapeutic electrical or sensory pulses.
 
-00:08:38.973 --> 00:08:57.151
-<v Maya>If you are looking at healthtech companies working on smart hospital patches or consumer rings entering hospital-at-home monitoring, real-time HRV modeling is table stakes. It proves that autonomic biosignals are not just for wellness readiness scores; they are hard clinical diagnostic metrics.
+00:05:30.067 --> 00:05:39.580
+<v Maya>The takeaway: Closed-loop neuromodulation is expanding into cognitive therapies that combine real-time diagnostics with targeted neural stimulation.
 
-00:08:57.151 --> 00:09:13.419
-<v Leo>Let us round out the morning with the business and regulatory movements shaping the medtech landscape. In commercial wearables, iRhythm raised its revenue outlook for 2026 and confirmed it is targeting 2027 for the FDA filing of its next-generation Zio MCT device.
+00:05:39.580 --> 00:05:42.987
+<v Leo>That aligns beautifully with closed-loop engineering.
 
-00:09:13.419 --> 00:09:30.981
-<v Maya>Zio MCT is their mobile cardiac telemetry wearable. iRhythm has practically written the playbook on scaling clinical-grade wearable biosensing, proving that long-wear adhesive biosensors paired with deep learning beat analysis can build a massive, profitable clinical service business.
+00:05:42.987 --> 00:05:59.315
+<v Maya>Meanwhile, hardware reviews highlighted SereniBrain, a new consumer EEG headband. Unlike many commercial wellness wearables that lock users into proprietary scores, this platform provides direct, unmasked access to raw multi-channel EEG time-series data.
 
-00:09:30.981 --> 00:09:49.776
-<v Leo>Pushing their MCT filing toward 2027 shows they are playing a deliberate regulatory long game, ensuring their signal pipelines and clinical evidence packages are completely ironclad. For engineers, iRhythm's continuous upward guidance demonstrates that clinical remote biosensing is financially resilient.
+00:05:59.315 --> 00:06:14.678
+<v Leo>This matters because developers and researchers have long struggled with consumer neurotech black boxes. Transparent access to raw microvolt signals allows engineers to benchmark their own artifact removal and feature extraction pipelines.
 
-00:09:49.776 --> 00:10:05.058
-<v Maya>And speaking of serious capital flowing into physiological devices, right here in New York, private equity giant Blackstone Life Sciences has structured a major four hundred and fifty-five million dollar co-funding agreement with Boston Scientific.
+00:06:14.678 --> 00:06:23.742
+<v Maya>The takeaway: Wearable neurotech hardware is slowly pivoting toward transparent, open biosignal streaming for clinical and academic builders.
 
-00:10:05.058 --> 00:10:15.410
-<v Leo>That four hundred and fifty-five million dollars is specifically earmarked to accelerate development of Boston Scientific's next-generation miniature heart pump system.
+00:06:23.742 --> 00:06:29.142
+<v Leo>It is refreshing to see hardware that actually lets engineers see their raw signals.
 
-00:10:15.410 --> 00:10:32.726
-<v Maya>It is a fascinating hybrid financing structure. Instead of Boston Scientific carrying all the research and development burn on their balance sheet, New York based Blackstone is stepping in to co-fund the engineering and clinical pipeline, sharing the upside upon commercialization.
+00:06:29.142 --> 00:06:32.292
+<v Maya>That wraps up research. Section three: NYC Watch.
 
-00:10:32.726 --> 00:10:53.307
-<v Leo>It underscores that despite macroeconomic caution in early-stage consumer tech, there is massive, nine-figure institutional capital available for miniature, life-critical implantable hardware. When you look at the medtech ecosystem across New York and the East Coast, strategic capital is hungry for high-barrier physical engineering.
+00:06:32.292 --> 00:06:50.676
+<v Maya>New York-based private equity titan Blackstone is driving medtech headlines from its Midtown Manhattan headquarters. Blackstone Life Sciences finalized its four hundred fifty-five million dollar co-development deal with Boston Scientific to accelerate miniature implantable heart pumps.
 
-00:10:53.307 --> 00:10:58.175
-<v Maya>Time for our wrap, Leo. What is your one thing to watch heading into this week?
+00:06:50.676 --> 00:07:11.182
+<v Leo>This matters locally because New York City has become a major capital hub steering late-stage medical technology and device innovation. Life sciences investors in Manhattan are deploying deep pools of capital into complex, high-stakes bioengineering systems that blend fluid dynamics, biosensors, and embedded controls.
 
-00:10:58.175 --> 00:11:16.600
-<v Leo>Watch how non-invasive biosignal security develops. With the SAFE framework landing this weekend, expect privacy-preserving federated ML to become a mandatory talking point for any startup pitching non-invasive EEG or continuous physiological monitoring to investors and institutional review boards.
+00:07:11.182 --> 00:07:20.568
+<v Maya>The takeaway: New York City venture and private equity firms are increasingly steering the capital that brings invasive medtech devices to market.
 
-00:11:16.600 --> 00:11:26.829
-<v Maya>Clean your sensors, secure your gradients, and go build something remarkable. That is Neuro Morning for Sunday, November eighth. Have a great day in the lab, Chandni.
+00:07:20.568 --> 00:07:27.124
+<v Leo>Always exciting to see world-scale bioengineering deals orchestrated right down the street in Midtown.
 
-00:11:26.829 --> 00:11:28.000
-<v Leo>Catch you tomorrow.
+00:07:27.124 --> 00:07:29.760
+<v Maya>Moving right along. Section four: Trends.
+
+00:07:29.760 --> 00:07:58.613
+<v Maya>Our first trend is the growing regulatory split between clinically validated wearables and unverified consumer wellness claims. Today we saw Samsung win official FDA clearance for sleep apnea screening on the Galaxy Ring. At the same time, Indian tech executive Deepinder Goyal and his venture Eternal are facing intense clinical backlash over the Temple health wearable, which critics accuse of marketing pseudo-scientific claims without peer-reviewed data.
+
+00:07:58.613 --> 00:08:17.071
+<v Leo>The bar for wearable biosensors is rising fast. Regulators and clinicians are demanding validated clinical endpoints. If a wearable device wants to track sleep disturbances, autonomic recovery, or brain states, the math must be backed by clinical trials rather than clever lifestyle marketing.
+
+00:08:17.071 --> 00:08:26.521
+<v Maya>The takeaway: The wearables market is dividing cleanly into certified medical biosensing tools on one side and disputed wellness gadgets on the other.
+
+00:08:26.521 --> 00:08:28.978
+<v Leo>Substance is finally winning over hype.
+
+00:08:28.978 --> 00:08:56.949
+<v Maya>Our second trend is the urgent push for trust and security in biosignal machine learning. The new study showing privacy leakage in federated EEG models highlights that standard distributed machine learning is not inherently secure for brain waves. Coupled with recent reports in health tech questioning overhyped cardiovascular artificial intelligence models, clinicians and engineers are prioritizing robust validation over black-box promises.
+
+00:08:56.949 --> 00:09:19.565
+<v Leo>Biosignals like EEG, EMG, and HRV are uniquely identifiable biometric markers. As we connect wearables to cloud and distributed edge models, bioengineers cannot simply apply off-the-shelf neural networks and hope for the best. Rigorous signal validation, artifact isolation, and mathematical privacy guarantees are becoming mandatory engineering requirements.
+
+00:09:19.565 --> 00:09:27.377
+<v Maya>The takeaway: Future neurotech architectures must engineer privacy and biological interpretability into models from day one.
+
+00:09:27.377 --> 00:09:31.219
+<v Leo>Which brings us directly to how Chandni can position herself.
+
+00:09:31.219 --> 00:09:34.117
+<v Maya>That brings us to Section five: Career Signal.
+
+00:09:34.117 --> 00:09:53.899
+<v Maya>Looking across today's stories, consumer device giants like Samsung and neurotech players like BrainCo and SereniBrain are building next-generation physiological sensing pipelines. At the same time, clinical trial groups like Abbott and Boston Scientific are integrating digital sensing into implantable therapies.
+
+00:09:53.899 --> 00:10:13.239
+<v Leo>If you are looking at where to pitch your skills, focus on the bridge between raw biosignal processing and regulated clinical utility. Companies launching optical, electrical, and mechanical sensors desperately need biomedical engineers who understand both digital signal processing and algorithmic privacy.
+
+00:10:13.239 --> 00:10:31.634
+<v Maya>For example, with companies building distributed health models, Chandni could pitch roles in privacy-preserving biosignal machine learning. She could demonstrate how to protect EEG and EMG gradient updates against model-inversion attacks using differential privacy and edge feature filtering.
+
+00:10:31.634 --> 00:10:54.439
+<v Leo>Alternatively, with smart ring and headband makers pushing toward medical clearances, she could pitch roles developing robust autonomic biomarker algorithms. Her experience with heart rate variability and electrodermal activity is precisely what engineering teams need to translate noisy, motion-corrupted wearable data into clinical-grade physiological metrics.
+
+00:10:54.439 --> 00:11:04.960
+<v Maya>The takeaway: Position yourself as an engineer who builds transparent, privacy-first biosignal machine learning pipelines that can survive medical regulatory scrutiny.
+
+00:11:04.960 --> 00:11:07.914
+<v Leo>That is a very powerful pitch in this market.
+
+00:11:07.914 --> 00:11:09.752
+<v Maya>Finally, Section six: Recap.
+
+00:11:09.752 --> 00:11:20.517
+<v Maya>Three things to remember today. First, Samsung secured FDA clearance for sleep apnea detection on the Galaxy Ring, raising the stakes for clinical wearable sensing.
+
+00:11:20.517 --> 00:11:30.888
+<v Leo>Second, federated learning on EEG signals leaks private neural data, proving that edge brain-computer interfaces need advanced cryptographic privacy controls.
+
+00:11:30.888 --> 00:11:43.819
+<v Maya>Third, heart rate variability monitoring demonstrated real-world predictive value for postoperative complications, underscoring the growing clinical demand for autonomic biosignal machine learning.
+
+00:11:43.819 --> 00:11:49.989
+<v Leo>That is all for this Sunday edition. Stay curious, keep building, and enjoy your morning walk.
+
+00:11:49.989 --> 00:11:57.800
+<v Maya>Thank you for listening to Neuro Morning. We will be back tomorrow with your daily briefing. Have a great day, Chandni.
