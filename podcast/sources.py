@@ -25,5 +25,10 @@ FEEDS = [
     ("Google News: FDA neuro devices", google_news('FDA (clearance OR approval OR "breakthrough device") (neuro OR brain OR wearable OR implant)'), 8),
     ("Google News: NYC neurotech", google_news('("New York" OR NYC OR Brooklyn) (neurotech OR "brain-computer" OR medtech OR "health tech" startup)'), 8),
     ("Google News: wearables", google_news('wearable (EEG OR biosensor OR "health monitoring" OR sleep OR HRV)'), 8),
+    ("Fierce Healthcare Health Tech", "https://www.fiercehealthcare.com/rss/health-tech/xml", 8),
+    ("Healthcare IT News", "https://www.healthcareitnews.com/home/feed", 6),
+    ("Google News: digital health", google_news('"digital health" (raises OR funding OR launches OR FDA OR partnership OR acquires)'), 10),
+    ("Google News: health tech AI", google_news('("health tech" OR healthtech OR "AI in healthcare" OR "remote patient monitoring") (startup OR raises OR launches)'), 8),
+    ("Google News: medtech devices", google_news('medtech (sensor OR diagnostic OR device) (raises OR FDA OR launches OR acquires)'), 8),
     ("bioRxiv Neuroscience", "https://connect.biorxiv.org/biorxiv_xml/neuroscience.xml", 6),
 ]

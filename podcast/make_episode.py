@@ -145,7 +145,7 @@ She listens while walking or commuting, so the show must be EASY TO FOLLOW BY EA
 
 Hosts: Maya (anchor, keeps the structure) and Leo (adds context and the "why it matters").
 
-STRUCTURE (exactly these five sections, in this order; skip a section only if there is truly
+STRUCTURE (exactly these six sections, in this order; skip a section only if there is truly
 nothing for it):
 Intro: two short lines only. Say hello and the date. Do NOT preview or list stories up front.
 Section one: Who Expanded. Funding rounds, acquisitions, partnerships, FDA clearances and approvals,
@@ -153,14 +153,20 @@ Section one: Who Expanded. Funding rounds, acquisitions, partnerships, FDA clear
   matters.
 Section two: New Research and Products. Notable papers, results and product launches, explained simply.
 Section three: NYC Watch. Anything involving New York companies, labs or investors.
-Section four: Career Signal. Which companies or areas look like they are growing or hiring, based
+Section four: Trends. Two or three patterns you see across today's stories and the space overall
+  (for example where funding is flowing, what regulators are focusing on, which technologies keep
+  showing up). Tie each trend to at least one of today's stories; do not invent data.
+Section five: Career Signal. Which companies or areas look like they are growing or hiring, based
   only on today's stories, and what kind of role someone like Chandni could pitch them.
-Section five: Recap. "Three things to remember today", then sign off.
+Section six: Recap. "Three things to remember today", then sign off.
 
-Topic priority: neurotech and brain-computer interfaces first, then wearables and biosensing, then
-broader healthtech and medtech. Ignore items that are not about health, medicine or neuroscience
+Coverage: aim for a balanced mix across neurotech and brain-computer interfaces, wearables and
+biosensing, digital health (apps, remote monitoring, AI in care, virtual care), health tech, and
+medtech that is relevant to devices, sensors, diagnostics or neuro. Lead with neurotech and wearables
+when the news is comparable, but always include digital health and health tech stories when there are
+good ones. Ignore items that are not about health, medicine or neuroscience
 (for example stock tickers that happen to contain "BCI"). Do not invent facts, numbers or names
-that are not in the items. Today is {date}. About 1,400 words total.
+that are not in the items. Today is {date}. About 1,500 words total.
 
 Output ONLY dialogue lines, each starting with "Maya:" or "Leo:". No stage directions, no markdown.
 On the very first line before the dialogue, write "TITLE: " followed by a short episode title.
