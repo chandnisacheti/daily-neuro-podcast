@@ -2,8 +2,8 @@
 
 Env:
   GEMINI_API_KEY      required (free key from aistudio.google.com)
-  GEMINI_TEXT_MODEL   optional, default gemini-2.5-flash
-  GEMINI_TTS_MODEL    optional, default gemini-2.5-flash-preview-tts
+  GEMINI_TEXT_MODEL   optional, default: newest Flash model this key can use
+  GEMINI_TTS_MODEL    optional, default: newest TTS model this key can use
   SITE_URL            public base URL of the docs/ folder (GitHub Pages)
   DRY_RUN=1           skip Gemini; use a tiny fake script and a silent clip (for testing)
 """
@@ -35,8 +35,43 @@ VOICES = {"Maya": "Kore", "Leo": "Puck"}
 EDGE_VOICES = {"Maya": "en-US-AvaNeural", "Leo": "en-US-AndrewNeural"}
 API = "https://generativelanguage.googleapis.com/v1beta/models"
 KEY = os.environ.get("GEMINI_API_KEY", "")
-TEXT_MODEL = os.environ.get("GEMINI_TEXT_MODEL", "gemini-2.5-flash")
-TTS_MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-2.5-flash-preview-tts")
+TEXT_MODEL = os.environ.get("GEMINI_TEXT_MODEL", "")  # empty = pick newest Flash model automatically
+TTS_MODEL = os.environ.get("GEMINI_TTS_MODEL", "")    # empty = pick newest TTS model automatically
+UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
+
+
+def _ver(name):
+    nums = re.findall(r"\d+(?:\.\d+)?", name)
+    return float(nums[0]) if nums else 0.0
+
+
+def pick_models():
+    """Google retires model names often, so ask the API which models this key can use."""
+    global TEXT_MODEL, TTS_MODEL
+    if TEXT_MODEL and TTS_MODEL:
+        return
+    names, token = [], None
+    while True:
+        r = requests.get(f"{API}", params={"pageSize": 200, **({"pageToken": token} if token else {})},
+                         headers={"x-goog-api-key": KEY}, timeout=60)
+        r.raise_for_status()
+        j = r.json()
+        names += [m["name"].split("/")[-1] for m in j.get("models", [])
+                  if "generateContent" in m.get("supportedGenerationMethods", [])]
+        token = j.get("nextPageToken")
+        if not token:
+            break
+    log("models available:", ", ".join(names))
+    bad = ("tts", "image", "live", "audio", "embed", "vision", "thinking", "exp", "robotics", "computer")
+    if not TEXT_MODEL:
+        text = [n for n in names if n.startswith("gemini") and "flash" in n and not any(b in n for b in bad)]
+        text.sort(key=lambda n: (_ver(n), "lite" not in n, "preview" not in n, "latest" in n), reverse=True)
+        TEXT_MODEL = text[0] if text else "gemini-flash-latest"
+    if not TTS_MODEL:
+        tts = [n for n in names if "tts" in n]
+        tts.sort(key=lambda n: (_ver(n), "flash" in n, "lite" not in n), reverse=True)
+        TTS_MODEL = tts[0] if tts else ""
+    log(f"using text model {TEXT_MODEL}, tts model {TTS_MODEL or '(none, Edge voices)'}")
 DRY = os.environ.get("DRY_RUN") == "1"
 
 
@@ -50,7 +85,7 @@ def gather_news(hours=30):
     seen, items = set(), []
     for label, url, cap in FEEDS:
         try:
-            r = requests.get(url, timeout=20, headers={"User-Agent": "daily-neuro-podcast/1.0"})
+            r = requests.get(url, timeout=20, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/xml, text/xml, */*"})
             r.raise_for_status()
             parsed = feedparser.parse(r.content)
         except Exception as e:  # noqa: BLE001
@@ -194,6 +229,8 @@ def make_audio(lines, mp3_path):
                 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i",
                                 "sine=frequency=440:sample_rate=24000", "-t", "2", str(w)], check=True)
             else:
+                if not use_edge and not TTS_MODEL:
+                    use_edge = True
                 if not use_edge:
                     try:
                         tts_gemini(ch, w)
@@ -222,6 +259,8 @@ def main():
     slug = now.strftime("%Y-%m-%d")
     EPISODES.mkdir(parents=True, exist_ok=True)
 
+    if not DRY:
+        pick_models()
     items = gather_news()
     log(f"{len(items)} news items")
     if not items and not DRY:
