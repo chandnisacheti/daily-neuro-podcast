@@ -114,8 +114,13 @@ def gather_news(hours=30):
 # ---------- 2. script ----------
 def gemini(model, body, tries=4):
     for i in range(tries):
-        r = requests.post(f"{API}/{model}:generateContent", json=body,
-                          headers={"x-goog-api-key": KEY}, timeout=300)
+        try:
+            r = requests.post(f"{API}/{model}:generateContent", json=body,
+                              headers={"x-goog-api-key": KEY}, timeout=480)
+        except requests.exceptions.RequestException as e:  # timeouts, dropped connections
+            log(f"{model} request error: {e}; retrying")
+            time.sleep(15 * (i + 1))
+            continue
         if r.status_code == 200:
             return r.json()
         log(f"{model} HTTP {r.status_code}: {r.text[:300]}")
