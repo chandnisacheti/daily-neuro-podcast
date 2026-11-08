@@ -182,9 +182,12 @@ def chunks(lines, size=14):
 
 
 def tts_gemini(chunk, wav_path):
-    convo = "\n".join(f"{s}: {t}" for s, t in chunk)
+    # Gemini 3.x TTS: every text part carries its own speaker tag; no untagged preamble allowed.
     body = {
-        "contents": [{"parts": [{"text": "Read this as a lively, natural morning podcast conversation:\n" + convo}]}],
+        "contents": [{"role": "user", "parts": [
+            {"text": t, "speechMetadata": {"speaker": s, "style": "warm, lively morning podcast host"}}
+            for s, t in chunk
+        ]}],
         "generationConfig": {
             "responseModalities": ["AUDIO"],
             "speechConfig": {"multiSpeakerVoiceConfig": {"speakerVoiceConfigs": [
@@ -193,11 +196,20 @@ def tts_gemini(chunk, wav_path):
         },
     }
     out = gemini(TTS_MODEL, body)
-    pcm = base64.b64decode(out["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
-    raw = wav_path.with_suffix(".pcm")
-    raw.write_bytes(pcm)
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "s16le", "-ar", "24000", "-ac", "1",
-                    "-i", str(raw), str(wav_path)], check=True)
+    part = next(p for p in out["candidates"][0]["content"]["parts"] if "inlineData" in p)
+    data = base64.b64decode(part["inlineData"]["data"])
+    mime = part["inlineData"].get("mimeType", "")
+    if data[:4] == b"RIFF":  # already a WAV file
+        src = wav_path.with_suffix(".in.wav")
+        src.write_bytes(data)
+        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(src)]
+    else:  # raw 16-bit PCM
+        rate = re.search(r"rate=(\d+)", mime)
+        src = wav_path.with_suffix(".pcm")
+        src.write_bytes(data)
+        cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "s16le", "-ar", rate.group(1) if rate else "24000",
+               "-ac", "1", "-i", str(src)]
+    subprocess.run(cmd + ["-ar", "24000", "-ac", "1", str(wav_path)], check=True)
 
 
 def tts_edge(chunk, wav_path, tmp):
@@ -205,8 +217,14 @@ def tts_edge(chunk, wav_path, tmp):
     parts = []
     for j, (s, t) in enumerate(chunk):
         p = tmp / f"{wav_path.stem}_{j}.mp3"
-        subprocess.run([sys.executable, "-m", "edge_tts", "--voice", EDGE_VOICES[s], "--text", t,
-                        "--write-media", str(p)], check=True)
+        for attempt in range(4):
+            r = subprocess.run([sys.executable, "-m", "edge_tts", "--voice", EDGE_VOICES[s], "--text", t,
+                                "--write-media", str(p)])
+            if r.returncode == 0 and p.exists() and p.stat().st_size > 0:
+                break
+            time.sleep(5 * (attempt + 1))
+        else:
+            raise RuntimeError(f"Edge voice failed on line: {t[:80]}")
         parts.append(p)
     concat(parts, wav_path)
 

@@ -25,5 +25,5 @@ FEEDS = [
     ("Google News: FDA neuro devices", google_news('FDA (clearance OR approval OR "breakthrough device") (neuro OR brain OR wearable OR implant)'), 8),
     ("Google News: NYC neurotech", google_news('("New York" OR NYC OR Brooklyn) (neurotech OR "brain-computer" OR medtech OR "health tech" startup)'), 8),
     ("Google News: wearables", google_news('wearable (EEG OR biosensor OR "health monitoring" OR sleep OR HRV)'), 8),
-    ("bioRxiv Neuroscience", "https://connect.biorxiv.org/biorxiv_xml/subject/neuroscience", 6),
+    ("bioRxiv Neuroscience", "https://connect.biorxiv.org/biorxiv_xml/neuroscience.xml", 6),
 ]
