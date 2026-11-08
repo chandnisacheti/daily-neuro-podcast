@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
  <channel>
   <title>Neuro Morning</title>
   <link>https://chandnisacheti.github.io/daily-neuro-podcast/</link>
@@ -12,7 +12,93 @@
   <itunes:category text="Science"/>
   <item>
    <title>Protecting Brainwaves, Primate Telemetry, and Big Moves in Wearable Sensing</title>
-   <description>Sources from the last 24 hours:
+   <description>Full transcript:
+
+Maya: If you spent your weekend trying to filter out electrode motion artifacts, put down the notch filter and take a breath.
+
+Leo: Good morning, Chandni. It is Sunday, November eighth, 2026, and you are listening to Neuro Morning, your daily briefing on neurotechnology, biosignals, and the future of closed-loop health.
+
+Maya: Today we are looking at real signal progress across the stack, from brand new research tackling core BCI hardware roadblocks to federated machine learning built specifically to protect EEG data.
+
+Leo: We also have major translational stories on the docket: AI-driven brain-computer interface paradigms for Alzheimer care, neural telemetry in freely moving primates out of an international consortium, and clinical validation proving heart rate variability can catch postoperative complications before standard vitals do.
+
+Maya: Plus, in the commercial world, iRhythm updates its FDA timeline for the next-generation Zio wearable, and New York based Blackstone Life Sciences drops four hundred and fifty-five million dollars into miniature cardiac medtech with Boston Scientific.
+
+Leo: Let us jump right into our lead story from TechCrunch covering Tether Evo. Their research team just published new work directly addressing one of the most stubborn bottlenecks in the entire brain-computer interface field.
+
+Maya: For anyone building neural decoders, you know the classic physical headache: keeping high-bandwidth electrode interfaces stable over time while preserving signal fidelity and minimizing tissue response.
+
+Leo: Exactly. In BCI, whether you are dealing with invasive microwire arrays or flexible thin-film grids, the foreign body response and micromotion between the sensor and brain tissue inevitably lead to signal drift and degraded signal-to-noise ratio. Tether Evo is focusing their latest research on solving those fundamental mechanical and interface barriers so systems can record reliably over extended horizons.
+
+Maya: Why this matters so much for biosignal ML engineers is that algorithmic decoding is only ever as good as the raw neural input. If your underlying electrophysiological manifold is shifting every two weeks because of electrode impedance changes or mechanical shearing, your models constantly need recalibration.
+
+Leo: Which is a nightmare for true closed-loop systems that need stable latent spaces. For Chandni and anyone looking at the neurotech job market, Tether Evo tackling these interface dynamics signals that industry teams are actively hiring across that sweet spot where neural engineering meets biocompatible materials and continuous calibration pipelines.
+
+Maya: Moving from the physical sensor level up to the data architecture, Bioengineer dot org highlighted a major paper this weekend where engineers unveiled what they are calling the SAFE framework to protect brainwave data in federated AI.
+
+Leo: This is huge for Chandni's wheelhouse. Federated learning, in a sentence, is a distributed machine learning approach where you train models across decentralized edge devices without ever sending raw personal data to a central server.
+
+Maya: But as EEG and non-invasive neural monitoring move into consumer wearables, sleep headbands, and outpatient clinical headsets, brainwave data is uniquely vulnerable. You can infer cognitive states, emotional valence, and even biometric identity from raw frequency spectra. The SAFE framework introduces a privacy-preserving architecture specifically tuned for neural time-series data.
+
+Leo: What makes this so tricky for standard federated learning is that EEG signals have massive inter-subject variability and non-stationarity. If you apply generic differential privacy noise to gradient updates, you often completely obliterate the subtle spectral features your decoder needs, like microvolt-level event-related potentials or subtle beta bursts.
+
+Maya: SAFE shields the raw neural representations during local model updates while maintaining the mathematical signal structure required for collaborative training. If you are an ML engineer in digital health, mastering federated learning and privacy-preserving algorithms for physiological streams is rapidly becoming one of the most bankable skills in the neurotech sector. Companies want models trained on tens of thousands of users, but regulatory bodies will simply not allow raw neurodata pools to sit in vulnerable centralized databases.
+
+Leo: Speaking of AI frameworks tackling massive clinical hurdles, we also saw a new review published outlining an AI-driven BCI framework designed specifically for Alzheimer disease care.
+
+Maya: Most mainstream BCI headlines focus on motor restoration for paralysis or ALS, but there is an accelerating pivot toward cognitive state tracking and neuromodulatory intervention for neurodegenerative disorders.
+
+Leo: The proposed framework focuses on using electrophysiological biomarkers to detect early microstructural cognitive shifts, coupled with closed-loop neurostimulation to stabilize oscillatory networks that degrade in Alzheimer disease, like impaired gamma rhythm synchronization.
+
+Maya: And alongside that, ColombiaOne ran an in-depth feature with Meron Gribetz on the concept of digital pills and brain tech for psychiatric disorders, specifically major depression. Gribetz has been talking about replacing systemic pharmacological interventions with targeted, electroceutical neuromodulation that adapts to the patient in real time.
+
+Leo: That phrase digital pill really captures where psychiatric medtech wants to go: moving away from blunt-force medications that take six weeks to balance neurotransmitters and bring heavy systemic side effects, toward sub-second electrical or sensory stimulation triggered only when neural correlates of depressive relapse or dysregulation flare up.
+
+Maya: If you want to build closed-loop neuromodulation, this is the frontier. You have to identify the biomarker, verify it in noisy ambulatory recordings, and trigger therapeutic delivery without inducing tolerance.
+
+Leo: But to make any of these closed-loop paradigms truly translation-ready, you have to test them in complex, naturalistic settings. That brings us to our fourth story: KAIST, the Korea Advanced Institute of Science and Technology, is co-leading a massive European Research Council project investigating brain activity in freely moving monkeys.
+
+Maya: We have to underline how difficult this is. For decades, the vast majority of non-human primate neurophysiology has been constrained to head-fixed animals sitting in primate chairs looking at computer monitors.
+
+Leo: Which gives you pristine, low-noise recordings, but severely limits our understanding of how the brain navigates dynamic, three-dimensional social environments, real physical foraging, and unconstrained motor coordination.
+
+Maya: The KAIST consortium is deploying wireless, high-channel neural logging and telemetry systems to track unconstrained cortical and subcortical dynamics during natural behavior.
+
+Leo: Think about what that requires on the engineering side: ultra-low-power embedded systems, high-bandwidth wireless transceivers that do not overheat the skull, on-device signal compression, and machine learning pipelines that can synchronize kinematics with multi-unit neural spike trains. This research is directly laying the empirical groundwork for real-world neuromodulation in humans who do not spend their days sitting perfectly still in a clinical chair.
+
+Maya: Now, let us pivot down the spinal cord to the autonomic nervous system and clinical biosignals. A compelling new clinical study out on Bioengineer dot org demonstrated that heart rate variability can accurately predict postoperative complications.
+
+Leo: HRV, as Chandni knows intimately, is the variation in time intervals between consecutive heartbeats, reflecting the dynamic push-and-pull balance between your sympathetic and parasympathetic autonomic branches.
+
+Maya: In this study, continuous postoperative autonomic tracking showed that a collapse in vagal tone and abnormal HRV metrics preceded clinical deterioration, such as infection, sepsis, and hemodynamic instability, long before conventional vitals like blood pressure or body temperature showed significant alerts.
+
+Leo: This is a textbook example of why continuous biosignal ML is revolutionizing hospital wards. Standard nursing checks happen every four to six hours. An acute physiological decompensation can spiral in forty-five minutes. By running lightweight anomaly detection algorithms over real-time beat-to-beat interval arrays, the clinical team gets an early warning indicator.
+
+Maya: If you are looking at healthtech companies working on smart hospital patches or consumer rings entering hospital-at-home monitoring, real-time HRV modeling is table stakes. It proves that autonomic biosignals are not just for wellness readiness scores; they are hard clinical diagnostic metrics.
+
+Leo: Let us round out the morning with the business and regulatory movements shaping the medtech landscape. In commercial wearables, iRhythm raised its revenue outlook for 2026 and confirmed it is targeting 2027 for the FDA filing of its next-generation Zio MCT device.
+
+Maya: Zio MCT is their mobile cardiac telemetry wearable. iRhythm has practically written the playbook on scaling clinical-grade wearable biosensing, proving that long-wear adhesive biosensors paired with deep learning beat analysis can build a massive, profitable clinical service business.
+
+Leo: Pushing their MCT filing toward 2027 shows they are playing a deliberate regulatory long game, ensuring their signal pipelines and clinical evidence packages are completely ironclad. For engineers, iRhythm's continuous upward guidance demonstrates that clinical remote biosensing is financially resilient.
+
+Maya: And speaking of serious capital flowing into physiological devices, right here in New York, private equity giant Blackstone Life Sciences has structured a major four hundred and fifty-five million dollar co-funding agreement with Boston Scientific.
+
+Leo: That four hundred and fifty-five million dollars is specifically earmarked to accelerate development of Boston Scientific's next-generation miniature heart pump system.
+
+Maya: It is a fascinating hybrid financing structure. Instead of Boston Scientific carrying all the research and development burn on their balance sheet, New York based Blackstone is stepping in to co-fund the engineering and clinical pipeline, sharing the upside upon commercialization.
+
+Leo: It underscores that despite macroeconomic caution in early-stage consumer tech, there is massive, nine-figure institutional capital available for miniature, life-critical implantable hardware. When you look at the medtech ecosystem across New York and the East Coast, strategic capital is hungry for high-barrier physical engineering.
+
+Maya: Time for our wrap, Leo. What is your one thing to watch heading into this week?
+
+Leo: Watch how non-invasive biosignal security develops. With the SAFE framework landing this weekend, expect privacy-preserving federated ML to become a mandatory talking point for any startup pitching non-invasive EEG or continuous physiological monitoring to investors and institutional review boards.
+
+Maya: Clean your sensors, secure your gradients, and go build something remarkable. That is Neuro Morning for Sunday, November eighth. Have a great day in the lab, Chandni.
+
+Leo: Catch you tomorrow.
+
+Sources from the last 24 hours:
 - Siemens Healthineers rebrands and carves out in vitro diagnostics biz (Fierce Biotech MedTech): https://www.fiercebiotech.com/medtech/siemens-healthineers-rebrands-and-carves-out-vitro-diagnostics-biz
 - Smith+Nephew held failed talks with J&amp;J over potential orthopedics combination (Fierce Biotech MedTech): https://www.fiercebiotech.com/medtech/smithnephew-held-failed-talks-jj-orthopaedics-biz-combination
 - Blackstone Life Sciences teams up with Boston Scientific in $455M heart pump deal (Fierce Biotech MedTech): https://www.fiercebiotech.com/medtech/blackstone-life-sciences-teams-boston-scientific-455m-heart-pump-deal
@@ -58,6 +144,7 @@
    <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-08.mp3" length="5511212" type="audio/mpeg"/>
    <itunes:duration>688</itunes:duration>
    <itunes:explicit>false</itunes:explicit>
+   <podcast:transcript url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-08.vtt" type="text/vtt" language="en"/>
   </item>
  </channel>
 </rss>

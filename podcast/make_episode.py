@@ -241,7 +241,34 @@ def concat(paths, out):
                     "-ar", "24000", "-ac", "1", str(out)], check=True)
 
 
+def probe(path):
+    out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                          str(path)], capture_output=True, text=True, check=True).stdout
+    return float(out)
+
+
+def ts(sec):
+    h, rem = divmod(sec, 3600)
+    m, s_ = divmod(rem, 60)
+    return f"{int(h):02d}:{int(m):02d}:{s_:06.3f}"
+
+
+def write_vtt(chunk_times, path):
+    """Timed transcript. Line timings inside each audio chunk are estimated from text length."""
+    cues, t0 = ["WEBVTT", ""], 0.0
+    for ch, dur in chunk_times:
+        total = sum(len(t) for _, t in ch) or 1
+        t = t0
+        for speaker, text in ch:
+            d = dur * len(text) / total
+            cues += [f"{ts(t)} --> {ts(t + d)}", f"<v {speaker}>{text}", ""]
+            t += d
+        t0 += dur
+    path.write_text("\n".join(cues))
+
+
 def make_audio(lines, mp3_path):
+    chunk_times = []
     with tempfile.TemporaryDirectory() as d:
         tmp = Path(d)
         wavs = []
@@ -264,13 +291,13 @@ def make_audio(lines, mp3_path):
                 if use_edge:
                     tts_edge(ch, w, tmp)
             wavs.append(w)
+            chunk_times.append((ch, probe(w)))
         joined = tmp / "all.wav"
         concat(wavs, joined)
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(joined), "-af", "loudnorm=I=-16",
                         "-codec:a", "libmp3lame", "-b:a", "64k", str(mp3_path)], check=True)
-    dur = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
-                          str(mp3_path)], capture_output=True, text=True, check=True).stdout
-    return int(float(dur))
+    write_vtt(chunk_times, mp3_path.with_suffix(".vtt"))
+    return int(probe(mp3_path))
 
 
 # ---------- main ----------
@@ -301,10 +328,12 @@ def main():
     eps.insert(0, {
         "slug": slug, "title": title, "date": now.strftime("%a, %d %b %Y %H:%M:%S +0000"),
         "seconds": seconds, "bytes": mp3.stat().st_size,
-        "notes": "Sources from the last 24 hours:\n" + links,
+        "notes": "Full transcript:\n\n" + "\n\n".join(f"{sp}: {t}" for sp, t in lines)
+                 + "\n\nSources from the last 24 hours:\n" + links,
     })
     for old in eps[KEEP_EPISODES:]:
         (EPISODES / f"{old['slug']}.mp3").unlink(missing_ok=True)
+        (EPISODES / f"{old['slug']}.vtt").unlink(missing_ok=True)
     eps = eps[:KEEP_EPISODES]
     meta_path.write_text(json.dumps(eps, indent=1))
     (DOCS / "scripts").mkdir(exist_ok=True)

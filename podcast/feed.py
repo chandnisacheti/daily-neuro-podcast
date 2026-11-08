@@ -17,6 +17,9 @@ def write_feed(episodes, docs: Path):
     items = []
     for e in episodes:
         url = f"{base}/episodes/{e['slug']}.mp3"
+        vtt = docs / "episodes" / f"{e['slug']}.vtt"
+        transcript = (f'\n   <podcast:transcript url="{base}/episodes/{e["slug"]}.vtt" type="text/vtt" language="en"/>'
+                      if vtt.exists() else "")
         items.append(f"""  <item>
    <title>{escape(e['title'])}</title>
    <description>{escape(e['notes'])}</description>
@@ -24,10 +27,10 @@ def write_feed(episodes, docs: Path):
    <guid isPermaLink="false">neuro-morning-{e['slug']}</guid>
    <enclosure url="{url}" length="{e['bytes']}" type="audio/mpeg"/>
    <itunes:duration>{e['seconds']}</itunes:duration>
-   <itunes:explicit>false</itunes:explicit>
+   <itunes:explicit>false</itunes:explicit>{transcript}
   </item>""")
     xml = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
  <channel>
   <title>Neuro Morning</title>
   <link>{base}/</link>
