@@ -137,7 +137,7 @@ neuromodulation, and wants a career in neurotech, wearables and healthtech.
 
 She listens while walking or commuting, so the show must be EASY TO FOLLOW BY EAR:
 - Clear fixed structure with spoken signposts. Announce every section by number and name,
-  e.g. "Section two: Funding and Deals."
+  e.g. "Section one: Who Expanded." When moving on, say so: "That's it for research. Section three..."
 - One story at a time. Say the company or lab name, then what happened, then why it matters.
 - Short sentences. Spell out numbers the way people say them. No lists of more than three things.
 - End each story with a one-sentence takeaway that starts with "The takeaway:".
@@ -145,18 +145,17 @@ She listens while walking or commuting, so the show must be EASY TO FOLLOW BY EA
 
 Hosts: Maya (anchor, keeps the structure) and Leo (adds context and the "why it matters").
 
-STRUCTURE (skip any section with no real news, and say "no big news in X today" in one line only
-if the section is normally important):
-0. Cold open (two lines) and "Here's what's in today's show" naming the sections coming up.
-1. Headlines: the three biggest stories, one sentence each.
-2. Funding and Deals: rounds, acquisitions, partnerships (always say amount and stage).
-3. FDA and Regulation: clearances, approvals, breakthrough designations, recalls, policy.
-4. Research: notable papers or results, explained simply.
-5. Products and Wearables: launches and updates.
-6. NYC Watch: anything involving New York companies, labs or investors.
-7. Career Signal: two or three lines on which companies or areas are growing or hiring, based only
-   on today's stories.
-8. Recap: "Three things to remember today", then sign off.
+STRUCTURE (exactly these five sections, in this order; skip a section only if there is truly
+nothing for it):
+Intro: two short lines only. Say hello and the date. Do NOT preview or list stories up front.
+Section one: Who Expanded. Funding rounds, acquisitions, partnerships, FDA clearances and approvals,
+  new sites or teams. For each, say the company, the move (amount and stage for funding), and why it
+  matters.
+Section two: New Research and Products. Notable papers, results and product launches, explained simply.
+Section three: NYC Watch. Anything involving New York companies, labs or investors.
+Section four: Career Signal. Which companies or areas look like they are growing or hiring, based
+  only on today's stories, and what kind of role someone like Chandni could pitch them.
+Section five: Recap. "Three things to remember today", then sign off.
 
 Topic priority: neurotech and brain-computer interfaces first, then wearables and biosensing, then
 broader healthtech and medtech. Ignore items that are not about health, medicine or neuroscience
@@ -190,6 +189,50 @@ def write_script(items, date):
     if len(lines) < 6:
         raise RuntimeError("Script came back too short:\n" + text[:1000])
     return title, lines
+
+
+LEADS_PROMPT = """From the news items below, list companies (or labs) that show a growth signal useful for a
+student seeking a Summer 2027 internship in neurotech, wearables, healthtech or medtech: funding round,
+acquisition, FDA clearance or approval, new site, expansion, big partnership, or explicit hiring.
+Only health, medicine, neuroscience or medical-device organizations. Do not invent facts.
+Return JSON: a list of objects with keys company, signal (one of funding, acquisition, fda, expansion,
+partnership, hiring, research), detail (one sentence with amounts if given), location (city/country
+if known, else ""), nyc (true/false), why_relevant (one sentence for a biosignal-ML / neuromodulation
+MS BME student), link (copied from the item).
+Order by relevance to neurotech and wearables first.
+
+NEWS ITEMS (JSON):
+{items}
+"""
+
+
+def extract_leads(items):
+    if DRY:
+        return [{"company": "TestCo", "signal": "funding", "detail": "Raised a test round.", "location": "New York",
+                 "nyc": True, "why_relevant": "Test.", "link": "https://example.com"}]
+    body = {"contents": [{"parts": [{"text": LEADS_PROMPT.format(items=json.dumps(items[:90], ensure_ascii=False))}]}],
+            "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}
+    try:
+        out = gemini(TEXT_MODEL, body)
+        text = "".join(p.get("text", "") for p in out["candidates"][0]["content"]["parts"])
+        leads = json.loads(text)
+        return leads if isinstance(leads, list) else []
+    except Exception as e:  # noqa: BLE001
+        log(f"lead extraction failed: {e}")
+        return []
+
+
+def write_leads(leads, slug, date_str):
+    d = DOCS / "leads"
+    d.mkdir(exist_ok=True)
+    (d / "latest.json").write_text(json.dumps({"date": slug, "leads": leads}, indent=1, ensure_ascii=False))
+    (d / f"{slug}.json").write_text(json.dumps(leads, indent=1, ensure_ascii=False))
+    md = [f"# Outreach leads, {date_str}", ""]
+    for l in leads:
+        tag = " (NYC)" if l.get("nyc") else ""
+        md.append(f"- **{l.get('company','')}**{tag}, {l.get('signal','')}: {l.get('detail','')} "
+                  f"{l.get('why_relevant','')} [source]({l.get('link','')})")
+    (d / f"{slug}.md").write_text("\n".join(md) + "\n")
 
 
 # ---------- 3. audio ----------
@@ -329,6 +372,8 @@ def main():
         sys.exit("No news found; skipping today")
     title, lines = write_script(items, date_str)
     log(f"script: {len(lines)} lines, title: {title}")
+
+    write_leads(extract_leads(items), slug, date_str)
 
     mp3 = EPISODES / f"{slug}.mp3"
     seconds = make_audio(lines, mp3)
