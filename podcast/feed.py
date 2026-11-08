@@ -37,6 +37,8 @@ def write_feed(episodes, docs: Path):
   <language>en-us</language>
   <description>A private daily AI briefing on neurotech, BCIs, wearables, healthtech and medtech.</description>
   <itunes:author>Neuro Morning</itunes:author>
+  <itunes:owner><itunes:name>Chandni Sacheti</itunes:name><itunes:email>chandnisacheti@gmail.com</itunes:email></itunes:owner>
+  <podcast:locked>yes</podcast:locked>
   <itunes:image href="{base}/cover.jpg"/>
   <itunes:explicit>false</itunes:explicit>
   <itunes:block>Yes</itunes:block>
