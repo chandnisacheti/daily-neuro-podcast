@@ -159,8 +159,15 @@ Selection rules:
   Pick substantive stories with real depth, because each one gets a full segment.
 - Prefer: funding, acquisitions, FDA decisions, notable research, product launches, NYC companies,
   and anything that signals hiring or growth.
-- Skip: duplicates of the same story, items not about health, medicine or neuroscience (stock tickers,
-  unrelated companies), thin press releases, generic consumer gadget reviews, and stories already
+- When several outlets cover the same story, that is a SIGNAL it matters: merge them into one story
+  (use the best item's id; list the others in skipped as "merged into story N"). Never drop a story
+  just because it has duplicates.
+- Chandni especially wants: controversies and backlash over the scientific claims of neuro or health
+  wearables and devices (validation disputes, critics vs founders), IPOs, big funding, FDA decisions,
+  new wearables, and moves by well-known founders or companies. Treat these as strong picks even when
+  the company is consumer-facing or outside the US.
+- Skip:  items not about health, medicine or neuroscience (stock tickers,
+  unrelated companies), thin press releases, shopping guides and generic gadget reviews, and stories already
   covered in recent episodes (listed below) unless there is a genuinely new development.
 - Each story appears ONCE in the whole episode. Never assign the same story to two sections.
 - Choose stories that connect to each other where possible, so the Trends segment has something real
