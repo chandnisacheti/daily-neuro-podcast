@@ -41,7 +41,7 @@ def write_feed(episodes, docs: Path):
   <itunes:author>Neuro Morning</itunes:author>
   <itunes:owner><itunes:name>Chandni Sacheti</itunes:name><itunes:email>chandnisacheti@gmail.com</itunes:email></itunes:owner>
   <podcast:locked>yes</podcast:locked>
-  <itunes:image href="{base}/cover.jpg"/>
+  <itunes:image href="{base}/cover-sunrise.jpg"/>
   <itunes:explicit>false</itunes:explicit>
   <itunes:block>Yes</itunes:block>
   <itunes:category text="Science"/>
