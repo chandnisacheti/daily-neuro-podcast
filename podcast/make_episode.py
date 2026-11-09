@@ -515,6 +515,9 @@ def main():
     date_str = now.astimezone(dt.timezone(dt.timedelta(hours=-5))).strftime("%A, %B %-d, %Y")
     slug = now.strftime("%Y-%m-%d")
     EPISODES.mkdir(parents=True, exist_ok=True)
+    if os.environ.get("SKIP_IF_EXISTS") == "1" and (EPISODES / f"{slug}.mp3").exists():
+        log(f"episode {slug} already exists; skipping backup run")
+        return
 
     if not DRY:
         pick_models()

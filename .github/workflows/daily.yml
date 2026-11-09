@@ -2,8 +2,10 @@ name: Daily episode
 
 on:
   schedule:
-    # 10:00 UTC = 5:00 AM New York in winter (6:00 AM in summer). Change to match wake-up time.
-    - cron: "0 10 * * *"
+    # GitHub delays or drops busy top-of-hour schedules, so use odd minutes and a backup slot.
+    # 09:17 UTC = 4:17 AM New York in winter; backup at 09:52. The backup skips if today's episode exists.
+    - cron: "17 9 * * *"
+    - cron: "52 9 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -29,6 +31,7 @@ jobs:
       - name: Make episode
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SKIP_IF_EXISTS: ${{ github.event_name == 'schedule' && '1' || '0' }}
         run: cd podcast && python make_episode.py
       - name: Publish
         run: |
