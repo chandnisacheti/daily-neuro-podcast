@@ -30,6 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 EPISODES = DOCS / "episodes"
 KEEP_EPISODES = 21
+SPEED = 0.85  # playback speed of the final mix; Chandni asked for voices 15% slower (2026-11-09)
 HOSTS = ("Nora", "Theo")
 # Distinct voices: Nora bright and quick, Theo lower and relaxed. Fallback pair if Google renames voices.
 VOICES = {"Nora": "Aoede", "Theo": "Charon"}
@@ -215,6 +216,13 @@ EASY TO FOLLOW BY EAR:
 - Announce each section clearly by name, e.g. "Okay, first up: who expanded this week." Signal
   transitions ("That's the deals. Now, research.").
 - One story at a time: who, what happened, why it matters. Spell numbers the way people say them.
+- PLAIN ENGLISH, built for the ear. Open every story with one short sentence a smart friend outside
+  the industry would understand ("Philips is paying the government to settle a probe into its recalled
+  sleep machines."). Then give one line of background if the story depends on history. Keep sentences
+  under about 20 words, one idea per sentence. Replace jargon with plain words, or explain it in the
+  same breath ("a consent decree, basically a court order"). Never stack legal, financial or chemical
+  terms in one sentence, and use at most one number per sentence. If a story is mostly legal or
+  financial, explain what it means for patients, products or the field, not the legal mechanics.
 - Follow the plan's sections and order exactly; each story is told once.
 - Give each main story a full segment (about 150 to 200 words): what happened, how it works, why it
   matters, and a clear one-line point at the end.
@@ -501,8 +509,9 @@ def make_audio(lines, mp3_path):
             chunk_times.append((ch, probe(w)))
         joined = tmp / "all.wav"
         concat(wavs, joined)
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(joined), "-af", "loudnorm=I=-16",
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(joined), "-af", f"atempo={SPEED},loudnorm=I=-16",
                         "-codec:a", "libmp3lame", "-b:a", "64k", str(mp3_path)], check=True)
+    chunk_times = [(ch, dur / SPEED) for ch, dur in chunk_times]
     write_vtt(chunk_times, mp3_path.with_suffix(".vtt"))
     return int(probe(mp3_path))
 
