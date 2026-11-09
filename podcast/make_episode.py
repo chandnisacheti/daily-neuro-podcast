@@ -152,16 +152,19 @@ closed-loop neuromodulation, who wants a career in neurotech, wearables, digital
 Pick the stories for today's episode from the numbered news items, and plan the rundown.
 
 Selection rules:
-- Coverage mix: neurotech and brain-computer interfaces get the most airtime (aim for at least three
-  neurotech stories whenever there are that many real ones), then wearables and biosensing, digital
-  health, health tech, and medtech relevant to devices, sensors, diagnostics or neuro.
+- FIVE main stories by default: the THREE biggest neurotech stories of the day (BCI, neuromodulation,
+  neural recording, EEG/EMG and neural wearables, neuro research) and the TWO biggest stories from
+  outside neurotech (digital health, health tech, medtech, wearables). Wearables can count on either
+  side. Go to 4 or 6 only if the day is unusually thin or something huge happened; never more than 6.
+  Pick substantive stories with real depth, because each one gets a full segment.
 - Prefer: funding, acquisitions, FDA decisions, notable research, product launches, NYC companies,
   and anything that signals hiring or growth.
 - Skip: duplicates of the same story, items not about health, medicine or neuroscience (stock tickers,
   unrelated companies), thin press releases, generic consumer gadget reviews, and stories already
   covered in recent episodes (listed below) unless there is a genuinely new development.
 - Each story appears ONCE in the whole episode. Never assign the same story to two sections.
-- 6 to 9 stories total.
+- Choose stories that connect to each other where possible, so the Trends segment has something real
+  to tie together.
 
 Sections are flexible. Default order: "Who Expanded" (funding, deals, FDA, growth), "New Research and
 Products", "NYC Watch", "Trends", "Career Signal", "Recap". Drop a section if it would only repeat
@@ -175,8 +178,9 @@ Recently covered stories (do not repeat): {recent}
 Return JSON:
 {{"title": "short episode title",
   "sections": [{{"name": "...", "stories": [{{"id": 3, "angle": "one line: what to emphasize and why it matters to Chandni"}}]}}],
-  "trends": ["one-line trend tied to story ids"],
-  "career_signal": "two lines",
+  "trends": ["2 to 3 trends, each naming which of today's stories (by id) show it and what it means for the field"],
+  "career_signal": "3 to 4 concrete lines: which companies or areas look like they are growing or hiring, and the specific role or pitch Chandni could make to each",
+  "recap": ["exactly one memorable line per main story, in the order they were told"],
   "skipped": [{{"id": 7, "reason": "short reason"}}]}}
 Every item id must appear exactly once, either in a section or in skipped.
 
@@ -198,14 +202,27 @@ never the same sentence pattern twice in a row. Do not say "This matters because
 every time; vary how you land each story, but every story should end with a clear one-line point.
 
 EASY TO FOLLOW BY EAR:
-- Intro: two short lines (hello, the date). No list of headlines up front.
+- Intro: two short lines (hello, the date), plus one line saying how many stories are coming
+  ("Five stories today: three in neurotech, two in health tech"). No list of headlines up front.
+- Number the stories as you go ("Story two of five"), so the listener always knows where she is.
 - Announce each section clearly by name, e.g. "Okay, first up: who expanded this week." Signal
   transitions ("That's the deals. Now, research.").
 - One story at a time: who, what happened, why it matters. Spell numbers the way people say them.
-- Follow the plan's sections and order exactly; each story is told once. Trends, Career Signal and
-  Recap refer back to stories without re-telling them.
+- Follow the plan's sections and order exactly; each story is told once.
+- Give each main story a full segment (about 150 to 200 words): what happened, how it works, why it
+  matters, and a clear one-line point at the end.
+- The closing segments are what make the episode memorable, so make them strong (about 350 words total):
+  * Trends: two or three patterns that cut ACROSS today's stories. For each, name the stories that
+    show it ("the ring clearance and the HRV study both say..."), then what it means for where the
+    field is heading.
+  * Career Signal: concrete and specific. Which companies or areas are growing, and for each one,
+    what role or pitch someone with Chandni's background (biosignal ML, EEG/EMG/HRV, closed-loop
+    neuromodulation, productization) could bring them.
+  * Recap: go back through every main story in order, one memorable sentence each ("One: ... Two: ..."),
+    then one sentence that ties the whole day together. This should let her remember the episode
+    after a walk.
 - Use only facts present in the items. Do not invent numbers, names or quotes.
-- About 1,500 words.
+- About 1,500 to 1,700 words.
 
 Output ONLY dialogue lines, each starting with "Nora:" or "Theo:". No stage directions, no markdown.
 
