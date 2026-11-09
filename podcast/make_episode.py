@@ -465,8 +465,12 @@ def make_audio(lines, mp3_path):
                         tts_gemini(ch, w)
                         time.sleep(20)  # stay under free-tier rate limits
                     except Exception as e:  # noqa: BLE001
-                        log(f"Gemini TTS failed ({e}); switching to free Edge voices")
+                        log(f"Gemini TTS failed ({e}); switching to free Edge voices for the WHOLE episode")
                         use_edge = True
+                        # re-voice earlier chunks so the hosts don't change voice mid-episode
+                        for j, (prev_ch, _) in enumerate(chunk_times):
+                            tts_edge(prev_ch, wavs[j], tmp)
+                            chunk_times[j] = (prev_ch, probe(wavs[j]))
                 if use_edge:
                     tts_edge(ch, w, tmp)
             wavs.append(w)
