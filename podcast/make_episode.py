@@ -30,9 +30,15 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 EPISODES = DOCS / "episodes"
 KEEP_EPISODES = 21
-HOSTS = ("Maya", "Leo")
-VOICES = {"Maya": "Kore", "Leo": "Puck"}
-EDGE_VOICES = {"Maya": "en-US-AvaNeural", "Leo": "en-US-AndrewNeural"}
+HOSTS = ("Nora", "Theo")
+# Distinct voices: Nora bright and quick, Theo lower and relaxed. Fallback pair if Google renames voices.
+VOICES = {"Nora": "Aoede", "Theo": "Charon"}
+FALLBACK_VOICES = {"Nora": "Kore", "Theo": "Puck"}
+STYLES = {
+    "Nora": "bright, quick, curious morning-show host; smiles while talking; energetic but clear",
+    "Theo": "relaxed, lower-pitched, thoughtful engineer; slower cadence, small pauses, dry humor",
+}
+EDGE_VOICES = {"Nora": "en-US-AvaNeural", "Theo": "en-US-AndrewNeural"}
 API = "https://generativelanguage.googleapis.com/v1beta/models"
 KEY = os.environ.get("GEMINI_API_KEY", "")
 TEXT_MODEL = os.environ.get("GEMINI_TEXT_MODEL", "")  # empty = pick newest Flash model automatically
@@ -80,9 +86,13 @@ def log(*a):
 
 
 # ---------- 1. news ----------
+SOURCE_STATUS = []
+
+
 def gather_news(hours=30):
     cutoff = time.time() - hours * 3600
     seen, items = set(), []
+    SOURCE_STATUS.clear()
     for label, url, cap in FEEDS:
         try:
             r = requests.get(url, timeout=20, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/xml, text/xml, */*"})
@@ -90,6 +100,7 @@ def gather_news(hours=30):
             parsed = feedparser.parse(r.content)
         except Exception as e:  # noqa: BLE001
             log(f"skip {label}: {e}")
+            SOURCE_STATUS.append((label, f"failed ({str(e)[:60]})"))
             continue
         n = 0
         for e in parsed.entries:
@@ -108,6 +119,9 @@ def gather_news(hours=30):
             if n >= cap:
                 break
         log(f"{label}: {n} items")
+        SOURCE_STATUS.append((label, f"{n} new items"))
+    for i, it in enumerate(items):
+        it["id"] = i + 1
     return items
 
 
@@ -131,70 +145,162 @@ def gemini(model, body, tries=4):
     raise RuntimeError(f"Gemini call to {model} failed")
 
 
-PROMPT = """You write "Neuro Morning", a daily ~10 minute news podcast for Chandni, an MS Biomedical
-Engineering student at Columbia (NYC) who works on biosignal ML (EEG, EMG, HRV, EDA) and closed-loop
-neuromodulation, and wants a career in neurotech, wearables and healthtech.
+EDITOR_PROMPT = """You are the editor of "Neuro Morning", a daily ~10 minute audio news briefing for Chandni, an
+MS Biomedical Engineering student at Columbia (NYC) working on biosignal ML (EEG, EMG, HRV, EDA) and
+closed-loop neuromodulation, who wants a career in neurotech, wearables, digital health and health tech.
 
-She listens while walking or commuting, so the show must be EASY TO FOLLOW BY EAR:
-- Clear fixed structure with spoken signposts. Announce every section by number and name,
-  e.g. "Section one: Who Expanded." When moving on, say so: "That's it for research. Section three..."
-- One story at a time. Say the company or lab name, then what happened, then why it matters.
-- Short sentences. Spell out numbers the way people say them. No lists of more than three things.
-- End each story with a one-sentence takeaway that starts with "The takeaway:".
-- Light, warm banter only BETWEEN stories, never in the middle of the facts.
+Pick the stories for today's episode from the numbered news items, and plan the rundown.
 
-Hosts: Maya (anchor, keeps the structure) and Leo (adds context and the "why it matters").
+Selection rules:
+- Coverage mix: neurotech and brain-computer interfaces get the most airtime (aim for at least three
+  neurotech stories whenever there are that many real ones), then wearables and biosensing, digital
+  health, health tech, and medtech relevant to devices, sensors, diagnostics or neuro.
+- Prefer: funding, acquisitions, FDA decisions, notable research, product launches, NYC companies,
+  and anything that signals hiring or growth.
+- Skip: duplicates of the same story, items not about health, medicine or neuroscience (stock tickers,
+  unrelated companies), thin press releases, generic consumer gadget reviews, and stories already
+  covered in recent episodes (listed below) unless there is a genuinely new development.
+- Each story appears ONCE in the whole episode. Never assign the same story to two sections.
+- 6 to 9 stories total.
 
-STRUCTURE (exactly these six sections, in this order; skip a section only if there is truly
-nothing for it):
-Intro: two short lines only. Say hello and the date. Do NOT preview or list stories up front.
-Section one: Who Expanded. Funding rounds, acquisitions, partnerships, FDA clearances and approvals,
-  new sites or teams. For each, say the company, the move (amount and stage for funding), and why it
-  matters.
-Section two: New Research and Products. Notable papers, results and product launches, explained simply.
-Section three: NYC Watch. Anything involving New York companies, labs or investors.
-Section four: Trends. Two or three patterns you see across today's stories and the space overall
-  (for example where funding is flowing, what regulators are focusing on, which technologies keep
-  showing up). Tie each trend to at least one of today's stories; do not invent data.
-Section five: Career Signal. Which companies or areas look like they are growing or hiring, based
-  only on today's stories, and what kind of role someone like Chandni could pitch them.
-Section six: Recap. "Three things to remember today", then sign off.
+Sections are flexible. Default order: "Who Expanded" (funding, deals, FDA, growth), "New Research and
+Products", "NYC Watch", "Trends", "Career Signal", "Recap". Drop a section if it would only repeat
+earlier stories (for example, if the only NYC story was already covered, mention the NYC angle when
+that story is told and skip NYC Watch). Rename or reorder sections when that makes the day clearer.
+Trends, Career Signal and Recap tie together stories already told and must not introduce repeats as
+new stories.
 
-Coverage: aim for a balanced mix across neurotech and brain-computer interfaces, wearables and
-biosensing, digital health (apps, remote monitoring, AI in care, virtual care), health tech, and
-medtech that is relevant to devices, sensors, diagnostics or neuro. Lead with neurotech and wearables
-when the news is comparable, but always include digital health and health tech stories when there are
-good ones. Ignore items that are not about health, medicine or neuroscience
-(for example stock tickers that happen to contain "BCI"). Do not invent facts, numbers or names
-that are not in the items. Today is {date}. About 1,500 words total.
+Recently covered stories (do not repeat): {recent}
 
-Output ONLY dialogue lines, each starting with "Maya:" or "Leo:". No stage directions, no markdown.
-On the very first line before the dialogue, write "TITLE: " followed by a short episode title.
+Return JSON:
+{{"title": "short episode title",
+  "sections": [{{"name": "...", "stories": [{{"id": 3, "angle": "one line: what to emphasize and why it matters to Chandni"}}]}}],
+  "trends": ["one-line trend tied to story ids"],
+  "career_signal": "two lines",
+  "skipped": [{{"id": 7, "reason": "short reason"}}]}}
+Every item id must appear exactly once, either in a section or in skipped.
 
 NEWS ITEMS (JSON):
 {items}
 """
 
+WRITER_PROMPT = """Write the script for today's "Neuro Morning" from the editor's plan below.
+Today is {date}. Listener: Chandni (see plan). She listens while walking or commuting.
 
-def write_script(items, date):
+HOSTS (distinct people, distinct ways of talking):
+- Nora: the anchor. Quick, bright, curious. Short punchy sentences, asks the questions a smart
+  listener would ask ("Wait, how big is that?"), moves the show along, announces sections.
+- Theo: the engineer-analyst. Slower, thoughtful, a little dry humor. Explains the mechanism or the
+  "so what" in plain words, often starts with "Here's the thing" or "So, practically..." (vary it).
+They trade off who introduces stories. Natural speech: contractions, varied sentence length, quick
+reactions ("Huh.", "Right.", "Okay, that's big."), occasional friendly back-and-forth. Never robotic,
+never the same sentence pattern twice in a row. Do not say "This matters because" or "The takeaway"
+every time; vary how you land each story, but every story should end with a clear one-line point.
+
+EASY TO FOLLOW BY EAR:
+- Intro: two short lines (hello, the date). No list of headlines up front.
+- Announce each section clearly by name, e.g. "Okay, first up: who expanded this week." Signal
+  transitions ("That's the deals. Now, research.").
+- One story at a time: who, what happened, why it matters. Spell numbers the way people say them.
+- Follow the plan's sections and order exactly; each story is told once. Trends, Career Signal and
+  Recap refer back to stories without re-telling them.
+- Use only facts present in the items. Do not invent numbers, names or quotes.
+- About 1,500 words.
+
+Output ONLY dialogue lines, each starting with "Nora:" or "Theo:". No stage directions, no markdown.
+
+EDITOR'S PLAN (JSON):
+{plan}
+
+ITEMS USED (JSON):
+{items}
+"""
+
+
+def load_recent_titles(days=3):
+    path = DOCS / "covered.json"
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text())
+    return [t for d in data[-days:] for t in d.get("titles", [])]
+
+
+def save_covered(slug, titles):
+    path = DOCS / "covered.json"
+    data = json.loads(path.read_text()) if path.exists() else []
+    data = [d for d in data if d.get("slug") != slug] + [{"slug": slug, "titles": titles}]
+    path.write_text(json.dumps(data[-7:], indent=1, ensure_ascii=False))
+
+
+def plan_episode(items):
     if DRY:
-        return "Test episode", [("Maya", "Good morning! This is a test."), ("Leo", "Everything works.")]
-    body = {"contents": [{"parts": [{"text": PROMPT.format(date=date, items=json.dumps(items[:90], ensure_ascii=False))}]}],
-            "generationConfig": {"temperature": 0.8}}
+        return {"title": "Test episode", "sections": [{"name": "Who Expanded", "stories": [{"id": it["id"], "angle": "test"} for it in items[:1]]}],
+                "trends": [], "career_signal": "", "skipped": [{"id": it["id"], "reason": "test"} for it in items[1:]]}
+    recent = load_recent_titles() or ["(none)"]
+    slim = [{k: it[k] for k in ("id", "source", "title", "summary")} for it in items[:120]]
+    body = {"contents": [{"parts": [{"text": EDITOR_PROMPT.format(recent=json.dumps(recent, ensure_ascii=False),
+                                                                    items=json.dumps(slim, ensure_ascii=False))}]}],
+            "generationConfig": {"temperature": 0.3, "responseMimeType": "application/json"}}
     out = gemini(TEXT_MODEL, body)
     text = "".join(p.get("text", "") for p in out["candidates"][0]["content"]["parts"])
-    title, lines = f"Neuro Morning, {date}", []
+    plan = json.loads(text)
+    # enforce: each story once
+    used = set()
+    for sec in plan.get("sections", []):
+        sec["stories"] = [st for st in sec.get("stories", []) if st.get("id") not in used and not used.add(st.get("id"))]
+    plan["sections"] = [sec for sec in plan.get("sections", []) if sec["stories"] or
+                        sec.get("name", "").lower() in ("trends", "career signal", "recap")]
+    return plan
+
+
+def write_script(items, plan, date):
+    if DRY:
+        return plan.get("title", "Test episode"), [("Nora", "Good morning! This is a test."), ("Theo", "Everything works.")]
+    by_id = {it["id"]: it for it in items}
+    used_ids = [st["id"] for sec in plan["sections"] for st in sec["stories"]]
+    used_items = [by_id[i] for i in used_ids if i in by_id]
+    body = {"contents": [{"parts": [{"text": WRITER_PROMPT.format(date=date, plan=json.dumps(plan, ensure_ascii=False),
+                                                                    items=json.dumps(used_items, ensure_ascii=False))}]}],
+            "generationConfig": {"temperature": 0.9}}
+    out = gemini(TEXT_MODEL, body)
+    text = "".join(p.get("text", "") for p in out["candidates"][0]["content"]["parts"])
+    title, lines = plan.get("title") or f"Neuro Morning, {date}", []
     for raw in text.splitlines():
         raw = raw.strip().replace("**", "")
-        if raw.upper().startswith("TITLE:"):
-            title = raw.split(":", 1)[1].strip() or title
-            continue
-        m = re.match(r"^(Maya|Leo)\s*:\s*(.+)$", raw)
+        m = re.match(r"^(Nora|Theo)\s*:\s*(.+)$", raw)
         if m:
             lines.append((m.group(1), m.group(2)))
     if len(lines) < 6:
         raise RuntimeError("Script came back too short:\n" + text[:1000])
     return title, lines
+
+
+def write_editor_log(items, plan, slug, date_str):
+    by_id = {it["id"]: it for it in items}
+    out = [f"# Editor's log, {date_str}", "", f"Episode: {plan.get('title', '')}", "",
+           "## How this episode was made",
+           "1. Pulled every item published in the last ~30 hours from the sources below.",
+           "2. Gemini (editor pass) picked 6 to 9 stories, assigned each to one section, and logged why the rest were skipped.",
+           "3. Gemini (writer pass) wrote the two-host script from only the picked stories.",
+           "4. Gemini voiced it; GitHub published it.", "",
+           "## Sources checked"]
+    out += [f"- {label}: {status}" for label, status in SOURCE_STATUS]
+    out += ["", "## Used, by section"]
+    for sec in plan.get("sections", []):
+        out.append(f"### {sec.get('name', '')}")
+        for st in sec.get("stories", []):
+            it = by_id.get(st.get("id"), {})
+            out.append(f"- {it.get('title', '?')} ({it.get('source', '')}) [link]({it.get('link', '')})  \n  Angle: {st.get('angle', '')}")
+    if plan.get("trends"):
+        out += ["", "## Trends noted"] + [f"- {t}" for t in plan["trends"]]
+    out += ["", "## Not used, and why"]
+    for sk in plan.get("skipped", []):
+        it = by_id.get(sk.get("id"), {})
+        out.append(f"- {it.get('title', '?')} ({it.get('source', '')}): {sk.get('reason', '')}")
+    d = DOCS / "logs"
+    d.mkdir(exist_ok=True)
+    (d / f"{slug}.md").write_text("\n".join(out) + "\n")
+    return "\n".join(out)
 
 
 LEADS_PROMPT = """From the news items below, list companies (or labs) that show a growth signal useful for a
@@ -248,10 +354,22 @@ def chunks(lines, size=14):
 
 
 def tts_gemini(chunk, wav_path):
+    global VOICES
+    try:
+        return _tts_gemini(chunk, wav_path)
+    except Exception as e:  # noqa: BLE001
+        if VOICES == FALLBACK_VOICES:
+            raise
+        log(f"preferred voices failed ({e}); trying fallback voices")
+        VOICES = dict(FALLBACK_VOICES)
+        return _tts_gemini(chunk, wav_path)
+
+
+def _tts_gemini(chunk, wav_path):
     # Gemini 3.x TTS: every text part carries its own speaker tag; no untagged preamble allowed.
     body = {
         "contents": [{"role": "user", "parts": [
-            {"text": t, "speechMetadata": {"speaker": s, "style": "warm, lively morning podcast host"}}
+            {"text": t, "speechMetadata": {"speaker": s, "style": STYLES[s]}}
             for s, t in chunk
         ]}],
         "generationConfig": {
@@ -376,7 +494,11 @@ def main():
     log(f"{len(items)} news items")
     if not items and not DRY:
         sys.exit("No news found; skipping today")
-    title, lines = write_script(items, date_str)
+    plan = plan_episode(items)
+    title, lines = write_script(items, plan, date_str)
+    editor_log = write_editor_log(items, plan, slug, date_str)
+    by_id = {it["id"]: it for it in items}
+    save_covered(slug, [by_id[st["id"]]["title"] for sec in plan["sections"] for st in sec["stories"] if st["id"] in by_id])
     log(f"script: {len(lines)} lines, title: {title}")
 
     write_leads(extract_leads(items), slug, date_str)
@@ -387,12 +509,11 @@ def main():
     meta_path = DOCS / "episodes.json"
     eps = json.loads(meta_path.read_text()) if meta_path.exists() else []
     eps = [e for e in eps if e["slug"] != slug]
-    links = "\n".join(f"- {it['title']} ({it['source']}): {it['link']}" for it in items[:40])
     eps.insert(0, {
         "slug": slug, "title": title, "date": now.strftime("%a, %d %b %Y %H:%M:%S +0000"),
         "seconds": seconds, "bytes": mp3.stat().st_size,
         "notes": "Full transcript:\n\n" + "\n\n".join(f"{sp}: {t}" for sp, t in lines)
-                 + "\n\nSources from the last 24 hours:\n" + links,
+                 + "\n\n" + editor_log,
     })
     for old in eps[KEEP_EPISODES:]:
         (EPISODES / f"{old['slug']}.mp3").unlink(missing_ok=True)
