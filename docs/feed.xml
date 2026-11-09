@@ -13,6 +13,262 @@
   <itunes:block>Yes</itunes:block>
   <itunes:category text="Science"/>
   <item>
+   <title>Closing the Loop: From Wearable Rings to Deep Brain Beta Dynamics</title>
+   <description>Full transcript:
+
+Nora: Good morning, Chandni!
+
+Theo: It is Sunday, November eighth, 2026, and this is Neuro Morning.
+
+Nora: Okay, first up: who expanded this week.
+
+Theo: Let us start with Samsung. They picked up regulatory clearance from the United States Food and Drug Administration, alongside approval from South Korea's Ministry of Food and Drug Safety, for sleep apnea tracking on the Galaxy Ring.
+
+Nora: Wait, sleep apnea on a ring? We have seen blood oxygen and pulse tracking on fingers for a while, but an actual clearance for sleep apnea feels like a massive leap for that form factor.
+
+Theo: It really is. Up to now, consumer rings lived squarely in the wellness space. You get a sleep score, you see some overnight heart rate charts, and that is about it. But detecting sleep apnea means passive optical sensors on a ring are now pulling signals reliable enough to satisfy medical device regulators.
+
+Nora: And doing it without a bulky wrist strap, chest band, or nasal cannula.
+
+Theo: Right. Finger optics have unique challenges with motion artifacts and perfusion changes overnight. Passing review in both the United States and South Korea means their feature extraction algorithms are consistently spotting transient oxygen desaturations and micro-arousals. Passive consumer wearables are officially stepping across the line into regulated clinical diagnostics.
+
+Nora: From smart rings to deep cardiovascular implants. Theo, what is Blackstone doing in medtech funding?
+
+Theo: Blackstone Life Sciences just inked a four hundred fifty-five million dollar co-funding agreement with Boston Scientific. The cash is earmarked to advance Boston Scientific's next-generation miniature heart pump system.
+
+Nora: Four hundred fifty-five million dollars. That is a gigantic tranche of capital for a single product line.
+
+Theo: It is, but developing miniature active implants is brutally expensive. You have got extreme fluid dynamics constraints, strict biocompatibility requirements, complex motor miniaturization, and years of clinical trials before commercial viability. Medtech giants used to absorb all that research and development spending on their own balance sheets, which often slowed down high-risk programs.
+
+Nora: So Boston Scientific offloads the financial exposure, and Blackstone takes a cut down the road if the implant hits clinical milestones.
+
+Theo: Exactly. We are seeing private equity step in as specialized co-funders to bridge the gap between benchtop miniaturization and commercial rollouts. Private equity co-funding is becoming the go-to playbook for financing high-stakes, miniature implant engineering.
+
+Nora: Meanwhile, over in non-invasive neurotech, China's BrainCo is making a loud commercial push.
+
+Theo: They are explicitly staking their commercial strategy on a simple thesis: wearables will beat surgical implants in the broader brain-tech race.
+
+Nora: That is a direct challenge to the invasive BCI narrative dominating headlines lately.
+
+Theo: Yes, and it highlights a fundamental engineering trade-off. Invasive arrays get you single-unit spikes and high spatial resolution, but they require neurosurgery, long regulatory cycles, and specialized clinical care. BrainCo is focusing on non-invasive electroencephalography and surface electromyography. You lose high-frequency intracranial signals, but you gain mass accessibility, lower manufacturing costs, and immediate consumer and assistive device markets.
+
+Nora: Right, an electrode on the scalp or forearm can ship to thousands of people tomorrow morning, while surgical chips remain limited to specialized clinical trials.
+
+Theo: That is the whole bet. While neural implants capture headlines, the near-term commercial neurotech market is putting its money on accessible non-invasive interfaces.
+
+Nora: That is the deals and commercial moves. Now, let us turn to new research and biosignal machine learning.
+
+Theo: First off, some compelling electrophysiology out of deep brain stimulation research. A new study analyzed local field potentials in Parkinson's disease and found distinct beta oscillation dynamics between two classic stimulation targets: the subthalamic nucleus and the internal globus pallidus.
+
+Nora: Wait, both of those targets are routine sites for DBS, right? Why do their beta dynamics look different?
+
+Theo: Mechanistically, both structures sit within the basal ganglia motor loop, but their microcircuitry and firing patterns diverge. In the subthalamic nucleus, beta bursts tend to have specific temporal profiles and amplitude distributions that shift noticeably during movement initiation. In the pallidum, the beta dynamics show distinct synchronization patterns and respond differently to dopamine state transitions.
+
+Nora: And that matters directly for adaptive DBS. If Chandni is programming an algorithmic trigger, a closed-loop system cannot treat beta oscillations in the subthalamus the exact same way it treats beta in the pallidum.
+
+Theo: Precisely. If your adaptive controller is listening for pathologically prolonged beta bursts to dial up current, the threshold you set for the subthalamic nucleus would completely misfire if applied to a pallidal lead. Mapping structure-specific beta signatures gives closed-loop neuromodulation systems the precise triggers they need to adapt stimulation on the fly.
+
+Nora: Speaking of Parkinson's, we also saw a new interpretable deep learning framework designed specifically for EEG classification in motor disorders.
+
+Theo: This one sits right at the center of Chandni's daily work. Deep learning models often achieve impressive classification scores on surface EEG, but clinicians hate black boxes. If a neural network says a patient shows early electrophysiological markers of Parkinson's, a neurologist needs to know why.
+
+Nora: Does it point back to actual sensorimotor rhythms, or is it just overfitting to eye blink artifacts and amplifier drift?
+
+Theo: Exactly. This framework uses an interpretable architecture that maps internal latent representations back to spatial electrode configurations and specific frequency bands. It reveals whether the model's decision boundaries align with known motor pathophysiology, like disrupted sensorimotor beta reactivity or frontocentral rhythm slowing.
+
+Nora: That makes the translation from model weights to clinical trust actually possible.
+
+Theo: Without that interpretability layer, regulatory submission and bedside adoption stall out completely. Explainability is moving from an academic bonus to a hard requirement for neural network pipelines targeting motor disorders.
+
+Nora: But if you are training those EEG models across multiple hospitals, you run straight into data privacy. And that brings us to the next study: federated learning on EEG data.
+
+Theo: Here is the finding that should make every biosignal machine learning engineer pause. A new investigation proved that standard federated learning setups for EEG leak participant privacy, even though raw brain wave records never leave the local hospital servers.
+
+Nora: Hold on. Isn't the entire premise of federated learning that local patient data stays completely private because you only share model weights?
+
+Theo: That is the promise on paper. But neural signals are intensely personal and high-dimensional. It turns out that by inspecting the gradient updates and parameter weight changes transmitted to the central aggregator, an attacker can reconstruct identifiable subject characteristics and even trace specific neural response patterns back to individual participants.
+
+Nora: Wow. That completely breaks the assumption of built-in compliance for decentralized neurotech research.
+
+Theo: It means you cannot just install a standard federated optimizer and call it a day. Decentralized biosignal pipelines require explicit mathematical privacy protections, like differential privacy noise injection and secure multi-party computation, to prevent gradient reconstruction attacks.
+
+Nora: Moving from the brain down to the autonomic nervous system: we have a new clinical validation study on heart rate variability.
+
+Theo: Researchers showed that preoperative and continuous postoperative heart rate variability directly predicts the onset of major surgical complications.
+
+Nora: People usually think of HRV as an athlete recovery metric, or at most a tool for chronic cardiology. How does it forecast surgical complications?
+
+Theo: Because heart rate variability is a direct, dynamic window into autonomic tone. High-frequency variations reflect vagal nerve modulation, while lower frequencies capture the interplay between sympathetic and parasympathetic drive. When systemic inflammation, occult bleeding, or early sepsis set in, the autonomic nervous system responds hours before blood pressure tanks or white blood cell counts spike.
+
+Nora: So an uncoupling of beat-to-beat variability serves as an early physiological smoke alarm.
+
+Theo: Exactly. Depressed HRV shows that the patient's physiological regulatory reserve is failing under systemic stress. Heart rate variability is proving its clinical diagnostic value far beyond fitness trackers and cardiac wards.
+
+Nora: To wrap up new research: an AI-driven brain-computer interface framework proposed specifically for Alzheimer's disease care.
+
+Theo: Most BCI systems historically focused on motor replacement, like controlling a prosthetic limb or moving a computer cursor after spinal trauma. This review outlines a multi-tiered framework using multimodal neural decoding to address neurodegenerative cognitive decline.
+
+Nora: How does a BCI help with cognitive decline over years, though?
+
+Theo: The architecture integrates non-invasive EEG, evoked potentials, and behavioural task data into an adaptive decoding engine. Instead of single-trial motor intent, it tracks longitudinal shifts in cognitive state, working memory encoding, and sensory processing latencies.
+
+Nora: And then you close the loop by triggering cognitive rehabilitation tasks or targeted sensory stimulation when the decoder catches state lapses.
+
+Theo: Exactly. It turns the interface from a one-way monitor into an active, long-term intervention platform. Multimodal AI interfaces are expanding BCI research past motor restoration into long-term cognitive care.
+
+Nora: Let us step back and look at the broader trends running through these stories.
+
+Theo: The first big trend is that clinical biosensing is standardizing across wildly different physical form factors. Think about it: we have got Samsung's consumer ring capturing validated sleep apnea metrics, local field potential decoders parsing target-specific beta dynamics in the basal ganglia, and continuous heart rate variability tracking autonomic stress after surgery. Whether you are dealing with optical wrist-and-finger sensors, surface electrodes, or deep brain leads, the industry is moving past coarse descriptive stats toward validated, physiology-specific biomarker extraction.
+
+Nora: And the second trend is that biosignal machine learning is hitting the reality wall of clinical deployment. The honeymoon phase of chasing raw accuracy scores with uninterpretable models is over. The interpretable Parkinson's EEG framework shows that models must expose their biological logic to clinicians. At the same time, the privacy leaks discovered in federated EEG learning prove that distributed training pipelines cannot rely on naive decentralized architectures. Safety, explainability, and differential privacy are taking center stage.
+
+Theo: Which brings us directly to today's career signal for Chandni.
+
+Nora: Translational neurotech teams are actively hunting for engineers who can bridge two traditionally separate worlds: feature-level biosignal processing and secure, explainable machine learning architectures.
+
+Theo: That means knowing how to extract physiological meaning from messy time-series data, whether that is beta burst durations in subthalamic field potentials, beat-to-beat intervals in autonomic monitoring, or multichannel scalp EEG. But it also means pairing that signal processing with interpretable network designs and strict privacy-preserving techniques. If you can build algorithmic pipelines that handle closed-loop dynamics while satisfying clinical interpretability and data protection standards, you sit right in the sweet spot for emerging research and development roles in medical-grade wearables and implantable neurodevices.
+
+Nora: That covers our look at the neurotech landscape this Sunday morning. From passive rings gaining clinical teeth to interpretable models decoding basal ganglia loops, the gap between consumer hardware and high-precision neurophysiology is closing fast.
+
+Theo: Enjoy your walk, keep those pipelines explainable, and we will catch you right back here next time.
+
+Nora: Have a great Sunday, Chandni!
+
+# Editor's log, Sunday, November 8, 2026
+
+Episode: Closing the Loop: From Wearable Rings to Deep Brain Beta Dynamics
+
+## How this episode was made
+1. Pulled every item published in the last ~30 hours from the sources below.
+2. Gemini (editor pass) picked 6 to 9 stories, assigned each to one section, and logged why the rest were skipped.
+3. Gemini (writer pass) wrote the two-host script from only the picked stories.
+4. Gemini voiced it; GitHub published it.
+
+## Sources checked
+- Neurotechnology Substack: failed (403 Client Error: Forbidden for url: https://neurotechnology)
+- Neuroscience News: 0 new items
+- MedTech Dive: 0 new items
+- Fierce Biotech MedTech: 8 new items
+- STAT Health Tech: 1 new items
+- MobiHealthNews: failed (403 Client Error: Forbidden for url: https://www.mobihealthn)
+- TechCrunch Health: 0 new items
+- FDA Medical Devices: failed (404 Client Error: Not Found for url: https://www.fda.gov/apo)
+- Google News: neurotech: 12 new items
+- Google News: Neurotechnology Substack: 0 new items
+- Google News: BCI companies: 0 new items
+- Google News: neuromodulation: 9 new items
+- Google News: EEG and neural wearables: 8 new items
+- Google News: neuro funding: 7 new items
+- Google News: FDA neuro devices: 4 new items
+- Google News: NYC neurotech: 0 new items
+- Google News: wearables: 8 new items
+- Fierce Healthcare Health Tech: 0 new items
+- Healthcare IT News: failed (403 Client Error: Forbidden for url: https://www.healthcarei)
+- Google News: digital health: 6 new items
+- Google News: health tech AI: 6 new items
+- Google News: medtech devices: 6 new items
+- bioRxiv Neuroscience: failed (404 Client Error: Not Found for url: https://connect.biorxiv)
+
+## Used, by section
+### Who Expanded
+- Upgraded Sleep Apnea Feature Now Available on Galaxy Ring Following Regulatory Approvals From US FDA and Korea MFDS - samsung.com (Google News: FDA neuro devices) [link](https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbDhzcU9KWDNQVndZWnd3a1A4NkhpdUpEVmcyYjJ0U1pVeWc1OTlyZGpNSUlYX3FJQ1JQeFNZVUxyT09hcWZsN0F3OWpwbzBvdGhMNXNQR25KOU5kV0x1WEdLU1doVmRsdFZwQ2FwWkhMTzBKTEw4RW9Jb1dQeHpfU1dmZ3hZUm0wQmtGVTJ2ZmhiVnRKbFRTbjdXZmdpT0lWN1NlODRWQWd4RzZaZDk2YjYzRHBaeUwxWlRXc2xzODNzTjBCYUVjOGhyNlpmVG44WGttRjVsdUdNcU0?oc=5)  
+  Angle: Samsung's FDA clearance for Galaxy Ring sleep apnea tracking validates how miniaturized, passive biosensors are transitioning from wellness novelties to regulated clinical diagnostics.
+- Blackstone Life Sciences teams up with Boston Scientific in $455M heart pump deal (Fierce Biotech MedTech) [link](https://www.fiercebiotech.com/medtech/blackstone-life-sciences-teams-boston-scientific-455m-heart-pump-deal)  
+  Angle: Blackstone's $455 million co-funding pact with Boston Scientific highlights a growing financing model for high-cost, miniature implantable medtech development.
+- China's BrainCo Bets Wearables Beat Surgery in Brain-Tech Race - The Tech Buzz (Google News: neurotech) [link](https://news.google.com/rss/articles/CBMimwFBVV95cUxOYjhsMHc0SUpMaWRoN2t4dzlfNzdFQi1DRVBBbkFQNk9Pc2xCajVZVWEtX2dMOGFjRThaM0FvWXBWY2pjZUhxQVNBcjVCR3o3RmMxdGRZZktjUlpvVXQyZFVjYTlDWmo2SlZ1UlJ0RjdfMnVZMEFPaHhId0Q4eWNGV19VRWxsMHlPQVo5U0lGMUNpcTF0c0RLZ0JDdw?oc=5)  
+  Angle: BrainCo's commercial push spotlights the engineering trade-offs and market viability of non-invasive EEG/EMG wearables versus surgically implanted BCIs.
+### New Research &amp; Biosignal ML
+- Subthalamic and Pallidal Brain Targets Show Distinct Beta Dynamics in Parkinson’s Disease - Bioengineer.org (Google News: neuromodulation) [link](https://news.google.com/rss/articles/CBMiswFBVV95cUxOaTlyY2JPUGIteXBPdGJQaXBycC1DbkN5bldmOHpSY05wekhHMFRUc1FQU3l5OTlmSmJCeEdoNXByMGpnZUV6MDhsdVR2RW95NHlBWDBJd0R4eHhkYndTRFRJVjNNZnMxQ2VlQ24wQnpiazZzbzNkYndxQm9aajlWS3h4aV9BRFlNVlZSUjZIOWVnR1otaE9IQ0c4QUEzRC1waHVBc01yZ0FiS2hxdDVvU1Z5RQ?oc=5)  
+  Angle: Distinct beta oscillation dynamics between the subthalamic nucleus and pallidum offer crucial electrophysiological markers for programming adaptive, closed-loop DBS systems.
+- EEG Deep Learning Framework Classifies Parkinson’s Disease with Interpretable Analysis - Bioengineer.org (Google News: EEG and neural wearables) [link](https://news.google.com/rss/articles/CBMirwFBVV95cUxNX05KTXA4Rkd3MExQQlpKS3NsRHZtZHQ1a2VrNmE5Vl9CZzZYRHlIWENFOUxYdzJvRlNIRnVsT3pKTl9fNVFNZFhheElRNkEzcG52LVR0bTlLRXJZbzJXNHhuVmxpa1AzcFpyXzN3ZHpLc0dBb0hHQTNkQlNJU2Q0Ulk2aThocFlsNDhYLTlTOHhxRXZVcW5KWkNiNlRETlVPdW5hUkFHNUdKaG9fa1Vr?oc=5)  
+  Angle: An interpretable deep learning framework for EEG classification provides a direct template for Chandni's work in building explainable neural network pipelines for motor disorders.
+- Federated EEG Learning Leaks Privacy Despite Local Data - Bioengineer.org (Google News: neurotech) [link](https://news.google.com/rss/articles/CBMihwFBVV95cUxOQlVFajVGcFpEYU5Zb2xaZ1NvQXhrSXEtLXF4empQQndFcER5Wk16Q19aX1JJbFp3Tlo0T3cwelNPSGVmTFU4U1BCUDFjb3R3REJYZXpKdUJ5Z2tYclNLTS1YMW0yRzdVYjg1Q29pQXVUbjRSd0lnYS1wMXN4NGY5MjdpV0xMWlU?oc=5)  
+  Angle: Proof that federated EEG learning leaks participant privacy warns neurotech engineers that decentralized biosignal training requires explicit differential privacy guards.
+- Heart Rate Variability Predicts Postoperative Complications - Bioengineer.org (Google News: wearables) [link](https://news.google.com/rss/articles/CBMijAFBVV95cUxQTXJUV3VHUDE3allkbjRjR3BwendFdTBhbldXckZmYUlaTGtoMExtd1I1SG9PeHp0aEJHMktyWVY1X0Zab2lwUU5wNVphYmZicnJxeVRLaVAxM2R5a3FtNXlXZGpZaGl0c3JUVDhzZXc1UkF5MlNjb2JVYTdRWmkxODNNRlZVNm5wemJ0NA?oc=5)  
+  Angle: Clinical validation of heart rate variability for predicting post-op complications reinforces the diagnostic weight of autonomic nervous system biosignals beyond cardiac care.
+- Review proposes AI-driven BCI framework for Alzheimer’s care - Bioengineer.org (Google News: neurotech) [link](https://news.google.com/rss/articles/CBMijAFBVV95cUxPRFp1aGpHcUYwVWhnb3hiNVhBZDI0OVVNbUpGN0lhMnpIaEQ2RTdDWkljaUU0ZUZzZHlhVTMxc2dkQ0o2Ums2eks0VW9NT0E1X0UwQWN0c0J3VG1fWlB4WXVpcDA3V0ZlcFB0ZU5jRXJSZkxvTGRENFFvXzBnVXpMNEJaSTAzaGJnMXN3cA?oc=5)  
+  Angle: A newly proposed AI-driven BCI framework for Alzheimer's points toward using multimodal neural decoding for longitudinal cognitive state tracking and intervention.
+
+## Trends noted
+- Clinical biosensing is standardizing across form factors: consumer rings and clinical EEG pipelines are both moving toward validated, target-specific biomarker extraction (Stories 47, 22, 50).
+- Biosignal machine learning is confronting real-world deployment challenges, prioritizing model interpretability and data privacy over black-box accuracy (Stories 17, 32).
+
+## Not used, and why
+- Siemens Healthineers rebrands and carves out in vitro diagnostics biz (Fierce Biotech MedTech): Corporate IVD carve-out unrelated to neurotech or biosensing
+- Smith+Nephew held failed talks with J&amp;J over potential orthopedics combination (Fierce Biotech MedTech): Failed orthopedics joint venture talks with no neuro or device sensor angle
+- Insulin pump maker MiniMed names David Segal chief medical officer (Fierce Biotech MedTech): Routine executive appointment in diabetes management
+- Philips sets aside $322M for proposed DOJ settlement over sleep apnea device recall (Fierce Biotech MedTech): Legal settlement update regarding legacy CPAP recall litigation
+- Abbott's Tectonic test looks to shift artery disease treatment with ‘early’ win (Fierce Biotech MedTech): Interventional cardiology catheter study without biosignal relevance
+- GE HealthCare debuts ceiling-mounted AI image guidance system (Fierce Biotech MedTech): Hospital surgical imaging hardware launch
+- Bracco invests $230M in first US diagnostic imaging manufacturing facility (Fierce Biotech MedTech): Chemical contrast agent manufacturing plant investment
+- STAT+: Why the latest heart drug failures should make us all more skeptical of AI hype (STAT Health Tech): High-level opinion piece focused on pharmaceutical AI drug discovery
+- FI BCI NV, SERIE A (CFI-BCNVAE0.SN) Seasonal returns chart - Yahoo Finance - Yahoo Finance Singapore (Google News: neurotech): Financial stock chart and ticker listing
+- Ethan Gregg - FloWrestling (Google News: neurotech): Sports wrestling news item
+- BCI Minerals Ltd News — HAN:BC3 - TradingView (Google News: neurotech): Mining company financial notice
+- Bar Council scraps upper age limit for LLB Admissions; Supreme Court closes challenge - Education Times (Google News: neurotech): Legal education admissions news
+- Can a Digital Pill Help Treat Depression? Meron Gribetz on Brain Tech - ColombiaOne.com (Google News: neurotech): High-level digital therapeutic interview lacking technical or clinical data
+- JBCCI promotes investment, sustainable industrial growth in Bangladesh - Daily Sun (Google News: neurotech): Bilateral trade chamber announcement
+- Putting Young Innovators Center Stage: Leaders In Future Tech+ Wraps with ¥526 Million in Investment Intentions and 31 Enterprise Landings - The Malaysian Reserve (Google News: neurotech): Regional innovation summit summary lacking specific health tech focus
+- JBCCI backs summit to boost investment, sustainable industrial growth - Daily Observer (Google News: neurotech): Duplicate bilateral business chamber coverage
+- KAIST Co-Leads ERC Project Investigating Brain Activity in Freely Moving Monkeys - Bioengineer.org (Google News: neurotech): Early-stage basic primate neuroscience research without translational device angle
+- Scoping Review Evaluates Transcranial Magnetic Stimulation Effects on Brain Barriers and Clearance - Bioengineer.org (Google News: neuromodulation): Broad literature review of TMS on blood-brain barrier mechanisms
+- Neuromodulation Device: Types and FDA Class - CASRAI (Google News: neuromodulation): Generic reference stub on FDA device classification
+- Timing and spatial CRISPR control in mice - Labroots (Google News: neuromodulation): Preclinical mouse genetics paper
+- Scoping Review Examines Bioelectronic Neuromodulation Across Hypertension and Hypotension Disorders - Bioengineer.org (Google News: neuromodulation): Broad scoping review on bioelectronic medicine in blood pressure
+- Scoping Review Maps Noninvasive Neuromodulation for Chronic Pelvic Pain - Bioengineer.org (Google News: neuromodulation): Scoping review on neuromodulation for pelvic pain
+- Research report: Multi-system benefits of non-invasive spinal cord - Bioengineer.org (Google News: neuromodulation): Brief summary report on non-invasive spinal cord stimulation lacking novel specs
+- Vagus Nerve Stimulation Shows Promise for Bladder Recovery After Spinal Injury - Bioengineer.org (Google News: neuromodulation): Preclinical rodent study on vagus nerve stimulation for bladder recovery
+- Advances in Wearable and Implantable Electronics Reshape Modern Bioelectronic Medicine - Bioengineer.org (Google News: neuromodulation): Broad review article summarizing wearable and implantable electronics
+- EEG hard hat for worker fatigue, safety tool or surveillance? - Pasquale Pillitteri (Google News: EEG and neural wearables): Opinion piece discussing workplace surveillance ethics for EEG hard hats
+- SereniBrain review: The rare EEG headband that does not hide the data - Gadgets &amp; Wearables (Google News: EEG and neural wearables): Consumer gadget product review
+- LiberNovo Announces Omni Pro Earned Ergonomic Product Certification - Home Furnishings Business (Google News: EEG and neural wearables): Office furniture ergonomic certification notice
+- Best Portable EEG for Clinical Research and Patient Studies - The Good Men Project (Google News: EEG and neural wearables): Affiliate listicle of portable EEG hardware
+- China's Shenzhou-23 crew conducts in-orbit EEG tests, other space station experiments - 巴士的報 (Google News: EEG and neural wearables): Brief mention of astronaut routine EEG testing in orbit
+- Sleep Labs Generate Nearly 1.8 Tons of Plastic Waste a Year, Audit Finds - Bioengineer.org (Google News: EEG and neural wearables): Environmental waste audit of clinical sleep laboratory consumables
+- Lower Intraoperative Brain Alpha Power Linked to Postoperative Delirium Risk - Bioengineer.org (Google News: EEG and neural wearables): Correlational study on intraoperative EEG alpha power, secondary to selected ML papers
+- Team8 raises $365 million to back the next generation of AI-native enterprise companies - ynetnews (Google News: neuro funding): Enterprise cybersecurity and IT venture capital fund announcement
+- RadNet posts record Q3 revenue and EBITDA, rais... - Pluang (Google News: neuro funding): Outpatient radiology clinic financial quarterly report
+- Europe's Digital Medicine of Tomorrow: Insights from Vienna, Poland, Austria, and Moldova - Vindobona.org (Google News: neuro funding): High-level European digital medicine policy commentary
+- Eternal CEO Deepinder Goyal’s Temple wearable faces fresh criticism over scientific claims - The Healthy Indian Project (THIP) (Google News: neuro funding): Social media influencer dispute regarding Indian consumer wellness wearable
+- Deepinder Goyal’s 'Temple' Wearable Faces Scrutiny, Investor Ranveer Allahbadia Under Fire - Lokmat Times (Google News: neuro funding): Duplicate coverage of Indian consumer wearable controversy
+- Yamaichi Electronics Raises Forecasts and Dividend on Strong Socket Demand - TipRanks (Google News: neuro funding): Semiconductor hardware manufacturing financial report
+- Deepinder Goyal's 'Temple' Wearable Faces Scrutiny; Ranveer Allahbadia's Investment Questioned - Lokmat Times (Google News: neuro funding): Duplicate coverage of Indian consumer wearable controversy
+- AstraZeneca Bids $10B for Rhythm, Rare Obesity - 조선일보 (Google News: FDA neuro devices): Pharmaceutical acquisition bid in rare metabolic obesity
+- Pfizer’s TALZENNA Plus XTANDI FDA-Approved for an Earlier Metastatic Prostate Cancer Treatment Setting - Business Wire (Google News: FDA neuro devices): Pharmaceutical oncology drug FDA approval
+- FDA Grants Accelerated Approval to New Treatment for Head and Neck Squamous Cell Carcinoma - Medical Dialogues (Google News: FDA neuro devices): Accelerated approval for oncology pharmaceutical
+- WAVwatch 2.2 Review: A Sound Therapy Wearable That Defies Testing - Techaeris (Google News: wearables): Product review of alternative sound therapy wristband
+- A smartwatch may offer more, but a fitness band could be all you need during the Amazon Great Indian Festival Sale - TradingView (Google News: wearables): Consumer e-commerce sale buying guide
+- WHO Seeks Input on Wearables for Population Health Monitoring - Mirage News (Google News: wearables): Multilateral public health consultative request for information
+- Fitness: The joys and struggles of wearable tech - Montreal Gazette (Google News: wearables): Personal lifestyle column on fitness tracking
+- Microneedle Biosensors Advance Minimally Invasive Transdermal Diagnostics and Real-Time Health Monitoring - Bioengineer.org (Google News: wearables): Material science literature review on microneedle chemical sensing
+- iRhythm Holdings to present at Wells Fargo healthcare conference - scanx.trade (Google News: wearables): Notice of scheduled investor conference presentation
+- Momax 1-Wear Curvex Launches in Japan With 3D-Curved AMOLED Display Rare at $100 - Tech Times (Google News: wearables): Budget consumer smartwatch product launch
+- Eli Lilly Partners With Hims &amp; Hers to Expand GLP-1 Access - Healthcare Digital (Google News: digital health): Telehealth commercial partnership for obesity medications
+- Innovative Medicines Initiative (IMI) Guide - CASRAI (Google News: digital health): Generic reference stub on European grant initiative
+- West African Leaders Push for Integrated Health Data Systems - Bioengineer.org (Google News: digital health): Regional public health infrastructure policy report
+- Medable: Decentralized Clinical Trials Platform - CASRAI (Google News: digital health): Reference stub describing clinical trial software platform
+- FDA CDRH: Medical Device &amp; Radiation Health Guide - CASRAI (Google News: digital health): Reference stub on FDA CDRH structure
+- Cancer Moonshot: NCI Funding &amp; Research Grants - CASRAI (Google News: digital health): Reference stub on government cancer grants
+- UK polar vortex splits unusually early, raising risk of winter snow and severe cold - Beinsure (Google News: health tech AI): Meteorological weather report on polar vortex
+- Google.org Awards $2.5m for Clinical AI Deployment in Nigeria - THISDAYLIVE (Google News: health tech AI): Philanthropic grant for regional clinical AI deployment
+- University Hospitals (Ohio) cyberattack leaves MyChart offline for two weeks - Beinsure (Google News: health tech AI): Hospital IT cyberattack news report
+- 'Disclose Your Interests': The Liver Doc Questions Ranveer Allahbadia Over Temple - NDTV Profit (Google News: health tech AI): Duplicate coverage of consumer wearable controversy in India
+- Workflow, AI, health: test your business creativity with Edition 257 of our weekly quiz! - YourStory.com (Google News: health tech AI): Business trivia quiz
+- 'It's Not Made For India': Deepinder Goyal Defends Temple's Premium Pricing, Dismisses Critics' 'Unscientific' Claims - The Daily Jagran (Google News: health tech AI): Duplicate executive defense of consumer wellness gadget
+- openFDA: Guide to Medical Device APIs - CASRAI (Google News: medtech devices): Reference guide on openFDA medical device APIs
+- FDA De Novo Database: Search Guide &amp; Records - CASRAI (Google News: medtech devices): Reference guide explaining FDA De Novo database searches
+- AVITA Medical to Host Investor Webinar Briefing - Investing News Network (Google News: medtech devices): Investor relations webcast notification
+- The Standard You Stopped Reading In 1996 Just Rewrote Your 2030 Audit - Med Device Online (Google News: medtech devices): Editorial on ISO medical device quality standards
+- Confluent acquires Northern Nitinol to deepen its Nitinol prototyping reach - Dealroom (Google News: medtech devices): Component-level nitinol metal manufacturing acquisition
+- India Medical Tourism Boom: Insurance &amp; AI Key, Says Apollo - Rediff MoneyWiz (Google News: medtech devices): Regional medical tourism industry report</description>
+   <pubDate>Mon, 09 Nov 2026 00:37:24 +0000</pubDate>
+   <guid isPermaLink="false">neuro-morning-2026-11-09</guid>
+   <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-09.mp3" length="6370028" type="audio/mpeg"/>
+   <itunes:duration>796</itunes:duration>
+   <itunes:explicit>false</itunes:explicit>
+   <podcast:transcript url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-09.vtt" type="text/vtt" language="en"/>
+  </item>
+  <item>
    <title>Smart Rings Win Clearance and the Hidden Privacy Flaws in EEG</title>
    <description>Full transcript:
 
