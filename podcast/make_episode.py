@@ -224,9 +224,9 @@ EASY TO FOLLOW BY EAR:
   terms in one sentence, and use at most one number per sentence. If a story is mostly legal or
   financial, explain what it means for patients, products or the field, not the legal mechanics.
 - Follow the plan's sections and order exactly; each story is told once.
-- Give each main story a full segment (about 150 to 200 words): what happened, how it works, why it
+- Give each main story a full segment (about 130 to 170 words): what happened, how it works, why it
   matters, and a clear one-line point at the end.
-- The closing segments are what make the episode memorable, so make them strong (about 350 words total):
+- The closing segments are what make the episode memorable, so make them strong (about 300 words total):
   * Trends: two or three patterns that cut ACROSS today's stories. For each, name the stories that
     show it ("the ring clearance and the HRV study both say..."), then what it means for where the
     field is heading.
@@ -237,7 +237,7 @@ EASY TO FOLLOW BY EAR:
     then one sentence that ties the whole day together. This should let her remember the episode
     after a walk.
 - Use only facts present in the items. Do not invent numbers, names or quotes.
-- About 1,500 to 1,700 words.
+- About 1,300 to 1,450 words (it plays slowed down, so this lands near 14 minutes).
 
 Output ONLY dialogue lines, each starting with "Nora:" or "Theo:". No stage directions, no markdown.
 
