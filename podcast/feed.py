@@ -16,7 +16,9 @@ def write_feed(episodes, docs: Path):
     base = site_url()
     items = []
     for e in episodes:
-        url = f"{base}/episodes/{e['slug']}.mp3"
+        # A same-day re-run gets a new build id, so podcast apps (Spotify caches audio by guid) fetch the new file.
+        b = e.get("build", "")
+        url = f"{base}/episodes/{e['slug']}.mp3" + (f"?v={b}" if b else "")
         vtt = docs / "episodes" / f"{e['slug']}.vtt"
         transcript = (f'\n   <podcast:transcript url="{base}/episodes/{e["slug"]}.vtt" type="text/vtt" language="en"/>'
                       if vtt.exists() else "")
@@ -24,7 +26,7 @@ def write_feed(episodes, docs: Path):
    <title>{escape(e['title'])}</title>
    <description>{escape(e['notes'])}</description>
    <pubDate>{e['date']}</pubDate>
-   <guid isPermaLink="false">neuro-morning-{e['slug']}</guid>
+   <guid isPermaLink="false">neuro-morning-{e['slug']}{'-' + b if b else ''}</guid>
    <enclosure url="{url}" length="{e['bytes']}" type="audio/mpeg"/>
    <itunes:duration>{e['seconds']}</itunes:duration>
    <itunes:explicit>false</itunes:explicit>{transcript}

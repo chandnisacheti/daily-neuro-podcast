@@ -541,7 +541,7 @@ def main():
     eps = json.loads(meta_path.read_text()) if meta_path.exists() else []
     eps = [e for e in eps if e["slug"] != slug]
     eps.insert(0, {
-        "slug": slug, "title": title, "date": now.strftime("%a, %d %b %Y %H:%M:%S +0000"),
+        "slug": slug, "build": now.strftime("%H%M"), "title": title, "date": now.strftime("%a, %d %b %Y %H:%M:%S +0000"),
         "seconds": seconds, "bytes": mp3.stat().st_size,
         "notes": "Full transcript:\n\n" + "\n\n".join(f"{sp}: {t}" for sp, t in lines)
                  + "\n\n" + editor_log,
