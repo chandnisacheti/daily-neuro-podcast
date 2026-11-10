@@ -236,7 +236,10 @@ EASY TO FOLLOW BY EAR:
   * Recap: go back through every main story in order, one memorable sentence each ("One: ... Two: ..."),
     then one sentence that ties the whole day together. This should let her remember the episode
     after a walk.
-- Use only facts present in the items. Do not invent numbers, names or quotes.
+- Use ONLY facts in each item's "facts" (a fact sheet verified with Google Search against credible
+  sources) or its title and summary. Do not invent numbers, names, quotes, product details or context.
+  If a detail is listed under UNCONFIRMED or is missing, leave it out or say plainly that it isn't
+  confirmed yet. Never fill gaps with what sounds likely.
 - Never guess what a product looks like or how it works. Describe form factor (ring, patch, headband,
   implant, app), price, sensors or specs ONLY if the item text says so; otherwise just say "wearable"
   or "device". A confident wrong detail is worse than a vague right one.
@@ -310,14 +313,122 @@ def write_script(items, plan, date):
     return title, lines
 
 
-def write_editor_log(items, plan, slug, date_str):
+
+# ---------- 2b. research + fact check (no guessing) ----------
+RESEARCH_PROMPT = """You are a fact-checker for a daily audio news briefing. Use Google Search to verify and
+complete the facts for ONE news story. Prefer credible sources: the original reporting outlet, the company's
+own press release or website, FDA or other regulators, peer-reviewed papers, and major outlets (STAT, Reuters,
+Bloomberg, TechCrunch, Fierce, MedTech Dive). Ignore SEO blogs, content farms and AI-written sites.
+
+Write a fact sheet of 6 to 12 short, plain bullet facts. Each bullet ends with the source outlet in
+parentheses. Cover: what happened and when; who (company, people, roles); what the product or study
+actually is, including its physical form if it is a device (ring, patch, headband, implant, app);
+key numbers (money, accuracy, sample size, price) exactly as reported; one or two lines of background.
+If sources disagree, say so. Then write a final line starting "UNCONFIRMED:" listing any important detail
+you could not confirm from a credible source (or "none").
+
+STORY: {title}
+SOURCE GIVEN: {source}
+SUMMARY GIVEN: {summary}
+LINK: {link}
+"""
+
+
+def research_story(it):
+    """Ground one story with Google Search. Returns (facts_text, [(title, url), ...])."""
+    body = {"contents": [{"parts": [{"text": RESEARCH_PROMPT.format(**{k: it.get(k, "") for k in ("title", "source", "summary", "link")})}]}],
+            "tools": [{"google_search": {}}],
+            "generationConfig": {"temperature": 0.2}}
+    out = gemini(TEXT_MODEL, body, tries=3)
+    cand = out["candidates"][0]
+    text = "".join(p.get("text", "") for p in cand.get("content", {}).get("parts", []))
+    chunks_ = (cand.get("groundingMetadata") or {}).get("groundingChunks") or []
+    sources, seen = [], set()
+    for c in chunks_:
+        w = c.get("web") or {}
+        if w.get("uri") and w["uri"] not in seen:
+            seen.add(w["uri"]); sources.append((w.get("title", "") or w["uri"], w["uri"]))
+    return text.strip(), sources
+
+
+def research_stories(items, plan):
+    """Attach a search-verified fact sheet to every story the editor picked."""
+    if DRY:
+        return
+    by_id = {it["id"]: it for it in items}
+    for sec in plan.get("sections", []):
+        for st in sec.get("stories", []):
+            it = by_id.get(st.get("id"))
+            if not it:
+                continue
+            try:
+                facts, sources = research_story(it)
+                if facts:
+                    it["facts"], it["fact_sources"] = facts, sources
+                    log(f"researched: {it['title'][:70]} ({len(sources)} sources)")
+            except Exception as e:  # noqa: BLE001
+                log(f"research failed for {it['title'][:70]}: {e}")
+            time.sleep(6)
+
+
+FACTCHECK_PROMPT = """You are the fact-checker for a two-host news podcast script. Compare EVERY factual claim
+in the script with the verified fact sheets below (and the original item text). A claim is supported only if
+the fact sheet or item states it. Fix or cut anything else: invented details, guessed product forms (for
+example calling a patch a "ring"), wrong or made-up numbers, names, dates, quotes, or overstated certainty.
+When something important is unconfirmed, the hosts may say it is not yet confirmed; they never fill the gap.
+Opinions, analysis and "what this could mean" lines are fine if they are framed as interpretation.
+
+Keep the script's structure, voice, numbering, sections and length. Change as little as possible.
+Output the full corrected script as dialogue lines starting with "Nora:" or "Theo:". Then a line
+"CHANGES:" followed by one bullet per fix (what was wrong, what it became), or "- none".
+
+VERIFIED STORIES (JSON):
+{stories}
+
+SCRIPT:
+{script}
+"""
+
+
+def fact_check(lines, items, plan):
+    """Second pass that removes anything the sources don't support. Returns (lines, changes)."""
+    if DRY:
+        return lines, []
+    by_id = {it["id"]: it for it in items}
+    used = [by_id[st["id"]] for sec in plan.get("sections", []) for st in sec.get("stories", []) if st.get("id") in by_id]
+    stories = [{k: it.get(k) for k in ("title", "source", "summary", "facts")} for it in used]
+    script = "\n".join(f"{s}: {t}" for s, t in lines)
+    body = {"contents": [{"parts": [{"text": FACTCHECK_PROMPT.format(stories=json.dumps(stories, ensure_ascii=False), script=script)}]}],
+            "generationConfig": {"temperature": 0.1}}
+    try:
+        out = gemini(TEXT_MODEL, body, tries=3)
+    except Exception as e:  # noqa: BLE001
+        log(f"fact check failed ({e}); keeping the writer's script")
+        return lines, [f"Fact check could not run today ({e})."]
+    text = "".join(p.get("text", "") for p in out["candidates"][0]["content"]["parts"])
+    head, _, tail = text.partition("CHANGES:")
+    fixed = []
+    for raw in head.splitlines():
+        m = re.match(r"^(Nora|Theo)\s*:\s*(.+)$", raw.strip().replace("**", ""))
+        if m:
+            fixed.append((m.group(1), m.group(2)))
+    changes = [c.strip(" -*") for c in tail.splitlines() if c.strip(" -*") and c.strip(" -*").lower() != "none"]
+    if len(fixed) < 0.7 * len(lines):
+        log("fact check returned a much shorter script; keeping the writer's script")
+        return lines, ["Fact check output looked incomplete, so the writer's script was kept."]
+    return fixed, changes
+
+
+def write_editor_log(items, plan, slug, date_str, fixes=()):
     by_id = {it["id"]: it for it in items}
     out = [f"# Editor's log, {date_str}", "", f"Episode: {plan.get('title', '')}", "",
            "## How this episode was made",
            "1. Pulled every item published in the last ~30 hours from the sources below.",
-           "2. Gemini (editor pass) picked 6 to 9 stories, assigned each to one section, and logged why the rest were skipped.",
-           "3. Gemini (writer pass) wrote the two-host script from only the picked stories.",
-           "4. Gemini voiced it; GitHub published it.", "",
+           "2. Gemini (editor pass) picked about 5 stories, assigned each to one section, and logged why the rest were skipped.",
+           "3. Gemini (research pass) checked each picked story with Google Search and built a fact sheet from credible sources.",
+           "4. Gemini (writer pass) wrote the two-host script from only those fact sheets.",
+           "5. Gemini (fact-check pass) compared every claim in the script with the fact sheets and fixed or cut anything unsupported.",
+           "6. Gemini voiced it; GitHub published it.", "",
            "## Sources checked"]
     out += [f"- {label}: {status}" for label, status in SOURCE_STATUS]
     out += ["", "## Used, by section"]
@@ -326,6 +437,14 @@ def write_editor_log(items, plan, slug, date_str):
         for st in sec.get("stories", []):
             it = by_id.get(st.get("id"), {})
             out.append(f"- {it.get('title', '?')} ({it.get('source', '')}) [link]({it.get('link', '')})  \n  Angle: {st.get('angle', '')}")
+    out += ["", "## Fact sheets (verified with Google Search)"]
+    for sec in plan.get("sections", []):
+        for st in sec.get("stories", []):
+            it = by_id.get(st.get("id"), {})
+            out += ["", f"### {it.get('title', '?')}", it.get("facts") or "(No fact sheet: research failed, so only the original item text was used.)"]
+            for t, u in it.get("fact_sources", [])[:8]:
+                out.append(f"- Source: [{t}]({u})")
+    out += ["", "## Fact-check fixes"] + ([f"- {f}" for f in fixes] or ["- none needed"])
     if plan.get("trends"):
         out += ["", "## Trends noted"] + [f"- {t}" for t in plan["trends"]]
     out += ["", "## Not used, and why"]
@@ -538,8 +657,10 @@ def main():
     if not items and not DRY:
         sys.exit("No news found; skipping today")
     plan = plan_episode(items)
+    research_stories(items, plan)
     title, lines = write_script(items, plan, date_str)
-    editor_log = write_editor_log(items, plan, slug, date_str)
+    lines, fixes = fact_check(lines, items, plan)
+    editor_log = write_editor_log(items, plan, slug, date_str, fixes)
     by_id = {it["id"]: it for it in items}
     save_covered(slug, [by_id[st["id"]]["title"] for sec in plan["sections"] for st in sec["stories"] if st["id"] in by_id])
     log(f"script: {len(lines)} lines, title: {title}")
