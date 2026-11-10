@@ -383,7 +383,9 @@ def research_story(it):
     body = {"contents": [{"parts": [{"text": RESEARCH_PROMPT.format(**{k: it.get(k, "") for k in ("title", "source", "summary", "link")})}]}],
             "tools": [{"google_search": {}}],
             "generationConfig": {"temperature": 0.2}}
-    out = gemini(TEXT_MODEL, body, tries=3)
+    # One try, no model fallback: Google Search grounding has its own small free quota, and retrying a
+    # 429 here burned the whole 30-minute job on 2026-11-10.
+    out = _gemini(TEXT_MODEL, body, tries=1)
     cand = out["candidates"][0]
     text = "".join(p.get("text", "") for p in cand.get("content", {}).get("parts", []))
     chunks_ = (cand.get("groundingMetadata") or {}).get("groundingChunks") or []
@@ -395,6 +397,7 @@ def research_story(it):
     return text.strip(), sources
 
 
+RESEARCH_STATE = {"off": False, "fails": 0}
 MAX_NEWS_AGE_DAYS = 3  # a story first reported earlier than this is old news and gets dropped
 
 
@@ -421,14 +424,20 @@ def research_stories(items, plan):
             if not it:
                 keep.append(st)
                 continue
-            try:
-                facts, sources = research_story(it)
-                if facts:
-                    it["facts"], it["fact_sources"] = facts, sources
-                    log(f"researched: {it['title'][:70]} ({len(sources)} sources)")
-            except Exception as e:  # noqa: BLE001
-                log(f"research failed for {it['title'][:70]}: {e}")
-            time.sleep(6)
+            if not RESEARCH_STATE["off"]:
+                try:
+                    facts, sources = research_story(it)
+                    if facts:
+                        it["facts"], it["fact_sources"] = facts, sources
+                        log(f"researched: {it['title'][:70]} ({len(sources)} sources)")
+                    RESEARCH_STATE["fails"] = 0
+                except Exception as e:  # noqa: BLE001
+                    log(f"research failed for {it['title'][:70]}: {e}")
+                    RESEARCH_STATE["fails"] += 1
+                    if RESEARCH_STATE["fails"] >= 2:
+                        RESEARCH_STATE["off"] = True
+                        log("research: search quota looks used up; skipping the rest (writer sticks to the feed text)")
+                time.sleep(6)
             first = first_reported(it.get("facts"))
             if first and (today - first).days > MAX_NEWS_AGE_DAYS:
                 log(f"dropped old news ({first}): {it['title'][:70]}")
