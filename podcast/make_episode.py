@@ -105,8 +105,10 @@ def gather_news(hours=30):
             continue
         n = 0
         for e in parsed.entries:
+            # Use the original publish date, not "updated" (feeds bump old stories when they edit them).
+            # No date at all = can't prove it's fresh, so skip it (Chandni got 6-day-old news, 2026-11-10).
             t = e.get("published_parsed") or e.get("updated_parsed")
-            if t and calendar.timegm(t) < cutoff:
+            if not t or calendar.timegm(t) < cutoff:
                 continue
             title = html.unescape(re.sub(r"<[^>]+>", "", e.get("title", ""))).strip()
             key = re.sub(r"\W+", "", title.lower())[:80]
@@ -181,6 +183,10 @@ that story is told and skip NYC Watch). Rename or reorder sections when that mak
 Trends, Career Signal and Recap tie together stories already told and must not introduce repeats as
 new stories.
 
+FRESHNESS: this is a DAILY show. Only pick news that first became public in the last 2 days. Skip an item
+if it is a follow-up, analysis or re-report of an announcement made earlier (look for words like "earlier
+this month", "last week", or a known older event), and log it in skipped as "old news".
+
 Recently covered stories (do not repeat): {recent}
 
 Return JSON:
@@ -204,12 +210,17 @@ HOSTS (distinct people, distinct ways of talking):
   listener would ask ("Wait, how big is that?"), moves the show along, announces sections.
 - Theo: the engineer-analyst. Slower, thoughtful, a little dry humor. Explains the mechanism or the
   "so what" in plain words, often starts with "Here's the thing" or "So, practically..." (vary it).
-They trade off who introduces stories. They sound like two real friends talking over coffee, not a
-press release read aloud: contractions, everyday words, short sentences, sentence fragments when people
-would use them, quick reactions ("Huh.", "Right.", "Wait, really?", "Okay, that's big."), and
-occasional friendly back-and-forth. Never robotic, never the same sentence pattern twice in a row.
-Banned: corporate and AI phrasing such as "underscores", "landscape", "paradigm", "leverage",
-"robust", "ecosystem", "navigate", "pivotal", "it's worth noting", "in an era of", "delve".
+They trade off who introduces stories. They sound like two sharp friends who both work in neurotech
+and health tech, talking over coffee: smart and in the field, but relaxed. The listener should feel like
+she is getting a high-value coffee chat with two insiders: real opinions, why a move is smart or risky,
+what people in the industry are saying, what they would watch next. Talk the way smart people actually
+talk, not in polished written sentences: contractions, short sentences, fragments where natural, quick
+reactions ("Huh.", "Right.", "Wait, really?", "Okay, that's big."), friendly back-and-forth, and
+the occasional half-finished thought that the other host picks up. Field vocabulary is fine when it is
+the real word for the thing; just say it naturally and explain anything a smart outsider would not know.
+Words like "landscape" or "underscores" are okay once in a while, but never stack them, and never sound
+like a press release, a LinkedIn post or an essay. Never use "it's worth noting", "in an era of", "delve",
+"paradigm". Never the same sentence pattern twice in a row.
 
 HUMAN PACING (the voice engine reads punctuation as intonation):
 - Use commas, ellipses ("so... here's the thing") and dashes for natural pauses and thinking beats.
@@ -332,7 +343,9 @@ Write a fact sheet of 6 to 12 short, plain bullet facts. Each bullet ends with t
 parentheses. Cover: what happened and when; who (company, people, roles); what the product or study
 actually is, including its physical form if it is a device (ring, patch, headband, implant, app);
 key numbers (money, accuracy, sample size, price) exactly as reported; one or two lines of background.
-If sources disagree, say so. Then write a final line starting "UNCONFIRMED:" listing any important detail
+If sources disagree, say so. Then write a line starting "FIRST REPORTED:" with the date (YYYY-MM-DD) the
+news itself first became public, from the earliest credible report or press release (not the date of a
+later follow-up article). Then write a final line starting "UNCONFIRMED:" listing any important detail
 you could not confirm from a credible source (or "none").
 
 STORY: {title}
@@ -359,15 +372,31 @@ def research_story(it):
     return text.strip(), sources
 
 
+MAX_NEWS_AGE_DAYS = 3  # a story first reported earlier than this is old news and gets dropped
+
+
+def first_reported(facts):
+    m = re.search(r"FIRST REPORTED:\s*\**\s*(\d{4}-\d{2}-\d{2})", facts or "")
+    if not m:
+        return None
+    try:
+        return dt.date.fromisoformat(m.group(1))
+    except ValueError:
+        return None
+
+
 def research_stories(items, plan):
-    """Attach a search-verified fact sheet to every story the editor picked."""
+    """Attach a search-verified fact sheet to every story the editor picked, and drop old news."""
     if DRY:
         return
     by_id = {it["id"]: it for it in items}
+    today = dt.datetime.now(dt.timezone.utc).date()
     for sec in plan.get("sections", []):
+        keep = []
         for st in sec.get("stories", []):
             it = by_id.get(st.get("id"))
             if not it:
+                keep.append(st)
                 continue
             try:
                 facts, sources = research_story(it)
@@ -377,6 +406,17 @@ def research_stories(items, plan):
             except Exception as e:  # noqa: BLE001
                 log(f"research failed for {it['title'][:70]}: {e}")
             time.sleep(6)
+            first = first_reported(it.get("facts"))
+            if first and (today - first).days > MAX_NEWS_AGE_DAYS:
+                log(f"dropped old news ({first}): {it['title'][:70]}")
+                plan.setdefault("do_not_mention", []).append(it["title"])
+                plan.setdefault("skipped", []).append(
+                    {"id": it["id"], "reason": f"old news: first reported {first.isoformat()}, more than {MAX_NEWS_AGE_DAYS} days ago"})
+                continue
+            keep.append(st)
+        sec["stories"] = keep
+    plan["sections"] = [sec for sec in plan.get("sections", []) if sec.get("stories") or
+                        sec.get("name", "").lower() in ("trends", "career signal", "recap")]
 
 
 FACTCHECK_PROMPT = """You are the fact-checker for a two-host news podcast script. Compare EVERY factual claim
