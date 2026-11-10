@@ -164,6 +164,9 @@ def _gemini(model, body, tries=4):
         if r.status_code == 200:
             return r.json()
         log(f"{model} HTTP {r.status_code}: {r.text[:300]}")
+        if r.status_code == 429 and ("PerDay" in r.text or "per_day" in r.text.lower() or i >= 1):
+            # Daily free quota used up: retrying only burns more of it, so move on to another model.
+            break
         if r.status_code in (429, 500, 502, 503, 504):
             time.sleep(30 * (i + 1))
             continue
