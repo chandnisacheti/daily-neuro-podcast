@@ -74,6 +74,8 @@ def pick_models():
         text = [n for n in names if n.startswith("gemini") and "flash" in n and not any(b in n for b in bad)]
         text.sort(key=lambda n: (_ver(n), "lite" not in n, "preview" not in n, "latest" in n), reverse=True)
         TEXT_MODEL = text[0] if text else "gemini-flash-latest"
+        # Backups when the newest model is overloaded (503s killed the 2026-11-10 run).
+        TEXT_FALLBACKS[:] = [n for n in text[1:6]] + ["gemini-flash-latest"]
     if not TTS_MODEL:
         tts = [n for n in names if "tts" in n]
         tts.sort(key=lambda n: (_ver(n), "flash" in n, "lite" not in n), reverse=True)
@@ -129,7 +131,28 @@ def gather_news(hours=30):
 
 
 # ---------- 2. script ----------
+TEXT_FALLBACKS = []
+
+
 def gemini(model, body, tries=4):
+    """Call Gemini with retries; if the text model stays overloaded, fall back to other Flash models."""
+    try:
+        return _gemini(model, body, tries)
+    except RuntimeError:
+        if model != TEXT_MODEL:
+            raise
+        for alt in TEXT_FALLBACKS:
+            if alt == model:
+                continue
+            log(f"falling back to {alt}")
+            try:
+                return _gemini(alt, body, 2)
+            except RuntimeError:
+                continue
+        raise
+
+
+def _gemini(model, body, tries=4):
     for i in range(tries):
         try:
             r = requests.post(f"{API}/{model}:generateContent", json=body,
