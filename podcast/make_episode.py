@@ -237,6 +237,9 @@ EASY TO FOLLOW BY EAR:
     then one sentence that ties the whole day together. This should let her remember the episode
     after a walk.
 - Use only facts present in the items. Do not invent numbers, names or quotes.
+- Never guess what a product looks like or how it works. Describe form factor (ring, patch, headband,
+  implant, app), price, sensors or specs ONLY if the item text says so; otherwise just say "wearable"
+  or "device". A confident wrong detail is worse than a vague right one.
 - About 1,300 to 1,450 words (it plays slowed down, so this lands near 14 minutes).
 
 Output ONLY dialogue lines, each starting with "Nora:" or "Theo:". No stage directions, no markdown.
