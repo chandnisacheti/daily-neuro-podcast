@@ -36,8 +36,8 @@ HOSTS = ("Nora", "Theo")
 VOICES = {"Nora": "Aoede", "Theo": "Charon"}
 FALLBACK_VOICES = {"Nora": "Kore", "Theo": "Puck"}
 STYLES = {
-    "Nora": "bright, quick, curious morning-show host; smiles while talking; energetic but clear",
-    "Theo": "relaxed, lower-pitched, thoughtful engineer; slower cadence, small pauses, dry humor",
+    "Nora": "warm, bright morning-show host talking to a friend; natural rising and falling intonation, smiles while talking, takes small breaths and pauses at commas and ellipses, never rushed",
+    "Theo": "relaxed, lower-pitched, thoughtful engineer; unhurried, pauses to think before key points, dry humor with a hint of a smile, natural intonation like real conversation",
 }
 EDGE_VOICES = {"Nora": "en-US-AvaNeural", "Theo": "en-US-AndrewNeural"}
 API = "https://generativelanguage.googleapis.com/v1beta/models"
@@ -186,8 +186,8 @@ Recently covered stories (do not repeat): {recent}
 Return JSON:
 {{"title": "short episode title",
   "sections": [{{"name": "...", "stories": [{{"id": 3, "angle": "one line: what to emphasize and why it matters to Chandni"}}]}}],
-  "trends": ["2 to 3 trends, each naming which of today's stories (by id) show it and what it means for the field"],
-  "career_signal": "3 to 4 concrete lines: which companies or areas look like they are growing or hiring, and the specific role or pitch Chandni could make to each",
+  "trends": ["1 or 2 BIG-PICTURE shifts in the industry right now, each one sentence of insight that is NOT a restatement of a story; cite today's stories only as examples (by id)"],
+  "career_signal": "1 or 2 sentences: one non-obvious takeaway for Chandni's career (a skill, a kind of company, or a move to make this week), not a list of the companies just mentioned",
   "recap": ["exactly one memorable line per main story, in the order they were told"],
   "skipped": [{{"id": 7, "reason": "short reason"}}]}}
 Every item id must appear exactly once, either in a section or in skipped.
@@ -204,9 +204,18 @@ HOSTS (distinct people, distinct ways of talking):
   listener would ask ("Wait, how big is that?"), moves the show along, announces sections.
 - Theo: the engineer-analyst. Slower, thoughtful, a little dry humor. Explains the mechanism or the
   "so what" in plain words, often starts with "Here's the thing" or "So, practically..." (vary it).
-They trade off who introduces stories. Natural speech: contractions, varied sentence length, quick
-reactions ("Huh.", "Right.", "Okay, that's big."), occasional friendly back-and-forth. Never robotic,
-never the same sentence pattern twice in a row. Do not say "This matters because" or "The takeaway"
+They trade off who introduces stories. They sound like two real friends talking over coffee, not a
+press release read aloud: contractions, everyday words, short sentences, sentence fragments when people
+would use them, quick reactions ("Huh.", "Right.", "Wait, really?", "Okay, that's big."), and
+occasional friendly back-and-forth. Never robotic, never the same sentence pattern twice in a row.
+Banned: corporate and AI phrasing such as "underscores", "landscape", "paradigm", "leverage",
+"robust", "ecosystem", "navigate", "pivotal", "it's worth noting", "in an era of", "delve".
+
+HUMAN PACING (the voice engine reads punctuation as intonation):
+- Use commas, ellipses ("so... here's the thing") and dashes for natural pauses and thinking beats.
+- Let hosts start with small spoken openers sometimes ("So.", "Okay,", "Honestly,", "Hmm,").
+- Ask real questions with question marks, and react with short lines, so the rhythm goes up and down.
+- One thought per line. Never more than two sentences in a row from the same host without a reaction. Do not say "This matters because" or "The takeaway"
 every time; vary how you land each story, but every story should end with a clear one-line point.
 
 EASY TO FOLLOW BY EAR:
@@ -226,16 +235,15 @@ EASY TO FOLLOW BY EAR:
 - Follow the plan's sections and order exactly; each story is told once.
 - Give each main story a full segment (about 130 to 170 words): what happened, how it works, why it
   matters, and a clear one-line point at the end.
-- The closing segments are what make the episode memorable, so make them strong (about 300 words total):
-  * Trends: two or three patterns that cut ACROSS today's stories. For each, name the stories that
-    show it ("the ring clearance and the HRV study both say..."), then what it means for where the
-    field is heading.
-  * Career Signal: concrete and specific. Which companies or areas are growing, and for each one,
-    what role or pitch someone with Chandni's background (biosignal ML, EEG/EMG/HRV, closed-loop
-    neuromodulation, productization) could bring them.
-  * Recap: go back through every main story in order, one memorable sentence each ("One: ... Two: ..."),
-    then one sentence that ties the whole day together. This should let her remember the episode
-    after a walk.
+- The closing segments are SHORT and must add something new. Never repeat the stories' facts.
+  * Trends (about 60 to 80 words): one or two big-picture shifts happening in the industry right now.
+    Say the insight first, then use one of today's stories as a quick example. It should make her
+    think, not re-hear the episode.
+  * Career Signal (about 40 to 60 words): one non-obvious takeaway for someone with Chandni's
+    background (biosignal ML, EEG/EMG/HRV, closed-loop neuromodulation, productization): a skill to
+    build, a kind of company to watch, or a move to make this week. No list of companies.
+  * Recap (about 60 to 80 words): one short line per story in order ("One: ... Two: ..."), then
+    one line that ties the day together.
 - Use ONLY facts in each item's "facts" (a fact sheet verified with Google Search against credible
   sources) or its title and summary. Do not invent numbers, names, quotes, product details or context.
   If a detail is listed under UNCONFIRMED or is missing, leave it out or say plainly that it isn't
@@ -243,7 +251,7 @@ EASY TO FOLLOW BY EAR:
 - Never guess what a product looks like or how it works. Describe form factor (ring, patch, headband,
   implant, app), price, sensors or specs ONLY if the item text says so; otherwise just say "wearable"
   or "device". A confident wrong detail is worse than a vague right one.
-- About 1,300 to 1,450 words (it plays slowed down, so this lands near 14 minutes).
+- About 1,150 to 1,300 words (it plays slowed down, so this lands near 12 to 13 minutes).
 
 Output ONLY dialogue lines, each starting with "Nora:" or "Theo:". No stage directions, no markdown.
 
@@ -586,9 +594,9 @@ def ts(sec):
     return f"{int(h):02d}:{int(m):02d}:{s_:06.3f}"
 
 
-def write_vtt(chunk_times, path):
+def write_vtt(chunk_times, path, offset=0.0):
     """Timed transcript. Line timings inside each audio chunk are estimated from text length."""
-    cues, t0 = ["WEBVTT", ""], 0.0
+    cues, t0 = ["WEBVTT", ""], offset
     for ch, dur in chunk_times:
         total = sum(len(t) for _, t in ch) or 1
         t = t0
@@ -598,6 +606,30 @@ def write_vtt(chunk_times, path):
             t += d
         t0 += dur
     path.write_text("\n".join(cues))
+
+
+
+MUSIC = Path(__file__).resolve().parent / "music"
+
+
+def mix_music(voice, mp3_path):
+    """Intro music, voices starting as it fades, outro music rising under the last line.
+    Returns the second at which the voices start (to offset the transcript)."""
+    intro, outro = MUSIC / "intro.mp3", MUSIC / "outro.mp3"
+    if not (intro.exists() and outro.exists()):
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(voice), "-af", "loudnorm=I=-16",
+                        "-codec:a", "libmp3lame", "-b:a", "64k", str(mp3_path)], check=True)
+        return 0.0
+    lead = max(0.0, probe(intro) - 2.2)            # voices come in as the intro fades
+    tail = max(0.0, probe(voice) + lead - 1.0)     # outro rises under the sign-off
+    fc = (f"[0:a]aformat=sample_rates=44100:channel_layouts=mono,volume=0.55[i];"
+          f"[1:a]aformat=sample_rates=44100:channel_layouts=mono,adelay={int(lead*1000)}[v];"
+          f"[2:a]aformat=sample_rates=44100:channel_layouts=mono,volume=0.5,adelay={int(tail*1000)}[o];"
+          f"[i][v][o]amix=inputs=3:normalize=0:duration=longest,loudnorm=I=-16[out]")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(intro), "-i", str(voice), "-i", str(outro),
+                    "-filter_complex", fc, "-map", "[out]", "-codec:a", "libmp3lame", "-b:a", "64k", str(mp3_path)],
+                   check=True)
+    return lead
 
 
 def make_audio(lines, mp3_path):
@@ -631,10 +663,12 @@ def make_audio(lines, mp3_path):
             chunk_times.append((ch, probe(w)))
         joined = tmp / "all.wav"
         concat(wavs, joined)
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(joined), "-af", f"atempo={SPEED},loudnorm=I=-16",
-                        "-codec:a", "libmp3lame", "-b:a", "64k", str(mp3_path)], check=True)
+        voice = tmp / "voice.wav"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(joined), "-af", f"atempo={SPEED}",
+                        "-ar", "44100", "-ac", "1", str(voice)], check=True)
+        lead = mix_music(voice, mp3_path)
     chunk_times = [(ch, dur / SPEED) for ch, dur in chunk_times]
-    write_vtt(chunk_times, mp3_path.with_suffix(".vtt"))
+    write_vtt(chunk_times, mp3_path.with_suffix(".vtt"), offset=lead)
     return int(probe(mp3_path))
 
 
