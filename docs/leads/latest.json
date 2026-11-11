@@ -1,77 +1,59 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-11",
  "leads": [
   {
-   "company": "XRHealth",
+   "company": "UCSF",
+   "signal": "funding",
+   "detail": "UCSF neuroscientists received $8.5 million in ARPA-H funding to launch CANOPY, a global study tracking 3,000 real-world psychedelic journeys using wearable sensors and brain imaging.",
+   "location": "San Francisco, USA",
+   "nyc": false,
+   "why_relevant": "The project directly integrates brain imaging and wearable biosignal data collection for neuroscientific monitoring, highly relevant to biosignal-ML and neuroengineering students.",
+   "link": "https://neurosciencenews.com/psychopharmacology-psychedelic-journeys-32399/"
+  },
+  {
+   "company": "Oura",
    "signal": "acquisition",
-   "detail": "XRHealth acquired German neurotech startup Living Brain to expand its virtual clinic capabilities.",
+   "detail": "Oura agreed to acquire clinical AI startup Counsel Health for $625 million to combine continuous wearable biometrics with on-demand clinical AI care.",
    "location": "",
    "nyc": false,
-   "why_relevant": "The acquisition expands therapeutic neurotech and cognitive rehabilitation solutions combining XR and neuroscience.",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZmJLOXpCYnRHWWd6VGh4S1hlZ3Y3cTlWMXo3elNsTmRLcW84VVcxU1FCUjh0clpzREhNaWxTYVBpQUdZLVplSEhrWmZndUpoUC1SenotWk1FeEhydzhBcGJIX3ctUTJ5S1ZfQjBqSmRqVDI4VHlmNmozZmhsUnkzaHVmMnJtVnZnb3hlQnF6Q05YY28?oc=5"
+   "why_relevant": "As a market leader in biometric smart rings, Oura represents prime industry work in wearable sensor integration and physiological signal machine learning.",
+   "link": "https://www.statnews.com/2026/11/10/oura-acquires-counsel-health-big-bet-ai-care/?utm_campaign=rss"
   },
   {
-   "company": "Undae Science",
+   "company": "Kardi Ai",
    "signal": "funding",
-   "detail": "Undae Science raised CHF 1.15 million to industrialize its home sleep-monitoring platform.",
-   "location": "Switzerland",
+   "detail": "Czech medtech startup Kardi Ai raised €5.3 million to advance its predictive heart monitoring platform.",
+   "location": "Czech Republic",
    "nyc": false,
-   "why_relevant": "Sleep monitoring requires robust biosignal acquisition and machine learning analysis, core to neural wearable engineering.",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcUxBdllZR3ZkVlNrdUVxOU45cG1kUFpDTG9iZkk2dmdWWEJ5TUhKeDF5dUF3dHhQX01FQzU4MGRzby1OTEdwaTRTUXVWVlpmWHFqN1JmU3pvMnNfNHNTWGtDOGI0NmJDV2drR2hWM1J3dExmMldGVF9EVEJNc2haWWp1UGJ2TjlqS3FiN2h4YVRyZ1FUX09OLVJXZzJXZzFQSFdraEVqbG1NdVdIbUVKMklR?oc=5"
+   "why_relevant": "Involves applying predictive machine learning algorithms to cardiac biosignals for continuous physiological monitoring and diagnostics.",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWWdNM1BtZUZYcHAtb2gzQU5WWHpLOE5QcXNDRTNuUjIxc2dTNkNkOTczTHpkS21zVGRvZ29fajd1T0w4WjU1bUF1c0hCdnhubXZtamNfdkdXRlJ5Yk1FZWJDOEZEN1ZkQTJ5VDk4blhnandVS0VYZEFfZ2pKcm9jczFTT3pfX1c3NWV5RHBLQXpYdHdQOENfd3JaQnJZUm5zeWZaS0ZR?oc=5"
   },
   {
-   "company": "Samsung",
+   "company": "Virtuoso Surgical",
    "signal": "fda",
-   "detail": "Samsung secured regulatory approvals from the US FDA and Korea MFDS for an upgraded sleep apnea tracking feature on the Galaxy Ring.",
-   "location": "South Korea",
+   "detail": "Virtuoso Surgical obtained FDA clearance for its robotic system designed for minimally invasive, single-piece bladder tumor resection.",
+   "location": "",
    "nyc": false,
-   "why_relevant": "Demonstrates commercial deployment of FDA-cleared biosignal algorithms directly on compact wearable hardware.",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbDhzcU9KWDNQVndZWnd3a1A4NkhpdUpEVmcyYjJ0U1pVeWc1OTlyZGpNSUlYX3FJQ1JQeFNZVUxyT09hcWZsN0F3OWpwbzBvdGhMNXNQR25KOU5kV0x1WEdLU1doVmRsdFZwQ2FwWkhMTzBKTEw4RW9Jb1dQeHpfU1dmZ3hZUm0wQmtGVTJ2ZmhiVnRKbFRTbjdXZmdpT0lWN1NlODRWQWd4RzZaZDk2YjYzRHBaeUwxWlRXc2xzODNzTjBCYUVjOGhyNlpmVG44WGttRjVsdUdNcU0?oc=5"
+   "why_relevant": "Provides exposure to surgical robotics instrumentation, medical device control systems, and translational medtech regulatory pipelines.",
+   "link": "https://www.medtechdive.com/news/virtuoso-robot-wins-fda-nod-for-bladder-tumor-removal/874261/"
   },
   {
-   "company": "Feinstein Institutes for Medical Research",
-   "signal": "funding",
-   "detail": "Feinstein Institutes secured a $3.4 million NIH grant to deploy AI algorithms for early delirium detection and prevention in hospital settings.",
-   "location": "Manhasset, United States",
-   "nyc": false,
-   "why_relevant": "A powerhouse in bioelectronic medicine and neuromodulation developing predictive AI for neuro-related clinical conditions.",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORnpFNVVxZzJzUDFGMFZ5R1BoSEk3Wm9tcktfVFpJZmx5ZU9CZGZUSlZrcHh3WWhYZW9icnBEb25MQjRXSUgzUERmSC1RVWc4QWc5MEhUTHVzdnl2NzB2WmZFQkRIX3BhcTNzWlFlLTlRMU5VYzZVN3MwR1ppMEJlM292Tkl1NE5DS1RQSVdUVnYxaEFnLUFhY0c5TkNGa2dkMVJLVF9BNV95d01yYnlKME02anljb0lCLWY5SktCckhEOEU2d1g4ZFdrei1fTFU2aDhJeGdxUmtUZXNBbDRxWTNQQ21FdXJleFE?oc=5"
-  },
-  {
-   "company": "Boston Scientific",
-   "signal": "partnership",
-   "detail": "Boston Scientific formed a $455 million co-funding deal with Blackstone Life Sciences to advance development of its next-generation miniature heart pump system.",
-   "location": "United States",
-   "nyc": false,
-   "why_relevant": "A major player in implantable neuromodulation and electrophysiology expanding its active medical implant device development.",
-   "link": "https://www.fiercebiotech.com/medtech/blackstone-life-sciences-teams-boston-scientific-455m-heart-pump-deal"
-  },
-  {
-   "company": "MiniMed",
+   "company": "Getinge",
    "signal": "hiring",
-   "detail": "MiniMed hired David Segal, M.D., as chief medical officer as it establishes itself as a standalone digital health and insulin device company.",
-   "location": "United States",
+   "detail": "Getinge announced the hiring of Stacy Beske from Philips to take over as president of acute care therapies starting December 1.",
+   "location": "",
    "nyc": false,
-   "why_relevant": "Involves wearable sensor-actuator closed-loop systems, offering strong engineering parallels to closed-loop neurostimulation.",
-   "link": "https://www.fiercebiotech.com/medtech/diabetes-insulin-maker-minimed-hires-david-segal-new-chief-medical-officer"
+   "why_relevant": "Signals executive leadership expansion at a major medical technology provider developing acute therapeutic and monitoring hardware.",
+   "link": "https://www.medtechdive.com/news/getinge-hires-president-of-acute-care-therapies/874219/"
   },
   {
-   "company": "RadNet",
+   "company": "Rosti",
    "signal": "acquisition",
-   "detail": "RadNet completed a $350 million acquisition of a radiology staffing organization while raising full-year financial guidance.",
-   "location": "Los Angeles, United States",
+   "detail": "Rosti acquired Alvi to expand and strengthen its contract manufacturing operations for medical devices.",
+   "location": "",
    "nyc": false,
-   "why_relevant": "RadNet heavily integrates AI into diagnostic imaging pipelines, relevant for medical signal processing and image interpretation.",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUkRZcV9LMEh1VWhJWDZ1aFZGc0d3MGFkTTNMODRPaXhOVnM0c0NxWG5hb0VOZFcyci1fYnhGZm1vd3NQTEJveHZkQ0NDQWFwYUhFOWlVTGlQamtLdmU1OTlTRFl1Z3B1cjJRY3VKUTktaW5Ub2VreElTa1N4dFhERjlEOUNxSGgzbUNDMzNtWG9naXR4MGxMajlPYw?oc=5"
-  },
-  {
-   "company": "Bracco",
-   "signal": "expansion",
-   "detail": "Bracco announced a $230 million investment to construct its first U.S. manufacturing facility for diagnostic imaging contrast media in Sanford, North Carolina.",
-   "location": "Sanford, United States",
-   "nyc": false,
-   "why_relevant": "Represents significant infrastructure growth within diagnostic imaging and hospital medtech technologies.",
-   "link": "https://www.fiercebiotech.com/medtech/bracco-invests-230m-first-us-diagnostic-imaging-manufacturing-facility"
+   "why_relevant": "Offers industry perspective on the hardware scaling, fabrication, and manufacturing phases of biomedical and wearable device engineering.",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQR0owVXhVY2piT1pKQ2tYVG81Q2JQd2c2SDE0ZXpoWFJHZTRQSUttNlQ3ckxfQTJRenU4NzFDSmctQ19iSlRlTFVKc2lSOEFmcGRuWUlrZ0RudzBxak5JVGdxcEhfZ25JQVBJcEJwUmRoMTk2OUljdHZORHFNZjlFdmJpWW80TVNYcjlvTHp6SDdGZw?oc=5"
   }
  ]
 }
