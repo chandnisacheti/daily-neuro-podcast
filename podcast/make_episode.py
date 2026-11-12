@@ -75,7 +75,9 @@ def pick_models():
         text.sort(key=lambda n: (_ver(n), "lite" not in n, "preview" not in n, "latest" in n), reverse=True)
         TEXT_MODEL = text[0] if text else "gemini-flash-latest"
         # Backups when the newest model is overloaded (503s killed the 2026-11-10 run).
-        TEXT_FALLBACKS[:] = [n for n in text[1:6]] + ["gemini-flash-latest"]
+        # Older, stable models are rarely overloaded, so they come right after the newest one.
+        stable = [n for n in ("gemini-3.5-flash", "gemini-2.5-flash") if n in names]
+        TEXT_FALLBACKS[:] = list(dict.fromkeys(stable + text[1:4] + ["gemini-flash-latest"]))
     if not TTS_MODEL:
         tts = [n for n in names if "tts" in n]
         tts.sort(key=lambda n: (_ver(n), "flash" in n, "lite" not in n), reverse=True)
@@ -134,41 +136,46 @@ def gather_news(hours=30):
 TEXT_FALLBACKS = []
 
 
-def gemini(model, body, tries=4):
-    """Call Gemini with retries; if the text model stays overloaded, fall back to other Flash models."""
+def gemini(model, body, tries=2):
+    """Call Gemini; if the text model is overloaded, switch to the next Flash model and STAY on whichever
+    one answers for the rest of the run (2026-11-12: retrying an overloaded model ate the whole job)."""
+    global TEXT_MODEL
+    is_text = model == TEXT_MODEL
     try:
-        return _gemini(model, body, tries)
+        return _gemini(model, body, tries, timeout=180 if is_text else 300)
     except RuntimeError:
-        if model != TEXT_MODEL:
+        if not is_text:
             raise
         for alt in TEXT_FALLBACKS:
             if alt == model:
                 continue
             log(f"falling back to {alt}")
             try:
-                return _gemini(alt, body, 2)
+                out = _gemini(alt, body, 2, timeout=180)
+                log(f"switching text model to {alt} for the rest of this run")
+                TEXT_MODEL = alt
+                return out
             except RuntimeError:
                 continue
         raise
 
 
-def _gemini(model, body, tries=4):
+def _gemini(model, body, tries=2, timeout=180):
     for i in range(tries):
         try:
             r = requests.post(f"{API}/{model}:generateContent", json=body,
-                              headers={"x-goog-api-key": KEY}, timeout=480)
+                              headers={"x-goog-api-key": KEY}, timeout=timeout)
         except requests.exceptions.RequestException as e:  # timeouts, dropped connections
-            log(f"{model} request error: {e}; retrying")
-            time.sleep(15 * (i + 1))
+            log(f"{model} request error: {e}")
+            time.sleep(10)
             continue
         if r.status_code == 200:
             return r.json()
-        log(f"{model} HTTP {r.status_code}: {r.text[:300]}")
+        log(f"{model} HTTP {r.status_code}: {r.text[:200]}")
         if r.status_code == 429 and ("PerDay" in r.text or "per_day" in r.text.lower() or i >= 1):
-            # Daily free quota used up: retrying only burns more of it, so move on to another model.
-            break
+            break  # daily free quota used up: move on to another model
         if r.status_code in (429, 500, 502, 503, 504):
-            time.sleep(30 * (i + 1))
+            time.sleep(20 * (i + 1))
             continue
         break
     raise RuntimeError(f"Gemini call to {model} failed")
