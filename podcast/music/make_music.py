@@ -113,5 +113,6 @@ def save(x, name, fade_out=1.5):
         w.writeframes((st * 32767).astype("<i2").tobytes())
 
 
-save(render(4, 1.2, drums_from=1), "intro.wav", fade_out=1.0)  # one bar build, then the full groove
-save(render(6, 2.2, drums_from=0), "outro.wav", fade_out=2.0)
+# About 5 seconds each (Chandni, 2026-11-11): two bars of groove plus the final hit.
+save(render(2, .7, drums_from=0), "intro.wav", fade_out=.6)
+save(render(2, .7, drums_from=0), "outro.wav", fade_out=.8)
