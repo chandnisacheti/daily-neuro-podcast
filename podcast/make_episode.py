@@ -267,7 +267,8 @@ HUMAN PACING (the voice engine reads punctuation as intonation):
 every time; vary how you land each story, but every story should end with a clear one-line point.
 
 EASY TO FOLLOW BY EAR:
-- Intro: two short lines (hello, the date), plus one line saying how many stories are coming
+- Intro: two short lines (the first line MUST greet her by name, e.g. "Good morning, Chandni!", never
+  just "Good morning"; then the date), plus one line saying how many stories are coming
   ("Five stories today: three in neurotech, two in health tech"). No list of headlines up front.
 - Number the stories as you go ("Story two of five"), so the listener always knows where she is.
 - Announce each section clearly by name, e.g. "Okay, first up: who expanded this week." Signal
@@ -280,6 +281,15 @@ EASY TO FOLLOW BY EAR:
   same breath ("a consent decree, basically a court order"). Never stack legal, financial or chemical
   terms in one sentence, and use at most one number per sentence. If a story is mostly legal or
   financial, explain what it means for patients, products or the field, not the legal mechanics.
+- TECHNICAL DEPTH: Chandni has a neuroscience and biomedical engineering background (EEG/EMG/HRV
+  signal processing, ML, TMS and vagus nerve stimulation). After the plain first line, go one layer
+  deeper on the neuro and engineering: never stop at marketing words like "brain stimulation platform",
+  "AI-powered" or "personalized to your individual neural wiring". Say what it actually is when the
+  sources say so: the modality (TMS, tDCS, focused ultrasound, implant), the target (brain region,
+  nerve), the signal or imaging used to personalize it (EEG, fMRI connectivity, MRI neuronavigation),
+  the electrode or sensor type, the study design and endpoint. If the sources don't say, have Theo
+  flag it as the open question ("They say it's tailored to each brain... but tailored using what?
+  EEG? fMRI connectivity? That's what I'd want to know."). Never guess the answer.
 - Follow the plan's sections and order exactly; each story is told once.
 - Give each main story a full segment (about 150 to 190 words): what happened, how it works, why it
   matters, and a clear one-line point at the end. Spend a little more of each segment on the hosts'
