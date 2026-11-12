@@ -610,11 +610,19 @@ def tts_gemini(chunk, wav_path):
         return _tts_gemini(chunk, wav_path)
 
 
+# How the voices should say her name. The transcript keeps the real spelling; only the audio text changes.
+NAME_SAY = "Chahnd-nee"
+
+
+def say(text):
+    return re.sub(r"\bChandni\b", NAME_SAY, text)
+
+
 def _tts_gemini(chunk, wav_path):
     # Gemini 3.x TTS: every text part carries its own speaker tag; no untagged preamble allowed.
     body = {
         "contents": [{"role": "user", "parts": [
-            {"text": t, "speechMetadata": {"speaker": s, "style": STYLES[s]}}
+            {"text": say(t), "speechMetadata": {"speaker": s, "style": STYLES[s]}}
             for s, t in chunk
         ]}],
         "generationConfig": {
@@ -647,7 +655,7 @@ def tts_edge(chunk, wav_path, tmp):
     for j, (s, t) in enumerate(chunk):
         p = tmp / f"{wav_path.stem}_{j}.mp3"
         for attempt in range(4):
-            r = subprocess.run([sys.executable, "-m", "edge_tts", "--voice", EDGE_VOICES[s], "--text", t,
+            r = subprocess.run([sys.executable, "-m", "edge_tts", "--voice", EDGE_VOICES[s], "--text", say(t),
                                 "--write-media", str(p)])
             if r.returncode == 0 and p.exists() and p.stat().st_size > 0:
                 break
