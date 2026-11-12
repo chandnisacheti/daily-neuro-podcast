@@ -27,7 +27,7 @@ jobs:
       - name: Install
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-          pip install -q feedparser requests edge-tts trafilatura googlenewsdecoder
+          pip install -q feedparser requests edge-tts trafilatura "googlenewsdecoder>=0.2.2"
       - name: Make episode
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

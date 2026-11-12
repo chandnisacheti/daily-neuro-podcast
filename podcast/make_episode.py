@@ -429,8 +429,10 @@ def resolve_link(url):
     try:
         from googlenewsdecoder import gnewsdecoder
         r = gnewsdecoder(url, interval=1)
-        if r.get("status") and r.get("decoded_url"):
+        # Newer versions say "success", older ones said "status"; checking only "status" dropped every link.
+        if (r.get("success") or r.get("status")) and r.get("decoded_url"):
             return r["decoded_url"]
+        log(f"could not decode Google News link: {r.get('message', r)}")
     except Exception as e:  # noqa: BLE001
         log(f"could not decode Google News link: {e}")
     return url
