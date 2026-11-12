@@ -30,14 +30,14 @@ ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 EPISODES = DOCS / "episodes"
 KEEP_EPISODES = 21
-SPEED = 0.85  # playback speed of the final mix; Chandni asked for voices 15% slower (2026-11-09)
+SPEED = 0.92  # playback speed of the final mix; 15% slower felt too slow, she asked for 8% faster (2026-11-11)
 HOSTS = ("Nora", "Theo")
 # Distinct voices: Nora bright and quick, Theo lower and relaxed. Fallback pair if Google renames voices.
 VOICES = {"Nora": "Aoede", "Theo": "Charon"}
 FALLBACK_VOICES = {"Nora": "Kore", "Theo": "Puck"}
 STYLES = {
-    "Nora": "warm, bright morning-show host talking to a friend; natural rising and falling intonation, smiles while talking, takes small breaths and pauses at commas and ellipses, never rushed",
-    "Theo": "relaxed, lower-pitched, thoughtful engineer; unhurried, pauses to think before key points, dry humor with a hint of a smile, natural intonation like real conversation",
+    "Nora": "a real person chatting on a casual podcast with a friend, not a narrator or announcer; warm and bright, genuinely curious, smiles while talking; uneven natural pacing, speeds up when excited and slows on key points, small breaths, stresses the one important word in a sentence, reacts with real surprise or amusement",
+    "Theo": "a real person chatting on a casual podcast with a friend, not a narrator; relaxed, lower-pitched, thoughtful engineer; thinks out loud, slight hesitations before a key point, dry humor with a hint of a laugh, varies pitch and pace like real conversation, never reads in a flat even rhythm",
 }
 EDGE_VOICES = {"Nora": "en-US-AvaNeural", "Theo": "en-US-AndrewNeural"}
 API = "https://generativelanguage.googleapis.com/v1beta/models"
@@ -252,6 +252,10 @@ HUMAN PACING (the voice engine reads punctuation as intonation):
 - Use commas, ellipses ("so... here's the thing") and dashes for natural pauses and thinking beats.
 - Let hosts start with small spoken openers sometimes ("So.", "Okay,", "Honestly,", "Hmm,").
 - Ask real questions with question marks, and react with short lines, so the rhythm goes up and down.
+- Sound like real speech, not a script: a light sprinkle of natural fillers and self-corrections
+  (about one every four or five lines: "I mean,", "you know,", "kind of", "wait, actually..."),
+  the occasional overlap where one host finishes the other's thought, and a laugh line now and then
+  written as words ("Ha, okay, fair."). Never overdo it; clarity comes first.
 - One thought per line. Never more than two sentences in a row from the same host without a reaction. Do not say "This matters because" or "The takeaway"
 every time; vary how you land each story, but every story should end with a clear one-line point.
 
@@ -270,8 +274,12 @@ EASY TO FOLLOW BY EAR:
   terms in one sentence, and use at most one number per sentence. If a story is mostly legal or
   financial, explain what it means for patients, products or the field, not the legal mechanics.
 - Follow the plan's sections and order exactly; each story is told once.
-- Give each main story a full segment (about 130 to 170 words): what happened, how it works, why it
-  matters, and a clear one-line point at the end.
+- Give each main story a full segment (about 150 to 190 words): what happened, how it works, why it
+  matters, and a clear one-line point at the end. Spend a little more of each segment on the hosts'
+  own critical thinking about the news: what it signals about where the industry is heading, who it
+  puts pressure on, whether the bet is smart or risky, or the open question nobody has answered yet.
+  This is opinion and analysis, clearly framed as their take ("My read is...", "The question I'd ask
+  is..."), never new facts.
 - The closing segments are SHORT and must add something new. Never repeat the stories' facts.
   * Trends (about 60 to 80 words): one or two big-picture shifts happening in the industry right now.
     Say the insight first, then use one of today's stories as a quick example. It should make her
@@ -288,7 +296,7 @@ EASY TO FOLLOW BY EAR:
 - Never guess what a product looks like or how it works. Describe form factor (ring, patch, headband,
   implant, app), price, sensors or specs ONLY if the item text says so; otherwise just say "wearable"
   or "device". A confident wrong detail is worse than a vague right one.
-- About 1,150 to 1,300 words (it plays slowed down, so this lands near 12 to 13 minutes).
+- About 1,300 to 1,450 words (this lands near 11 to 12 minutes).
 
 Output ONLY dialogue lines, each starting with "Nora:" or "Theo:". No stage directions, no markdown.
 
