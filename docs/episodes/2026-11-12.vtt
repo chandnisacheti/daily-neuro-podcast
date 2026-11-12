@@ -1,0 +1,232 @@
+WEBVTT
+
+00:00:02.786 --> 00:00:06.614
+<v Nora>Good morning! Today is Thursday, November 12, 2026.
+
+00:00:06.614 --> 00:00:11.043
+<v Theo>Five stories today: three in neurotech, two in health tech.
+
+00:00:11.043 --> 00:00:16.073
+<v Nora>Okay, first up: who expanded this week and key clinical milestones.
+
+00:00:16.073 --> 00:00:28.008
+<v Nora>Story one of five. Sinaptica Therapeutics has fresh clinical data showing their brain stimulation platform significantly slows Alzheimer's disease progression.
+
+00:00:28.008 --> 00:00:36.266
+<v Theo>So... here's the thing. Their Phase 2 trial results showed a forty-four percent slowing of functional decline.
+
+00:00:36.266 --> 00:00:42.421
+<v Nora>Wait, forty-four percent? That's... honestly a huge number for Alzheimer's, right?
+
+00:00:42.421 --> 00:00:54.657
+<v Theo>It really is. And they aren't just applying broad stimulation across the scalp. They personalize the transcranial magnetic stimulation for each individual patient.
+
+00:00:54.657 --> 00:01:01.713
+<v Nora>Huh. So it's personalized transcranial magnetic stimulation based on individual neural wiring.
+
+00:01:01.713 --> 00:01:09.670
+<v Theo>Exactly. They're presenting at CTAD 2026, and screening for their pivotal trial is officially opening now.
+
+00:01:09.670 --> 00:01:17.327
+<v Nora>Moving from a Phase 2 trial to opening screening for a pivotal study is a massive hurdle in neurotech.
+
+00:01:17.327 --> 00:01:27.236
+<v Theo>Right. Because running a multi-center pivotal trial with custom TMS protocols requires serious precision across every single clinic.
+
+00:01:27.236 --> 00:01:30.314
+<v Nora>What's your read on where this puts them?
+
+00:01:30.314 --> 00:01:52.684
+<v Theo>My read is, if Sinaptica gets strong pivotal data, it forces the entire neurodegeneration field to start viewing TMS as a targeted network drug alternative rather than a generic therapy. The open question I'd ask is whether community clinics can actually execute that custom brain mapping smoothly.
+
+00:01:52.684 --> 00:02:04.394
+<v Nora>That's the real test. Personalized network neuromodulation is demonstrating major late-stage clinical value, but operational scalability is what comes next.
+
+00:02:04.394 --> 00:02:08.501
+<v Theo>That's the clinical side. Now, policy and hardware signals.
+
+00:02:08.501 --> 00:02:19.291
+<v Nora>Story two of five. A group of brain-computer interface implant recipients just published a landmark set of ethical recommendations for neurotech companies.
+
+00:02:19.291 --> 00:02:26.321
+<v Theo>Yeah, they are demanding explicit control over their neural data, along with device ownership rights.
+
+00:02:26.321 --> 00:02:30.846
+<v Nora>Wait, why are device ownership rights coming to a head right now?
+
+00:02:30.846 --> 00:02:43.862
+<v Theo>Well, you know, we've seen past cases where early neurotech startups went under or shifted business models, leaving patients stranded with implanted hardware that was no longer supported.
+
+00:02:43.862 --> 00:02:50.754
+<v Nora>Wow. That's a terrifying place to be if your daily communication or movement relies on that device.
+
+00:02:50.754 --> 00:03:05.162
+<v Theo>Exactly. So these BCI users are drawing a firm line. They're saying neural signals represent core human thoughts and motor intent, so patients must retain permanent rights to their data and device ownership.
+
+00:03:05.162 --> 00:03:11.775
+<v Nora>I mean, that makes total sense ethically, but how hard is that for implant makers to implement?
+
+00:03:11.775 --> 00:03:29.804
+<v Theo>It puts huge pressure on hardware engineering teams. You can't treat an implant like a consumer gadget where you sunset software updates after a few years; you need robust data pipelines and hardware support written into your operational roadmap from day one.
+
+00:03:29.804 --> 00:03:41.637
+<v Nora>My read is that patient data rights and hardware support aren't just ethics discussions anymore—they are becoming non-negotiable requirements for real-world BCI adoption.
+
+00:03:41.637 --> 00:03:42.403
+<v Theo>Absolutely.
+
+00:03:42.403 --> 00:03:57.299
+<v Nora>Moving to story three of five. The Centers for Medicare & Medicaid Services—CMS—just revised remote monitoring payments and established dedicated Medicare payment rates for fourteen software-based diagnostic tools.
+
+00:03:57.299 --> 00:04:04.121
+<v Theo>So, practically... this is the commercial breakthrough digital health teams have been waiting for.
+
+00:04:04.121 --> 00:04:10.873
+<v Nora>Explain why setting explicit Medicare rates for software diagnostic tools is such a game-changer.
+
+00:04:10.873 --> 00:04:24.153
+<v Theo>For a long time, if you built a biosignal algorithm or diagnostic software, you had to pitch it to self-pay patients or convince health systems to squeeze it under generic billing codes.
+
+00:04:24.153 --> 00:04:27.437
+<v Nora>Which made commercial adoption pretty painful.
+
+00:04:27.437 --> 00:04:38.789
+<v Theo>Exactly. Now, CMS is creating explicit reimbursement pathways for software as a medical device, alongside revised payments for remote physiological monitoring.
+
+00:04:38.789 --> 00:04:50.784
+<v Nora>Okay, so if a doctor uses one of those fourteen approved software tools to analyze patient data remotely, there is a clear, predictable Medicare payment attached to it.
+
+00:04:50.784 --> 00:04:55.782
+<v Theo>Right. It connects algorithm performance directly to clinical revenue.
+
+00:04:55.782 --> 00:04:58.781
+<v Nora>What's the strategic catch for developers?
+
+00:04:58.781 --> 00:05:20.486
+<v Theo>The risk is that CMS baseline rates set your price ceiling. If your software requires heavy clinical onboarding, low reimbursement rates might make your unit economics tight. But overall, my read is this shifts software algorithms from speculative venture projects into standard, billable clinical tools.
+
+00:05:20.486 --> 00:05:29.125
+<v Nora>Clear reimbursement rates give diagnostic software developers a direct commercial pathway into everyday medical practice.
+
+00:05:29.125 --> 00:05:32.981
+<v Theo>That's the policy side. Now, research and engineering.
+
+00:05:32.981 --> 00:05:43.619
+<v Nora>Story four of five. Biomedical engineers at Penn State used fNIRS brain imaging to solve a classic problem in nerve stimulation: sensory habituation.
+
+00:05:43.619 --> 00:05:56.614
+<v Theo>Right. Habituation is when the central nervous system gets used to repetitive electrical pulses, so artificial sensations—like touch feedback in a prosthetic hand—start to fade away.
+
+00:05:56.614 --> 00:06:05.895
+<v Nora>And if you're wearing a prosthetic arm, losing that touch feedback means you suddenly crush a cup or drop whatever you're holding.
+
+00:06:05.895 --> 00:06:19.104
+<v Theo>Exactly. So Dr. Xiaogang Hu's team tested different transcutaneous nerve stimulation intervals while monitoring cortical blood flow with functional near-infrared spectroscopy, or fNIRS.
+
+00:06:19.104 --> 00:06:22.960
+<v Nora>And what protocol actually stopped the sensory fading?
+
+00:06:22.960 --> 00:06:30.466
+<v Theo>They found a dynamic ratio: five seconds of electrical stimulation followed by forty seconds of rest.
+
+00:06:30.466 --> 00:06:33.067
+<v Nora>Five seconds on, forty seconds off.
+
+00:06:33.067 --> 00:06:46.370
+<v Theo>Yeah. Across a forty-five-minute session with sixty consecutive stimulation cycles, participants reported zero sensory decline; the tingling touch sensation stayed totally stable.
+
+00:06:46.370 --> 00:06:52.241
+<v Nora>Wait, what did the fNIRS imaging show while people were receiving those pulses?
+
+00:06:52.241 --> 00:07:13.348
+<v Theo>That was the fascinating part. Even though participants felt the exact same sensation strength the whole time, brain imaging showed active neural regions were migrating. The sensory processing shifted out from the primary somatosensory cortex into broader, distributed brain networks.
+
+00:07:13.348 --> 00:07:21.895
+<v Nora>So the brain actually rerouted the sensory signals across distributed networks to keep the touch perception active!
+
+00:07:21.895 --> 00:07:31.110
+<v Theo>Exactly. It shows that smart, dynamic pulse timing can prevent sensory habituation without needing higher stimulation power.
+
+00:07:31.110 --> 00:07:41.886
+<v Nora>For closed-loop sensory feedback design, using a five-second pulse protocol offers a clear, practical solution for long-term sensory prosthetics.
+
+00:07:41.886 --> 00:07:46.940
+<v Theo>Okay, switching gears for our NYC Watch section. Story five of five.
+
+00:07:46.940 --> 00:07:55.115
+<v Nora>New York-based Oscar Health is partnering with HealthEx to integrate member medical records into AI workflows.
+
+00:07:55.115 --> 00:08:03.885
+<v Theo>Oscar has always framed itself as a tech-driven health insurer, so this partnership is focused on data infrastructure.
+
+00:08:03.885 --> 00:08:07.155
+<v Nora>How does HealthEx fit into their operations?
+
+00:08:07.155 --> 00:08:21.350
+<v Theo>HealthEx specializes in data integration. They're building a setup that pulls member health records, structures them, and feeds them into AI workflows to streamline administrative operations.
+
+00:08:21.350 --> 00:08:29.525
+<v Nora>So instead of staff hunting through unstructured medical files, the AI gets instant, organized member history.
+
+00:08:29.525 --> 00:08:35.338
+<v Theo>Right. It turns static medical charts into dynamic context for automated workflows.
+
+00:08:35.338 --> 00:08:39.260
+<v Nora>What does this signal for the broader health tech space?
+
+00:08:39.260 --> 00:08:55.228
+<v Theo>My take is that health insurers are desperate to deploy AI to speed up operations, but bad data pipelines ruin model accuracy. Oscar is betting that investing in data orchestration is the only way to make enterprise AI reliable.
+
+00:08:55.228 --> 00:09:03.353
+<v Nora>Plugging clean medical records into AI workflows is becoming the baseline requirement for payer tech stack upgrades.
+
+00:09:03.353 --> 00:09:05.664
+<v Theo>That brings us to today's trends.
+
+00:09:05.664 --> 00:09:10.216
+<v Nora>What big-picture shifts are connecting these stories today, Theo?
+
+00:09:10.216 --> 00:09:26.815
+<v Theo>First, reimbursement for software diagnostics is formalizing. As we saw with CMS establishing Medicare rates for fourteen software tools, algorithm developers can target direct clinical billing instead of relying only on cash-pay models.
+
+00:09:26.815 --> 00:09:28.286
+<v Nora>And the second trend?
+
+00:09:28.286 --> 00:09:52.169
+<v Theo>Neurotech hardware and pulse design are focusing on long-term adaptation. Whether it's physiologically solving sensory habituation with Penn State's five-second pulse protocol, or ethically giving patients permanent ownership of neural data like the BCI recipient guidelines, building for continuous, long-term human use is front and center.
+
+00:09:52.169 --> 00:09:54.270
+<v Nora>Now for today's Career Signal.
+
+00:09:54.270 --> 00:10:16.051
+<v Theo>If you work on biosignal machine learning, adaptive signal processing, or closed-loop neuromodulation, pay close attention to today's habituation research. Clinical trial sponsors and device makers are heavily prioritizing algorithms that prevent sensory fading while keeping patient data pipelines transparent.
+
+00:10:16.051 --> 00:10:31.810
+<v Nora>If you're building adaptive stimulation features, now is a great time to reach out to heads of clinical product at neuromodulation companies. Share how dynamic pulse protocols can improve their closed-loop hardware stability.
+
+00:10:31.810 --> 00:10:33.981
+<v Theo>Time for our quick daily recap.
+
+00:10:33.981 --> 00:10:45.047
+<v Nora>One: Sinaptica Therapeutics reported a forty-four percent slowing of Alzheimer's decline with personalized TMS ahead of CTAD 2026 and pivotal trial screening.
+
+00:10:45.047 --> 00:10:53.621
+<v Theo>Two: BCI implant recipients issued ethical guidelines demanding patient control over neural data and device ownership.
+
+00:10:53.621 --> 00:11:02.632
+<v Nora>Three: CMS established Medicare payment rates for fourteen software diagnostic tools and revised remote monitoring payments.
+
+00:11:02.632 --> 00:11:11.715
+<v Theo>Four: Penn State researchers used fNIRS to solve sensory habituation in nerve stimulation using a five-second pulse protocol.
+
+00:11:11.715 --> 00:11:18.618
+<v Nora>Five: NYC's Oscar Health partnered with HealthEx to integrate member records into AI workflows.
+
+00:11:18.618 --> 00:11:31.262
+<v Theo>From network-targeted brain stimulation to formal software diagnostic reimbursement, neurotech and digital health tools are building robust, long-term commercial foundations.
+
+00:11:31.262 --> 00:11:41.799
+<v Nora>That's our show for today, Thursday, November 12, 2026. Thanks for listening while walking or commuting, and we'll catch you right here tomorrow!
+
+00:11:41.799 --> 00:11:42.307
+<v Theo>See ya.

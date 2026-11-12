@@ -1,59 +1,68 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "leads": [
   {
-   "company": "UCSF",
-   "signal": "funding",
-   "detail": "UCSF neuroscientists received $8.5 million in ARPA-H funding to launch CANOPY, a global study tracking 3,000 real-world psychedelic journeys using wearable sensors and brain imaging.",
-   "location": "San Francisco, USA",
+   "company": "Sinaptica Therapeutics",
+   "signal": "expansion",
+   "detail": "Sinaptica Therapeutics announced Phase 2 results showing its personalized TMS therapy slowed Alzheimer's functional decline by 44% and is beginning screening for a pivotal trial.",
+   "location": "",
    "nyc": false,
-   "why_relevant": "The project directly integrates brain imaging and wearable biosignal data collection for neuroscientific monitoring, highly relevant to biosignal-ML and neuroengineering students.",
-   "link": "https://neurosciencenews.com/psychopharmacology-psychedelic-journeys-32399/"
+   "why_relevant": "Focuses on personalized non-invasive neuromodulation and brain network diagnostics for neurodegenerative conditions.",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSzRUSEYwNFN0Ni15ZnhFV0tUZnVBWUVTckZ1ZFdIWDBPRmZJdlk4R2liRmVyZ3JZT1U0bHFzYTZuM3JqYVc3eEg1eE1UMDJvSjBsT3o3R2RuN2lrQ2g3bnBIQzJxSWRrTWxwZW50dXFrbVNINHdzSzV1cVZQX3R1TVZ5VThtTG9tcXJQTi04X3V5T01lcExZWlcxYWxtTEZvNS1YOHVxWldUanVyM2lIQkJNN29neFVTZjVfSm5QUGRxU293VmpvU2EwU0ljU2NqZTVwX1ZEcHRnbzJONWc?oc=5"
   },
   {
    "company": "Oura",
    "signal": "acquisition",
-   "detail": "Oura agreed to acquire clinical AI startup Counsel Health for $625 million to combine continuous wearable biometrics with on-demand clinical AI care.",
+   "detail": "Oura planned a $625 million acquisition of Counsel Health to expand its AI capabilities in healthcare.",
    "location": "",
    "nyc": false,
-   "why_relevant": "As a market leader in biometric smart rings, Oura represents prime industry work in wearable sensor integration and physiological signal machine learning.",
-   "link": "https://www.statnews.com/2026/11/10/oura-acquires-counsel-health-big-bet-ai-care/?utm_campaign=rss"
+   "why_relevant": "Leading smart ring wearable company integrating AI with continuous physiological biosignal monitoring.",
+   "link": "https://www.medtechdive.com/news/oura-makes-bet-on-ai-in-healthcare-with-625m-counsel-health-buy/874398/"
   },
   {
-   "company": "Kardi Ai",
+   "company": "Penn State (Hu Neurorehabilitation Lab)",
+   "signal": "research",
+   "detail": "Penn State researchers developed a 5-second pulse stimulation protocol paired with fNIRS imaging to overcome sensory habituation during electrical nerve stimulation.",
+   "location": "State College, USA",
+   "nyc": false,
+   "why_relevant": "Integrates fNIRS neuroimaging with peripheral electrical neuromodulation protocol design to refine tactile sensory neuroprosthetics.",
+   "link": "https://neurosciencenews.com/neurotech-sensory-habituation-32408/"
+  },
+  {
+   "company": "Sleep.ai",
    "signal": "funding",
-   "detail": "Czech medtech startup Kardi Ai raised €5.3 million to advance its predictive heart monitoring platform.",
+   "detail": "Sleep.ai raised $5.3 million in funding to scale its device-agnostic sleep intelligence platform and AI integrations.",
+   "location": "",
+   "nyc": false,
+   "why_relevant": "Applies machine learning models to wearable sensors for continuous sleep and health state tracking.",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ21TdGRudGh1bG92ZHRGNUlTMDZwWld1aWZ4NmQxb1hRc25jN0dzNTd4bUdOd0FOVmE0UHR1N1Z1VmVhWmpQbEZHazc0VlMtRDBEVS1LX1hSYnB2OEppR1FnV1RXZ3l6Q3hOOHhXcW1pZ1h0al9nRFVfWVIyX25NT2hrUm1SaE9yT1BMRHJMcmJ5cXhTSUozaEl5Z3dCVWJZMS1sLUdOSEJqdTZ2?oc=5"
+  },
+  {
+   "company": "Kardi AI",
+   "signal": "funding",
+   "detail": "Kardi AI raised €5.3 million in Series A funding to scale its AI-driven remote cardiac monitoring solution.",
    "location": "Czech Republic",
    "nyc": false,
-   "why_relevant": "Involves applying predictive machine learning algorithms to cardiac biosignals for continuous physiological monitoring and diagnostics.",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWWdNM1BtZUZYcHAtb2gzQU5WWHpLOE5QcXNDRTNuUjIxc2dTNkNkOTczTHpkS21zVGRvZ29fajd1T0w4WjU1bUF1c0hCdnhubXZtamNfdkdXRlJ5Yk1FZWJDOEZEN1ZkQTJ5VDk4blhnandVS0VYZEFfZ2pKcm9jczFTT3pfX1c3NWV5RHBLQXpYdHdQOENfd3JaQnJZUm5zeWZaS0ZR?oc=5"
+   "why_relevant": "Combines ECG/cardiac biosignal processing with predictive ML algorithms for continuous wearable health monitoring.",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeWZXUFFYdmlheXMxR0JxSDZ5ZmE1Qkd2ZmowcTA0ZUEwbVhzRGcyeGlKNUxNX3JnRnM5dWx1XzFFWF9vbWxyTzZfSFhTYnR3Z3o3cUgwOWJSeXJFVk4yNTBJZjNKZzd5aXByemJuYXdIcW42Rmc5M0p0Nkc5RlFUem5GOUN0SGxYN3ExbUVqeF8yRDQ4dUE?oc=5"
   },
   {
-   "company": "Virtuoso Surgical",
-   "signal": "fda",
-   "detail": "Virtuoso Surgical obtained FDA clearance for its robotic system designed for minimally invasive, single-piece bladder tumor resection.",
-   "location": "",
+   "company": "Skribe",
+   "signal": "partnership",
+   "detail": "US heart-monitor startup Skribe partnered with SeaX Ventures to introduce its cardiac monitoring devices to clinical networks across Southeast Asia.",
+   "location": "USA",
    "nyc": false,
-   "why_relevant": "Provides exposure to surgical robotics instrumentation, medical device control systems, and translational medtech regulatory pipelines.",
-   "link": "https://www.medtechdive.com/news/virtuoso-robot-wins-fda-nod-for-bladder-tumor-removal/874261/"
+   "why_relevant": "Develops wearable cardiac monitoring hardware and signal processing technologies for real-time patient assessment.",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRXRvSGJzRnlBY3JMOF9DY1VUbUZRMks4N3cwU0VPU2YtNl9wNlpZQUFMenZuTFljUmlPc1hyeUt0UVI1eVhObzlKQkFsSV9lVkdQMkJ5UDRVQ0hQSloxMUFtdGd2NHNtdWdNU2pKWGVsSTQ1VFBmcTZ1STBROEdPOEpOTTdTWG8xdTZkWkVPTWFJSGRtc2ZQYXdjLW4wdmE1OHZTOGZfb0ZldDA1empiSW1ZanFTQjIyTkhtSXVDenNSVWxVeXlLVm84UQ?oc=5"
   },
   {
-   "company": "Getinge",
-   "signal": "hiring",
-   "detail": "Getinge announced the hiring of Stacy Beske from Philips to take over as president of acute care therapies starting December 1.",
-   "location": "",
+   "company": "Akara",
+   "signal": "funding",
+   "detail": "Trinity spinout Akara raised $5.5 million in funding to accelerate the expansion of its healthcare AI technology.",
+   "location": "Dublin, Ireland",
    "nyc": false,
-   "why_relevant": "Signals executive leadership expansion at a major medical technology provider developing acute therapeutic and monitoring hardware.",
-   "link": "https://www.medtechdive.com/news/getinge-hires-president-of-acute-care-therapies/874219/"
-  },
-  {
-   "company": "Rosti",
-   "signal": "acquisition",
-   "detail": "Rosti acquired Alvi to expand and strengthen its contract manufacturing operations for medical devices.",
-   "location": "",
-   "nyc": false,
-   "why_relevant": "Offers industry perspective on the hardware scaling, fabrication, and manufacturing phases of biomedical and wearable device engineering.",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQR0owVXhVY2piT1pKQ2tYVG81Q2JQd2c2SDE0ZXpoWFJHZTRQSUttNlQ3ckxfQTJRenU4NzFDSmctQ19iSlRlTFVKc2lSOEFmcGRuWUlrZ0RudzBxak5JVGdxcEhfZ25JQVBJcEJwUmRoMTk2OUljdHZORHFNZjlFdmJpWW80TVNYcjlvTHp6SDdGZw?oc=5"
+   "why_relevant": "Offers opportunities in medical AI and robotic sensor integration within healthcare environments.",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTk84TlRxOEJjNGUxNGhBUlZWeGJiQkdTN0NhV1puVDUyVGROS19jN3ZRV2hvbVF1bW95ZUlleVp5bFVwdHpuZGM3VC1JWGdqZGlqcS0wX0FQRkhlY1kxX0c4Rnl0Z04yUWNNVWw0Qm43Z1h5cWI5Sy1keWp3cS01VkkxQmJkUUFiMk9HeXQ3N3ZmZXEwVlNNeFp2b3hnUnhPUExR?oc=5"
   }
  ]
 }
