@@ -27,10 +27,11 @@ jobs:
       - name: Install
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-          pip install -q feedparser requests edge-tts
+          pip install -q feedparser requests edge-tts trafilatura googlenewsdecoder
       - name: Make episode
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TARGET_COMPANIES: ${{ secrets.TARGET_COMPANIES }}
           SKIP_IF_EXISTS: ${{ github.event_name == 'schedule' && '1' || '0' }}
         run: cd podcast && python make_episode.py
       - name: Publish

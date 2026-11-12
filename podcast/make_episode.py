@@ -287,10 +287,17 @@ EASY TO FOLLOW BY EAR:
   * Career Signal (about 40 to 60 words): one non-obvious takeaway for someone with Chandni's
     background (biosignal ML, EEG/EMG/HRV, closed-loop neuromodulation, productization): a skill to
     build, a kind of company to watch, or a move to make this week. No list of companies.
+    If the plan has "tracker_matches" (companies in today's stories that are on Chandni's own target
+    list), build the Career Signal around ONE of them: what today's news means for someone like her
+    there, and the kind of person to reach out to (a role such as "their head of clinical product" or
+    "the team leading the new device"), with a concrete reason to reach out now. Never name a specific
+    person, and never mention internships or job searching; frame it as a smart move.
   * Recap (about 60 to 80 words): one short line per story in order ("One: ... Two: ..."), then
     one line that ties the day together.
-- Use ONLY facts in each item's "facts" (a fact sheet verified with Google Search against credible
-  sources) or its title and summary. Do not invent numbers, names, quotes, product details or context.
+- Use ONLY facts in each item's "facts" (a fact sheet verified with Google Search, when present), its
+  "article" (the full text of the original article), or its title and summary. The article is the best
+  source of real detail: use it to explain what actually happened, how the product or study works, and
+  who said what. Do not invent numbers, names, quotes, product details or context.
   If a detail is listed under UNCONFIRMED or is missing, leave it out or say plainly that it isn't
   confirmed yet. Never fill gaps with what sounds likely.
 - Never guess what a product looks like or how it works. Describe form factor (ring, patch, headband,
@@ -408,6 +415,42 @@ def research_story(it):
     return text.strip(), sources
 
 
+def resolve_link(url):
+    """Google News RSS links are redirects; turn them into the publisher's real article URL."""
+    if "news.google.com" not in url:
+        return url
+    try:
+        from googlenewsdecoder import gnewsdecoder
+        r = gnewsdecoder(url, interval=1)
+        if r.get("status") and r.get("decoded_url"):
+            return r["decoded_url"]
+    except Exception as e:  # noqa: BLE001
+        log(f"could not decode Google News link: {e}")
+    return url
+
+
+def fetch_article(it):
+    """Download the original article and keep its main text, so the writer and fact-checker work from the
+    full story instead of a headline and blurb (free; no search quota). Fails quietly."""
+    url = resolve_link(it.get("link", ""))
+    it["article_url"] = url
+    if not url or "news.google.com" in url:
+        return
+    try:
+        import trafilatura
+        r = requests.get(url, timeout=20, headers={"User-Agent": UA, "Accept": "text/html,*/*"})
+        r.raise_for_status()
+        text = trafilatura.extract(r.text, include_comments=False, include_tables=False, favor_precision=True)
+        meta = trafilatura.extract_metadata(r.text)
+        if text and len(text) > 400:
+            it["article"] = text[:6000]
+            log(f"article: {len(text)} chars from {url[:80]}")
+        if meta and meta.date:
+            it["article_date"] = meta.date[:10]
+    except Exception as e:  # noqa: BLE001
+        log(f"article fetch failed for {url[:80]}: {e}")
+
+
 RESEARCH_STATE = {"off": False, "fails": 0}
 MAX_NEWS_AGE_DAYS = 3  # a story first reported earlier than this is old news and gets dropped
 
@@ -435,6 +478,7 @@ def research_stories(items, plan):
             if not it:
                 keep.append(st)
                 continue
+            fetch_article(it)
             if not RESEARCH_STATE["off"]:
                 try:
                     facts, sources = research_story(it)
@@ -450,6 +494,11 @@ def research_stories(items, plan):
                         log("research: search quota looks used up; skipping the rest (writer sticks to the feed text)")
                 time.sleep(6)
             first = first_reported(it.get("facts"))
+            if not first and it.get("article_date"):
+                try:
+                    first = dt.date.fromisoformat(it["article_date"])
+                except ValueError:
+                    first = None
             if first and (today - first).days > MAX_NEWS_AGE_DAYS:
                 log(f"dropped old news ({first}): {it['title'][:70]}")
                 plan.setdefault("do_not_mention", []).append(it["title"])
@@ -463,8 +512,8 @@ def research_stories(items, plan):
 
 
 FACTCHECK_PROMPT = """You are the fact-checker for a two-host news podcast script. Compare EVERY factual claim
-in the script with the verified fact sheets below (and the original item text). A claim is supported only if
-the fact sheet or item states it. Fix or cut anything else: invented details, guessed product forms (for
+in the script with the verified fact sheets, the full original article text and the item text below. A claim
+is supported only if one of those states it. Fix or cut anything else: invented details, guessed product forms (for
 example calling a patch a "ring"), wrong or made-up numbers, names, dates, quotes, or overstated certainty.
 When something important is unconfirmed, the hosts may say it is not yet confirmed; they never fill the gap.
 Opinions, analysis and "what this could mean" lines are fine if they are framed as interpretation.
@@ -487,7 +536,7 @@ def fact_check(lines, items, plan):
         return lines, []
     by_id = {it["id"]: it for it in items}
     used = [by_id[st["id"]] for sec in plan.get("sections", []) for st in sec.get("stories", []) if st.get("id") in by_id]
-    stories = [{k: it.get(k) for k in ("title", "source", "summary", "facts")} for it in used]
+    stories = [{k: it.get(k) for k in ("title", "source", "summary", "facts", "article")} for it in used]
     script = "\n".join(f"{s}: {t}" for s, t in lines)
     body = {"contents": [{"parts": [{"text": FACTCHECK_PROMPT.format(stories=json.dumps(stories, ensure_ascii=False), script=script)}]}],
             "generationConfig": {"temperature": 0.1}}
@@ -508,6 +557,41 @@ def fact_check(lines, items, plan):
         log("fact check returned a much shorter script; keeping the writer's script")
         return lines, ["Fact check output looked incomplete, so the writer's script was kept."]
     return fixed, changes
+
+
+def match_tracker(items, plan):
+    """Find companies from Chandni's target list (kept in the private TARGET_COMPANIES secret, one per line)
+    in today's chosen stories. Only the matched names reach the script; the list itself never gets published."""
+    names = [n.strip() for n in os.environ.get("TARGET_COMPANIES", "").splitlines() if len(n.strip()) > 2]
+    if not names:
+        return
+    by_id = {it["id"]: it for it in items}
+    found = []
+    for sec in plan.get("sections", []):
+        for st in sec.get("stories", []):
+            it = by_id.get(st.get("id"))
+            if not it:
+                continue
+            text = " ".join(str(it.get(k, "")) for k in ("title", "summary", "article"))
+            for n in names:
+                if n not in found and re.search(r"(?<![\w])" + re.escape(n) + r"(?![\w])", text):
+                    found.append(n)
+    if found:
+        plan["tracker_matches"] = found[:3]
+        log(f"tracker matches: {len(found)}")
+
+
+def story_links(items, plan):
+    """Top of the show notes: each story with a tappable link (Spotify and Apple turn URLs into links)."""
+    by_id = {it["id"]: it for it in items}
+    used = [by_id[st["id"]] for sec in plan.get("sections", []) for st in sec.get("stories", []) if st.get("id") in by_id]
+    if not used:
+        return ""
+    out = ["Today's stories:"]
+    for n, it in enumerate(used, 1):
+        title = re.sub(r"\s+-\s+[^-]{2,40}$", "", it["title"])  # drop " - Outlet" suffixes from Google News titles
+        out.append(f"{n}. {title}\n{it.get('article_url') or it.get('link', '')}")
+    return "\n\n".join(out) + "\n\n"
 
 
 def write_editor_log(items, plan, slug, date_str, fixes=()):
@@ -783,6 +867,7 @@ def main():
         sys.exit("No news found; skipping today")
     plan = plan_episode(items)
     research_stories(items, plan)
+    match_tracker(items, plan)
     title, lines = write_script(items, plan, date_str)
     lines, fixes = fact_check(lines, items, plan)
     editor_log = write_editor_log(items, plan, slug, date_str, fixes)
@@ -801,7 +886,7 @@ def main():
     eps.insert(0, {
         "slug": slug, "build": now.strftime("%H%M"), "title": title, "date": now.strftime("%a, %d %b %Y %H:%M:%S +0000"),
         "seconds": seconds, "bytes": mp3.stat().st_size,
-        "notes": "Full transcript:\n\n" + "\n\n".join(f"{sp}: {t}" for sp, t in lines)
+        "notes": story_links(items, plan) + "Full transcript:\n\n" + "\n\n".join(f"{sp}: {t}" for sp, t in lines)
                  + "\n\n" + editor_log,
     })
     for old in eps[KEEP_EPISODES:]:
