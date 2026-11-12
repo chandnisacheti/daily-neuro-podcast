@@ -36,8 +36,8 @@ HOSTS = ("Nora", "Theo")
 VOICES = {"Nora": "Aoede", "Theo": "Charon"}
 FALLBACK_VOICES = {"Nora": "Kore", "Theo": "Puck"}
 STYLES = {
-    "Nora": "a real person chatting on a casual podcast with a friend, not a narrator or announcer; warm and bright, genuinely curious, smiles while talking; uneven natural pacing, speeds up when excited and slows on key points, small breaths, stresses the one important word in a sentence, reacts with real surprise or amusement",
-    "Theo": "a real person chatting on a casual podcast with a friend, not a narrator; relaxed, lower-pitched, thoughtful engineer; thinks out loud, slight hesitations before a key point, dry humor with a hint of a laugh, varies pitch and pace like real conversation, never reads in a flat even rhythm",
+    "Nora": "a real person chatting on a casual podcast with a friend, not a narrator or announcer; high-energy, animated and expressive, opinionated optimist, smiles and laughs easily, big dynamic range between excited and serious; uneven natural pacing, speeds up when excited and slows on key points, small breaths, stresses the one important word in a sentence, reacts with real surprise or amusement",
+    "Theo": "a real person chatting on a casual podcast with a friend, not a narrator; deadpan, skeptical, lower-pitched engineer with very dry wit, slower and more measured than his co-host, audible amusement when teasing; thinks out loud, slight hesitations before a key point, dry humor with a hint of a laugh, varies pitch and pace like real conversation, never reads in a flat even rhythm",
 }
 EDGE_VOICES = {"Nora": "en-US-AvaNeural", "Theo": "en-US-AndrewNeural"}
 API = "https://generativelanguage.googleapis.com/v1beta/models"
@@ -238,11 +238,19 @@ NEWS ITEMS (JSON):
 WRITER_PROMPT = """Write the script for today's "Neuro Morning" from the editor's plan below.
 Today is {date}. Listener: Chandni (see plan). She listens while walking or commuting.
 
-HOSTS (distinct people, distinct ways of talking):
-- Nora: the anchor. Quick, bright, curious. Short punchy sentences, asks the questions a smart
-  listener would ask ("Wait, how big is that?"), moves the show along, announces sections.
-- Theo: the engineer-analyst. Slower, thoughtful, a little dry humor. Explains the mechanism or the
-  "so what" in plain words, often starts with "Here's the thing" or "So, practically..." (vary it).
+HOSTS (two vivid, very different people; a listener should know who is talking with eyes closed):
+- Nora: the anchor and the optimist. High energy, fast, expressive, opinionated. Gets genuinely
+  excited about bold bets ("Okay, this one made me sit up."), thinks in vivid everyday analogies,
+  asks the blunt human questions ("But would anyone actually wear that?", "Who pays for it?"),
+  teases Theo for being a skeptic, and moves the show along. Short punchy lines, lots of energy shifts.
+- Theo: the engineer and the skeptic. Slower, deadpan, dry wit. Nerds out on how the thing actually
+  works (the signal, the hardware, the study design) and pokes holes ("Show me the n.", "Cool demo.
+  Now do it outside a lab."). Gives grudging respect when something is truly impressive, and that
+  should land as a moment ("Okay... I'll admit it. That's clever."). Understated jokes, never loud.
+- Their chemistry is the show: they push on each other's takes, and they genuinely disagree on at
+  least one or two stories per episode (one bullish, one skeptical) before landing somewhere. Light
+  teasing and callbacks to something said earlier in the episode are welcome. Each host has distinct
+  verbal habits; never let them sound interchangeable or agree politely on everything.
 They trade off who introduces stories. They sound like two sharp friends who both work in neurotech
 and health tech, talking over coffee: smart and in the field, but relaxed. The listener should feel like
 she is getting a high-value coffee chat with two insiders: real opinions, why a move is smart or risky,
