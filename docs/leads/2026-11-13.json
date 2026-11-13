@@ -1,0 +1,101 @@
+[
+ {
+  "company": "Synchron",
+  "signal": "hiring",
+  "detail": "Synchron is actively hiring engineering roles in San Diego to build an upgraded Stentrode system and next-generation brain-computer interface technology.",
+  "location": "San Diego, USA",
+  "nyc": false,
+  "why_relevant": "Directly relevant to invasive brain-computer interfaces, neural signal decoding, and neuromodulation hardware development.",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMERPTy04TnV2RlFmTHBlZ1BpY0NfTkNtaXA3NWkySzE1dFdsRFhLWjEwZGtyN3dnTXFXUktZRTJWcmdBbW5oRUlyR1FRaTNaT0RSTW9jWk15bUJneHNvR1RtM3c0eHRuV2hZb09Rc2hOeDVmUlFra0I3dXhWQ1_KQnlhMndKRnJMWUVMbnlaS1FMcngxTzcxNDBVUk13bW8?oc=5"
+ },
+ {
+  "company": "Oura",
+  "signal": "acquisition",
+  "detail": "Oura acquired a health tech startup to expand its wearable technology and AI-driven health monitoring ecosystem.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Focuses on consumer smart ring wearables, continuous biosignal tracking, and predictive machine learning models.",
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeVNJS2JEQXFLRU9QTzVTbmtXUWgxWmNnMFp2TE1tckREV3dWYXZBT3F5ODFWOVFfdkoxV04xVnozWFh6Q2E5UmdKZnRKOWxoeWJQcWdoS3lLMllpcC1pcXc1T0lkYnhOeG9pXzJiQm5EX0FSQVFVNVVWQ0ZXWFhLSnEyNUc?oc=5"
+ },
+ {
+  "company": "King’s College London",
+  "signal": "funding",
+  "detail": "King’s College London secured £10.8m to advance research in AI and wearable heart health technology.",
+  "location": "London, UK",
+  "nyc": false,
+  "why_relevant": "Directly links wearable sensor data analysis with machine learning for cardiovascular biosignal monitoring.",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZUcWpFZWg5c0RPZDBMeTB5RmM5WkFCWTIzb2hLTTFUdU5LNGQwbUo4YU9vc3VPNTR6cWJNdFh1dWN0WEN5dDl5VUJPZktrZGI4bGJYWWVsZUlHVkViN2NvQ1prbVM5clFNY0hlbTZFM3_Uk2h3bWlSUDFmOVozRzNlU0FQWWlZZ3JVV3lySFdDWmROLW93MnQ0bFZtVE8zMmNYTlJPUjBNc0RBOEd3WS13a3c?oc=5"
+ },
+ {
+  "company": "Natus",
+  "signal": "expansion",
+  "detail": "Natus expanded its global clinical collaborations by establishing an inaugural EMG Advisory Board and International EEG Advisory Board.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Focuses on neurodiagnostic hardware and biosignal processing tools for electroencephalography and electromyography.",
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMEZ6M1BXZDZGRnRDYzg1cWVnRUlHa2pvLVl2MkZ5aks0a2FjLUs3YzZhQXJ3ekQtbENtbGU0cjA0OGpjLVpuaXhkemNMVHUwYzBZM2Nzc2xRbFJyQkNEOEV5YW42ZmhWNjVSZnpGVGhBUElfZk1YUzBxcHhveDV2UVhoUEdVWWhxYjIzMmlDaHd5LW8wQ0xQMnBBUWkxRUsyOTZaSFg4TQ?oc=5"
+ },
+ {
+  "company": "Alcon",
+  "signal": "acquisition",
+  "detail": "Alcon expanded its product and research footprint through the acquisition of a neurotech company.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Demonstrates commercial expansion and development opportunities within neurotech and ocular medical devices.",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaG1LVDNXamhEbUh6NGc2YmtkbzBLQXJIWHdHNkxVOWZwNHFvbjBieGxjbVVEbEZPQTdBdGpfbzNGS25IalhtSUFQc3hkU1_YaGtrT3RieS1CMy1FcUVhZ2xnWlQ4UGdzOEFodjFseV_PWi1XWTlweGljSmhrdFFHeDBvU0hGSlM5UnBKYU5oMUx2YS1x?oc=5"
+ },
+ {
+  "company": "Avicenna.AI",
+  "signal": "fda",
+  "detail": "Bracco and Avicenna.AI received FDA clearance for UPTUNITY Aneurysm, an AI software designed for brain aneurysm detection and assessment.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Applies artificial intelligence algorithms to neural diagnostic imaging and software-as-a-medical-device.",
+  "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNMkNfSmhFX1o5WXFrN2tTZUc2TmdVbE9CN2FXSWxldUtLRlNjdHRKbDZjb204ckxDNXJncUhvdmlyRGdYTEljNUR2QW43UGNES0FqbEo3SWdaTHJuOFdQV2xCVURfZXQtVUhXdTRvcTh2U2l5OEJ3ZG14Q0pRbjg2N2d3bkRnTVpxYmNfZTAtYmtBYVRXdl_weGFoUUtwU3RlaFN1aDQ4RTNVc0t0Ml8zdHQxYjFBRzFMeS04NXRWc1NPLVdraURuXzY4SG9ibUR1ZUdrQnYxeEEwcEpHcklKVmZLX0NINDJibFB1QXFLeWNXdTZDazJRbWtBVWFkZHdVUk5VZlVaOE9JbXlWbTFQZzZ5MVhWRmVzU2dKYUZn?oc=5"
+ },
+ {
+  "company": "Medtronic",
+  "signal": "fda",
+  "detail": "Medtronic and Contego gained new FDA approvals for the Neuroguard carotid stent system.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Pertains to neurovascular medical devices and neuro-interventional device design.",
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcGdqMUtBR0F1Q0dnUTg1eXNkY2Ntc3RHZUMyTmxKTWpacVdUb1FTVTZlRzZEMjZMVHVTNWh2eVZ2UGhWVzMzdng2dFpYbUNSOWZZeVV4SkotR29NcjYwUVhiT0JUekU3aTFLVUViQ1h6dkRfYm9QZjVNZGk4Q2h0MVBCMlpDbElqM0JkMl_Rd0c1YWpPM1FLMQ?oc=5"
+ },
+ {
+  "company": "Abbott",
+  "signal": "fda",
+  "detail": "Abbott obtained FDA approval and CE mark for a purpose-built defibrillation lead used in left bundle branch area pacing.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Focuses on active implantable electronic devices and electrophysiology hardware development.",
+  "link": "https://www.medtechdive.com/news/abbotts-defibrillation-lead-lands-fda-approval-and-ce-mark/874474/"
+ },
+ {
+  "company": "Zus Health",
+  "signal": "funding",
+  "detail": "Zus Health secured $33 million in Series B funding to build connected patient data infrastructure for AI-powered clinical workflows.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Provides exposure to digital health data processing and clinical machine learning infrastructure.",
+  "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUjZORTJVZzI2LVJwVXplRVB4Z3VqSEMyNFcwQU9IRnQySE5XMlA3a3p2a1ZEbEVrRHJWQmJSZWM0a19MTkRjZ2d5eEJqd21WZ1JGVXBXYU51TTQ1ZEZpNXJlMmNiVVk0NDI1WksxM01ucnZNMkdWM2FqdEhkRk9jZlZBM2VDZE5Ed2RxR1k3Z0Z4aFJrdXAzdlVRVnoyV0RwbnhBWU9raXdPZXZ1Z05idnJiWUplNm9nclE?oc=5"
+ },
+ {
+  "company": "Francis Medical",
+  "signal": "funding",
+  "detail": "Francis Medical secured an investment round led by Johnson & Johnson to take its water-vapor therapy device through premarket approval.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Offers insight into novel therapeutic medical device development through the FDA PMA pathway.",
+  "link": "https://www.medtechdive.com/news/jj-leads-francis-medical-investment-to-fund-prostate-cancer-device/874352/"
+ },
+ {
+  "company": "Virtuoso Surgical",
+  "signal": "fda",
+  "detail": "Virtuoso Surgical received FDA de novo authorization for its robotic surgical system designed for bladder cancer resection.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Relevant to surgical robotics, mechatronics, and advanced medical device engineering.",
+  "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR1dtNUJQbTZZSDNXaDk0RXZaaEY4alZ5ZHptcTdtd0ZBZFBkMDhzR3hHeXVvZko4Q3lZRmhqakhKNzRSNU10TVBKSE9fZ1Bxa2FwNFBxdUVadGxjYmVyT1ZQUnczblRrQ3Q3amVHY3ZfODVMSHRyRXdMUXQwTHpGczJTaE9FM0dTNkV2cEtRd1ZTNDZNOUtmd2tDVzd1aWFJSjQzb0JRVzhnamloam4wb2taN3pmcnJaTkk4Zy1oZklsU1BZ?oc=5"
+ }
+]

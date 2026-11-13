@@ -13,6 +13,341 @@
   <itunes:block>Yes</itunes:block>
   <itunes:category text="Science"/>
   <item>
+   <title>Synchron Pauses BCI Trials, Zus Health Raises $33M, and Neuromodulation Maps Shared Networks</title>
+   <description>Today's stories:
+
+1. Zus Health secures $33M to build the infrastructure for AI-powered clinical workflows
+https://www.fiercehealthcare.com/health-tech/zus-health-secures-33m-build-infrastructure-ai-powered-clinical-workflows
+
+2. Synchron Pauses Trials of Its Brain Implant Due to Performance Issues
+https://www.wired.com/story/synchron-pauses-trials-of-its-brain-implant-due-to-performance-issues/
+
+3. A decision-making framework for neuromodulation modalities in psychiatric disorders
+https://www.nature.com/articles/s44220-026-00758-7
+
+4. Blood-Brain Barrier Protein Atlas Unlocks Alzheimer’s
+https://neurosciencenews.com/blood-brain-barrier-protein-alzheimers-32409/
+
+5. Watchman device controversy: Did marketing outpace the science?
+https://apps.bostonglobe.com/2026/11/spotlight/watchman-device-boston-scientific-afib
+
+Full transcript:
+
+Nora: Good morning, Chandni!
+
+Theo: Happy Friday!
+
+Nora: Five stories today: three in neurotech, two in health tech.
+
+Nora: Okay, first up: who expanded this week. Story one of five.
+
+Theo: Zus Health just pulled in thirty-three million dollars in Series B funding.
+
+Nora: Led by Drive Capital, with backing from Andreessen Horowitz and Sanofi. That brings their total raised past one hundred million dollars.
+
+Theo: Their core pitch is building the foundational data pipeline beneath clinical AI tools, rather than building another shiny copilot app.
+
+Nora: Right, because if your AI copilot is pulling from fragmented electronic health records, it hallucinates or misses critical context.
+
+Theo: Exactly. They built what they call an API-first, FHIR-native medical record platform.
+
+Nora: It aggregates EHR records, pharmacy data, and lab results into a single profile called the Zus Aggregated Profile.
+
+Theo: From an engineering standpoint, this solves the interoperability mess by pulling cross-provider data into an active schema, using machine learning to surface summaries.
+
+Nora: So instead of a doctor clicking through six different legacy systems, the record updates continuously in the background.
+
+Theo: They claim over one hundred ten million networked transactions hit their platform in a single month this past August.
+
+Nora: Honestly, you know, the smart money realized app layers are cheap, but clean clinical data pipes are where the moat actually lives.
+
+Theo: I mean, building AI without clean data infrastructure is just fitting a high-octane engine into a car with no drive shaft.
+
+Nora: That's the expansion news. Now, BCI and neuromodulation spotlight. Story two of five.
+
+Theo: Synchron has voluntarily paused clinical trial enrollment for its second-generation Stentrode brain-computer interface.
+
+Nora: Okay, this one made me sit up. Synchron is the big endovascular competitor to Neuralink.
+
+Theo: Their device doesn't require open brain surgery. They thread a stent-like mesh up through the jugular vein until it rests inside a blood vessel over the primary motor cortex.
+
+Nora: The first generation had a physical wire coming out near the chest, but this second-generation unit went fully wireless over Bluetooth.
+
+Theo: Right, but enrollment was paused because the device was not performing as intended in initial study participants.
+
+Nora: Wait, actually, Synchron clarified that the stent itself wasn't failing, nor were there safety issues, but there was a performance issue involving the lead—the cable carrying signals from the Stentrode to the implanted electronics.
+
+Theo: That's a classic biomedical engineering headache when running electronics through human blood vessels over time.
+
+Nora: They're bringing lead design in-house, shifting hardware development to San Diego, and upgrading the system before restarting trial enrollment.
+
+Theo: Ha, okay, fair play to them for pausing voluntarily before regulators stepped in, but it shows how brutal long-term bio-integration really is.
+
+Nora: Hardware stability inside living tissue remains the absolute gatekeeper for implantable BCIs reaching commercial scale.
+
+Nora: Story three of five stays in brain stimulation, but moves to psychiatric networks.
+
+Theo: A major new framework published in Nature maps how different neuromodulation modalities target shared neural networks in the brain.
+
+Nora: Researchers looked across transcranial magnetic stimulation, deep brain stimulation, focused ultrasound, and surgical lesioning for psychiatric disorders.
+
+Theo: Historically, people treated these modalities like completely different worlds with separate mechanisms.
+
+Nora: But the paper shows that despite using totally different hardware—like magnetic fields for TMS versus microelectrodes for DBS—they actually engage overlapping brain circuits.
+
+Theo: For instance, whether treating psychiatric conditions with non-invasive or invasive modalities, therapeutic success relies on engaging these shared neural circuits.
+
+Nora: Which means clinicians can use circuit-based frameworks to optimize therapeutic stimulation.
+
+Theo: Okay... I'll admit it. That's clever. If the circuit target is universal, you pick the modality based on invasiveness and spatial resolution, not guessing blindly.
+
+Nora: Standardizing stimulation around shared neural networks is how psychiatric neuromodulation finally moves from trial-and-error to precision engineering.
+
+Nora: That's the neural spotlight. Now, research and device validation. Story four of five.
+
+Theo: Gladstone Institutes published a study in Cell showing that the blood-brain barrier isn't just a physical wall, but an active gatekeeper.
+
+Nora: For a century, we thought of the blood-brain barrier as a simple fortress keeping toxins out of the brain.
+
+Theo: Andrew Yang's team used click-chemistry to tag over eight hundred plasma proteins in blood and track where they go in mice.
+
+Nora: Out of eight hundred sixty-one blood proteins, the barrier selectively transports exactly ninety-two into the brain.
+
+Theo: It acts like a targeted transport hub using specific molecular ZIP codes. For example, a liver-produced protein called APOA1 is transported directly to astrocytes to keep synapses stable.
+
+Nora: Here's the plot twist: in Alzheimer's mouse models, the transport system shuts down the import of protective liver proteins *before* the barrier physically degrades or leaks.
+
+Theo: Wait, so the early pathology isn't a leaky barrier letting garbage in; it's an active shutdown of the peripheral supply line delivering essential molecules.
+
+Nora: Restoring systemic APOA1 levels in the mice actually restored synaptic density and halted disease progression.
+
+Theo: That shifts the therapeutic focus. Protecting the brain might start with fixing molecular transport from systemic organs like the liver.
+
+Nora: Story five of five is a critical look at post-market medical device evidence.
+
+Theo: A Boston Globe investigation highlighted growing clinical debate over Boston Scientific's Watchman heart implant.
+
+Nora: The Watchman is an umbrella-shaped device designed to close off the left atrial appendage and prevent blood clots in atrial fibrillation patients.
+
+Theo: It was originally approved by the FDA as a niche alternative for patients who cannot tolerate oral blood thinners.
+
+Nora: But Boston Scientific built it into a two billion dollar annual product, spending thirty million dollars on doctor consulting and twenty-three million on direct-to-consumer TV ads.
+
+Theo: The tension is that recent head-to-head clinical trials show the device is often no better, and in some cases worse, than modern blood-thinning drugs.
+
+Nora: Cardiologists in the piece raised concerns about clinical drift—implanting high-risk devices in broad patient groups where drugs work just fine.
+
+Theo: Engineering a slick implant is only half the battle; real-world post-market data has to back up aggressive commercial expansion.
+
+Nora: When marketing outpaces long-term clinical evidence, the medical community will push back hard every single time.
+
+Nora: That's the news. Now, today's trends.
+
+Theo: Invasive neurotech is running into physical reliability bottlenecks in human trials, as we saw with Synchron's lead performance issues. That physical barrier is accelerating interest in mapping shared brain circuits so we can optimize targeted, non-invasive modalities.
+
+Nora: At the same time, commercial health tech scale is no longer driven by flashy marketing or front-end apps. Long-term value depends on bulletproof data infrastructure and real-world clinical validation.
+
+Theo: Here's today's Career Signal for Chandni.
+
+Nora: Focus your biosignal machine learning work on hardware-fault tolerance and lead performance modeling.
+
+Theo: Synchron's trial pause shows that the next huge engineering leap isn't just decoding clean signals, but maintaining decode accuracy when physical leads shift or experience performance issues.
+
+Nora: If you're looking to make a smart connection this week, reach out to the lead algorithm engineers or clinical product team at BCI developers like Synchron.
+
+Theo: Ask how they're handling real-time impedance changes and signal drift in their closed-loop pipelines—that's the exact bottleneck every team is trying to solve right now.
+
+Nora: Time for the quick recap.
+
+Theo: One: Zus Health raised thirty-three million dollars to build unified patient data infrastructure for AI workflows.
+
+Nora: Two: Synchron paused its BCI trials to upgrade its lead hardware on its wireless Stentrode.
+
+Theo: Three: Nature research mapped shared neural network targets across psychiatric neuromodulation modalities.
+
+Nora: Four: Gladstone Institutes discovered Alzheimer's involves an early transport failure of protective liver proteins across the blood-brain barrier.
+
+Theo: Five: A Boston Globe report raised clinical concerns over aggressive marketing for the Watchman device versus real-world trial evidence.
+
+Theo: The common thread today is clear: whether in neural implants, data pipelines, or heart devices, long-term success comes down to hardware reliability and real evidence over hype.
+
+Nora: That is today's Neuro Morning! Have a fantastic walk, Chandni, and we will catch you on Monday!
+
+# Editor's log, Friday, November 13, 2026
+
+Episode: Synchron Pauses BCI Trials, Zus Health Raises $33M, and Neuromodulation Maps Shared Networks
+
+## How this episode was made
+1. Pulled every item published in the last ~30 hours from the sources below.
+2. Gemini (editor pass) picked about 5 stories, assigned each to one section, and logged why the rest were skipped.
+3. Gemini (research pass) checked each picked story with Google Search and built a fact sheet from credible sources.
+4. Gemini (writer pass) wrote the two-host script from only those fact sheets.
+5. Gemini (fact-check pass) compared every claim in the script with the fact sheets and fixed or cut anything unsupported.
+6. Gemini voiced it; GitHub published it.
+
+## Sources checked
+- Neurotechnology Substack: failed (403 Client Error: Forbidden for url: https://neurotechnology)
+- Neuroscience News: 3 new items
+- MedTech Dive: 2 new items
+- Fierce Biotech MedTech: 0 new items
+- STAT Health Tech: 1 new items
+- MobiHealthNews: failed (403 Client Error: Forbidden for url: https://www.mobihealthn)
+- TechCrunch Health: 0 new items
+- FDA Medical Devices: failed (404 Client Error: Not Found for url: https://www.fda.gov/apo)
+- Google News: neurotech: 12 new items
+- Google News: Neurotechnology Substack: 0 new items
+- Google News: BCI companies: 0 new items
+- Google News: neuromodulation: 10 new items
+- Google News: EEG and neural wearables: 8 new items
+- Google News: neuro funding: 10 new items
+- Google News: FDA neuro devices: 8 new items
+- Google News: NYC neurotech: 2 new items
+- Google News: wearables: 8 new items
+- Fierce Healthcare Health Tech: 0 new items
+- Healthcare IT News: failed (403 Client Error: Forbidden for url: https://www.healthcarei)
+- Google News: digital health: 10 new items
+- Google News: health tech AI: 8 new items
+- Google News: medtech devices: 8 new items
+- bioRxiv Neuroscience: failed (404 Client Error: Not Found for url: https://connect.biorxiv)
+
+## Used, by section
+### Who Expanded
+- Zus Health secures $33M to build the infrastructure for AI-powered clinical workflows - Fierce Healthcare (Google News: digital health) [link](https://news.google.com/rss/articles/CBMiugFBVV95cUxOUjZORTJVZzI2LVJwVXplRVB4Z3VqSEMyNFcwQU9IRnQySE5XMlA3a3p2a1ZEbEVrRHJWQmJSZWM0a19MTkRjZ2d5eEJqd21WZ1JGVXBXYU51TTQ1ZEZpNXJlMmNiVVk0NDI1WksxM01ucnZNMkdWM2FqdEhkRk9jZlZBM2VDZE5Ed2RxR1k3Z0Z4aFJrdXAzdlVRVnoyV0RwbnhBWU9raXdPZXZ1Z05idnJiWUplNm9nclE?oc=5)  
+  Angle: Zus Health landed $33M to build the underlying data infrastructure connecting EHRs with AI clinical workflows, highlighting the demand for scalable digital health pipelines.
+### BCI &amp; Neuromodulation Spotlight
+- Synchron Pauses Trials of Its Brain Implant Due to Performance Issues - WIRED (Google News: neurotech) [link](https://news.google.com/rss/articles/CBMinwFBVV95cUxPMERPTy04TnV2RlFmTHBlZ1BpY0NfTkNtaXA3NWkySzE1dFdsRFhLWjEwZGtyN3dnTXFXUktZRTJWcmdBbW5oRUlyR1FRaTNaT0RSTW9jWk15bUJneHNvR1RtM0cweHRuV2hZb09Rc2hOeDVmUlFra0I3dXhWQ19KQnlhMndKRnJMWUVMbnlaS1FMcngxTzcxNDBVUk13bW8?oc=5)  
+  Angle: Synchron paused clinical trials of its endovascular Stentrode implant due to performance degradation and lead issues, underscoring critical BME challenges in long-term implant signal stability.
+- A decision-making framework for neuromodulation modalities in psychiatric disorders - Nature (Google News: neuromodulation) [link](https://news.google.com/rss/articles/CBMiX0FVX3lxTE0tM1kyQUpMaWtlbmt0a0tqdGxYeVJPeVBncmtUY193M0l3cEVEd3R0ckJGR2puSzlSRG1ucTJBU3V6N2xuTmp1azZQLUdmSWxJQ1RtbUdCTDA2ZVc2eWg0?oc=5)  
+  Angle: A landmark Nature framework maps shared white matter tracts across psychiatric neuromodulation modalities, providing a network-level target blueprint for closed-loop brain stimulation.
+### New Research &amp; Device Validation
+- Blood-Brain Barrier Protein Atlas Unlocks Alzheimer’s (Neuroscience News) [link](https://neurosciencenews.com/blood-brain-barrier-protein-alzheimers-32409/)  
+  Angle: Gladstone Institutes mapped 92 proteins crossing the blood-brain barrier, discovering that early Alzheimer's progression involves a premature shutdown of protective liver protein transport.
+- Watchman device controversy: Did marketing outpace the science? - The Boston Globe (Google News: FDA neuro devices) [link](https://news.google.com/rss/articles/CBMijgFBVV95cUxQUGZzeEE3ZzJTcklhbFZWdk1FV3F2QkNqYVhHSFdiVG00RW5XdUxIdkNjYWF2TEhUcUZ0UTBDV1A4Tzk5WHo0bDhLMV9KdjFoX0libVNiVHFfbTJKVGhqLXg0dzVBMUpiWUdwM01zNjhmN1REUndwbWFFamJ2Zko1N2J2eklwb2w4Vk1GSTdB?oc=5)  
+  Angle: A Boston Globe deep-dive scrutinizes whether marketing for the Watchman left atrial appendage closure device outpaced clinical evidence, highlighting the vital need for post-market BME validation.
+
+## Fact sheets (verified with Google Search)
+
+### Zus Health secures $33M to build the infrastructure for AI-powered clinical workflows - Fierce Healthcare
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Synchron Pauses Trials of Its Brain Implant Due to Performance Issues - WIRED
+(No fact sheet: research failed, so only the original item text was used.)
+
+### A decision-making framework for neuromodulation modalities in psychiatric disorders - Nature
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Blood-Brain Barrier Protein Atlas Unlocks Alzheimer’s
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Watchman device controversy: Did marketing outpace the science? - The Boston Globe
+(No fact sheet: research failed, so only the original item text was used.)
+
+## Fact-check fixes
+- Intro: Removed invented date ("November thirteenth, twenty-twenty-six").
+- Story 2: Corrected cause of trial pause from vague "signal and performance degradation" to "device was not performing as intended in initial study participants".
+- Story 2: Corrected statement about lead to reflect official statement ("performance issue involving the lead") rather than stating the lead "was degraded".
+- Story 2: Removed unconfirmed engineering details ("Fluid dynamics, vessel pulsation, and mechanical fatigue").
+- Story 3: Replaced unsupported details ("white matter tracts", "white matter connections between the prefrontal cortex and basal ganglia", "high-resolution MRI fiber tractography", "closed-loop stimulation") with supported concepts ("shared neural networks", "shared neural circuits", "circuit-based frameworks").
+- Trends / Career Signal / Recap: Updated references to match supported text (changing "lead degradation" to "lead performance issues" and "white matter network targets" to "neural network targets").
+
+## Trends noted
+- Invasive neurotech is hitting physical reliability bottlenecks in human trials (18), accelerating interest in network-level circuit mapping to optimize non-invasive and targeted stimulation parameters (19).
+- Commercial healthtech scale is increasingly tied to foundational data infrastructure and post-market evidence rather than surface-level marketing claims (51, 65).
+
+## Not used, and why
+- 3D Genome Atlas Reveals Early Roots of Schizophrenia (Neuroscience News): not selected for main rundown; secondary neuro research
+- Autism Shapes How Words vs. Numbers Drive Risk Decisions (Neuroscience News): out of scope behavioral psychology study
+- Abbott’s defibrillation lead lands FDA approval and CE mark (MedTech Dive): not selected for main rundown; peripheral cardiovascular medtech
+- J&amp;J leads Francis Medical investment to fund prostate cancer device (MedTech Dive): urology device funding, outside core focus
+- STAT+: New documents raise more questions about Medicare’s AI prior-authorization experiment (STAT Health Tech): policy/reimbursement debate without direct technical relevance
+- Synchron halts BCI trials after device fails to perform as expected - MassDevice (Google News: neurotech): merged into story 18
+- China's Brain-Computer Interface Sector Enters First Year of Clinical Application: World's First Approval Leads to 12 Commercial Implants, Shanghai's Huibao Reimburses Up to 30% - BigGo Finance (Google News: neurotech): not selected for main rundown; secondary regional BCI update
+- Closed-Loop Neurotech for Brain Stimulation: MedTech World Europe 2026 - EMJ (Google News: neurotech): generic conference overview
+- K-Moonshot Boosts Brain–Computer Interface Research Linking Basic Science and Clinical Engineering - DongA Science (Google News: neurotech): generic government grant announcement
+- Tether Evo’s latest research addresses one of the biggest challenges in brain-computer interfaces - TechCrunch (Google News: neurotech): thin coverage of early technical paper
+- Spiking Decoders Show Label-Dependent Advantages in Motor Imagery Brain Interfaces - Bioengineer.org (Google News: neurotech): niche BCI decoding algorithm paper
+- Alcon (SWX:ALC) Stock Could Be 47% Undervalued After Neurotech Acquisition - Yahoo Finance (Google News: neurotech): stock analysis / financial ticker commentary
+- BCI Global Awards 2026: Winners Announced - The Business Continuity Institute (BCI) (Google News: neurotech): unrelated to brain-computer interfaces (business continuity award)
+- BCI261120C00020000 interactive stock chart | BCI Nov 2026 20.000 call stock - Yahoo Finance UK (Google News: neurotech): unrelated stock ticker data
+- China’s digital drive delivers inclusive gains to people - Borneo Post (Google News: neurotech): unrelated general news
+- AIBE 22 Admit Card 2026 (Live Updates): Time, Direct Link, How to Download - Careers360 (Google News: neurotech): unrelated Indian law exam notice
+- Specific White Matter Tract Stimulation Linked to Clinical Improvement in Depression - Bioengineer.org (Google News: neuromodulation): merged into story 19
+- Neuromodulation Modalities Target Shared Brain Networks to Relieve Psychiatric Symptoms - Bioengineer.org (Google News: neuromodulation): merged into story 19
+- Pusan National University Develops Korean Medicine-AI Technology to Treat Intractable Neurological Disorders - 아시아경제 (Google News: neuromodulation): thin press release on regional alternative medicine tech
+- Study finds non-invasive neuromodulation may im... - Pluang (Google News: neuromodulation): truncated snippet without substantive data
+- Helping patients regain the power of speech - Penn Medicine (Google News: neuromodulation): general patient story without technical novelties
+- Psychiatrists offer five-day accelerated intervention for treatment-resistant depression - The California Aggie (Google News: neuromodulation): routine clinical protocol update
+- MedStar Health offers non-invasive treatment for essential tremor and Parkinson’s disease - Dundalk Eagle (Google News: neuromodulation): routine hospital clinical service press release
+- San Roque University Hospitals in Las Palmas de Gran Canaria successfully perform their first personalized treatment for Parkinson's disease using new high-precision electrodes - Maspalomas 24h (Google News: neuromodulation): routine local hospital procedure report
+- Clinical Trial Tests Accelerated Brain Stimulation Protocol for Methamphetamine Use Disorder - Bioengineer.org (Google News: neuromodulation): early-stage clinical trial announcement
+- EEG Study Reveals Dual Neural Alterations in High Borderline Personality Features - Bioengineer.org (Google News: EEG and neural wearables): secondary clinical EEG association paper
+- Multi-Domain Prefrontal EEG Analysis Identifies Candidate Biomarkers for Drug-Resistant Epilepsy - Bioengineer.org (Google News: EEG and neural wearables): niche clinical EEG biomarker study
+- Lesion-Directed Quantitative EEG Linked to Stroke Complications and Recovery - Bioengineer.org (Google News: EEG and neural wearables): secondary quantitative EEG observational study
+- Single Auditory Session Shifts Brain Waves in Autistic Children Without Aperiodic Changes - Bioengineer.org (Google News: EEG and neural wearables): small single-session EEG pilot study
+- Spinal Manipulation Reduces Motor Unit Firing Variability in Acute Back Pain - Bioengineer.org (Google News: EEG and neural wearables): chiropractic EMG study outside neurotech core
+- UCSF Launches Study of Recreational Users of Shrooms, Other Psychedelics - SFist (Google News: EEG and neural wearables): observational survey study
+- Natus expands global clinical collaboration with inaugural EMG Advisory Board and International EEG Advisory Board - Yahoo Finance (Google News: EEG and neural wearables): routine corporate advisory board press release
+- Indian food delivery billionaire Deepinder Goyal's $900 brain wearable draws doctors' fire - Billionaires.Africa (Google News: EEG and neural wearables): already covered in a recent episode
+- Medical transport platform MedHaul, focused on high-needs patients, raises $4.1M - Fierce Healthcare (Google News: neuro funding): non-neuro non-technical medical transport app
+- AI Sleep Platform Raises $5.3M to Expand Reimbursed Prevention Programs - Sleep Review (Google News: neuro funding): thin press release on sleep software app
+- Nanopath raises $25M to advance 15-minute vaginitis test - MobiHealthNews (Google News: neuro funding): in vitro diagnostics for vaginitis, outside scope
+- King’s College London secures £10.8m for AI and wearable heart health research - EdTech Innovation Hub (Google News: neuro funding): grant funding for general heart wearables
+- How AI Is Rewriting the Future of Vision Care - Medical Device and Diagnostic industry (Google News: neuro funding): generic industry overview article
+- Skribe Medical Raises $1.65M in Pre-Seed Funding - FinSMEs (Google News: neuro funding): thin early-stage pre-seed funding notice
+- Happiest Health to Invest INR 500 Cr in Technology, Launches Digital Health Business - Digital Health News (Google News: neuro funding): regional corporate expansion press release
+- ElevenLabs Introduces Medical Transcription Tool, Expands AI Models &amp; Capabilities - Digital Health News (Google News: neuro funding): general AI voice API update, not biosignal/health tech core
+- AI Blood Tests for Fatty Liver: Can Screening Costs Fall in India? - Digital Health News (Google News: neuro funding): generic opinion piece on blood test screening
+- Saurabh Gupta Appointed as Chief Executive Officer(West) at Torrent Hospitals - Digital Health News (Google News: neuro funding): routine executive hiring announcement
+- Bracco and Avicenna.AI Announce FDA Clearance for UPTUNITY™ | Aneurysm, a New AI-Enabled Software for Brain Aneurysm Detection and Assessment - PR Newswire (Google News: FDA neuro devices): secondary radiology AI software clearance
+- Medtronic, Contego claim new FDA nods for Neuroguard carotid stent - MassDevice (Google News: FDA neuro devices): routine vascular stent approval
+- InspireMD Announces FDA Approval of the CGuard® Prime TransCarotid Stent System for Transcarotid Artery Revascularization (TCAR) Procedures - The Manila Times (Google News: FDA neuro devices): vascular stent approval outside core focus
+- An FDA-approved stent showed 100% device success in a 50-patient study, with no deaths or strokes at 30 days. - Stock Titan (Google News: FDA neuro devices): routine trial result summary for vascular stent
+- NeOnc Insider Buying Expands Ahead of FDA Discussions and Two Key Brain Cancer Data Presentations - The Manila Times (Google News: FDA neuro devices): stock trading / corporate insider buying report
+- NeOnc CEO buys more shares ahead of FDA talks o... - Pluang (Google News: FDA neuro devices): merged into story 52
+- Abbott’s defibrillation lead lands FDA approval and CE mark - MedTech Dive (Google News: FDA neuro devices): merged into story 4
+- Synchron pauses trials of its wireless Stentrode brain implant over a faulty lead, Wired reports - MLQ.ai (Google News: NYC neurotech): merged into story 18
+- HKSTP Leads Hong Kong Life and Health Tech Delegation to Go Global at MEDICA 2026 - The Standard (HK) (Google News: NYC neurotech): trade show promotional release
+- Associations between sleep regularity indexed from wearable device data and mental health symptoms in the TemPredict longitudinal cohort study - Nature (Google News: wearables): secondary observational wearable study
+- Precision timing requirements in consumer wearables and screenless IoT devices - IOT Insider (Google News: wearables): hardware component engineering paper on crystal oscillators
+- First-Night Sleep Disruption Linked to Delirium After Emergency Abdominal Surgery - Bioengineer.org (Google News: wearables): observational post-op study
+- Circular’s Latest Smart Ring Combines Health Monitoring and Contactless Payments - Medical Product Outsourcing (Google News: wearables): consumer smart ring feature update without biosignal validation
+- Dairy Cares: Rising Costs Put Strain on Family Farms, Food Production, Rural Communities - Perishable News (Google News: wearables): unrelated agriculture news
+- Why Are Smart Wearables Collectively Embracing the "Jewelry-ized" Trend? - 36Kr (Google News: wearables): consumer fashion design trend commentary
+- /C O R R E C T I O N - ZenoWell Limited/ - StreetInsider (Google News: wearables): empty corporate correction notice
+- WHOOP Builds A Social Network Where Every Account Has A Heartbeat - SMBtech (Google News: wearables): consumer fitness app marketing update
+- Digital Health Roundup: FDA’s GenAI Comment Divide, Agilent’s Proscia Bet, AI Scribes’ Device Status - insights.citeline.com (Google News: digital health): roundup summary of policy and old news
+- Converge Studios launches AI-powered health IT solutions to accelerate healthcare transformation in Philippines - Philstar.com (Google News: digital health): regional IT vendor launch
+- Norwest closes $4B global, multi-stage fund to fuel investments in healthcare, biotech and AI - Fierce Healthcare (Google News: digital health): broad venture fund closure without specific portfolio device release
+- Happiest Health Launches Digital Health Business Unit with ₹500 Crore Technology Commitment - This Week India (Google News: digital health): regional corporate expansion press release
+- Patients Know Best Launches in Australia through Consultmed partnership - The Manila Times (Google News: digital health): regional health records software expansion
+- Ohio State Wexner Medical Center and Microsoft Announce Five-Year Partnership to Develop Smart Hospitals - Digital Health News (Google News: digital health): broad health system IT partnership
+- ACC launches initiative to strengthen cardiovascular disease prevention - News-Medical (Google News: digital health): medical society public health campaign
+- Men's Health and Longevity Channel Launches on YouTube From Coach Dr. John Spencer Ellis - Yahoo Finance (Google News: digital health): unrelated wellness Youtube channel launch
+- Sweden: Kry acquires primary care provider Min Doktor to expand its Swedish clinic network - Investors in Healthcare (Google News: digital health): European primary care clinic chain acquisition
+- Oura’s acquisition of health tech startup raises conflict-of-interest questions for Eli Lilly, experts say - STAT (Google News: health tech AI): already covered in a recent episode
+- Week 46: Asia Startup Funding Led by Haoyang Data Center 1 - Techloy (Google News: health tech AI): unrelated data center funding round
+- b.well CEO on building health data platform from personal struggle - Bizwomen - The Business Journals (Google News: health tech AI): founder story without news event
+- AI in Life Insurance Reshapes Distribution and Customer Engagement - Beinsure (Google News: health tech AI): unrelated insurance industry report
+- SA's Alignd lands Knife Capital funding to expand care programmes - Dealroom (Google News: health tech AI): regional South African value-based care fund
+- European tech startups raise €6B in October as healthtech leads investment - Tech.eu (Google News: health tech AI): macro funding statistical summary
+- Exclusive: Duet raises $15M Series A for nurse practitioner ACO - Axios (Google News: health tech AI): ACO nursing network funding
+- European Insurers Tighten Riot Insurance Coverage as Civil Unrest Risks Rise - Beinsure (Google News: health tech AI): unrelated insurance risk news
+- Virtuoso Surgical’s bladder cancer resection robot secures FDA de novo authorisation - Medical Device Network (Google News: medtech devices): already covered in a recent episode
+- New FDA-Cleared Test Tells Clinicians Bacterial From Viral in Minutes, Not Days - Medical Device and Diagnostic industry (Google News: medtech devices): in vitro diagnostics test approval
+- Bechtel Medical Receives FDA Clearance for Wound VOX System - HME Business (Google News: medtech devices): wound care negative pressure device approval
+- FDA Advisory No.2026-1788 || Public Health Warning Against the Purchase and Use of the Unnotified Medical Device Product “JME ABDOMINAL BINDER” - https://www.fda.gov.ph/ (Google News: medtech devices): unrelated local regulatory warning
+- FDA Flags Safety Issues With Teleflex Guidewires and Intersurgical Breathing Tubes - Medical Device and Diagnostic industry (Google News: medtech devices): routine recall/safety alert on guidewires
+- FDA Finalizes Class II Status For AI Pap Slide Tool, Dementia-Risk Software, Two Vibration Devices - Medtech Insight (Google News: medtech devices): regulatory classification summary without single flagship launch
+- MellingMedical and CellTivity agree federal diagnostic supply deal - Medical Device Network (Google News: medtech devices): federal procurement contract
+- FDA Advisory No.2024-0775-A || Lifting of the FDA Advisory No. 2024-0775 entitled “Public Health Warning Against the Purchase and Use of the Following Unnotified OLTEN INSTRUMENTS Medical Device Products - https://www.fda.gov.ph/ (Google News: medtech devices): unrelated local regulatory lifting notice</description>
+   <pubDate>Fri, 13 Nov 2026 09:42:00 +0000</pubDate>
+   <guid isPermaLink="false">neuro-morning-2026-11-13-0942</guid>
+   <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-13.mp3?v=0942" length="5036972" type="audio/mpeg"/>
+   <itunes:duration>629</itunes:duration>
+   <itunes:explicit>false</itunes:explicit>
+   <podcast:transcript url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-13.vtt" type="text/vtt" language="en"/>
+  </item>
+  <item>
    <title>Sinaptica's Alzheimer's TMS Milestone, BCI Patient Rights, and CMS Software Payments</title>
    <description>Today's stories:
 
