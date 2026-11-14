@@ -1,0 +1,316 @@
+WEBVTT
+
+00:00:02.786 --> 00:00:03.851
+<v Nora>Good morning!
+
+00:00:03.851 --> 00:00:05.080
+<v Theo>Happy Saturday.
+
+00:00:05.080 --> 00:00:09.915
+<v Nora>Five stories today: three in neurotech, two in health tech.
+
+00:00:09.915 --> 00:00:13.439
+<v Theo>Grab your coffee. Let us get right into it.
+
+00:00:13.439 --> 00:00:17.127
+<v Nora>Okay, first up: NYC Watch and Motor Decoding.
+
+00:00:17.127 --> 00:00:18.602
+<v Theo>Story one of five.
+
+00:00:18.602 --> 00:00:31.550
+<v Nora>Columbia neuroscientists just discovered that the brain's secondary motor cortex actually has a full-body motor map hidden inside its background idle chatter.
+
+00:00:31.550 --> 00:00:40.646
+<v Theo>Right, so for decades, everyone assumed somatotopic body mapping was exclusive to M1, the primary motor cortex.
+
+00:00:40.646 --> 00:00:48.677
+<v Nora>Because whenever researchers zapped M2 directly with electricity, they got... well, nothing clear.
+
+00:00:48.677 --> 00:00:55.397
+<v Theo>Exactly, total noise. So they wrote M2 off as just an abstract motor planning hub.
+
+00:00:55.397 --> 00:01:05.067
+<v Nora>But Weihao Xu and Elizabeth Hillman at Columbia used high-speed, two-color wide-field optical imaging in resting mice.
+
+00:01:05.067 --> 00:01:16.212
+<v Theo>And instead of looking at active tasks, they analyzed spontaneous cortical fluctuations while the animals were sitting completely still.
+
+00:01:16.212 --> 00:01:25.145
+<v Nora>And boom. Patches of M2 were firing in perfect sync with specific body representations in the sensory cortex.
+
+00:01:25.145 --> 00:01:28.177
+<v Theo>Okay... I'll admit it. That's clever.
+
+00:01:28.177 --> 00:01:29.988
+<v Nora>I knew you'd like that!
+
+00:01:29.988 --> 00:01:38.414
+<v Theo>They even separated corticospinal projection neurons to prove the signal wasn't just bleed-through from M1.
+
+00:01:38.414 --> 00:01:49.044
+<v Nora>And when the mice did multi-limb stuff, like bringing both paws to their mouth while licking, all those M2 sub-regions lit up together.
+
+00:01:49.044 --> 00:01:53.060
+<v Theo>Which is wild from a signal processing perspective.
+
+00:01:53.060 --> 00:01:59.674
+<v Nora>Right? M1 handles single-muscle commands, but M2 is orchestrating the full ensemble.
+
+00:01:59.674 --> 00:02:07.470
+<v Theo>The open question for me, though, is optical imaging in rodent cortex uses wide-field fluorescence.
+
+00:02:07.470 --> 00:02:08.100
+<v Nora>Meaning?
+
+00:02:08.100 --> 00:02:17.864
+<v Theo>How well does this resting-state synchronization translate to non-invasive human neuroimaging like high-density EEG or fMRI?
+
+00:02:17.864 --> 00:02:27.155
+<v Nora>Fair point, but if resting chatter holds the map, multi-limb BCI decoders might not need active movement to calibrate.
+
+00:02:27.155 --> 00:02:33.455
+<v Theo>That would save hours of tedious task-training protocols for paralyzed patients.
+
+00:02:33.455 --> 00:02:36.526
+<v Nora>Huge win for motor decoding algorithms.
+
+00:02:36.526 --> 00:02:42.904
+<v Theo>That brings us to our next section: Neuromodulation and Functional Neural Rescue.
+
+00:02:42.904 --> 00:02:44.321
+<v Nora>Story two of five.
+
+00:02:44.321 --> 00:02:54.873
+<v Theo>Surgeons used non-invasive brain stimulation before tumor surgery to map patient motor networks and trigger targeted circuit rewiring.
+
+00:02:54.873 --> 00:03:04.353
+<v Nora>This was an exploratory prehabilitation trial with sixteen adult brain tumor patients facing surgeries near motor-critical regions.
+
+00:03:04.353 --> 00:03:15.859
+<v Theo>They gave them ten to twenty sessions of low-frequency TMS over focal motor areas, or multichannel tDCS over sensorimotor regions, right before motor training.
+
+00:03:15.859 --> 00:03:24.905
+<v Nora>And when they ran Fuzzy C-Means clustering on the outcome data, the cohort split into two distinct neuro-behavioral profiles.
+
+00:03:24.905 --> 00:03:27.728
+<v Theo>A Strength group and a Dexterity group.
+
+00:03:27.728 --> 00:03:37.497
+<v Nora>Exactly! The Strength group gained raw handgrip force, while the Dexterity group improved on the nine-hole peg test and reaction times.
+
+00:03:37.497 --> 00:03:44.517
+<v Theo>But look at the fMRI connectivity changes, Nora. This is where the circuit data gets interesting.
+
+00:03:44.517 --> 00:03:55.734
+<v Nora>In the Strength group, resting-state functional connectivity between left primary motor cortex and the supplementary motor area jumped from 0.622 to 0.898.
+
+00:03:55.734 --> 00:04:06.083
+<v Theo>While the Dexterity group showed no change in that core motor pathway, but decreased frontal-pole-to-middle-frontal-gyrus connectivity instead.
+
+00:04:06.083 --> 00:04:17.517
+<v Nora>So pre-surgical stimulation isn't just a generic warm-up. It actively steers functional plasticity down specific pathways depending on baseline network state.
+
+00:04:17.517 --> 00:04:21.063
+<v Theo>The question I'd ask is about protocol selection.
+
+00:04:21.063 --> 00:04:22.221
+<v Nora>How do you mean?
+
+00:04:22.221 --> 00:04:26.418
+<v Theo>They mixed targeted TMS and broad tDCS in the same cohort.
+
+00:04:26.418 --> 00:04:30.471
+<v Nora>Ah. Focal magnetic pulses versus diffuse direct current.
+
+00:04:30.471 --> 00:04:44.220
+<v Theo>Exactly. Before we can use this to tune closed-loop neuromodulation, we need to know if the motor profile split came from individual baseline connectivity or the stimulation modality itself.
+
+00:04:44.220 --> 00:04:52.460
+<v Nora>Still, mapping and steering plasticity before the surgeon ever makes an incision? That changes pre-op care.
+
+00:04:52.460 --> 00:04:54.000
+<v Theo>Story three of five.
+
+00:04:54.000 --> 00:05:05.166
+<v Nora>UCLA researchers used targeted CRISPR activation to restore normal cell growth and electrical firing in autism brain models without altering DNA.
+
+00:05:05.166 --> 00:05:09.248
+<v Theo>This is a major methodological pivot in gene therapy.
+
+00:05:09.248 --> 00:05:20.183
+<v Nora>Right, because instead of cutting DNA or dumping in extra gene copies that can cause cellular toxicity, they targeted noncoding DNA enhancers.
+
+00:05:20.183 --> 00:05:23.956
+<v Theo>Think of enhancers as biological dimmer switches.
+
+00:05:23.956 --> 00:05:36.816
+<v Nora>Exactly! They used CRISPR activation to gently dial up the single remaining healthy copy of CHD8 and SCN2A in haploinsufficient human organoids and excitatory neurons.
+
+00:05:36.816 --> 00:05:46.134
+<v Theo>SCN2A codes for the voltage-gated sodium channel that drives action potentials, while CHD8 controls chromatin remodeling.
+
+00:05:46.134 --> 00:05:53.911
+<v Nora>And in the SCN2A mutant neurons, boosting that healthy copy restored physiological electrical firing.
+
+00:05:53.911 --> 00:06:00.611
+<v Theo>Plus, in the CHD8 mutant 3D cortical organoids, it reversed abnormal tissue overgrowth.
+
+00:06:00.611 --> 00:06:09.929
+<v Nora>And here's the best part: it only boosted expression in mutated cells. Healthy control cells stayed completely untouched.
+
+00:06:09.929 --> 00:06:13.702
+<v Theo>Okay, that self-limiting safety profile is legit.
+
+00:06:13.702 --> 00:06:16.397
+<v Nora>See? Even the skeptic is impressed.
+
+00:06:16.397 --> 00:06:19.786
+<v Theo>But let's talk translational delivery, Nora.
+
+00:06:19.786 --> 00:06:21.711
+<v Nora>I knew a catch was coming.
+
+00:06:21.711 --> 00:06:34.520
+<v Theo>CRISPR activation machinery is large. Getting viral vectors across the blood-brain barrier and into specific neural populations during early development is a massive hurdle.
+
+00:06:34.520 --> 00:06:40.888
+<v Nora>True, but as a proof-of-concept for non-destructive epigenomic tuning? It's brilliant.
+
+00:06:40.888 --> 00:06:44.590
+<v Theo>A solid step forward for functional neural repair.
+
+00:06:44.590 --> 00:06:48.885
+<v Nora>That's the research. Now, Wearables and MedTech Approvals.
+
+00:06:48.885 --> 00:06:50.292
+<v Theo>Story four of five.
+
+00:06:50.292 --> 00:06:58.288
+<v Nora>Tandem Diabetes Care got FDA clearance for a 7-day tubeless wearable delivery set for its Mobi insulin pump.
+
+00:06:58.288 --> 00:07:06.063
+<v Theo>That beats the wear time of the current market leader, Insulet's Omnipod 5, which tops out at three days.
+
+00:07:06.063 --> 00:07:14.652
+<v Nora>And Mobi users don't even need a new pump, just the compatible accessories launching in the first half of next year.
+
+00:07:14.652 --> 00:07:23.759
+<v Theo>Extended wear is always a tough hardware battle between adhesive skin chemistry, catheter occlusion, and site inflammation.
+
+00:07:23.759 --> 00:07:30.275
+<v Nora>Seven days on skin without degrading signal or fluid delivery is impressive engineering.
+
+00:07:30.275 --> 00:07:39.308
+<v Theo>But from a system design perspective, longer wear times mean sensor drift and skin site degradation become bigger factors.
+
+00:07:39.308 --> 00:07:48.120
+<v Nora>If your continuous glucose monitor lasts ten days, but your delivery system lasts seven, the wear cycles don't line up.
+
+00:07:48.120 --> 00:07:53.525
+<v Theo>Right, user compliance drops when replacement schedules are asynchronous.
+
+00:07:53.525 --> 00:08:01.314
+<v Nora>Still, moving from tubed pumps to week-long tubeless wearable sets is where hardware has to go.
+
+00:08:01.314 --> 00:08:06.315
+<v Theo>It sets a clear benchmark for extended-wear wearable MedTech.
+
+00:08:06.315 --> 00:08:08.201
+<v Nora>And story five of five.
+
+00:08:08.201 --> 00:08:17.712
+<v Theo>Whoop launched a consumer social network inside its app called Whoop Humans, requiring a verified heartbeat to join.
+
+00:08:17.712 --> 00:08:25.910
+<v Nora>Every account has to be linked to a real, live biometric signal from their screenless wearable band.
+
+00:08:25.910 --> 00:08:31.650
+<v Theo>So no bots, no synthetic profiles, just authenticated biological data.
+
+00:08:31.650 --> 00:08:39.439
+<v Nora>Members can follow each other, share sleep and recovery scores, and leave comments on workouts.
+
+00:08:39.439 --> 00:08:44.768
+<v Theo>But would anyone actually want their daily recovery score public?
+
+00:08:44.768 --> 00:08:49.031
+<v Nora>Oh come on, fitness junkies love sharing their data!
+
+00:08:49.031 --> 00:08:58.542
+<v Theo>Turning raw photoplethysmography heart rate data into a digital identity gate, though... that's an unexpected shift.
+
+00:08:58.542 --> 00:09:03.543
+<v Nora>It turns biosensors from health trackers into identity tools.
+
+00:09:03.543 --> 00:09:06.003
+<v Theo>My concern is signal spoofing.
+
+00:09:06.003 --> 00:09:09.118
+<v Nora>You think people will fake heartbeats?
+
+00:09:09.118 --> 00:09:20.351
+<v Theo>If verified biometrics become an identity gate for platforms or rewards, people will try to feed synthetic optical signals to the sensor.
+
+00:09:20.351 --> 00:09:24.479
+<v Nora>Leave it to Theo to figure out how to hack a heartbeat.
+
+00:09:24.479 --> 00:09:26.730
+<v Theo>Hey, signal integrity matters!
+
+00:09:26.730 --> 00:09:35.436
+<v Nora>But strategically, Whoop turning three million wearers into a biometrically verified social network is a smart moat.
+
+00:09:35.436 --> 00:09:39.489
+<v Nora>Now, let me bring it all together with today's Trends.
+
+00:09:39.489 --> 00:09:48.721
+<v Theo>Insight first: translational neurotech is shifting away from static task decoding and toward intrinsic background dynamics.
+
+00:09:48.721 --> 00:09:58.778
+<v Nora>Like Columbia finding multi-limb motor maps inside resting chatter, or pre-op stimulation leveraging baseline functional connectivity.
+
+00:09:58.778 --> 00:10:08.309
+<v Theo>Meanwhile, biosignal wearables are moving beyond passive monitoring into identity verification and extended seven-day hardware.
+
+00:10:08.309 --> 00:10:13.638
+<v Nora>The signal isn't just monitoring you anymore, it is authenticating you.
+
+00:10:13.638 --> 00:10:15.664
+<v Nora>Time for the Career Signal.
+
+00:10:15.664 --> 00:10:25.421
+<v Theo>If you work in biosignal machine learning or closed-loop neuromodulation, pay close attention to resting-state feature extraction.
+
+00:10:25.421 --> 00:10:36.904
+<v Nora>Mastering spontaneous neural chatter and stimulation-evoked responses positions you right at the intersection of BCI labs and wearable engineering teams.
+
+00:10:36.904 --> 00:10:47.111
+<v Theo>Consider reaching out to clinical product leads building adaptive neuromodulation tools to discuss resting-state calibration strategies.
+
+00:10:47.111 --> 00:10:49.588
+<v Nora>And let's wrap up with the Recap.
+
+00:10:49.588 --> 00:10:55.742
+<v Theo>One: Columbia found a hidden multi-limb motor map inside M2 resting-state chatter.
+
+00:10:55.742 --> 00:11:04.019
+<v Nora>Two: Pre-surgical brain stimulation mapped distinct motor profiles and triggered targeted circuit rewiring.
+
+00:11:04.019 --> 00:11:11.136
+<v Theo>Three: Targeted CRISPR activation restored normal neuronal firing in autism organoid models.
+
+00:11:11.136 --> 00:11:17.169
+<v Nora>Four: Tandem secured FDA clearance for a 7-day tubeless wearable delivery set.
+
+00:11:17.169 --> 00:11:24.209
+<v Theo>Five: Whoop introduced a social network authenticated by real-time verified heartbeat data.
+
+00:11:24.209 --> 00:11:35.038
+<v Nora>The common thread today? Whether it's genes, neural circuits, or wearables, the field is learning to listen to intrinsic background biology.
+
+00:11:35.038 --> 00:11:36.276
+<v Theo>That's our show.
+
+00:11:36.276 --> 00:11:39.525
+<v Nora>Have a great weekend walk! See you Monday!

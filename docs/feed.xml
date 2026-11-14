@@ -13,6 +13,413 @@
   <itunes:block>Yes</itunes:block>
   <itunes:category text="Science"/>
   <item>
+   <title>Columbia Maps Hidden Neural Motor Signals, Pre-Surgical Neuromodulation Rewiring, and Extended-Wear MedTech Wins FDA Clearance</title>
+   <description>Today's stories:
+
+1. Hidden Body Map in Brain Explains Complex Coordination
+https://neurosciencenews.com/motor-coordination-body-map-32413/
+
+2. Pre-Surgical Brain Stimulation Reveals Distinct Motor Profiles and Neural Rewiring
+https://bioengineer.org/pre-surgical-brain-stimulation-reveals-distinct-motor-profiles-and-neural-rewiring/
+
+3. CRISPR Enhancer Editing Rescues Autism Brain Organoids
+https://neurosciencenews.com/crispr-genetics-autism-32415/
+
+4. Tandem’s Mobi pump wins FDA clearance for 7-day tubeless wearable set
+https://www.drugdeliverybusiness.com/tandems-mobi-pump-wins-fda-clearance-for-7-day-tubeless-wearable-set/
+
+5. This Popular Wearable Now Has Its Own Social Network. Every Account Has a 'Verified Heartbeat.'
+https://www.entrepreneur.com/business-news/this-popular-wearable-now-has-its-own-social-network-every-account-has-a-verified-heartbeat
+
+Full transcript:
+
+Nora: Good morning!
+
+Theo: Happy Saturday.
+
+Nora: Five stories today: three in neurotech, two in health tech.
+
+Theo: Grab your coffee. Let us get right into it.
+
+Nora: Okay, first up: NYC Watch and Motor Decoding.
+
+Theo: Story one of five.
+
+Nora: Columbia neuroscientists just discovered that the brain's secondary motor cortex actually has a full-body motor map hidden inside its background idle chatter.
+
+Theo: Right, so for decades, everyone assumed somatotopic body mapping was exclusive to M1, the primary motor cortex.
+
+Nora: Because whenever researchers zapped M2 directly with electricity, they got... well, nothing clear.
+
+Theo: Exactly, total noise. So they wrote M2 off as just an abstract motor planning hub.
+
+Nora: But Weihao Xu and Elizabeth Hillman at Columbia used high-speed, two-color wide-field optical imaging in resting mice.
+
+Theo: And instead of looking at active tasks, they analyzed spontaneous cortical fluctuations while the animals were sitting completely still.
+
+Nora: And boom. Patches of M2 were firing in perfect sync with specific body representations in the sensory cortex.
+
+Theo: Okay... I'll admit it. That's clever.
+
+Nora: I knew you'd like that!
+
+Theo: They even separated corticospinal projection neurons to prove the signal wasn't just bleed-through from M1.
+
+Nora: And when the mice did multi-limb stuff, like bringing both paws to their mouth while licking, all those M2 sub-regions lit up together.
+
+Theo: Which is wild from a signal processing perspective.
+
+Nora: Right? M1 handles single-muscle commands, but M2 is orchestrating the full ensemble.
+
+Theo: The open question for me, though, is optical imaging in rodent cortex uses wide-field fluorescence.
+
+Nora: Meaning?
+
+Theo: How well does this resting-state synchronization translate to non-invasive human neuroimaging like high-density EEG or fMRI?
+
+Nora: Fair point, but if resting chatter holds the map, multi-limb BCI decoders might not need active movement to calibrate.
+
+Theo: That would save hours of tedious task-training protocols for paralyzed patients.
+
+Nora: Huge win for motor decoding algorithms.
+
+Theo: That brings us to our next section: Neuromodulation and Functional Neural Rescue.
+
+Nora: Story two of five.
+
+Theo: Surgeons used non-invasive brain stimulation before tumor surgery to map patient motor networks and trigger targeted circuit rewiring.
+
+Nora: This was an exploratory prehabilitation trial with sixteen adult brain tumor patients facing surgeries near motor-critical regions.
+
+Theo: They gave them ten to twenty sessions of low-frequency TMS over focal motor areas, or multichannel tDCS over sensorimotor regions, right before motor training.
+
+Nora: And when they ran Fuzzy C-Means clustering on the outcome data, the cohort split into two distinct neuro-behavioral profiles.
+
+Theo: A Strength group and a Dexterity group.
+
+Nora: Exactly! The Strength group gained raw handgrip force, while the Dexterity group improved on the nine-hole peg test and reaction times.
+
+Theo: But look at the fMRI connectivity changes, Nora. This is where the circuit data gets interesting.
+
+Nora: In the Strength group, resting-state functional connectivity between left primary motor cortex and the supplementary motor area jumped from 0.622 to 0.898.
+
+Theo: While the Dexterity group showed no change in that core motor pathway, but decreased frontal-pole-to-middle-frontal-gyrus connectivity instead.
+
+Nora: So pre-surgical stimulation isn't just a generic warm-up. It actively steers functional plasticity down specific pathways depending on baseline network state.
+
+Theo: The question I'd ask is about protocol selection.
+
+Nora: How do you mean?
+
+Theo: They mixed targeted TMS and broad tDCS in the same cohort.
+
+Nora: Ah. Focal magnetic pulses versus diffuse direct current.
+
+Theo: Exactly. Before we can use this to tune closed-loop neuromodulation, we need to know if the motor profile split came from individual baseline connectivity or the stimulation modality itself.
+
+Nora: Still, mapping and steering plasticity before the surgeon ever makes an incision? That changes pre-op care.
+
+Theo: Story three of five.
+
+Nora: UCLA researchers used targeted CRISPR activation to restore normal cell growth and electrical firing in autism brain models without altering DNA.
+
+Theo: This is a major methodological pivot in gene therapy.
+
+Nora: Right, because instead of cutting DNA or dumping in extra gene copies that can cause cellular toxicity, they targeted noncoding DNA enhancers.
+
+Theo: Think of enhancers as biological dimmer switches.
+
+Nora: Exactly! They used CRISPR activation to gently dial up the single remaining healthy copy of CHD8 and SCN2A in haploinsufficient human organoids and excitatory neurons.
+
+Theo: SCN2A codes for the voltage-gated sodium channel that drives action potentials, while CHD8 controls chromatin remodeling.
+
+Nora: And in the SCN2A mutant neurons, boosting that healthy copy restored physiological electrical firing.
+
+Theo: Plus, in the CHD8 mutant 3D cortical organoids, it reversed abnormal tissue overgrowth.
+
+Nora: And here's the best part: it only boosted expression in mutated cells. Healthy control cells stayed completely untouched.
+
+Theo: Okay, that self-limiting safety profile is legit.
+
+Nora: See? Even the skeptic is impressed.
+
+Theo: But let's talk translational delivery, Nora.
+
+Nora: I knew a catch was coming.
+
+Theo: CRISPR activation machinery is large. Getting viral vectors across the blood-brain barrier and into specific neural populations during early development is a massive hurdle.
+
+Nora: True, but as a proof-of-concept for non-destructive epigenomic tuning? It's brilliant.
+
+Theo: A solid step forward for functional neural repair.
+
+Nora: That's the research. Now, Wearables and MedTech Approvals.
+
+Theo: Story four of five.
+
+Nora: Tandem Diabetes Care got FDA clearance for a 7-day tubeless wearable delivery set for its Mobi insulin pump.
+
+Theo: That beats the wear time of the current market leader, Insulet's Omnipod 5, which tops out at three days.
+
+Nora: And Mobi users don't even need a new pump, just the compatible accessories launching in the first half of next year.
+
+Theo: Extended wear is always a tough hardware battle between adhesive skin chemistry, catheter occlusion, and site inflammation.
+
+Nora: Seven days on skin without degrading signal or fluid delivery is impressive engineering.
+
+Theo: But from a system design perspective, longer wear times mean sensor drift and skin site degradation become bigger factors.
+
+Nora: If your continuous glucose monitor lasts ten days, but your delivery system lasts seven, the wear cycles don't line up.
+
+Theo: Right, user compliance drops when replacement schedules are asynchronous.
+
+Nora: Still, moving from tubed pumps to week-long tubeless wearable sets is where hardware has to go.
+
+Theo: It sets a clear benchmark for extended-wear wearable MedTech.
+
+Nora: And story five of five.
+
+Theo: Whoop launched a consumer social network inside its app called Whoop Humans, requiring a verified heartbeat to join.
+
+Nora: Every account has to be linked to a real, live biometric signal from their screenless wearable band.
+
+Theo: So no bots, no synthetic profiles, just authenticated biological data.
+
+Nora: Members can follow each other, share sleep and recovery scores, and leave comments on workouts.
+
+Theo: But would anyone actually want their daily recovery score public?
+
+Nora: Oh come on, fitness junkies love sharing their data!
+
+Theo: Turning raw photoplethysmography heart rate data into a digital identity gate, though... that's an unexpected shift.
+
+Nora: It turns biosensors from health trackers into identity tools.
+
+Theo: My concern is signal spoofing.
+
+Nora: You think people will fake heartbeats?
+
+Theo: If verified biometrics become an identity gate for platforms or rewards, people will try to feed synthetic optical signals to the sensor.
+
+Nora: Leave it to Theo to figure out how to hack a heartbeat.
+
+Theo: Hey, signal integrity matters!
+
+Nora: But strategically, Whoop turning three million wearers into a biometrically verified social network is a smart moat.
+
+Nora: Now, let me bring it all together with today's Trends.
+
+Theo: Insight first: translational neurotech is shifting away from static task decoding and toward intrinsic background dynamics.
+
+Nora: Like Columbia finding multi-limb motor maps inside resting chatter, or pre-op stimulation leveraging baseline functional connectivity.
+
+Theo: Meanwhile, biosignal wearables are moving beyond passive monitoring into identity verification and extended seven-day hardware.
+
+Nora: The signal isn't just monitoring you anymore, it is authenticating you.
+
+Nora: Time for the Career Signal.
+
+Theo: If you work in biosignal machine learning or closed-loop neuromodulation, pay close attention to resting-state feature extraction.
+
+Nora: Mastering spontaneous neural chatter and stimulation-evoked responses positions you right at the intersection of BCI labs and wearable engineering teams.
+
+Theo: Consider reaching out to clinical product leads building adaptive neuromodulation tools to discuss resting-state calibration strategies.
+
+Nora: And let's wrap up with the Recap.
+
+Theo: One: Columbia found a hidden multi-limb motor map inside M2 resting-state chatter.
+
+Nora: Two: Pre-surgical brain stimulation mapped distinct motor profiles and triggered targeted circuit rewiring.
+
+Theo: Three: Targeted CRISPR activation restored normal neuronal firing in autism organoid models.
+
+Nora: Four: Tandem secured FDA clearance for a 7-day tubeless wearable delivery set.
+
+Theo: Five: Whoop introduced a social network authenticated by real-time verified heartbeat data.
+
+Nora: The common thread today? Whether it's genes, neural circuits, or wearables, the field is learning to listen to intrinsic background biology.
+
+Theo: That's our show.
+
+Nora: Have a great weekend walk! See you Monday!
+
+# Editor's log, Saturday, November 14, 2026
+
+Episode: Columbia Maps Hidden Neural Motor Signals, Pre-Surgical Neuromodulation Rewiring, and Extended-Wear MedTech Wins FDA Clearance
+
+## How this episode was made
+1. Pulled every item published in the last ~30 hours from the sources below.
+2. Gemini (editor pass) picked about 5 stories, assigned each to one section, and logged why the rest were skipped.
+3. Gemini (research pass) checked each picked story with Google Search and built a fact sheet from credible sources.
+4. Gemini (writer pass) wrote the two-host script from only those fact sheets.
+5. Gemini (fact-check pass) compared every claim in the script with the fact sheets and fixed or cut anything unsupported.
+6. Gemini voiced it; GitHub published it.
+
+## Sources checked
+- Neurotechnology Substack: failed (403 Client Error: Forbidden for url: https://neurotechnology)
+- Neuroscience News: 6 new items
+- MedTech Dive: 2 new items
+- Fierce Biotech MedTech: 0 new items
+- STAT Health Tech: 1 new items
+- MobiHealthNews: failed (403 Client Error: Forbidden for url: https://www.mobihealthn)
+- TechCrunch Health: 0 new items
+- FDA Medical Devices: failed (404 Client Error: Not Found for url: https://www.fda.gov/apo)
+- Google News: neurotech: 12 new items
+- Google News: Neurotechnology Substack: 0 new items
+- Google News: BCI companies: 0 new items
+- Google News: neuromodulation: 10 new items
+- Google News: EEG and neural wearables: 8 new items
+- Google News: neuro funding: 10 new items
+- Google News: FDA neuro devices: 8 new items
+- Google News: NYC neurotech: 2 new items
+- Google News: wearables: 8 new items
+- Fierce Healthcare Health Tech: 0 new items
+- Healthcare IT News: failed (403 Client Error: Forbidden for url: https://www.healthcarei)
+- Google News: digital health: 10 new items
+- Google News: health tech AI: 8 new items
+- Google News: medtech devices: 8 new items
+- bioRxiv Neuroscience: failed (404 Client Error: Not Found for url: https://connect.biorxiv)
+
+## Used, by section
+### NYC Watch &amp; Motor Decoding
+- Hidden Body Map in Brain Explains Complex Coordination (Neuroscience News) [link](https://neurosciencenews.com/motor-coordination-body-map-32413/)  
+  Angle: Columbia neuroscientists uncovered a hidden full-body motor map within M2 resting-state neural chatter, offering an essential new neural substrate for multi-limb motor BCI decoding.
+### Neuromodulation &amp; Functional Neural Rescue
+- Pre-Surgical Brain Stimulation Reveals Distinct Motor Profiles and Neural Rewiring - Bioengineer.org (Google News: neuromodulation) [link](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOemQ2YVl6MDdQRDdCbWdCeWFTczM0VzZFTEloZm14cW5nYktTU1NjMk1NTVE5eHdFMGZ6eWtfUlpwdmNrSXhNV1ZLcWVFYzg0QXR0VHNTWkxoQUcyYkNXdjRjc1BFTzVuVkthV0N1eUdWdm9HS2tpbVowZmoyYlQ3MDJ3NDRFZDJmN2s0NnEtaThTTnhUZEJqbEFueTBIVkFrM1MzdmRWRm5QRlU?oc=5)  
+  Angle: Pre-surgical invasive brain stimulation mapped distinct patient motor profiles and instant circuit rewiring, highlighting actionable targets for closed-loop neuromodulation tuning.
+- CRISPR Enhancer Editing Rescues Autism Brain Organoids (Neuroscience News) [link](https://neurosciencenews.com/crispr-genetics-autism-32415/)  
+  Angle: Precision CRISPR activation of natural gene enhancers rescued physiological neuronal firing in autism brain organoids without DNA cuts, proving functional neural repair in engineered brain tissue.
+### Wearables &amp; MedTech Approvals
+- Tandem’s Mobi pump wins FDA clearance for 7-day tubeless wearable set - Drug Delivery Business (Google News: FDA neuro devices) [link](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdXhqU1RfZEMteURBSlFPODB3NElMSFN1RENISUlZSmhhejhaV0lFLWNfOGQ4RTZyWEl3aGhMWnp5eVBqUk4wb1FoTU1FQkFxRUtVdHh4Q2VpQnQyN0RIV1BMdERYV0lJUTNGbTdBYnhkc1VrTHJsZEpjdWRfMnk4NTU3aXQzcmRaMWZMY3hiZzhDSk4xT0s1ck5aU2ZCLTNJT1ozSHVWWHZoQQ?oc=5)  
+  Angle: Tandem secured FDA clearance for its 7-day tubeless wearable delivery set, signaling regulatory approval for longer-wear continuous biometric and drug delivery hardware.
+- This Popular Wearable Now Has Its Own Social Network. Every Account Has a 'Verified Heartbeat.' - Entrepreneur (Google News: wearables) [link](https://news.google.com/rss/articles/CBMizwFBVV95cUxPbUh1SzBWZHpyY28tUWMxMVp3OFVkbkVKRFFqckhUdkg5cFBVUlJtQ3JucUFldFpRWm93aDZreTh2czVYZUlqbWNicnlwcXc0ZlZlUTg1dV9CRDFvaEZrY1pTdE9lVzlmX210Nk1qR1JjMzJWSkx2eHZsN25fQ0ZyazBsNTlNV0Y5Qks2S1BjZXBDRGNXRk5faHlqNUxnbzJrMWhDanlwZXRGSTFuTmFQOG5yYTA1eEFHb2xrc2c4LTQ1eWN0bmw5S3lJX3JBLUE?oc=5)  
+  Angle: Whoop debuted a consumer social platform centered on a biometric 'verified heartbeat' requirement, illustrating how biosensor data is evolving into identity verification.
+
+## Fact sheets (verified with Google Search)
+
+### Hidden Body Map in Brain Explains Complex Coordination
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Pre-Surgical Brain Stimulation Reveals Distinct Motor Profiles and Neural Rewiring - Bioengineer.org
+(No fact sheet: research failed, so only the original item text was used.)
+
+### CRISPR Enhancer Editing Rescues Autism Brain Organoids
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Tandem’s Mobi pump wins FDA clearance for 7-day tubeless wearable set - Drug Delivery Business
+(No fact sheet: research failed, so only the original item text was used.)
+
+### This Popular Wearable Now Has Its Own Social Network. Every Account Has a 'Verified Heartbeat.' - Entrepreneur
+(No fact sheet: research failed, so only the original item text was used.)
+
+## Fact-check fixes
+- Removed invented listener name "Chandni" from Nora's opening line, Theo's Career Signal line, and Nora's closing sign-off.
+- Removed made-up date "November 14th, 2026" from Theo's opening line.
+- Corrected Tandem Mobi wear time comparison wording from "doubles" to "beats" to align directly with the source article text.
+- Replaced guessed product form terminology ("patch accessories", "delivery pod", "tubeless patches") for the Tandem Mobi device with verified article terminology ("compatible accessories", "delivery system", "tubeless wearable sets").
+- Corrected launch timeline for Tandem Mobi accessories from "early next year" to "in the first half of next year" per the source text.
+
+## Trends noted
+- Translational neurotech is pivoting toward intrinsic background dynamics—like resting-state chatter (5) and rapid stimulation-induced plasticity (23)—to build adaptive, closed-loop neural interfaces.
+- Biosignal wearables are shifting from passive monitoring to identity platforms and extended-wear hardware, fueled by regulatory nods for 7-day devices (52) and biometric verification features (63).
+
+## Not used, and why
+- Why Viruses Make You Sneeze: COVID Proteins Directly Hijack Sensory Nerves (Neuroscience News): Not selected; basic sensory nerve infection mechanism
+- Genetic Switch Helped Evolve the Large Primate Brain (Neuroscience News): Not selected; evolutionary brain genetics study
+- Mapping the Brain’s Energy Budget: How ATP Fuels Thought (Neuroscience News): Not selected; basic brain metabolic mapping research
+- Irregular Sleep Schedules Tied to Depression &amp; Loneliness (Neuroscience News): Not selected; smart-ring sleep schedule study
+- FDA posts early alerts for two product removals (MedTech Dive): Not selected; standard medical device recall notice
+- Bipartisan push possible to curb Trump tariffs (MedTech Dive): Not selected; Congressional trade policy and tariffs
+- STAT+: Doctors have questions about the Watchman. Boston Scientific has a sales pitch. (STAT Health Tech): old news; recently covered Watchman device marketing controversy
+- Synchron's BCI Trial Pause: What Went Wrong With Stentrode - Medical Device and Diagnostic industry (Google News: neurotech): old news; recently covered Synchron BCI trial pause
+- Norton police, OSHP fatally shoot suspect involved in pursuit; Ohio BCI investigating - WKYC (Google News: neurotech): Not health/neuro science; law enforcement acronym match
+- BCI Minerals (ASX:BCI) Shares Look Undervalued As 116% Run Tests Fair Value - Yahoo Finance (Google News: neurotech): Not health/neuro science; mining company news
+- Tianjin University-driven project advances noninvasive BCI research - China Daily (Google News: neurotech): Not selected; noninvasive BCI project update
+- BCI opens submissions for 2027 Amplify Award - www.bestmag.co.uk (Google News: neurotech): Not health/neuro science; battery industry award
+- BCI Mustangs power their way past Owen Sound in CWOSSA football quarter-final game - Brantford Expositor (Google News: neurotech): Not health/neuro science; high school football match
+- Ohio BCI investigating after Norton police, OSHP fatally shoot suspect in Akron - WKYC (Google News: neurotech): Not health/neuro science; law enforcement acronym match
+- Neuroimplant Trial Participants Demand More Rights, Fewer Restrictions - ForkLog (Google News: neurotech): old news; recently covered BCI implant recipient ethical demands
+- AIBE 22 admit card 2026: BCI to release hall tickets today at allindiabarexamination.com; check how to do - The Times of India (Google News: neurotech): Not health/neuro science; law examination hall ticket
+- AIBE 22 admit card 2026: BCI releases XXII hall ticket today; Examination on November 29 - Education Times (Google News: neurotech): Not health/neuro science; law examination hall ticket
+- Shooting in Akron: BCI requested by Ohio State Highway Patrol to investigate incident also involving Norton police - Yahoo (Google News: neurotech): Not health/neuro science; law enforcement acronym match
+- Japan Startup Targets Brain Implant Trials in 2027 - News On Japan (Google News: neurotech): Not selected; early-stage trial target date press release
+- Army Hospital R&amp;R Performs Deep Brain Stimulation Surgery on Soldier With Young-Onset Parkinson’s Disease - SSBCrack (Google News: neuromodulation): Not selected; routine clinical DBS case report
+- How Henry Ford Health is targeting brain tremors with sound waves - ClickOnDetroit | WDIV Local 4 (Google News: neuromodulation): Not selected; routine focused ultrasound clinical case report
+- Brainstem Injury Research Details Neural Circuit Disruptions Behind Disorders of Consciousness - Bioengineer.org (Google News: neuromodulation): Not selected; brainstem injury consciousness research
+- Delhi: Successful Deep Brain Stimulation surgery performed at Army hospital, giving new hopes - News On AIR (Google News: neuromodulation): merged into item 22; routine clinical DBS news
+- Zafiris 'Jeff' Daskalakis named UC Davis School of Medicine dean - UC Davis Health (Google News: neuromodulation): Not selected; medical school administrative appointment
+- Awake Brain Mapping Helps Refine DBS Lead Placement - EMJ (Google News: neuromodulation): Not selected; general awake DBS technique overview
+- UK researchers test brain stimulation for meth use disorder - Spectrum News (Google News: neuromodulation): Not selected; early clinical trial for addiction stimulation
+- Tianjin University-driven project advances noninvasive BCI research - China Daily Global Edition (Google News: neuromodulation): merged into item 13; noninvasive BCI research
+- Acute-Phase Clinical and P300 Measures Predict Six-Month Consciousness Emergence - Bioengineer.org (Google News: neuromodulation): Not selected; ERP P300 emergence predictor study
+- Happy face, angry voice: Human–dog interaction study tracks conflicting cues - Phys.org (Google News: EEG and neural wearables): Not selected; human-dog interaction EEG study
+- Scientists built an AI called "Concept2Brain" that simulates human brain waves from pictures and text - PsyPost (Google News: EEG and neural wearables): Not selected; generative AI synthetic EEG simulation paper
+- Bispectral Index Power Correlates With Quantitative EEG in Aneurysmal Subarachnoid Hemorrhage - Bioengineer.org (Google News: EEG and neural wearables): Not selected; clinical qEEG hemorrhage correlation study
+- The aging human brain exhibits reduced hemodynamic and cerebrospinal fluid flow waves during sleep - Nature (Google News: EEG and neural wearables): Not selected; sleep hemodynamics aging study
+- Using electroencephalography to investigate human–dog interactions - EurekAlert! (Google News: EEG and neural wearables): merged into item 32; human-dog EEG study
+- Why Sleep Might Not be as Restorative as We Get Older - Nautilus | Science Connected (Google News: EEG and neural wearables): merged into item 35; sleep hemodynamics study
+- Dogs show stronger brain responses to mismatched owner cues - Bioengineer.org (Google News: EEG and neural wearables): merged into item 32; human-dog interaction study
+- Visual Explainable AI Cuts Air Traffic Controller Workload in Simulation Study - Bioengineer.org (Google News: EEG and neural wearables): Not selected; air traffic control visual AI study
+- Brain-Computer Interfaces Raise New Questions about Mental Privacy - The Hastings Center for Bioethics (Google News: neuro funding): old news; recently covered BCI ethics/privacy recommendations
+- Biosensors and Wearables Among MedTech Showcased at INVEST Digital Health - MedCity News (Google News: neuro funding): Not selected; general medtech conference roundup
+- Counselor's Corner: Trusting a trusted adult - KSLA (Google News: neuro funding): Not health/neuro science; counseling advice article
+- Layoffs, closures tracker: Presbyterian to lay off 135 workers - Modern Healthcare (Google News: neuro funding): Not selected; hospital layoff tracker
+- Kalshi Seeks Investment at $65 Billion Valuation, Bloomberg Reports - ForkLog (Google News: neuro funding): Not health/neuro science; prediction market valuation
+- Zus Health Secures $33M in Series B Funding to Build AI-Powered Clinical Workflows - Digital Health News (Google News: neuro funding): old news; recently covered Zus Health $33M funding
+- Pet Wearable Market Size, Forecast, Demand, Opportunities, 2034 - Straits Research (Google News: neuro funding): Not selected; market research report on pet wearables
+- ASPS-backed startups win $355,000 in MedTech Innovator competition - The Manila Times (Google News: neuro funding): Not selected; pitch competition grant award roundup
+- MedHaul Raises $4.1M to Expand Medical Transportation Services for High-Needs Patients - Digital Health News (Google News: neuro funding): Not selected; non-neuro medical transportation funding
+- Ardent Health to Acquire Boone Health for $47 Mn - Digital Health News (Google News: neuro funding): Not selected; hospital network acquisition
+- AI-Enabled Software for Brain Aneurysm Detection, Assessment Gets FDA Approval - Imaging Technology News (Google News: FDA neuro devices): Not selected; brain aneurysm AI clearance secondary pick
+- Bracco, Avicenna.AI get FDA clearance for brain aneurysm AI software - AuntMinnie (Google News: FDA neuro devices): merged into item 50; brain aneurysm AI FDA clearance
+- Bracco and Avicenna.AI’s brain aneurysm detection tool snags FDA clearance - Medical Device Network (Google News: FDA neuro devices): merged into item 50; brain aneurysm AI FDA clearance
+- Baptist Health (JAX) completes first procedure in new brain aneurysm clinical trial - Florida Hospital News and Healthcare Report (Google News: FDA neuro devices): Not selected; regional hospital trial milestone
+- FDA Clears CTA-Based AI Software for Brain Aneurysm Detection and Follow-Up - Diagnostic Imaging (Google News: FDA neuro devices): merged into item 50; brain aneurysm AI FDA clearance
+- Bracco, Avicenna.ai win FDA nod for AI-driven brain aneurysm tool - BioWorld News (Google News: FDA neuro devices): merged into item 50; brain aneurysm AI FDA clearance
+- Brain Cancer Biotech Race Heats Up as NeOnc, Nuvation, Jazz and Cerenome Present New Data at SNO - Quantisnow (Google News: FDA neuro devices): Not selected; neuro-oncology drug trial data
+- Brain implant startup pauses trials - STAT (Google News: NYC neurotech): old news; recently covered Synchron trial pause
+- ASPS-backed startups win $355,000 in MedTech Innovator competition - Toronto Star (Google News: NYC neurotech): merged into item 47; medtech innovator awards
+- Clinicians Prefer Layered Visualizations and Contextual Logs for Wearable Health Data - Bioengineer.org (Google News: wearables): Not selected; clinician UI preference study for wearables
+- 5 things to know in life sciences: Week of Nov. 9, 2026 - The Real Economy Blog (Google News: wearables): Not selected; weekly life sciences digest
+- Irregular Sleep Schedules Tied to Depression &amp; Loneliness - Neuroscience News (Google News: wearables): merged into item 6; smart-ring sleep schedule study
+- WHOOP Data Reveals What GLP-1 Drugs Do to Your Heart - Man of Many (Google News: wearables): Not selected; consumer wearable GLP-1 data analysis
+- Hume Band Early Black Friday Deal 2026: Save 20% - Wareable (Google News: wearables): Not selected; consumer shopping discount deal
+- Review Analyzes Privacy-Preserving Federated Learning Advances and Vulnerabilities in Healthcare - Bioengineer.org (Google News: wearables): Not selected; federated learning privacy review paper
+- Whoop launches Humans social network where every user has a ‘verified heartbeat’ - Storyboard18 (Google News: wearables): merged into story 63
+- Zus Health Raises $33M to Make Healthcare More Connected - MedCity News (Google News: digital health): old news; recently covered Zus Health $33M funding
+- Weekly Rundown: Ohio State Wexner, Microsoft ink tech deal; OpenEvidence launches free Access Intelligence tools - Fierce Healthcare (Google News: digital health): Not selected; generic health tech weekly roundup
+- Exclusive: Redesign Health launches Growth Equity practice - MobiHealthNews (Google News: digital health): Not selected; healthcare venture firm practice launch
+- Drug Ads Can Influence AI Treatment Recommendations, Study Finds - Mount Sinai (Google News: digital health): Not selected; AI treatment recommendation bias study
+- Telehealth Platform Expands Access to FDA-Approved Obesity Medications - Sleep Review (Google News: digital health): Not selected; telehealth obesity expansion PR
+- Tandem’s FDA Clearance Of Tandem Mobi Tubeless Sets Up Competitive Race In 2027, Analysts Say - insights.citeline.com (Google News: digital health): merged into story 52
+- Molecular Designs Secures First FDA Clearance for Respiratory Test - Securities.io (Google News: digital health): Not selected; diagnostic respiratory test FDA clearance
+- Research hub launches to help the NHS prevent dementia - Home | Digital Health (Google News: digital health): Not selected; NHS dementia research hub launch
+- Health partners push African governments to finance essential services independently - The Eastleigh Voice (Google News: digital health): Not selected; international healthcare policy
+- Health Ministry urges China to expand medical partnership to rural communities - Namibia Economist (Google News: digital health): Not selected; international bilateral medical partnership
+- Nvidia CEO shakeup raises questions for med tech funding - Axios (Google News: health tech AI): Not selected; tech industry executive speculation
+- Defencetech UFORCE raises $700M, EIC Scaling Club companies raise €4B, and healthtech leads investment in October - Tech.eu (Google News: health tech AI): Not selected; European tech investment monthly report
+- Odisha startup BabyCue wins national challenge with its rapid diagnostic test for children - YourStory.com (Google News: health tech AI): Not selected; regional pediatric diagnostic challenge winner
+- Qyire launches eating disorder record system for providers - IT Brief UK (Google News: health tech AI): Not selected; eating disorder EHR software release
+- Funding and acquisitions in Indian startups this week [Nov 09- Nov 14] - Entrackr (Google News: health tech AI): Not selected; Indian startup funding weekly tracker
+- Manchester founder launches chronic illness app - BusinessCloud (Google News: health tech AI): Not selected; regional app launch
+- Expand North Star – The World’s Largest Startup &amp; Investor Connector Event - Gulf Business (Google News: health tech AI): Not selected; startup event press release
+- 1Crowd Invests in Rymo Technologies to Expand Healthcare Portfolio - Digital Health News (Google News: health tech AI): Not selected; early-stage India healthtech investment
+- Olympus making strides on FDA quality concerns, CEO says - MedTech Dive (Google News: medtech devices): Not selected; endoscopy manufacturing quality compliance
+- FDA Clears AI-Powered Cardiac MRI Analysis Platform - Medical Product Outsourcing (Google News: medtech devices): Not selected; cardiac MRI AI clearance
+- Medtech Majors Favor Spin-Offs And Tuck-Ins Over Big Buys On Q3 Earnings Calls - Medtech Insight (Google News: medtech devices): Not selected; medtech Q3 earnings M&amp;A strategy report
+- Tandem’s Mobi pump wins FDA clearance for 7-day tubeless wearable set - MassDevice (Google News: medtech devices): merged into story 52
+- Medical device maker eyes market expansion after securing key FDA approval - The Business Journals (Google News: medtech devices): Not selected; generic PR on medtech expansion
+- OSMUNDA raises ~$15M Series D to build device factory and AI platform - Dealroom (Google News: medtech devices): Not selected; contract manufacturing Series D funding
+- FDA Advisory No.2026-1114 || Public Health Warning Against the Purchase and Use of the Medical Device Product “INFUSION SET, SINGLE-USE (WITHOUT NEEDLE)” with expired Certificate of Product Registration (CPR) - Food and Drug Administration - https://www.fda.gov.ph/ (Google News: medtech devices): Not selected; Philippines FDA expired device advisory
+- FDA posts early alerts for 2 product removals - MedTech Dive (Google News: medtech devices): merged into item 7; device recall alert</description>
+   <pubDate>Sat, 14 Nov 2026 09:41:37 +0000</pubDate>
+   <guid isPermaLink="false">neuro-morning-2026-11-14-0941</guid>
+   <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-14.mp3?v=0941" length="5628524" type="audio/mpeg"/>
+   <itunes:duration>703</itunes:duration>
+   <itunes:explicit>false</itunes:explicit>
+   <podcast:transcript url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-14.vtt" type="text/vtt" language="en"/>
+  </item>
+  <item>
    <title>Synchron Pauses BCI Trials, Zus Health Raises $33M, and Neuromodulation Maps Shared Networks</title>
    <description>Today's stories:
 

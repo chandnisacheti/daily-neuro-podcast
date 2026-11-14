@@ -1,0 +1,47 @@
+[
+ {
+  "company": "Whoop",
+  "signal": "expansion",
+  "detail": "Whoop launched Whoop Humans, an in-app social network for its screenless wearable platform focused on verified heartbeat and health tracking.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Provides direct experience with wearable health sensors, continuous physiological signal monitoring, and user health data algorithms.",
+  "link": "https://www.entrepreneur.com/business-news/this-popular-wearable-now-has-its-own-social-network-every-account-has-a-verified-heartbeat"
+ },
+ {
+  "company": "Tandem Diabetes Care",
+  "signal": "fda",
+  "detail": "Tandem Diabetes Care secured FDA clearance for a 7-day tubeless wearable infusion set for its Tandem Mobi automated insulin delivery pump.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Offers experience in FDA-cleared wearable medtech devices, automated closed-loop delivery algorithms, and physiological sensing.",
+  "link": "https://www.drugdeliverybusiness.com/tandems-mobi-pump-wins-fda-clearance-for-7-day-tubeless-wearable-set/"
+ },
+ {
+  "company": "Avicenna.AI",
+  "signal": "fda",
+  "detail": "Avicenna.AI received FDA clearance alongside Bracco for its CTA-based artificial intelligence software designed to detect and evaluate brain aneurysms.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Highly relevant for applying machine learning models to neurological imaging and neuro-vascular diagnostic tools.",
+  "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQX1JDakQ5Vld6eldCTjY5RXc1S1prUW13N3BXR1pCYnF0Tmo5REhveDZfdzBzTHNNSjhBcDM0RmY4WEhxZTJsWUNSdENDSEQ2bm5oQzBZWHhEdHVzM0tmXy1CZUhwUXlWOGdBQ0YwOTk4S2lKLXZoTEZPMkZkNHRCZ0g1bU5jZC0zVTBRUEQ1cWdwTWY0UDdBLTFBZFA1alpOVG5OakQxRElHWVR5QmsxZlJud2s5VHFwRzY0MWpWT1lhQnJBZEd2OElSLWxZeHYxSkZyM2swS3VzRkhkamdFTEkweVJIaGptNW5IbFJ3SExkUndfYnhWYms0bHlsY1pIRVNpXw?oc=5"
+ },
+ {
+  "company": "Rymo Technologies",
+  "signal": "funding",
+  "detail": "Rymo Technologies secured investment from 1Crowd to expand its healthcare and rehabilitation portfolio.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Valuable for BME students interested in medical robotics, rehabilitation devices, and motion biosignal tracking.",
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOazFaNnNsZHJORjRTMzg0YWpndzNwZkdFbjA1N0F3N2lxQ2lzQUlHcFRhdXFwbUNTREV5aWxqTFpJQ2sxQkl3b2lCZEVMRW00aWQwMmRUb2ZnQmVGUmRMZWdWS0BLNHBDWEg5aC1ySzRrVmZRZ0Fzdm5KMl81eGtvUjh4QWVmQUN0alBLQTZiR0ptaXRsRWJWLThnTkRoYmFScGc?oc=5"
+ },
+ {
+  "company": "Zus Health",
+  "signal": "funding",
+  "detail": "Zus Health raised $33M in Series B funding to build AI-powered clinical workflow platforms.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Relevant for learning clinical data integration and healthtech AI infrastructure supporting patient monitoring systems.",
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPN2JVY2ZDVkhoWjRDb0M5YkNrcWNSbWRyeU4zRHV0VkZkb1_fZW1zeWU5S0FEaDdGM3dKbXZjU0FQSlZXeUw0dFN1U1AwbTQzeWU5eXhqSEQ0ek80LVdEUGVEMDgtTzhvTEFWNklBQktqMFl6Z0pxVGtYMzVNUmd0U1k4LWdmNnMwOXhpcF9seTNLTG5XaUZ6SVNjY28?oc=5"
+ }
+]
