@@ -1,0 +1,241 @@
+WEBVTT
+
+00:00:02.786 --> 00:00:04.449
+<v Nora>Good morning, Chandni!
+
+00:00:04.449 --> 00:00:07.247
+<v Nora>Today is Sunday, November 15th, 2026.
+
+00:00:07.247 --> 00:00:11.708
+<v Theo>Five stories today: three in neurotech, two in health tech.
+
+00:00:11.708 --> 00:00:13.221
+<v Nora>Let's dive right in.
+
+00:00:13.221 --> 00:00:17.153
+<v Nora>Story one of five. First up: who expanded this week.
+
+00:00:17.153 --> 00:00:27.966
+<v Nora>Ohio State University and Microsoft announced a reported two hundred fifty million dollar partnership to shift hospital computing to the cloud.
+
+00:00:27.966 --> 00:00:30.839
+<v Theo>That is a massive infrastructure play.
+
+00:00:30.839 --> 00:00:43.165
+<v Theo>They are aiming to move seventy to eighty percent of Ohio State's storage and compute over to Azure, specifically targeting digital pathology and imaging datasets.
+
+00:00:43.165 --> 00:00:56.775
+<v Nora>Right, but the tool clinicians are actually using right now is Dragon DAX Copilot, which listens in on patient visits and drafts clinical notes inside the electronic health record.
+
+00:00:56.775 --> 00:01:05.396
+<v Theo>In their pilot across primary care and cardiology at Wexner Medical Center, it saved up to four minutes per visit.
+
+00:01:05.396 --> 00:01:15.982
+<v Theo>But... a lot of the flashier features, like smart patient rooms, come later, while automated AI tumor-board workflows are still exploratory.
+
+00:01:15.982 --> 00:01:25.056
+<v Nora>Sure, but think about the sheer administrative weight that lifts off nurses who spend half their day staring at screens.
+
+00:01:25.056 --> 00:01:32.768
+<v Theo>I get the appeal, but from a systems engineering perspective, the real technical detail is resilience.
+
+00:01:32.768 --> 00:01:47.438
+<v Theo>They're building a backup copy of the electronic health record on Azure for business continuity, which means that cloud infrastructure has to handle live clinical loads during an on-prem outage.
+
+00:01:47.438 --> 00:01:55.905
+<v Nora>So it's less about shiny AI gadgets today and more about laying down a heavy-duty data backbone for clinical systems.
+
+00:01:55.905 --> 00:01:58.583
+<v Nora>That's the cloud move. Now, research.
+
+00:01:58.583 --> 00:01:59.886
+<v Nora>Story two of five.
+
+00:01:59.886 --> 00:02:10.669
+<v Nora>Researchers presented implanted brain-computer interfaces that restored real-time speech and text decoding for paralyzed clinical trial participants.
+
+00:02:10.669 --> 00:02:14.649
+<v Theo>These papers were featured at Neuroscience 2026 in D.C.
+
+00:02:14.649 --> 00:02:23.985
+<v Theo>Maitreyee Wairagkar's team at UC Davis decoded neural activity to drive a synthetic voice that dynamically modulates vocal pitch.
+
+00:02:23.985 --> 00:02:36.578
+<v Nora>Wait, so instead of sounding like a monotone computer from the nineties, the system actually captures pitch variation so the participant can express emotion... and even sing?
+
+00:02:36.578 --> 00:02:43.525
+<v Theo>Exactly. Pitch dynamics dramatically improve listener comprehension during natural conversation.
+
+00:02:43.525 --> 00:02:56.407
+<v Theo>Meanwhile, Daniel Rubin's group at Mass General kept a locked-in patient communicating independently for over a year by decoding intended movement directly from implanted arrays.
+
+00:02:56.407 --> 00:02:58.578
+<v Nora>Okay, this one made me sit up.
+
+00:02:58.578 --> 00:03:04.875
+<v Nora>But the real kicker for me was Chethan Pandarinath's group from Georgia Tech and Emory.
+
+00:03:04.875 --> 00:03:13.487
+<v Nora>They developed a brain-to-text pipeline that decodes recorded neural activity into written words directly on an iPhone.
+
+00:03:13.487 --> 00:03:16.165
+<v Theo>Okay... I'll admit it. That's clever.
+
+00:03:16.165 --> 00:03:29.047
+<v Theo>Optimization is the hard part here. Taking heavy biosignal decoding models and running them locally on consumer mobile hardware without huge latency is a massive engineering win.
+
+00:03:29.047 --> 00:03:36.195
+<v Nora>It takes speech BCIs out of the academic lab and moves them toward actual everyday portability.
+
+00:03:36.195 --> 00:03:37.700
+<v Theo>Story three of five.
+
+00:03:37.700 --> 00:03:49.363
+<v Theo>Staying with biosignals, a new study used feature-based machine learning on tri-axial accelerometers to map how different treatments alter tremor patterns.
+
+00:03:49.363 --> 00:04:00.124
+<v Nora>Basically, instead of just asking "is the arm shaking less?", they used machine learning to extract the exact signal signature of the movement.
+
+00:04:00.124 --> 00:04:12.615
+<v Theo>Right. Researchers from Würzburg and Imperial College London evaluated sixty-six participants across Parkinson's, Essential Tremor, and enhanced physiological tremor.
+
+00:04:12.615 --> 00:04:20.366
+<v Theo>They tested four modulating interventions: levodopa, propranolol, deep brain stimulation, and caffeine.
+
+00:04:20.366 --> 00:04:29.997
+<v Nora>And DBS produced the strongest overall tremor suppression, while caffeine did... well, what caffeine usually does to your hands.
+
+00:04:29.997 --> 00:04:35.641
+<v Theo>Ha, right. But here's the signal processing angle that caught my attention.
+
+00:04:35.641 --> 00:04:41.059
+<v Theo>Standard clinical trials just calculate root-mean-square amplitude drop.
+
+00:04:41.059 --> 00:04:52.797
+<v Theo>But their ensemble classifiers and Principal Component Analysis proved that different interventions alter entirely distinct multidimensional feature spaces.
+
+00:04:52.797 --> 00:05:03.106
+<v Nora>Like how levodopa shifted frequency-related features in Parkinson's, whereas caffeine created a unique multidimensional signal footprint.
+
+00:05:03.106 --> 00:05:11.609
+<v Theo>Exactly. No single signal feature consistently mapped successful tremor modulation across all four interventions.
+
+00:05:11.609 --> 00:05:24.251
+<v Nora>Which means if you're designing closed-loop neuromodulation, you can't rely on simple amplitude thresholds; you need adaptive, intervention-specific feature extraction.
+
+00:05:24.251 --> 00:05:28.916
+<v Nora>Story four of five. Moving to validation and device critiques.
+
+00:05:28.916 --> 00:05:38.798
+<v Nora>A systematic review found very low evidence certainty supporting ultrasound brain stimulation for cognitive decline in aging.
+
+00:05:38.798 --> 00:05:45.913
+<v Theo>This was a University of Florida review evaluating Transcranial Pulse Stimulation, or TPS.
+
+00:05:45.913 --> 00:05:58.879
+<v Theo>Technically, TPS delivers ultrashort single ultrasound pulses—around three microseconds long—paired with real-time MRI neuronavigation and infrared camera tracking.
+
+00:05:58.879 --> 00:06:01.962
+<v Nora>It sounds fantastic on paper, honestly.
+
+00:06:01.962 --> 00:06:09.789
+<v Nora>You can target subcortical regions with millimeter spatial precision while avoiding tissue heating.
+
+00:06:09.789 --> 00:06:12.872
+<v Theo>Sure, the hardware physics sound great.
+
+00:06:12.872 --> 00:06:24.968
+<v Theo>But when the researchers systematically screened 203 records down to eleven human studies, ten of them were small, unblinded, single-arm pre-post trials.
+
+00:06:24.968 --> 00:06:33.190
+<v Nora>Wait, so out of eleven published papers, only one was a randomized, double-blind, sham-controlled trial?
+
+00:06:33.190 --> 00:06:42.597
+<v Theo>Just one. And to make it worse, several of those papers shared identical patient cohorts across follow-up publications.
+
+00:06:42.597 --> 00:06:47.657
+<v Nora>Ouch. So the actual volume of independent clinical data is tiny.
+
+00:06:47.657 --> 00:06:59.437
+<v Theo>Precisely. Without rigorous sham controls, you simply cannot separate acoustic neuromodulation from placebo responses or baseline cognitive variance.
+
+00:06:59.437 --> 00:07:07.738
+<v Nora>The targeting tech is sleek, but the clinical evidence is nowhere near catching up to the product claims.
+
+00:07:07.738 --> 00:07:09.240
+<v Theo>Story five of five.
+
+00:07:09.240 --> 00:07:18.568
+<v Theo>As ObesityWeek opens, validation literature on wrist sensors shows they frequently misclassify quiet resting as sleep.
+
+00:07:18.568 --> 00:07:26.882
+<v Nora>So when I'm lying wide awake in bed at night, staring at the ceiling, my wearable thinks I'm getting deep rest?
+
+00:07:26.882 --> 00:07:43.209
+<v Theo>Pretty much. Arizona State's Matthew Buman speaks Monday on wearables, though his lecture abstract isn't published yet—but published actigraphy literature shows how wrist devices use movement thresholds to infer sleep.
+
+00:07:43.209 --> 00:07:51.821
+<v Theo>While sleep-detection sensitivity is over ninety percent, wake specificity can drop to around thirty-three percent.
+
+00:07:51.821 --> 00:07:59.610
+<v Nora>Wait... so two-thirds of the time someone is awake but staying still, the classifier scores it as sleep?
+
+00:07:59.610 --> 00:08:03.805
+<v Theo>Exactly. Actigraphy measures movement, not brain states.
+
+00:08:03.805 --> 00:08:08.448
+<v Theo>Polysomnography relies on EEG, eye movements, and muscle tone.
+
+00:08:08.448 --> 00:08:17.735
+<v Theo>When you strip all that back to a single wrist accelerometer, static wakefulness breaks the classification model every time.
+
+00:08:17.735 --> 00:08:27.846
+<v Nora>It shows how easily edge-case artifacts fool consumer devices when they try to proxy complex sleep architecture with basic motion data.
+
+00:08:27.846 --> 00:08:30.467
+<v Nora>That brings us to our trends today.
+
+00:08:30.467 --> 00:08:36.908
+<v Nora>First, neurotech and wearables are facing a massive clinical validation reality check.
+
+00:08:36.908 --> 00:08:50.014
+<v Theo>Whether it's ultrasound stimulation lacking sham controls or wrist sensors misinterpreting quiet wakefulness, researchers are pushing back against unproven algorithmic claims.
+
+00:08:50.014 --> 00:09:02.222
+<v Nora>Second, biosignal processing is rapidly evolving from basic signal averaging to patient-specific machine learning that decodes active neural dynamics in real time.
+
+00:09:02.222 --> 00:09:06.566
+<v Theo>Which leads directly to today's Career Signal for Chandni.
+
+00:09:06.566 --> 00:09:17.351
+<v Nora>If you're building biosignal ML pipelines for closed-loop neuromodulation, focus heavily on edge-case validation and noise rejection algorithms.
+
+00:09:17.351 --> 00:09:29.573
+<v Theo>Demonstrating that your models hold up against static movement artifacts and noisy real-world data—rather than pristine lab benchmarks—is what will get you noticed.
+
+00:09:29.573 --> 00:09:42.242
+<v Nora>If you're looking at closed-loop neurotech teams, reach out to their lead clinical product engineer and show them how your feature extraction handles edge-case artifacts.
+
+00:09:42.242 --> 00:09:44.850
+<v Theo>Time to recap today's five stories.
+
+00:09:44.850 --> 00:09:54.389
+<v Nora>One: Ohio State and Microsoft committed two hundred fifty million dollars to cloud infrastructure and ambient AI clinical notes.
+
+00:09:54.389 --> 00:10:01.767
+<v Theo>Two: Implanted speech BCIs decoded real-time pitch variations and text on consumer mobile hardware.
+
+00:10:01.767 --> 00:10:09.443
+<v Nora>Three: Machine learning mapped distinct biosignal feature signatures across different tremor therapies.
+
+00:10:09.443 --> 00:10:17.268
+<v Theo>Four: A systematic review flagged very low evidence certainty for transcranial pulse ultrasound in aging.
+
+00:10:17.268 --> 00:10:25.391
+<v Nora>Five: Wrist sensors were shown to routinely mistake quiet wakefulness for sleep due to poor wake specificity.
+
+00:10:25.391 --> 00:10:35.824
+<v Theo>The core theme today? Infrastructure and hardware targeting are moving fast, but robust algorithm validation is where the real work remains.
+
+00:10:35.824 --> 00:10:41.786
+<v Nora>That's today's Neuro Morning. Enjoy your walk, Chandni, and we'll talk tomorrow!

@@ -1,50 +1,59 @@
 {
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "leads": [
   {
-   "company": "Whoop",
+   "company": "Tether Evo",
+   "signal": "research",
+   "detail": "Tether Evo published research addressing major challenges in brain-computer interface technology.",
+   "location": "",
+   "nyc": false,
+   "why_relevant": "Focuses directly on brain-computer interface research and neural signal decoding.",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYW9udFBiLWFEWGZfVVVxcFUxVHFuX1hRWDIyNzZLSENPSEtsX2JCQjZYd2J2eDByQXh3SEZlY1RvQV9lbW5FVnZEVE5DaG9md2pTVEhnd01UY29zUFNBWk9xeEpHNnQzM0VCY0g0cnYydF9qajQtZFM1QmNvaWVSTjJqTTgwdmhNaEtqVzl3ZmVjeDktYXBIcFM2LUQ5LTVsa0dQbldtRWpSSGI2cEhNYnRzNUlvV3RiLVp1QUlndVQ2RXBzaEJqMVZTZnVyOFZX?oc=5"
+  },
+  {
+   "company": "Georgia Institute of Technology",
+   "signal": "research",
+   "detail": "Researchers engineered a portable brain-to-text interface that decodes recorded brain activity into written words operating directly on consumer hardware like an iPhone.",
+   "location": "Atlanta, USA",
+   "nyc": false,
+   "why_relevant": "Directly applies machine learning decoding algorithms to neural signals for non-invasive and portable assistive communication.",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZjlTX0JWYWp6MVc1X25GWnJXUUJGRkY0RFVLaldBamdSRm1ZSzV1UUYzVDlpZXhqOFpnNy1QLWltbTZleHBWUTBIWmI3S1JpdW4wd0tPYUtWejN1WWNRQkZDeXFxR0djZGkxWjVCZGtXWkNVZ2FuYzhTNU1vdzZvakRxcHdKc056a0hzOGlteVVnSk1pLS0xRlloQnpWNXFNSUJLd19DVzUxT0F5SlJsQmtQR2kyQjV3WS16d3RUcFloYjVOeV8yeXVXV1VHZ2VHQlE?oc=5"
+  },
+  {
+   "company": "University Hospital Würzburg",
+   "signal": "research",
+   "detail": "Researchers applied feature-based machine learning to high-resolution tri-axial accelerometry data to identify intervention-specific signal patterns across deep brain stimulation, levodopa, and other tremor treatments.",
+   "location": "Würzburg, Germany",
+   "nyc": false,
+   "why_relevant": "Combines feature-based machine learning time-series analysis with biosignal motion sensors and neuromodulation therapies.",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOelJCQnFwUEtrdm5NMmZGOTNUdHBtaTBET0xPMUtxQ2pFTEEwaDNqNVc3ampQYThETl9XcTI1Mjc5NzFBaHZJcWlMOE14STFabHV6VkN5ZjFEay1heEJoMy14bGFDYlR4aW1aN3N2SDVMQ0Jwbm9SLXc0U2Q4TXJQU0VIMkFSazVHRXQzekswaFNXTERnQ0wyRkR2SFhvMnZ4MzNzcy1FNk4yQmFFWHNaNg?oc=5"
+  },
+  {
+   "company": "San Roque University Hospitals",
    "signal": "expansion",
-   "detail": "Whoop launched Whoop Humans, an in-app social network for its screenless wearable platform focused on verified heartbeat and health tracking.",
-   "location": "",
+   "detail": "San Roque University Hospitals performed their first personalized Parkinson's disease treatment utilizing new high-precision deep brain stimulation electrodes.",
+   "location": "Las Palmas de Gran Canaria, Spain",
    "nyc": false,
-   "why_relevant": "Provides direct experience with wearable health sensors, continuous physiological signal monitoring, and user health data algorithms.",
-   "link": "https://www.entrepreneur.com/business-news/this-popular-wearable-now-has-its-own-social-network-every-account-has-a-verified-heartbeat"
+   "why_relevant": "Highlights clinical adoption of novel electrode hardware for targeted deep brain stimulation and neuromodulation therapies.",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNTZOb2xOSjZSYkhfc2MxU2YyU3ctN2NzXzhBZUtQOEpocTZNLVBMSElBTHA3cXBWLUprakJwVlRPUC01QzlfZFRucnVnT2phR1BTdmhzVHluYmJYbU15eHhmRjN2NGY4a2ZSTlV4VW0yOEJEUE91emZGTzdOaUhaWWtkTXBQYjVSeDhDOTB3UllVVktCNE9JQnU5Y3UwaXN0ZVNIWTV5M0xpOFZLcnRKbHNpZUZVdnUzcjdaaUo2dUo0NEltSmhvcEpFbFNLel9TaEh4YzFjdUNKV2tGVHdjS01R?oc=5"
   },
   {
-   "company": "Tandem Diabetes Care",
-   "signal": "fda",
-   "detail": "Tandem Diabetes Care secured FDA clearance for a 7-day tubeless wearable infusion set for its Tandem Mobi automated insulin delivery pump.",
+   "company": "Oura",
+   "signal": "research",
+   "detail": "Oura funded a clinical validation study conducted by Brigham and Women's Hospital evaluating the wake and sleep-staging sensitivity of its smart ring relative to polysomnography.",
    "location": "",
    "nyc": false,
-   "why_relevant": "Offers experience in FDA-cleared wearable medtech devices, automated closed-loop delivery algorithms, and physiological sensing.",
-   "link": "https://www.drugdeliverybusiness.com/tandems-mobi-pump-wins-fda-clearance-for-7-day-tubeless-wearable-set/"
+   "why_relevant": "Pertains to biosignal algorithm validation and sensor accuracy in consumer wearable health monitoring technologies.",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVnRVTkFISWdzeDhJOUpJR0FZOHRDMHlkcDNSMUt5c0xzUG92Yjc3ZUZRQkl3czNjXzBrR3pPcDFxUjlxcUxHQWtUQndtWVJqZWlrMUNuWHVCbjVfd2JxZXJIYlNTdHBDd1BLS01yYUNKNmd5UGg0UDF4WWxWVm9jemo0SFo5Y2NCWmI0cHZQZ2NjaUFDdDByeDQ4UllCaXhlTnhsVHhTQ1k3VVlVbHdXNDRmMWRJYzcxSEF1TzRrMHNqZG1LQzEwS2lubk0zRDBPa05leU9LOXNhcTVOalhF?oc=5"
   },
   {
-   "company": "Avicenna.AI",
-   "signal": "fda",
-   "detail": "Avicenna.AI received FDA clearance alongside Bracco for its CTA-based artificial intelligence software designed to detect and evaluate brain aneurysms.",
-   "location": "",
+   "company": "Ohio State University Wexner Medical Center",
+   "signal": "partnership",
+   "detail": "Ohio State University announced a reported $250 million five-year partnership with Microsoft to transition computing infrastructure to Azure and implement clinical AI tools.",
+   "location": "Columbus, USA",
    "nyc": false,
-   "why_relevant": "Highly relevant for applying machine learning models to neurological imaging and neuro-vascular diagnostic tools.",
-   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQX1JDakQ5Vld6eldCTjY5RXc1S1prUW13N3BXR1pCYnF0Tmo5REhveDZfdzBzTHNNSjhBcDM0RmY4WEhxZTJsWUNSdENDSEQ2bm5oQzBZWHhEdHVzM0tmXy1CZUhwUXlWOGdBQ0YwOTk4S2lKLXZoTEZPMkZkNHRCZ0g1bU5jZC0zVTBRUEQ1cWdwTWY0UDdBLTFBZFA1alpOVG5OakQxRElHWVR5QmsxZlJud2s5VHFwRzY0MWpWT1lhQnJBZEd2OElSLWxZeHYxSkZyM2swS3VzRkhkamdFTEkweVJIaGptNW5IbFJ3SExkUndfYnhWYms0bHlsY1pIRVNpXw?oc=5"
-  },
-  {
-   "company": "Rymo Technologies",
-   "signal": "funding",
-   "detail": "Rymo Technologies secured investment from 1Crowd to expand its healthcare and rehabilitation portfolio.",
-   "location": "",
-   "nyc": false,
-   "why_relevant": "Valuable for BME students interested in medical robotics, rehabilitation devices, and motion biosignal tracking.",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOazFaNnNsZHJORjRTMzg0YWpndzNwZkdFbjA1N0F3N2lxQ2lzQUlHcFRhdXFwbUNTREV5aWxqTFpJQ2sxQkl3b2lCZEVMRW00aWQwMmRUb2ZnQmVGUmRMZWdWS0BLNHBDWEg5aC1ySzRrVmZRZ0Fzdm5KMl81eGtvUjh4QWVmQUN0alBLQTZiR0ptaXRsRWJWLThnTkRoYmFScGc?oc=5"
-  },
-  {
-   "company": "Zus Health",
-   "signal": "funding",
-   "detail": "Zus Health raised $33M in Series B funding to build AI-powered clinical workflow platforms.",
-   "location": "",
-   "nyc": false,
-   "why_relevant": "Relevant for learning clinical data integration and healthtech AI infrastructure supporting patient monitoring systems.",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPN2JVY2ZDVkhoWjRDb0M5YkNrcWNSbWRyeU4zRHV0VkZkb1_fZW1zeWU5S0FEaDdGM3dKbXZjU0FQSlZXeUw0dFN1U1AwbTQzeWU5eXhqSEQ0ek80LVdEUGVEMDgtTzhvTEFWNklBQktqMFl6Z0pxVGtYMzVNUmd0U1k4LWdmNnMwOXhpcF9seTNLTG5XaUZ6SVNjY28?oc=5"
+   "why_relevant": "Demonstrates large-scale adoption of machine learning infrastructure and digital health tools in hospital operational environments.",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNzdRTXg1U2hNekpRcTQzajZMLU9wUURzYXlxZ3VCREstOFZfdThFaldfS3RIUzRzVTRpTnRhMTZVZUUxcDJmZzM5QWpOLUZMdVlfQ0dDZjZGVUhRQ1ZlTTloY0VMUFJleXNuVDJFRm1lSWEyLVU2aURTTXdQT21MYmxFN0ZzVGxZekxDcXFrbjJDS0ZLRGhYWl9MdGsyRHVWNEp2SVVQV3R3VTI1YjNmSWRlUlFjSWVraTA4cWxtZ0pMUXNQN2Z5RzREbw?oc=5"
   }
  ]
 }
