@@ -1,59 +1,95 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "leads": [
   {
-   "company": "Tether Evo",
+   "company": "Paradromics",
    "signal": "research",
-   "detail": "Tether Evo published research addressing major challenges in brain-computer interface technology.",
+   "detail": "Paradromics presented the study design for Connect-One, an early feasibility trial for its Connexus BCI which holds two FDA breakthrough device designations.",
    "location": "",
    "nyc": false,
-   "why_relevant": "Focuses directly on brain-computer interface research and neural signal decoding.",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYW9udFBiLWFEWGZfVVVxcFUxVHFuX1hRWDIyNzZLSENPSEtsX2JCQjZYd2J2eDByQXh3SEZlY1RvQV9lbW5FVnZEVE5DaG9md2pTVEhnd01UY29zUFNBWk9xeEpHNnQzM0VCY0g0cnYydF9qajQtZFM1QmNvaWVSTjJqTTgwdmhNaEtqVzl3ZmVjeDktYXBIcFM2LUQ5LTVsa0dQbldtRWpSSGI2cEhNYnRzNUlvV3RiLVp1QUlndVQ2RXBzaEJqMVZTZnVyOFZX?oc=5"
+   "why_relevant": "Paradromics develops high-channel invasive neural implants and speech decoding pipelines, directly relevant to neurotech and biosignal processing.",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcXNwM04xb1JBZGo0X2JRSGRtaVIwUkJ3N2s1VWlEaVk1azRGQ0VrdjhwNXUtSjVqQkJTbTAzTHRMYUVQZU10TENwRWduWHhHdnp4VXJJTjJuTWFXaHljdWJlNWdacjBmcS16di16N09hLWhaSDRrWnBZakp6NEVxVHFZU0J0ZzVOQ3RpaDFzck9sQ0FZMmo2V3ZCM2QxSFE2Z1A3Q0xuN25sUQ?oc=5"
   },
   {
-   "company": "Georgia Institute of Technology",
+   "company": "UC Davis Neural Prosthetics Research Lab",
    "signal": "research",
-   "detail": "Researchers engineered a portable brain-to-text interface that decodes recorded brain activity into written words operating directly on consumer hardware like an iPhone.",
-   "location": "Atlanta, USA",
+   "detail": "Researchers developed a BCI system converting neural brain signals directly into real-time speech with pitch, emotion control, and 94% word clarity.",
+   "location": "Davis, USA",
    "nyc": false,
-   "why_relevant": "Directly applies machine learning decoding algorithms to neural signals for non-invasive and portable assistive communication.",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZjlTX0JWYWp6MVc1X25GWnJXUUJGRkY0RFVLaldBamdSRm1ZSzV1UUYzVDlpZXhqOFpnNy1QLWltbTZleHBWUTBIWmI3S1JpdW4wd0tPYUtWejN1WWNRQkZDeXFxR0djZGkxWjVCZGtXWkNVZ2FuYzhTNU1vdzZvakRxcHdKc056a0hzOGlteVVnSk1pLS0xRlloQnpWNXFNSUJLd19DVzUxT0F5SlJsQmtQR2kyQjV3WS16d3RUcFloYjVOeV8yeXVXV1VHZ2VHQlE?oc=5"
+   "why_relevant": "The lab's work on direct speech synthesis and signal decoding from brain implants offers direct alignment with neuromodulation and biosignal ML.",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2QWhtd2lacS1JN193YjRVM3NqMFYwaUdXV0xid0pRNjJFX25YREg2WE01eW9YTEhWTUN5dkRjSkNYaGtKTnd0SWxHZTJZbDF6VjVROQ?oc=5"
   },
   {
-   "company": "University Hospital Würzburg",
+   "company": "Rutgers University",
    "signal": "research",
-   "detail": "Researchers applied feature-based machine learning to high-resolution tri-axial accelerometry data to identify intervention-specific signal patterns across deep brain stimulation, levodopa, and other tremor treatments.",
-   "location": "Würzburg, Germany",
+   "detail": "Rutgers researchers introduced SeeEEG, a framework adapting vision foundation models to outperform specialized EEG models across clinical and BCI benchmarks.",
+   "location": "New Brunswick, USA",
    "nyc": false,
-   "why_relevant": "Combines feature-based machine learning time-series analysis with biosignal motion sensors and neuromodulation therapies.",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOelJCQnFwUEtrdm5NMmZGOTNUdHBtaTBET0xPMUtxQ2pFTEEwaDNqNVc3ampQYThETl9XcTI1Mjc5NzFBaHZJcWlMOE14STFabHV6VkN5ZjFEay1heEJoMy14bGFDYlR4aW1aN3N2SDVMQ0Jwbm9SLXc0U2Q4TXJQU0VIMkFSazVHRXQzekswaFNXTERnQ0wyRkR2SFhvMnZ4MzNzcy1FNk4yQmFFWHNaNg?oc=5"
+   "why_relevant": "Presents novel transfer learning and machine learning strategies for non-invasive EEG bio-signal decoding.",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUlBWZExVcVM5VVVDSzdNLVVYMUpDeWRnME9BaUVTcHFCOC1DNE41ZWhIYldkRGRHRlhLYmQzbnBWQ2IyalZnZHRFeUMxcXNZV1BFLU1tTWsyanlWbDl4c0ZtWm10Q1lrc1RtcTN3X2hGdU1kckNTRUNrQ2t5T1Y1Wlp0VVhuYmdr?oc=5"
   },
   {
-   "company": "San Roque University Hospitals",
+   "company": "Synchron",
+   "signal": "research",
+   "detail": "Synchron encountered an unexpected technical issue with its endovascular brain-computer interface implant during ongoing clinical evaluation.",
+   "location": "New York, USA",
+   "nyc": true,
+   "why_relevant": "Synchron is a prominent NYC-based BCI company developing endovascular neuroprosthetics and neural signal processing systems.",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRU5hY0lNSXNhd3YyUGlfMWszUm9LejMtRTJsdHVnMDhkT3dUcV9iME9nQWpxRGVkVG5ub0xjMlJxR1JsdmdOS2dQWjBCRTMwN2xtRk56ZGxfU0U1ZkJXa2Q3STlJUWdXYkJTSjQxY2p3SGtuQndZUjFFbTlnalE2SjNSLWhycmtvMmhwMHVhN09jWTZuSzVzdw?oc=5"
+  },
+  {
+   "company": "Compumedics",
+   "signal": "research",
+   "detail": "Compumedics highlighted its Somfit wearable EEG system designed for home-based neuro-diagnostic and sleep monitoring.",
+   "location": "Australia",
+   "nyc": false,
+   "why_relevant": "Combines wearable biosignal acquisition hardware with EEG processing for clinical monitoring.",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaTEzQ29LdE5KV3dBZGRvNFp2ZkZ0ampsaFVteWVDZ0QtVFVSenBlaTJ4Q21fdXZlY0hONHVNQ1g2T3Y0ZkJHYnozTzVvWUkwMzdnZVpocG9KVGw1RVM5SF9IaEI2UkJTUmhWMUl3RHg5TG0xNlB0TEZUdmtxc2tBYm5WZ3g4X3ZhdUJMRmFveW8wbFpaUElMRUcxWlZJdXJFSU9oQjNqb1oyT1BlT0RvaF9YYTBKSEhabzdtVkJKaGk2VWZseDlCUg?oc=5"
+  },
+  {
+   "company": "Sophrosyne Technologies",
    "signal": "expansion",
-   "detail": "San Roque University Hospitals performed their first personalized Parkinson's disease treatment utilizing new high-precision deep brain stimulation electrodes.",
-   "location": "Las Palmas de Gran Canaria, Spain",
+   "detail": "Sophrosyne Technologies completed post-silicon validation for a biomedical sensor chipset aimed at wearable health devices.",
+   "location": "India",
    "nyc": false,
-   "why_relevant": "Highlights clinical adoption of novel electrode hardware for targeted deep brain stimulation and neuromodulation therapies.",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNTZOb2xOSjZSYkhfc2MxU2YyU3ctN2NzXzhBZUtQOEpocTZNLVBMSElBTHA3cXBWLUprakJwVlRPUC01QzlfZFRucnVnT2phR1BTdmhzVHluYmJYbU15eHhmRjN2NGY4a2ZSTlV4VW0yOEJEUE91emZGTzdOaUhaWWtkTXBQYjVSeDhDOTB3UllVVktCNE9JQnU5Y3UwaXN0ZVNIWTV5M0xpOFZLcnRKbHNpZUZVdnUzcjdaaUo2dUo0NEltSmhvcEpFbFNLel9TaEh4YzFjdUNKV2tGVHdjS01R?oc=5"
+   "why_relevant": "Focuses on customized sensor silicon for wearable physiological signal monitoring and biomedical processing.",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2NGMwUnZJc2M2bjB1TEtESDBFMk81cWNRbTVPQWJ6VDhWSVJOVDVsNTMtMU1BVzNBcktKN0tOamU0UHpkXzdLUWg5dmpXZXVlN3Q4dVp4X2JHcFQwNmozMkVMR2NhRk5h?oc=5"
   },
   {
-   "company": "Oura",
-   "signal": "research",
-   "detail": "Oura funded a clinical validation study conducted by Brigham and Women's Hospital evaluating the wake and sleep-staging sensitivity of its smart ring relative to polysomnography.",
+   "company": "Tandem Diabetes Care",
+   "signal": "fda",
+   "detail": "Tandem Mobi received FDA clearance for its tubeless automated insulin delivery system.",
    "location": "",
    "nyc": false,
-   "why_relevant": "Pertains to biosignal algorithm validation and sensor accuracy in consumer wearable health monitoring technologies.",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVnRVTkFISWdzeDhJOUpJR0FZOHRDMHlkcDNSMUt5c0xzUG92Yjc3ZUZRQkl3czNjXzBrR3pPcDFxUjlxcUxHQWtUQndtWVJqZWlrMUNuWHVCbjVfd2JxZXJIYlNTdHBDd1BLS01yYUNKNmd5UGg0UDF4WWxWVm9jemo0SFo5Y2NCWmI0cHZQZ2NjaUFDdDByeDQ4UllCaXhlTnhsVHhTQ1k3VVlVbHdXNDRmMWRJYzcxSEF1TzRrMHNqZG1LQzEwS2lubk0zRDBPa05leU9LOXNhcTVOalhF?oc=5"
+   "why_relevant": "Highlights commercial medtech advancement in automated algorithmic control for wearable drug-delivery devices.",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVFJIdU9hQWFnUEZWOXRkMnlOd0RpWm9uUENNWFN2WkVCdmU4Skd5TklaN0ZLaEF4bFBWZXEyRHlEanV1VGd1cGJ1WjVQcFBIejlIM09LT245TXFiSEpfRDlDYS1qYjltMkMxZ01NMnoyQkUzWUNEc2V5Xy1zenk0YW9oYjladmdCVG41eWZPd3FpUQ?oc=5"
   },
   {
-   "company": "Ohio State University Wexner Medical Center",
-   "signal": "partnership",
-   "detail": "Ohio State University announced a reported $250 million five-year partnership with Microsoft to transition computing infrastructure to Azure and implement clinical AI tools.",
-   "location": "Columbus, USA",
+   "company": "Virtuoso Surgical",
+   "signal": "fda",
+   "detail": "Virtuoso Surgical received FDA Breakthrough Device Designation and clearance for its robotic system for endoluminal procedures.",
+   "location": "",
    "nyc": false,
-   "why_relevant": "Demonstrates large-scale adoption of machine learning infrastructure and digital health tools in hospital operational environments.",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNzdRTXg1U2hNekpRcTQzajZMLU9wUURzYXlxZ3VCREstOFZfdThFaldfS3RIUzRzVTRpTnRhMTZVZUUxcDJmZzM5QWpOLUZMdVlfQ0dDZjZGVUhRQ1ZlTTloY0VMUFJleXNuVDJFRm1lSWEyLVU2aURTTXdQT21MYmxFN0ZzVGxZekxDcXFrbjJDS0ZLRGhYWl9MdGsyRHVWNEp2SVVQV3R3VTI1YjNmSWRlUlFjSWVraTA4cWxtZ0pMUXNQN2Z5RzREbw?oc=5"
+   "why_relevant": "Demonstrates regulatory progression for novel robotic medical device architectures.",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaml5c25qaEQ1OGJiSkEyWVZpYmVrT0xodHhrdURZTTZKSnlibENsb1JnRTVOSmo5Sm5kLU13T0l3UnNmWUh5NWxiSzg2UkJIQzJKYW84NlMwUDdrNF_DHppQndXN05jQXRoUHdyVE1WNG1qY1VzQ3ZPd0g5SEh6SmxxODNDYU1jZWxmSWFLbWt2Rkh1bThUcVg1OTdibW9POEYtNGZ3bnRZbW8?oc=5"
+  },
+  {
+   "company": "Apple",
+   "signal": "partnership",
+   "detail": "Apple partnered with OpenEvidence to launch a large-scale clinical study testing an experimental AI health conversation app.",
+   "location": "Las Vegas, USA",
+   "nyc": false,
+   "why_relevant": "Applies large language models and machine learning to consumer digital health interactions.",
+   "link": "https://www.statnews.com/2026/11/15/apple-openevidence-launch-health-chat-app-experiment-ai/?utm_campaign=rss"
+  },
+  {
+   "company": "Zus Health",
+   "signal": "funding",
+   "detail": "Zus Health raised $33 million to construct a specialized data integration layer for healthcare AI tools.",
+   "location": "",
+   "nyc": false,
+   "why_relevant": "Provides healthcare data platform infrastructure useful for healthtech AI model development.",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNGh1RHJNZHk2U3QwcVZPa01EZlo4a3FiMGpfTU44czBkWnNRaUlUYXI3OHFJc1_UdUpJWGp5NVBhbWhOZ3ZhNXo2cWxPZ2luemNKSW9jM2tvcTNMelZ6Q2NDSXM4b0FvT0NIYXFUUTNhV09RVDFIUWlmcDd1aUZlSHdwaEl0d2FNT2RMZjJuSmVxYjJnU1Frb3hwOA?oc=5"
   }
  ]
 }

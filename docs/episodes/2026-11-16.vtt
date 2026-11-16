@@ -1,0 +1,289 @@
+WEBVTT
+
+00:00:02.786 --> 00:00:07.442
+<v Nora>Good morning, Chandni! Today is Monday, November 16, 2026.
+
+00:00:07.442 --> 00:00:12.178
+<v Theo>Five stories today: three in neurotech, two in health tech.
+
+00:00:12.178 --> 00:00:14.747
+<v Nora>Grab your coffee, let's dive in.
+
+00:00:14.747 --> 00:00:17.155
+<v Nora>Okay, first up: BCI Frontiers.
+
+00:00:17.155 --> 00:00:18.600
+<v Theo>Story one of five.
+
+00:00:18.600 --> 00:00:29.597
+<v Nora>Researchers at UC Davis just restored expressive speech and actual singing in an ALS patient using an implanted brain-computer interface.
+
+00:00:29.597 --> 00:00:36.902
+<v Theo>So, existing speech BCIs convert brain signals to text first, then read that text out loud.
+
+00:00:36.902 --> 00:00:45.572
+<v Nora>Which means you get this flat, robotic voice with a huge delay while you click a screen to confirm the text.
+
+00:00:45.572 --> 00:00:48.542
+<v Theo>Right, it kills natural conversation.
+
+00:00:48.542 --> 00:00:53.760
+<v Nora>But Maitrey Vyrekarkar's team bypassed the text layer completely.
+
+00:00:53.760 --> 00:01:01.627
+<v Theo>In their latest work, they reanalyzed data from a 45-year-old ALS participant with 256 electrodes.
+
+00:01:01.627 --> 00:01:09.895
+<v Nora>They tweaked the decoding algorithms and jumped from 50 percent word clarity all the way to 94 percent!
+
+00:01:09.895 --> 00:01:18.805
+<v Theo>Even more interesting, they tested a 58-year-old female participant with 384 electrodes implanted in her brain.
+
+00:01:18.805 --> 00:01:23.220
+<v Nora>She was an opera singer before losing her voice to ALS.
+
+00:01:23.220 --> 00:01:33.279
+<v Theo>By decoding subtle neural activity linked to voice tone and pitch, the software synthesized tone and intonation in real time.
+
+00:01:33.279 --> 00:01:39.314
+<v Nora>She actually sang musical scales and expressed emotions like joy and anger!
+
+00:01:39.314 --> 00:01:42.774
+<v Theo>I'll admit... that is genuinely impressive.
+
+00:01:42.774 --> 00:01:48.648
+<v Nora>Imagine going from monochrome text output to full color vocal expression.
+
+00:01:48.648 --> 00:01:51.545
+<v Theo>Now... show me this outside the lab.
+
+00:01:51.545 --> 00:01:54.200
+<v Nora>Ha, classic Theo! But fair point.
+
+00:01:54.200 --> 00:02:02.086
+<v Theo>The reanalyzed data was offline, so we need real-time validation in noisy, home environments next.
+
+00:02:02.086 --> 00:02:12.305
+<v Nora>Still, shifting from rigid text translation to expressive acoustic synthesis is where speech restoration finally becomes human.
+
+00:02:12.305 --> 00:02:13.754
+<v Nora>Story two of five.
+
+00:02:13.754 --> 00:02:25.341
+<v Theo>An FDA workshop on rare disease statistics just highlighted a dirty secret in neural engineering: you can't double-blind an implanted BCI trial.
+
+00:02:25.341 --> 00:02:28.640
+<v Nora>Wait, really? Why not just use a placebo?
+
+00:02:28.640 --> 00:02:34.112
+<v Theo>Because as one speaker put it, there's no placebo-induced telepathy.
+
+00:02:34.112 --> 00:02:40.549
+<v Nora>Ha! Right, a computer cursor doesn't click itself just because you hope it will.
+
+00:02:40.549 --> 00:02:51.090
+<v Theo>Exactly. In drug trials, the chemical acts on the body, but with a BCI, the control signal flows from the brain out into the world.
+
+00:02:51.090 --> 00:02:57.443
+<v Nora>So the participant knows instantly whether their implant is working or turned off.
+
+00:02:57.443 --> 00:03:07.050
+<v Theo>Which completely breaks traditional double-blind controls and introduces massive response bias on quality-of-life endpoints.
+
+00:03:07.050 --> 00:03:13.403
+<v Nora>So how do you prove clinical benefit if regulators demand randomized blinded data?
+
+00:03:13.403 --> 00:03:21.848
+<v Theo>That was the exact question raised by Paradromics while presenting their Connect-One early feasibility trial.
+
+00:03:21.848 --> 00:03:24.947
+<v Nora>They're testing the Connexus BCI, right?
+
+00:03:24.947 --> 00:03:33.004
+<v Theo>Yeah, placing over 400 electrodes about 1.5 millimeters into the cortex, targeted using task-based fMRI.
+
+00:03:33.004 --> 00:03:39.203
+<v Nora>Paradromics argued that early feasibility studies shouldn't just measure safety.
+
+00:03:39.203 --> 00:03:51.211
+<v Theo>Right, they're using feasibility to design and validate new endpoints—like within-subject ON-OFF crossover testing and decentralized home context tracking.
+
+00:03:51.211 --> 00:03:55.472
+<v Nora>That's a huge shift in how we think about trial design.
+
+00:03:55.472 --> 00:04:05.544
+<v Theo>If industry wants FDA approvals for broad functional deficits, we have to stop treating raw decoding speed as a clinical endpoint.
+
+00:04:05.544 --> 00:04:16.933
+<v Nora>The takeaway here is clear: BCI companies won't win regulatory approval on technical specs alone, but on validated, real-world functional outcomes.
+
+00:04:16.933 --> 00:04:20.575
+<v Nora>That's BCI Frontiers. Now, Biosignal ML and AI.
+
+00:04:20.575 --> 00:04:22.124
+<v Theo>Story three of five.
+
+00:04:22.124 --> 00:04:32.351
+<v Nora>A wild new study from Rutgers shows that general-purpose vision models beat custom-built EEG neural networks at decoding brainwaves.
+
+00:04:32.351 --> 00:04:34.804
+<v Theo>Okay, this one made me sit up.
+
+00:04:34.804 --> 00:04:43.062
+<v Nora>Right? For years, teams spent millions training specialized EEG models on 60,000 hours of brain data.
+
+00:04:43.062 --> 00:04:46.496
+<v Theo>Architectures like REVE, BIOT, and LaBraM.
+
+00:04:46.496 --> 00:04:53.364
+<v Nora>And then investigators Guoan Wang and Feng Liu published a preprint called "SeeEEG."
+
+00:04:53.364 --> 00:05:02.031
+<v Theo>They took a completely frozen vision transformer—Meta's DINOv3—and never trained it on a single EEG trace.
+
+00:05:02.031 --> 00:05:13.641
+<v Nora>Instead, they just formatted multi-channel EEG signals into token-aligned image patches, rendering waveforms as continuous wavelet scalograms.
+
+00:05:13.641 --> 00:05:21.163
+<v Theo>They optimized at most 1,113 signal-rendering parameters through the frozen vision backbone.
+
+00:05:21.163 --> 00:05:28.603
+<v Nora>And on eight clinical and BCI benchmarks, SeeEEG beat every dedicated EEG foundation model!
+
+00:05:28.603 --> 00:05:39.069
+<v Theo>On the Temple University Hospital EEG Slowing benchmark, SeeEEG hit a Cohen's kappa of 84 percent compared to REVE's 57 percent.
+
+00:05:39.069 --> 00:05:44.792
+<v Nora>That's a 27 percentage point jump using an off-the-shelf vision model!
+
+00:05:44.792 --> 00:05:50.843
+<v Theo>It gives real empirical backing to the Platonic Representation Hypothesis.
+
+00:05:50.843 --> 00:06:02.616
+<v Nora>Meaning large vision models already learn universal visual motifs—like frequency, harmonics, and spatial symmetry—that transfer directly to EEG.
+
+00:06:02.616 --> 00:06:10.384
+<v Theo>It completely challenges the need for massive, domain-specific biosignal pretraining pipelines.
+
+00:06:10.384 --> 00:06:23.220
+<v Nora>The point here: the future of biosignal ML might not be building bigger EEG models, but learning how to map physiological data into vision foundation models.
+
+00:06:23.220 --> 00:06:26.122
+<v Nora>Moving to Digital Health and Medtech.
+
+00:06:26.122 --> 00:06:27.613
+<v Theo>Story four of five.
+
+00:06:27.613 --> 00:06:34.671
+<v Nora>Apple and OpenEvidence just launched a study to test conversational AI for health queries.
+
+00:06:34.671 --> 00:06:43.612
+<v Theo>Announced on stage at the HLTH conference in Las Vegas by Apple's Sumbul Desai and OpenEvidence CEO Daniel Nadler.
+
+00:06:43.612 --> 00:06:48.945
+<v Nora>OpenEvidence is huge with doctors, and Apple has the consumer reach.
+
+00:06:48.945 --> 00:06:53.965
+<v Theo>Nadler literally called the partnership peanut butter and jelly.
+
+00:06:53.965 --> 00:06:57.337
+<v Nora>Ha, a bit cheesy, but the scale is serious!
+
+00:06:57.337 --> 00:07:01.494
+<v Theo>What I care about is what they're actually measuring.
+
+00:07:01.494 --> 00:07:10.749
+<v Nora>They're tracking user trust, response accuracy, and how well consumers actually understand AI-generated health advice.
+
+00:07:10.749 --> 00:07:16.945
+<v Theo>That's critical because consumer LLMs hallucinate medical details all the time.
+
+00:07:16.945 --> 00:07:24.631
+<v Nora>Exactly, if a user misinterprets a chat response about chest pain, the consequences are immediate.
+
+00:07:24.631 --> 00:07:33.651
+<v Theo>Apple isn't just shipping a feature here; they're building a massive clinical dataset to justify regulatory safety.
+
+00:07:33.651 --> 00:07:43.768
+<v Nora>It puts enormous pressure on smaller digital health apps trying to launch conversational tools without rigorous clinical backing.
+
+00:07:43.768 --> 00:07:52.003
+<v Theo>The bottom line: consumer health AI is moving past simple chatbot demos into massive clinical validation.
+
+00:07:52.003 --> 00:07:53.452
+<v Nora>Story five of five.
+
+00:07:53.452 --> 00:07:59.555
+<v Theo>Virtuoso Surgical just received FDA clearance for a novel bladder surgery robot.
+
+00:07:59.555 --> 00:08:01.233
+<v Nora>This is neat hardware.
+
+00:08:01.233 --> 00:08:09.928
+<v Theo>It's the very first device cleared in a brand-new FDA category for electromechanical endoluminal surgical systems.
+
+00:08:09.928 --> 00:08:17.327
+<v Nora>Meaning robotic tools inserted directly through an endoscope into body cavities like the bladder.
+
+00:08:17.327 --> 00:08:24.116
+<v Theo>The system allows surgical instruments to be inserted into the body through an endoscope.
+
+00:08:24.116 --> 00:08:33.040
+<v Nora>So surgeons get dexterous, precise motion inside tiny anatomical spaces where traditional rigid tools can't maneuver.
+
+00:08:33.040 --> 00:08:38.914
+<v Theo>They previously earned FDA Breakthrough Device Designation for this platform.
+
+00:08:38.914 --> 00:08:46.542
+<v Nora>Robotic assistance in tight spaces opens up entirely new endoscopic procedures without open surgery.
+
+00:08:46.542 --> 00:08:55.314
+<v Theo>Now the real test is clinical adoption and whether surgical teams find the dexterity worth the workflow transition.
+
+00:08:55.314 --> 00:09:04.085
+<v Nora>Endoluminal robotics just proved that precise endoscopic surgical systems are ready for commercial operating rooms.
+
+00:09:04.085 --> 00:09:06.603
+<v Nora>That brings us to today's trends.
+
+00:09:06.603 --> 00:09:16.595
+<v Theo>First, neurotech AI is shifting away from custom-built signal architectures toward leveraging multi-modal vision foundation models.
+
+00:09:16.595 --> 00:09:27.655
+<v Nora>And second, regulators and teams are forcing brand-new validation frameworks for non-blindable neural implants and generative consumer health AI.
+
+00:09:27.655 --> 00:09:30.119
+<v Theo>Today's career signal for Chandni.
+
+00:09:30.119 --> 00:09:41.423
+<v Nora>If you're working on biosignal ML, explore cross-modal transfer learning using frozen vision backbones rather than training specialized models from scratch.
+
+00:09:41.423 --> 00:09:48.887
+<v Theo>Look at companies building closed-loop neural devices, and reach out to their head of clinical product.
+
+00:09:48.887 --> 00:09:57.148
+<v Nora>Pitch them on how novel endpoint designs—like decentralized home tracking—can solve the unblindable trial problem.
+
+00:09:57.148 --> 00:09:59.249
+<v Theo>Let's recap the five stories.
+
+00:09:59.249 --> 00:10:07.583
+<v Nora>One: UC Davis restored expressive speech and singing in an ALS patient using high-resolution neural pitch decoding.
+
+00:10:07.583 --> 00:10:15.047
+<v Theo>Two: BCI trial experts highlighted why unblindable implants require brand-new clinical trial endpoints.
+
+00:10:15.047 --> 00:10:22.003
+<v Nora>Three: Rutgers showed frozen vision foundation models outperforming specialized EEG AI networks.
+
+00:10:22.003 --> 00:10:27.945
+<v Theo>Four: Apple launched a study evaluating conversational health AI trust and safety.
+
+00:10:27.945 --> 00:10:34.757
+<v Nora>Five: Virtuoso Surgical earned FDA clearance for an endoscopic bladder surgery robotic system.
+
+00:10:34.757 --> 00:10:44.322
+<v Theo>Neural decoding is getting richer, but robust validation—both in models and clinical trials—is where the real battles are happening.
+
+00:10:44.322 --> 00:10:50.481
+<v Nora>That's today's Neuro Morning. Have a great walk, Chandni, and we'll see you tomorrow!
