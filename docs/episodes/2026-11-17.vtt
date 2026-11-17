@@ -1,0 +1,229 @@
+WEBVTT
+
+00:00:02.786 --> 00:00:04.437
+<v Nora>Good morning, Chandni!
+
+00:00:04.437 --> 00:00:06.913
+<v Theo>It is Tuesday, November 17, 2026.
+
+00:00:06.913 --> 00:00:11.340
+<v Nora>Five stories today: three in neurotech, two in health tech.
+
+00:00:11.340 --> 00:00:14.942
+<v Theo>And a lot of real signal processing to dig into.
+
+00:00:14.942 --> 00:00:17.868
+<v Nora>Okay, first up: who expanded this week.
+
+00:00:17.868 --> 00:00:26.198
+<v Theo>Story one of five. Swiss neurotech company Indivi just acquired Cogitat to advance AI-powered brain monitoring.
+
+00:00:26.198 --> 00:00:37.153
+<v Nora>Specific pipeline details weren't fully laid out in the announcement, but Indivi snapped them up to expand their AI brain monitoring capabilities.
+
+00:00:37.153 --> 00:00:51.335
+<v Theo>Right. Indivi is focused on brain monitoring, and while the exact product roadmap hasn't been confirmed yet, bringing in specialized AI decoding talent and technology makes strategic sense.
+
+00:00:51.335 --> 00:01:05.142
+<v Nora>Which makes total sense to me! Training robust models on neural data is brutal. Brain signals are notoriously noisy, recording setups vary wildly, and sensor contacts shift constantly.
+
+00:01:05.142 --> 00:01:20.375
+<v Theo>Exactly. Most teams spend years wrestling with artifact rejection and domain shifts between subjects. The promise of AI models is helping generalize across recordings without endless bespoke calibration.
+
+00:01:20.375 --> 00:01:29.530
+<v Nora>So Indivi looks to bypass years of algorithmic trial and error. I mean, why build your own feature extractor from scratch?
+
+00:01:29.530 --> 00:01:47.314
+<v Theo>Well, here is the catch. AI foundation models for biosignals sound amazing on paper. But when you take an architecture trained in clean research settings and drop it into noisy clinical environments, the latent representations can crack.
+
+00:01:47.314 --> 00:02:06.074
+<v Nora>Sure, but if Indivi has the clinical cohorts to fine-tune it properly, it could pay off. My read is that early-stage neural algorithm startups are not going to survive as standalone app plays. They will get absorbed into enterprise monitoring suites.
+
+00:02:06.074 --> 00:02:15.003
+<v Theo>Fair enough. The clear point here: brain monitoring platforms are buying external AI IP to accelerate their technology.
+
+00:02:15.003 --> 00:02:22.183
+<v Nora>Onto story two of five. Remedy Robotics just locked in sixty-two million dollars in Series B funding.
+
+00:02:22.183 --> 00:02:34.054
+<v Theo>MassDevice reported the sixty-two million dollar round, though the company's specific product specs and upcoming clinical trial roadmaps aren't detailed in the report.
+
+00:02:34.054 --> 00:02:46.849
+<v Nora>Right, but surgical robotics in this space is fascinating. If you look at remote robotic systems designed to treat acute vascular emergencies, the engineering challenge is immense.
+
+00:02:46.849 --> 00:02:53.602
+<v Theo>Exactly. Remote endovascular access or telesurgery over a network is a huge engineering hurdle.
+
+00:02:53.602 --> 00:02:55.521
+<v Nora>Because of network latency?
+
+00:02:55.521 --> 00:03:14.927
+<v Theo>Latency, yes, but mostly haptic feedback and vascular compliance. In delicate catheter interventions, clinicians feel the resistance of the vessel wall. If a robotic drive unit exerts even a fraction too much torque because of a sensor delay, you risk a vessel perforation.
+
+00:03:14.927 --> 00:03:29.215
+<v Nora>That is terrifying. But in time-critical emergencies like acute strokes, every minute of delay means lost tissue. If remote intervention can bridge specialist shortages, the clinical payoff is massive.
+
+00:03:29.215 --> 00:03:44.498
+<v Theo>True. Sixty-two million is serious capital, and any robotics company will need substantial runway to prove safety for regulatory approval. Regulators will scrutinize fail-safes and communication jitter relentlessly.
+
+00:03:44.498 --> 00:03:54.307
+<v Nora>High risk, massive reward. Medical robotics is pulling heavy capital because tackling specialist access directly impacts patient outcomes.
+
+00:03:54.307 --> 00:03:57.861
+<v Theo>That is the deals. Now, new research and products.
+
+00:03:57.861 --> 00:04:10.159
+<v Nora>Story three of five. A speech BCI maintained stable offline syllable decoding for twenty-five months in an ALS patient, despite an observed decline in signal-to-noise ratio.
+
+00:04:10.159 --> 00:04:21.177
+<v Theo>Okay... I will admit it. That is clever. This paper just came out in the Journal of NeuroEngineering and Rehabilitation, and the longitudinal data is rare.
+
+00:04:21.177 --> 00:04:23.452
+<v Nora>Tell me about the implant setup.
+
+00:04:23.452 --> 00:04:43.568
+<v Theo>The participant has slowly progressive bulbar variant amyotrophic lateral sclerosis. Surgeons placed two eight-by-eight subdural electrocorticography grids directly over the left sensorimotor cortex. That is one hundred twenty-eight channels sitting directly on the cortical surface.
+
+00:04:43.568 --> 00:04:52.726
+<v Nora>And they tested an overt syllable-repetition task with twelve consonant-vowel combinations over more than two years.
+
+00:04:52.726 --> 00:05:10.883
+<v Theo>Right. Now, here is the technical twist that makes this fascinating. Around day one hundred eighty, the active spectral signal-to-noise ratio in the high-gamma band, seventy to one-hundred-seventy Hertz, started dropping steadily.
+
+00:05:10.883 --> 00:05:12.935
+<v Nora>Wait, the signal degraded?
+
+00:05:12.935 --> 00:05:32.119
+<v Theo>It declined by nearly half a decibel every one hundred days. Typically, in neural engineering, when your high-gamma SNR plummets, your decoder falls apart. Everyone assumes the electrode interface is failing or tissue impedance is creeping up.
+
+00:05:32.119 --> 00:05:34.961
+<v Nora>But the speech decoder didn't crash?
+
+00:05:34.961 --> 00:05:51.697
+<v Theo>Not at all. They ran a modified EEGNet-SE decoder across seven hundred twenty-six held-out train-test evaluations. The twelve-syllable classification accuracy held at an average of seventy-four point six percent.
+
+00:05:51.697 --> 00:05:56.354
+<v Nora>Wow. Chance performance was only eight point three percent.
+
+00:05:56.354 --> 00:06:12.854
+<v Theo>Exactly. And post-transition, the decoding accuracy trajectory showed a statistically insignificant drift of just minus zero point two eight percent per hundred days. The cross-temporal generalization held up.
+
+00:06:12.854 --> 00:06:17.906
+<v Nora>How? If the signal got noisier, why did the predictions survive?
+
+00:06:17.906 --> 00:06:35.747
+<v Theo>Because the neural class separability and spatial representation geometry remained preserved. The relative distance between syllable clusters in the high-gamma feature space did not collapse. The population code stayed intact.
+
+00:06:35.747 --> 00:06:50.273
+<v Nora>That is massive for clinical translation. It proves you do not need pristine signal amplitudes every morning if your decoding architecture relies on stable underlying neural manifolds.
+
+00:06:50.273 --> 00:07:03.062
+<v Theo>Exactly. The takeaway: chronic BCI decoding can persist through preserved neural class geometry, even when active signal-to-noise ratio undergoes a major decline.
+
+00:07:03.062 --> 00:07:15.535
+<v Nora>From invasive grids to non-invasive sound waves. Story four of five. Researchers at UT Austin built a soft wearable ultrasound patch that can boost REM sleep.
+
+00:07:15.535 --> 00:07:34.481
+<v Theo>This is their NEUSLeeP device, just published in Nature Communications. It is an adhesive patch worn on the skin that delivers gentle ultrasound to deep brain regions while simultaneously monitoring brain activity with real-time electrodes.
+
+00:07:34.481 --> 00:07:46.409
+<v Nora>And the numbers look wild! In a twenty-eight person study, participants entered REM sleep forty-three minutes faster and stayed in REM sixteen minutes longer on average.
+
+00:07:46.409 --> 00:08:03.065
+<v Theo>They targeted deep brain regions involved in sleep. Ultrasound is mechanical acoustic energy, so unlike electrical stimulation that can disperse across tissue, ultrasound can reach areas beneath the surface of the brain without surgery.
+
+00:08:03.065 --> 00:08:13.722
+<v Nora>Plus, they recorded higher heart rate variability in healthy participants during stimulation, pointing to improved autonomic recovery and stress reset.
+
+00:08:13.722 --> 00:08:32.636
+<v Theo>Okay, let's step back for a second. The dual-mode engineering is impressive. Combining ultrasound stimulation with real-time brain activity monitoring in a flexible skin patch is hard because acoustic pulsing can introduce massive artifacts into electrical biosignals.
+
+00:08:32.636 --> 00:08:35.883
+<v Nora>But they handled the simultaneous acquisition!
+
+00:08:35.883 --> 00:08:55.856
+<v Theo>In twenty-eight subjects. That is a small pilot cohort. Also, acoustic transmission through the skull depends heavily on skin contact and coupling. If the user shifts on their pillow at three in the morning and the patch tilts three millimeters, where is that acoustic beam focusing?
+
+00:08:55.856 --> 00:09:06.795
+<v Nora>A fair engineering critique. But if they solve that and keep it stable, avoiding medications to treat sleep disruption in PTSD or depression would be huge.
+
+00:09:06.795 --> 00:09:19.852
+<v Theo>If the effects hold up in larger clinical trials, absolutely. The clear point: noninvasive deep neuromodulation is breaking out of rigid lab frames into flexible, wearable form factors.
+
+00:09:19.852 --> 00:09:21.898
+<v Nora>Okay, moving on to NYC Watch.
+
+00:09:21.898 --> 00:09:29.944
+<v Theo>Story five of five. Digital health company Noom just unveiled their wearable, the Noom Band, at HLTH in Las Vegas.
+
+00:09:29.944 --> 00:09:40.813
+<v Nora>Noom says they will include this band for all Noom Health employer and health plan clients starting in 2027, with no additional upfront cost to the payer.
+
+00:09:40.813 --> 00:09:57.398
+<v Theo>But the headline result attached to the launch caused an immediate double take. Noom claimed members taking GLP-1 weight-loss drugs who used a connected wearable were thirty-four percent more likely to lose twenty pounds by month four.
+
+00:09:57.398 --> 00:10:13.984
+<v Nora>Right, which sounds like an incredible hardware validation study! Until you read the release notes and realize the study compared members who linked any connected wearable with those who did not. The Noom Band has not even shipped yet!
+
+00:10:13.984 --> 00:10:31.134
+<v Theo>Exactly. That is a glaring selection bias trap. Members who voluntarily buy and sync a wearable in month one may already be more engaged than those who do not. Attributing that outcome to a brand-new, unreleased wristband is wildly misleading.
+
+00:10:31.134 --> 00:10:42.812
+<v Nora>It really bothers me. On the hardware side, though, it sounds like interesting tech. Sensor Bio, formerly known as Biostrap, is supplying the sensing technology.
+
+00:10:42.812 --> 00:11:00.730
+<v Theo>Yes, though while Sensor Bio describes its platform as capturing raw signals at fifteen thousand samples per second and deriving metrics in the cloud, Noom hasn't confirmed that the Noom Band runs at that sampling rate or uses that exact pipeline.
+
+00:11:00.730 --> 00:11:10.668
+<v Nora>Which is a key distinction. Deriving HRV and respiratory metrics in the cloud requires heavy data transfer and creates battery tradeoffs.
+
+00:11:10.668 --> 00:11:20.388
+<v Theo>And motion artifacts on the wrist during daily life will still corrupt optical pulse waveforms, no matter how fast a platform samples.
+
+00:11:20.388 --> 00:11:31.632
+<v Nora>Digital health companies moving into physical devices cannot substitute generic software engagement correlations for rigorous hardware clinical validation.
+
+00:11:31.632 --> 00:11:36.927
+<v Theo>Well said. Now, let's step back for the big picture. Time for our trends.
+
+00:11:36.927 --> 00:11:58.689
+<v Theo>First, neural interfaces are making real progress on the chronic drift problem. The field is seeing that long-term decoding stability can come from discovering drift-resilient latent feature spaces and preserving neural class geometry, exactly like that twenty-five month ALS ECoG study demonstrated.
+
+00:11:58.689 --> 00:12:20.161
+<v Nora>And second, digital health platforms transitioning into physical hardware face immediate skepticism when they try to pass off third-party wearable engagement correlations as device proof. If you want clinical credibility for your wearable, you have to validate the actual sensor on actual wrists.
+
+00:12:20.161 --> 00:12:22.555
+<v Theo>Now, our Career Signal for today.
+
+00:12:22.555 --> 00:12:35.394
+<v Nora>Chandni, if you want to stand out to biosignal engineering leads right now, orient your ML portfolio around unsupervised domain adaptation and drift-resilient manifold learning.
+
+00:12:35.394 --> 00:13:01.001
+<v Theo>Do not spend your time tuning hyperparameters to chase another two percent accuracy on static, pre-segmented benchmarks. Build a project demonstrating how a decoder maintains class separability when simulated electrode impedance shifts or noise floors rise across months. That is the exact engineering bottleneck every BCI company is desperate to solve.
+
+00:13:01.001 --> 00:13:03.032
+<v Nora>Let's recap today's stories.
+
+00:13:03.032 --> 00:13:09.125
+<v Nora>One: Swiss neurotech Indivi acquired Cogitat to advance AI-powered brain monitoring.
+
+00:13:09.125 --> 00:13:16.960
+<v Theo>Two: Remedy Robotics secured sixty-two million dollars in Series B funding to advance its robotics platform.
+
+00:13:16.960 --> 00:13:27.856
+<v Nora>Three: A speech BCI proved offline neural syllable decoding can remain stable over twenty-five months in ALS despite signal degradation.
+
+00:13:27.856 --> 00:13:35.547
+<v Theo>Four: A wearable ultrasound patch demonstrated noninvasive neuromodulation to enhance REM sleep.
+
+00:13:35.547 --> 00:13:45.962
+<v Nora>Five: Noom drew scrutiny by tying a thirty-four percent weight-loss figure from third-party wearables to its unreleased Noom Band.
+
+00:13:45.962 --> 00:13:56.858
+<v Theo>Across implants, wearables, and robotics, the industry is leaving benchtop toys behind and building for long-term physiological reality.
+
+00:13:56.858 --> 00:14:04.229
+<v Nora>That is today's Neuro Morning! Have a great walk, Chandni, and we will talk to you tomorrow.
+
+00:14:04.229 --> 00:14:05.351
+<v Theo>Talk tomorrow.

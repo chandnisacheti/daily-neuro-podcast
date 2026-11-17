@@ -1,15 +1,5 @@
 [
  {
-  "slug": "2026-11-09",
-  "titles": [
-   "XRHealth acquires German neurotech startup Living Brain - Dealroom",
-   "Philips sets aside $322M for proposed DOJ settlement over sleep apnea device recall",
-   "Muse confirms its users' brain data already trains an AI - Pasquale Pillitteri",
-   "Eternal CEO Deepinder Goyal’s Temple wearable faces fresh criticism over scientific claims - The Healthy Indian Project (THIP)",
-   "China’s brain-reading device achieves 94% mind-typing accuracy in day-long use - South China Morning Post"
-  ]
- },
- {
   "slug": "2026-11-11",
   "titles": [
    "STAT+: Oura to acquire Counsel Health for $625 million, placing a big bet on AI care",
@@ -67,6 +57,16 @@
    "Study: Vision Foundation Models Beat Dedicated EEG AI - CASRAI",
    "STAT+: Apple and OpenEvidence launch experimental health chat app",
    "Virtuoso wins FDA clearance for bladder surgery robot - www.lifesciencefocus.com"
+  ]
+ },
+ {
+  "slug": "2026-11-17",
+  "titles": [
+   "Swiss neurotech Indivi acquires Cogitat to advance AI-powered brain monitoring - Tech.eu",
+   "Remedy Robotics raises $62M in Series B funding round - MassDevice",
+   "Speech BCI Retains Stable Syllable Decoding Over 25 Months in ALS - Bioengineer.org",
+   "New wearable ultrasound patch boosts REM sleep without drugs or surgery - Science Daily",
+   "Noom Band Unveiled at HLTH 2026: Its 34% Weight-Loss Claim Counts Any Connected Wearable - Tech Times"
   ]
  }
 ]
