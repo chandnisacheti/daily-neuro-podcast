@@ -13,6 +13,338 @@
   <itunes:block>Yes</itunes:block>
   <itunes:category text="Science"/>
   <item>
+   <title>Science Corp's $400M Mega-Round and Wearable Regulatory Frontlines</title>
+   <description>Today's stories:
+
+1. Science Corp Raises $400 Million at $3.5 Billion Valuation to Advance Retinal and Brain Implants
+https://finance.biggo.com/news/297715a7-1d3c-4f43-99ca-1d9b68a0e315
+
+2. Galvanize raises $130M to advance pulsed electric field ablation
+https://www.medtechdive.com/news/galvanize-raises-130m-to-advance-pulsed-electric-field-ablation/874861/
+
+3. Natural Cycles NC Band 2 Opens Pre-Orders: Day Wear Is Wellness Only, No Band 2 FDA Clearance Named
+https://www.techtimes.com/articles/330958/20261117/natural-cycles-nc-band-2-opens-pre-orders-day-wear-wellness-only-no-band-2-fda-clearance-named.htm
+
+4. In-Ear EEG Wearable Captures Alpha Rhythms and Auditory Responses in Adults
+https://bioengineer.org/in-ear-eeg-wearable-captures-alpha-rhythms-and-auditory-responses-in-adults/
+
+5. Tiny magnets deep inside the brain could transform Parkinson’s treatment
+https://www.sciencedaily.com/releases/2026/11/261116023354.htm
+
+Full transcript:
+
+Nora: Good morning, Chandni!
+
+Nora: Today is Wednesday, November 18th, 2026.
+
+Theo: Five stories today: three in neurotech, two in health tech.
+
+Nora: Okay, first up: who expanded this week.
+
+Nora: Story one of five: Science Corp just raised 400 million dollars at a 3.5 billion dollar valuation to restore vision and build brain implants.
+
+Theo: That Series D puts Max Hodak's company near the very top of private neurotech valuations.
+
+Nora: Okay, this one made me sit up. Three and a half billion? They have one approved eye chip in Europe, and their brain project is literally still in animals!
+
+Theo: The approved eye device is PRIMA. It's a chip implanted in the eye that pairs with companion glasses to restore partial vision.
+
+Nora: And it actually gives people sight back! Patients with age-related macular degeneration are already getting implanted in Germany, with rollouts coming to France, Italy, and London.
+
+Theo: In the US, Science has filed PRIMA with the FDA under the Humanitarian Device Exemption, a pathway for rare conditions that Hodak expects will bring it to market in the first half of next year.
+
+Nora: But what about their second program? A bio-hybrid implant that combines living cultured neurons with silicon hardware? That sounds like sci-fi.
+
+Theo: It's still early animal data. They claim human trials in sixteen months with neurosurgeons at Yale, targeting conditions like Parkinson's.
+
+Nora: My read? Investors are paying a massive premium today for near-term retinal revenue, plus a giant lottery ticket on direct neural interfaces.
+
+Theo: I mean, I'll believe the living-silicon hybrid when I see human electrophysiology data. But using the rare-disease exemption for vision chips is a clever regulatory move.
+
+Nora: Taking the HDE route for retinal implants gives the whole industry a blueprint for skipping ten-year trial timelines.
+
+Theo: Story two of five: Galvanize Therapeutics raised 130 million dollars to blast diseased tissue with quick electric pulses instead of heat or cold.
+
+Nora: They're expanding commercial work for soft-tissue ablation and building a new device for chronic bronchitis.
+
+Theo: Instead of thermal burning or freezing, Galvanize uses pulsed electric fields for soft-tissue ablation.
+
+Nora: Right, pulsed electric field ablation. It's designed to treat tissue without relying on extreme heat or cold.
+
+Theo: Exactly. Where traditional thermal ablation uses heat or freezing, pulsed electric fields offer a non-thermal alternative.
+
+Nora: But who pays for it? Hospitals love anything that cuts collateral tissue damage and shortens recovery times.
+
+Theo: Though developing effective delivery for chronic bronchitis devices is where the engineering gets tough.
+
+Nora: Still, a 130 million dollar Series D proves investors are hungry for hardware with real physical mechanisms of action.
+
+Theo: Hardware platforms with clear physical mechanisms are capturing the bulk of late-stage medtech capital.
+
+Nora: That's the deals. Now, research and new hardware.
+
+Nora: Story three of five: Natural Cycles opened pre-orders for a new wristband for its birth control app, but the band itself isn't cleared by the FDA.
+
+Theo: Wait... so the app is a cleared medical device, but the wristband you buy is legally just a wellness gadget?
+
+Nora: Exactly! They're leveraging a 2024 FDA Predetermined Change Control Plan.
+
+Theo: Ah. That lets them add validated third-party temperature sensors without a new 510(k) filing, provided the sensor doesn't add more than two extra red fertile days per cycle compared to an oral thermometer.
+
+Nora: Right. The band measures overnight skin temperature while resting. That progesterone-driven basal body temperature shift after ovulation is only about zero point two to zero point four degrees Celsius.
+
+Theo: And during the day?
+
+Nora: Daytime wear tracks heart rate and motion, but Natural Cycles explicitly labels all day wear as general wellness data. It doesn't feed the birth control algorithm at all.
+
+Theo: Because daytime skin temperature is ridiculously noisy. Ambient air, exercise, sweat... it ruins the signal.
+
+Nora: So they split the device in two: night wear drives the cleared contraceptive algorithm, day wear stays in the wellness grey zone.
+
+Theo: It's kind of a masterclass in dodging regulatory delays while still selling hardware.
+
+Nora: Separating cleared algorithmic software from consumer hardware sensors is becoming the primary playbook for DTC health wearables.
+
+Theo: Story four of five: researchers built a tiny earbud that reads brainwaves, proving you can track neural signals right inside the ear canal.
+
+Nora: Okay, show me the study design, Theo.
+
+Theo: It's out of Frontiers in Neuroscience. They tested an integrated in-ear EEG device on twenty-nine healthy adults, comparing it directly against clinical scalp electrodes.
+
+Nora: Can a tiny earplug actually pick up brain signals?
+
+Theo: It detected resting-state alpha rhythms—eight to twelve Hertz—in fifty-two percent of participants. Scalp leads hit eighty-three to one hundred percent.
+
+Nora: Fifty-two percent doesn't sound amazing!
+
+Theo: For ear-canal contact geometry? It's actually solid. The alpha power and signal-to-noise ratio correlated strongly with simultaneous scalp EEG across all six evaluated scalp derivations.
+
+Nora: What about sensory stimulation?
+
+Theo: They tested auditory steady-state responses. At eighty Hertz tone modulation, in-ear detection reached seventy-four to seventy-five percent parity with temporal scalp channels.
+
+Nora: But when they played complex multi-frequency chirps, performance dropped off for both modalities.
+
+Theo: Right. High-frequency steady tones work well because of proximity to the auditory cortex, but transient signals struggle against ear-canal contact impedance.
+
+Nora: Ear-canal EEG can reliably track steady-state neural oscillations, but low single-trial signal quality still caps its use for complex brain-computer interfaces.
+
+Nora: Story five of five: scientists used microscopic magnets inside the brain to treat Parkinson's symptoms in mice without using any wires or electrodes.
+
+Theo: This comes out of FAU and Maastricht. They injected magnetic nanoplatelets stereotactically into the subthalamic nucleus of Parkinsonian mice.
+
+Nora: Wait, so instead of sending electrical current down a wire, they apply an external magnetic field?
+
+Theo: Exactly. The external field makes the tiny nanoplatelets twist and push against the cell membrane.
+
+Nora: That mechanical force opens pressure-sensitive ion channels—mechanosensors—on the nerve cells. Ions flow in, the cell fires, and the motor circuit resets.
+
+Theo: And the motor recovery in mice matched standard deep brain stimulation pacemakers.
+
+Nora: Imagine replacing invasive brain surgery and tethered leads with a targeted injection and a wearable magnetic headband!
+
+Theo: Okay... I'll admit it. That's clever physics. But my big question is long-term biocompatibility. Do those nanoplatelets migrate or trigger microglial scarring over six months?
+
+Nora: Fair point. But bypassing tethered DBS leads is the holy grail for interventional neurotech.
+
+Theo: Mechanosensitive neuromodulation proves we can trigger deep brain circuits with external magnetic fields instead of invasive wire implants.
+
+Nora: Time for trends. Two big shifts stand out today. First, deep physical mechanisms—like pulsed electric fields and magnetomechanics—are winning the capital race over pure software.
+
+Theo: And second, biosignals are moving into discreet form factors like ear canals, while smart teams split regulated algorithms from unregulated hardware to avoid FDA gridlock.
+
+Nora: Natural Cycles proved you can ship hardware today if your software holds the clearance.
+
+Theo: Career Signal for Chandni. As biosignal wearables blur clinical tools and consumer gadgets, master the regulatory boundary separating 510(k) software claims from wellness exemptions.
+
+Nora: If you're building ML signal processing pipelines, reach out to the head of clinical product at hybrid wearable startups.
+
+Theo: Pitch them on how your filtering algorithms can maintain signal integrity under FDA change-control thresholds.
+
+Nora: Let's recap. One: Science Corp raised 400 million for retinal and brain implants.
+
+Theo: Two: Galvanize secured 130 million for pulsed electric field ablation.
+
+Nora: Three: Natural Cycles launched NC Band 2 under wellness exemptions.
+
+Theo: Four: In-ear EEG validated alpha rhythms and 80 Hertz auditory responses.
+
+Nora: Five: Magnetic nanoplatelets achieved wire-free deep brain stimulation.
+
+Theo: From eye chips to ear canals, neurotech is replacing bulky hardware with elegant physics and sharper regulatory strategy.
+
+Nora: That's Neuro Morning for Wednesday, November 18th. Walk fast, think deep, and we'll see you tomorrow!
+
+# Editor's log, Wednesday, November 18, 2026
+
+Episode: Science Corp's $400M Mega-Round and Wearable Regulatory Frontlines
+
+## How this episode was made
+1. Pulled every item published in the last ~30 hours from the sources below.
+2. Gemini (editor pass) picked about 5 stories, assigned each to one section, and logged why the rest were skipped.
+3. Gemini (research pass) checked each picked story with Google Search and built a fact sheet from credible sources.
+4. Gemini (writer pass) wrote the two-host script from only those fact sheets.
+5. Gemini (fact-check pass) compared every claim in the script with the fact sheets and fixed or cut anything unsupported.
+6. Gemini voiced it; GitHub published it.
+
+## Sources checked
+- Neurotechnology Substack: failed (403 Client Error: Forbidden for url: https://neurotechnology)
+- Neuroscience News: 0 new items
+- MedTech Dive: 2 new items
+- Fierce Biotech MedTech: 0 new items
+- STAT Health Tech: 2 new items
+- MobiHealthNews: failed (403 Client Error: Forbidden for url: https://www.mobihealthn)
+- TechCrunch Health: 0 new items
+- FDA Medical Devices: failed (404 Client Error: Not Found for url: https://www.fda.gov/apo)
+- Google News: neurotech: 12 new items
+- Google News: Neurotechnology Substack: 0 new items
+- Google News: BCI companies: 3 new items
+- Google News: neuromodulation: 8 new items
+- Google News: EEG and neural wearables: 8 new items
+- Google News: neuro funding: 10 new items
+- Google News: FDA neuro devices: 8 new items
+- Google News: NYC neurotech: 2 new items
+- Google News: wearables: 8 new items
+- Fierce Healthcare Health Tech: 0 new items
+- Healthcare IT News: failed (403 Client Error: Forbidden for url: https://www.healthcarei)
+- Google News: digital health: 6 new items
+- Google News: health tech AI: 8 new items
+- Google News: medtech devices: 8 new items
+- bioRxiv Neuroscience: failed (404 Client Error: Not Found for url: https://connect.biorxiv)
+
+## Used, by section
+### Who Expanded
+- Science Corp Raises $400 Million at $3.5 Billion Valuation to Advance Retinal and Brain Implants - BigGo Finance (Google News: BCI companies) [link](https://news.google.com/rss/articles/CBMidkFVX3lxTE93RzkyalE4LU1GdXVTZWFQenVKejNSc3UydkhBb24tYUJPM0xfeV83LU52bGpBVUQ3NXBrUkkzOUtvX3NjQkRTVlBvanZTSVZoRllnUTBaeGhfNVY2d3Z5YVoyRWcyM3J2R2xEeEFOUnhlbWdXX2c?oc=5)  
+  Angle: Max Hodak's Science Corp reaches a $3.5B valuation on retinal and brain implants, signaling massive private capital appetite for invasive neural interfaces nearing commercial translation.
+- Galvanize raises $130M to advance pulsed electric field ablation (MedTech Dive) [link](https://www.medtechdive.com/news/galvanize-raises-130m-to-advance-pulsed-electric-field-ablation/874861/)  
+  Angle: Galvanize's $130M Series D shows how pulsed electric field bioelectric stimulation is proving commercial viability across both soft-tissue and respiratory indications.
+### New Research and Products
+- Natural Cycles NC Band 2 Opens Pre-Orders: Day Wear Is Wellness Only, No Band 2 FDA Clearance Named - Tech Times (Google News: FDA neuro devices) [link](https://news.google.com/rss/articles/CBMi4wFBVV95cUxOa0tLQVNoVnJLaHdhQVVWZGhkNVZuQVNRZzhWVHZMY3FJaU9mRnlydDAyT3pIOTlISnZxMUtfT1FYVjNhSE5peVFiTGxjWkt6VHFXdldud2ZlU3VDaDBwRXNpS2VRWmZTazBRMTI2RTVGeXFXTkdhanR0eGdOQ051U0kwb0xzbXJHYW1Bcm5taHVNMHZmUUZOU1BFTnl6X014YmR1bmdlNE1RTVpLVUUtczhnajJjeXRyei1MVHhqc0lIcTdBR3J2UDlpZjF4SzFtWVMtU1VFWDhCeHRqalMwNUxOdw?oc=5)  
+  Angle: Natural Cycles launches the NC Band 2 while leaving day wear in the wellness grey zone, offering a masterclass in how wearable makers balance cleared software claims with unregulated sensor hardware.
+- In-Ear EEG Wearable Captures Alpha Rhythms and Auditory Responses in Adults - Bioengineer.org (Google News: EEG and neural wearables) [link](https://news.google.com/rss/articles/CBMiogFBVV95cUxNZzAzU015bFZoUmh1TlBvX1FUTjNRUUo5VWtpS0lqWU5sSnk1eWZTTDNCR1dHcl9sRGNISHVxam1JeGVoVGFteUJtV1ZJazI0dXNvckY2aDNyZWoyUWtOd3JCamVKcHd2ZHVHeklLOGxxUUZ4WENlN0VaUDFuWXpjejhTZkJyLXRBZkhXUmNRNktBbmM4enhyRF9QVTk4Y2VFWmc?oc=5)  
+  Angle: Bioengineers validate in-ear EEG for capturing auditory evoked potentials and alpha dynamics, proving that discreet auditory form factors can reliably acquire low-amplitude neural biosignals.
+- Tiny magnets deep inside the brain could transform Parkinson’s treatment - Science Daily (Google News: neuromodulation) [link](https://news.google.com/rss/articles/CBMib0FVX3lxTE5FYUxzLUcza2Ywb3JDTEg3RUNlaXlvcXV0QURjNkoyNFFldkJ1eF9KWFlDaEloSmUyZGNlUWdyQXZ4NFZuTWlRT25ROWJCZ2lOM1lmaEVoSWtKVW9KVGNnbUVjOFhudGMwd3hHR1NMdw?oc=5)  
+  Angle: Deploying microscopic magnets for Parkinson's neuromodulation introduces a wire-free, minimally invasive physics approach that could bypass tethered DBS electrode arrays.
+
+## Fact sheets (verified with Google Search)
+
+### Science Corp Raises $400 Million at $3.5 Billion Valuation to Advance Retinal and Brain Implants - BigGo Finance
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Galvanize raises $130M to advance pulsed electric field ablation
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Natural Cycles NC Band 2 Opens Pre-Orders: Day Wear Is Wellness Only, No Band 2 FDA Clearance Named - Tech Times
+(No fact sheet: research failed, so only the original item text was used.)
+
+### In-Ear EEG Wearable Captures Alpha Rhythms and Auditory Responses in Adults - Bioengineer.org
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Tiny magnets deep inside the brain could transform Parkinson’s treatment - Science Daily
+(No fact sheet: research failed, so only the original item text was used.)
+
+## Fact-check fixes
+- Science Corp PRIMA device description: Removed unconfirmed detail that PRIMA is a "photovoltaic chip implanted under the retina, paired with smart glasses that project infrared light directly onto the array", changing to "a chip implanted in the eye that pairs with companion glasses to restore partial vision".
+- FDA Humanitarian Device Exemption pathway description for Science Corp: Replaced unconfirmed claim that HDE "skips massive pivotal trials if the patient population is small enough" with supported details that it is a pathway for rare conditions that Hodak expects will bring PRIMA to market in H1 2027.
+- Galvanize Therapeutics mechanism details: Removed invented technical details ("Microsecond high-voltage bursts create nanometer-sized pores in cell membranes", "irreversible electroporation", "scorching the underlying collagen matrix or killing nearby blood vessels", "selectively based on tissue impedance and field geometry") and replaced with supported descriptions of non-thermal pulsed electric field ablation.
+- Galvanize delivery challenge: Removed unconfirmed details regarding "scaling catheter delivery inside narrow bronchial airways without causing muscle spasms", changing to "developing effective delivery for chronic bronchitis devices".
+- Natural Cycles product status: Updated "launched a new wristband" to "opened pre-orders for a new wristband" (NC° Band 2).
+- In-ear EEG correlation channels: Corrected "correlated strongly with temporal scalp leads across all six channels" to "correlated strongly with simultaneous scalp EEG across all six evaluated scalp derivations".
+- In-ear EEG ASSR detection rate: Refined "seventy-five percent parity" to "seventy-four to seventy-five percent parity".
+
+## Trends noted
+- Bioelectric and neural hardware ventures are securing mega-rounds (17, 2) by demonstrating proprietary physical mechanisms of action that purely digital health software cannot replicate.
+- Wearable neural and physiological sensing is moving toward unobtrusive, ear-canal form factors (34) while companies strategically bifurcate consumer wellness hardware from regulated diagnostic software to bypass FDA delays (51).
+
+## Not used, and why
+- Medtronic’s Hugo robot gets expanded FDA clearance in general surgery (MedTech Dive): runner-up general surgery robotic clearance
+- STAT+: Updated health data privacy rule sets standards for sharing records with apps (STAT Health Tech): runner-up digital health data policy
+- STAT+: What to know about the new AI roadmap from CMS, and news from HLTH (STAT Health Tech): runner-up health tech AI policy overview
+- The Law on Brain Technologies in Warfare Series – The Brain Firing: Lawfulness and Liability of Weapon Control through BCI - Lieber Institute West Point (Google News: neurotech): legal analysis of military BCI liability
+- The BCI Race Everyone is Watching May Be the Wrong One - MedCity News (Google News: neurotech): opinion editorial on commercial BCI race
+- Innovation at hand: BGU researchers showcase robotics, AI, neurotechnology, environmental solutions - JNS.org (Google News: neurotech): university general technology showcase
+- Pujiang Innovation Forum 2026 Brain-Computer Interface Conference Comes to Shanghai This December, Inviting You to Discover China's Complete BCI Value Chain - StreetInsider (Google News: neurotech): conference announcement for Shanghai BCI event
+- Swiss neurotech Indivi buys Imperial spin-out Cogitat for brain monitoring - Dealroom (Google News: neurotech): recently covered (Indivi acquisition of Cogitat)
+- Bci Asset Management Administradora General De Fondos - Cuota De Fondo De Inversion (CFIBCIRFCL.SN) - Yahoo Finance Singapore (Google News: neurotech): not about health or neurotech (financial fund ticker)
+- Traceable BCI Cotton Sourcing Rises 43.5% to Record 33,000 Tonnes - RuralVoice (Google News: neurotech): not about health or neurotech (Better Cotton Initiative)
+- Neurotech International Director Andrew Chapman Acquires 500,000 Shares for $9,500 - Kalkine (Google News: neurotech): minor insider stock transaction under $10k
+- BCI Mustangs power their way past Owen Sound in CWOSSA football quarter-final game - Owen Sound Sun-Times (Google News: neurotech): not about health or neurotech (high school sports)
+- AMU Law Graduates Urge BCI To Process Pending Enrolment Applications Amid Regulatory Dispute With... - Live Law (Google News: neurotech): not about health or neurotech (Bar Council of India)
+- BCI Nov 2026 33.000 put (BCI261120P00033000) interactive stock chart - Yahoo Finance UK (Google News: neurotech): not about health or neurotech (stock options ticker)
+- Aligarh Muslim University law graduates urge BCI to clear pending enrolment pleas amid varsity-regulator row - Deccan Herald (Google News: neurotech): not about health or neurotech (Bar Council of India)
+- Science raises $400M Series D, reaching $3.5B valuation on retina chip - Dealroom (Google News: BCI companies): merged into story 17
+- Science Corporation is valued at $3.5 billion after raising $400 million for its PRIMA retinal implant - MLQ.ai (Google News: BCI companies): merged into story 17
+- Novel algorithm predicts brain surgery outcomes in dystonia patients - Medical Xpress (Google News: neuromodulation): runner-up surgical outcome prediction algorithm
+- Subthalamic Deep Brain Stimulation Sustains One-Year Arm Tremor Relief in Trial - Bioengineer.org (Google News: neuromodulation): incremental trial follow-up for subthalamic tremor DBS
+- Deep Brain Cerebellar Stimulation Enhances Distal Hand Recovery in Subacute Stroke Trial - Bioengineer.org (Google News: neuromodulation): runner-up cerebellar stroke stimulation trial
+- Helping patients regain the power of speech - Penn Medicine (Google News: neuromodulation): general feature article on clinical speech therapy
+- Stanford Psychiatry’s Thomas Hainmueller Receives Grant to Research the Neuronal Mechanisms of Deep Brain Stimulation for Psychiatric Disorders - Stanford Medicine (Google News: neuromodulation): academic grant announcement for DBS psychiatric research
+- Parietal Brain Stimulation Relieves Apraxia and Restores Neurotransmitters in Corticobasal Syndrome - Bioengineer.org (Google News: neuromodulation): niche pilot study on parietal stimulation in corticobasal syndrome
+- Review Assesses Brain-Gut Microbiome Disruptions and Interventions in Neurosurgical Patient Care - Bioengineer.org (Google News: neuromodulation): academic review on brain-gut microbiome in neurosurgery
+- Astrocyte Protein Best1 Regulates Depth and Stability of NREM Sleep - Bioengineer.org (Google News: EEG and neural wearables): basic neuroscience study on sleep depth astrocyte proteins
+- EEG-Derived Index Distinguishes Higher and Lower Depressive Symptoms - Technology Networks (Google News: EEG and neural wearables): runner-up EEG depressive symptom index research
+- Rapid postural control adaptations to repeated virtual reality stimulation in older adults - Nature (Google News: EEG and neural wearables): VR motor adaptation study in older adults
+- Indivi strengthens AI capabilities for brain analysis with Cogitat acquisition - Startupticker.ch (Google News: EEG and neural wearables): recently covered (Indivi acquisition of Cogitat)
+- LUKE Arm: FDA De Novo Record and Studies - CASRAI (Google News: EEG and neural wearables): old news (historical LUKE arm De Novo review)
+- Science Corporation Raises $400M Series D to Expand PRIMA Access - Unite.AI (Google News: EEG and neural wearables): merged into story 17
+- Pulsatile Dexamethasone Provides Sustained Seizure Control for Infantile Epileptic Spasms - Bioengineer.org (Google News: EEG and neural wearables): pharmaceutical trial for infantile epileptic spasms
+- Brain implant technology startup Science Corp. raises $400M to bring its medical devices to market - SiliconANGLE (Google News: neuro funding): merged into story 17
+- Science Corp. raises $400M to support retinal vision-restoring implant - MassDevice (Google News: neuro funding): merged into story 17
+- CB Insights’ 2026 Digital Health 50 Reveals How Agentic AI Is Becoming the Clinical Provider and Medication Access Engine - HIT Consultant (Google News: neuro funding): industry listicle on digital health startups
+- Science Corporation’s brain tech is worth $3.5 billion after new funding - TechCrunch (Google News: neuro funding): merged into story 17
+- Exclusive: AstraNu raises $3.5M for chip-scale optical imaging technology - MobiHealthNews (Google News: neuro funding): runner-up early-stage optical imaging seed round ($3.5M)
+- GOED gets $4.5M in funding for paid internships for STEM students at UNLV - Las Vegas Review-Journal (Google News: neuro funding): general student internship funding announcement
+- FemTech India: Tracking the Rise of Women's Health Innovation &amp; Investment - Digital Health News (Google News: neuro funding): regional market landscape overview
+- Science Corporation Raises $400m at $3.5bn Valuation to Advance Brain Technology - Tekedia (Google News: neuro funding): merged into story 17
+- DASI Simulations Named to the 2026 CB Insights' 50 Most Promising Digital Health Startups - Newswire (Google News: neuro funding): startup PR regarding listicle inclusion
+- Ghana must increase domestic investment in digital health transformation – Nahashon Aluoka urges - Ghanaian Times (Google News: neuro funding): regional advocacy commentary on health tech funding
+- FDA Grants Accelerated Approval to Neladalkib for ALK Positive Lung Cancer - Oncodaily (Google News: FDA neuro devices): oncology pharmaceutical approval
+- Perfuze receives US FDA clearance for NeuroSheath 8Fr long sheath - NeuroNews International (Google News: FDA neuro devices): runner-up interventional neurovascular access catheter clearance
+- GEHC gets FDA clearance for feeding tube AI on mobile x-ray - AuntMinnie (Google News: FDA neuro devices): runner-up diagnostic x-ray feeding tube AI clearance
+- Neladalkib Accelerated Approval: What ALK Drug Developers Should Know - PharmTech.com (Google News: FDA neuro devices): oncology pharmaceutical regulatory analysis
+- Perfuze Receives FDA Clearance for NeuroSheath™ 8F Long Sheath, Completing Its Stroke Thrombectomy System - Business Wire (Google News: FDA neuro devices): merged into story 47
+- Bracco, Avicenna.AI get FDA nod for CT brain aneurysm detection software - DOTmed (Google News: FDA neuro devices): runner-up radiology AI aneurysm detection clearance
+- Intryx Therapeutics Receives IND Clearance of ITX-402 in Brain Neoplasms for a Phase 1/2a Pediatric Brain Tumor Trial - Yahoo Finance (Google News: FDA neuro devices): pediatric oncology IND clearance
+- HLTH 2026 Daily Tracker: F1 mania takes over HLTH; Why DJ Steve Aoki is investing in innovative science - Fierce Healthcare (Google News: NYC neurotech): conference gossip and celebrity investor recap
+- CORRECTION – Compute Desk raises $45M led by Lightspeed to build infrastructure for hedging compute - FinancialContent (Google News: NYC neurotech): not about health or neurotech (AI cloud compute hedging)
+- The Best Fitness Trackers We've Tested for 2026: From Screenless Bands to Smart Rings - PCMag UK (Google News: wearables): shopping guide and fitness tracker product round-up
+- Scientists Tested a Drug-Free Way to Improve Sleep and Made a Surprising Discovery - Men's Journal (Google News: wearables): recently covered (wearable ultrasound patch for sleep)
+- Dreem Health Partners With Withings - Sleep Review (Google News: wearables): minor commercial integration partnership
+- This health tracker is 50% off and doesn't require a subscription - USA TODAY 10BEST (Google News: wearables): shopping guide and product discount deal
+- Noom Launches Weight-Loss Wearable - Athletech News (Google News: wearables): recently covered (Noom weight-loss wearable launch)
+- Unit of Health: Report explores wearables data as longevity indicators - Medical Xpress (Google News: wearables): industry whitepaper on wearables and longevity
+- Neurable One Review: The Brain-Scanning Headphones That Helped Me Stay Focused - Engadget (Google News: wearables): generic consumer gadget review
+- Sophrosyne Technologies Unveils Indigenous Biomedical Sensor Chipset for Wearable Health Monitoring - Digital Health News (Google News: wearables): early-stage biomedical chip announcement without clinical validation
+- Bask Health Acquires Telehealth.com to Connect 500+ Brands With AI Agents - Yahoo Finance (Google News: digital health): runner-up telehealth platform marketplace acquisition
+- Bask Health Acquires Telehealth.com, Plans AI-Powered Marketplace for 500-Plus Virtual Care Brands - citybiz (Google News: digital health): merged into story 64
+- Happiest Health Launches Happiest Health Digital Business Announces Roadmap of 11 Applications Commits Rs. 500 Crore to Technology Investment - TheWire.in (Google News: digital health): corporate business expansion press release
+- Karnataka Launches Three-Month Women's Health Pilot, Plans State-Level Digital Dashboard - Digital Health News (Google News: digital health): regional public health pilot announcement
+- NCCER Launches FIT to Improve Construction Worker Health, Fitness, and Well-Being - The Detroit News (Google News: digital health): trade association wellness program rollout
+- Norfolk and Suffolk sign EPR contract with TPP - Home | Digital Health (Google News: digital health): regional hospital EHR software contract
+- What to know about the new AI roadmap from CMS, and news from HLTH - STAT (Google News: health tech AI): merged into story 4
+- Healthcare AI is moving beyond assistance. What does that mean for DC’s startup community? - Technical.ly (Google News: health tech AI): regional startup ecosystem commentary
+- How four graduating students built an award-winning health-tech startup - McMaster News (Google News: health tech AI): university student venture feature profile
+- Teladoc Launches Employer Contribution Option for GLP-1s - MedCity News (Google News: health tech AI): employer health benefits commercial announcement
+- Investors Are Tired of Hearing ‘AI-Powered.’ Here’s What They Want Instead - Inc.com (Google News: health tech AI): generic business advice op-ed on AI branding
+- HLTH 2026: AI shows early gains, but leaders remain wary - Modern Healthcare (Google News: health tech AI): conference panel discussion summary
+- Knife Capital backs healthtech startup Alignd to expand care programmes - Bizcommunity (Google News: health tech AI): regional venture capital investment in South Africa
+- Health tech preps for a consumer-driven future - Endpoints News (Google News: health tech AI): conference trend summary on consumer health
+- Why medical device tariffs would hurt the U.S. manufacturers they’re meant to help - Medical Economics (Google News: medtech devices): trade policy op-ed on medical device tariffs
+- Nordson EFD launches PICO Pµlse XP HV jetting system - Medical Design &amp; Outsourcing (Google News: medtech devices): industrial manufacturing tool product launch
+- FDA will move from AI to SI, but sponsors don’t have to follow - MassDevice (Google News: medtech devices): regulatory commentary on AI vs SI terminology
+- Combination Product Group Asks FDA To Tighten Device Terms In Container Closure Draft - Medtech Insight (Google News: medtech devices): packaging regulatory commentary for combination products
+- MiniMed Begins European Shipments of Flex, Its First App-Controlled Insulin Pump - Medical Device and Diagnostic industry (Google News: medtech devices): commercial product shipment milestone in Europe
+- Galvanize raises $130M to advance pulsed electric field ablation - MedTech Dive (Google News: medtech devices): merged into story 2
+- FDA authorises Roche’s Gabapentin assay - Medical Device Network (Google News: medtech devices): in vitro diagnostic laboratory assay authorization
+- SpringRA Leads FDA Authorization for Levo Gen 2, a Software-Only Tinnitus Device - Akron Beacon Journal (Google News: medtech devices): runner-up software-only tinnitus device FDA authorization</description>
+   <pubDate>Wed, 18 Nov 2026 09:41:35 +0000</pubDate>
+   <guid isPermaLink="false">neuro-morning-2026-11-18-0941</guid>
+   <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-18.mp3?v=0941" length="4993004" type="audio/mpeg"/>
+   <itunes:duration>624</itunes:duration>
+   <itunes:explicit>false</itunes:explicit>
+   <podcast:transcript url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-18.vtt" type="text/vtt" language="en"/>
+  </item>
+  <item>
    <title>Decoders That Don't Drift, Sleep Ultrasound, and Wearable Validation Traps</title>
    <description>Today's stories:
 

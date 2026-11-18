@@ -1,0 +1,214 @@
+WEBVTT
+
+00:00:02.786 --> 00:00:04.439
+<v Nora>Good morning, Chandni!
+
+00:00:04.439 --> 00:00:07.444
+<v Nora>Today is Wednesday, November 18th, 2026.
+
+00:00:07.444 --> 00:00:11.876
+<v Theo>Five stories today: three in neurotech, two in health tech.
+
+00:00:11.876 --> 00:00:14.807
+<v Nora>Okay, first up: who expanded this week.
+
+00:00:14.807 --> 00:00:25.400
+<v Nora>Story one of five: Science Corp just raised 400 million dollars at a 3.5 billion dollar valuation to restore vision and build brain implants.
+
+00:00:25.400 --> 00:00:32.087
+<v Theo>That Series D puts Max Hodak's company near the very top of private neurotech valuations.
+
+00:00:32.087 --> 00:00:43.657
+<v Nora>Okay, this one made me sit up. Three and a half billion? They have one approved eye chip in Europe, and their brain project is literally still in animals!
+
+00:00:43.657 --> 00:00:53.198
+<v Theo>The approved eye device is PRIMA. It's a chip implanted in the eye that pairs with companion glasses to restore partial vision.
+
+00:00:53.198 --> 00:01:06.722
+<v Nora>And it actually gives people sight back! Patients with age-related macular degeneration are already getting implanted in Germany, with rollouts coming to France, Italy, and London.
+
+00:01:06.722 --> 00:01:21.222
+<v Theo>In the US, Science has filed PRIMA with the FDA under the Humanitarian Device Exemption, a pathway for rare conditions that Hodak expects will bring it to market in the first half of next year.
+
+00:01:21.222 --> 00:01:31.965
+<v Nora>But what about their second program? A bio-hybrid implant that combines living cultured neurons with silicon hardware? That sounds like sci-fi.
+
+00:01:31.965 --> 00:01:42.333
+<v Theo>It's still early animal data. They claim human trials in sixteen months with neurosurgeons at Yale, targeting conditions like Parkinson's.
+
+00:01:42.333 --> 00:01:52.927
+<v Nora>My read? Investors are paying a massive premium today for near-term retinal revenue, plus a giant lottery ticket on direct neural interfaces.
+
+00:01:52.927 --> 00:02:05.699
+<v Theo>I mean, I'll believe the living-silicon hybrid when I see human electrophysiology data. But using the rare-disease exemption for vision chips is a clever regulatory move.
+
+00:02:05.699 --> 00:02:14.222
+<v Nora>Taking the HDE route for retinal implants gives the whole industry a blueprint for skipping ten-year trial timelines.
+
+00:02:14.222 --> 00:02:24.785
+<v Theo>Story two of five: Galvanize Therapeutics raised 130 million dollars to blast diseased tissue with quick electric pulses instead of heat or cold.
+
+00:02:24.785 --> 00:02:32.652
+<v Nora>They're expanding commercial work for soft-tissue ablation and building a new device for chronic bronchitis.
+
+00:02:32.652 --> 00:02:40.155
+<v Theo>Instead of thermal burning or freezing, Galvanize uses pulsed electric fields for soft-tissue ablation.
+
+00:02:40.155 --> 00:02:48.096
+<v Nora>Right, pulsed electric field ablation. It's designed to treat tissue without relying on extreme heat or cold.
+
+00:02:48.096 --> 00:02:56.983
+<v Theo>Exactly. Where traditional thermal ablation uses heat or freezing, pulsed electric fields offer a non-thermal alternative.
+
+00:02:56.983 --> 00:03:04.850
+<v Nora>But who pays for it? Hospitals love anything that cuts collateral tissue damage and shortens recovery times.
+
+00:03:04.850 --> 00:03:12.427
+<v Theo>Though developing effective delivery for chronic bronchitis devices is where the engineering gets tough.
+
+00:03:12.427 --> 00:03:21.022
+<v Nora>Still, a 130 million dollar Series D proves investors are hungry for hardware with real physical mechanisms of action.
+
+00:03:21.022 --> 00:03:28.526
+<v Theo>Hardware platforms with clear physical mechanisms are capturing the bulk of late-stage medtech capital.
+
+00:03:28.526 --> 00:03:32.095
+<v Nora>That's the deals. Now, research and new hardware.
+
+00:03:32.095 --> 00:03:42.731
+<v Nora>Story three of five: Natural Cycles opened pre-orders for a new wristband for its birth control app, but the band itself isn't cleared by the FDA.
+
+00:03:42.731 --> 00:03:50.598
+<v Theo>Wait... so the app is a cleared medical device, but the wristband you buy is legally just a wellness gadget?
+
+00:03:50.598 --> 00:03:55.916
+<v Nora>Exactly! They're leveraging a 2024 FDA Predetermined Change Control Plan.
+
+00:03:55.916 --> 00:04:11.179
+<v Theo>Ah. That lets them add validated third-party temperature sensors without a new 510(k) filing, provided the sensor doesn't add more than two extra red fertile days per cycle compared to an oral thermometer.
+
+00:04:11.179 --> 00:04:26.143
+<v Nora>Right. The band measures overnight skin temperature while resting. That progesterone-driven basal body temperature shift after ovulation is only about zero point two to zero point four degrees Celsius.
+
+00:04:26.143 --> 00:04:27.558
+<v Theo>And during the day?
+
+00:04:27.558 --> 00:04:40.214
+<v Nora>Daytime wear tracks heart rate and motion, but Natural Cycles explicitly labels all day wear as general wellness data. It doesn't feed the birth control algorithm at all.
+
+00:04:40.214 --> 00:04:48.255
+<v Theo>Because daytime skin temperature is ridiculously noisy. Ambient air, exercise, sweat... it ruins the signal.
+
+00:04:48.255 --> 00:04:57.859
+<v Nora>So they split the device in two: night wear drives the cleared contraceptive algorithm, day wear stays in the wellness grey zone.
+
+00:04:57.859 --> 00:05:04.187
+<v Theo>It's kind of a masterclass in dodging regulatory delays while still selling hardware.
+
+00:05:04.187 --> 00:05:13.791
+<v Nora>Separating cleared algorithmic software from consumer hardware sensors is becoming the primary playbook for DTC health wearables.
+
+00:05:13.791 --> 00:05:24.140
+<v Theo>Story four of five: researchers built a tiny earbud that reads brainwaves, proving you can track neural signals right inside the ear canal.
+
+00:05:24.140 --> 00:05:26.895
+<v Nora>Okay, show me the study design, Theo.
+
+00:05:26.895 --> 00:05:39.551
+<v Theo>It's out of Frontiers in Neuroscience. They tested an integrated in-ear EEG device on twenty-nine healthy adults, comparing it directly against clinical scalp electrodes.
+
+00:05:39.551 --> 00:05:43.274
+<v Nora>Can a tiny earplug actually pick up brain signals?
+
+00:05:43.274 --> 00:05:54.590
+<v Theo>It detected resting-state alpha rhythms—eight to twelve Hertz—in fifty-two percent of participants. Scalp leads hit eighty-three to one hundred percent.
+
+00:05:54.590 --> 00:05:57.568
+<v Nora>Fifty-two percent doesn't sound amazing!
+
+00:05:57.568 --> 00:06:11.228
+<v Theo>For ear-canal contact geometry? It's actually solid. The alpha power and signal-to-noise ratio correlated strongly with simultaneous scalp EEG across all six evaluated scalp derivations.
+
+00:06:11.228 --> 00:06:13.505
+<v Nora>What about sensory stimulation?
+
+00:06:13.505 --> 00:06:26.431
+<v Theo>They tested auditory steady-state responses. At eighty Hertz tone modulation, in-ear detection reached seventy-four to seventy-five percent parity with temporal scalp channels.
+
+00:06:26.431 --> 00:06:33.554
+<v Nora>But when they played complex multi-frequency chirps, performance dropped off for both modalities.
+
+00:06:33.554 --> 00:06:45.085
+<v Theo>Right. High-frequency steady tones work well because of proximity to the auditory cortex, but transient signals struggle against ear-canal contact impedance.
+
+00:06:45.085 --> 00:06:56.835
+<v Nora>Ear-canal EEG can reliably track steady-state neural oscillations, but low single-trial signal quality still caps its use for complex brain-computer interfaces.
+
+00:06:56.835 --> 00:07:07.778
+<v Nora>Story five of five: scientists used microscopic magnets inside the brain to treat Parkinson's symptoms in mice without using any wires or electrodes.
+
+00:07:07.778 --> 00:07:18.207
+<v Theo>This comes out of FAU and Maastricht. They injected magnetic nanoplatelets stereotactically into the subthalamic nucleus of Parkinsonian mice.
+
+00:07:18.207 --> 00:07:25.404
+<v Nora>Wait, so instead of sending electrical current down a wire, they apply an external magnetic field?
+
+00:07:25.404 --> 00:07:32.601
+<v Theo>Exactly. The external field makes the tiny nanoplatelets twist and push against the cell membrane.
+
+00:07:32.601 --> 00:07:43.911
+<v Nora>That mechanical force opens pressure-sensitive ion channels—mechanosensors—on the nerve cells. Ions flow in, the cell fires, and the motor circuit resets.
+
+00:07:43.911 --> 00:07:49.933
+<v Theo>And the motor recovery in mice matched standard deep brain stimulation pacemakers.
+
+00:07:49.933 --> 00:07:58.673
+<v Nora>Imagine replacing invasive brain surgery and tethered leads with a targeted injection and a wearable magnetic headband!
+
+00:07:58.673 --> 00:08:11.525
+<v Theo>Okay... I'll admit it. That's clever physics. But my big question is long-term biocompatibility. Do those nanoplatelets migrate or trigger microglial scarring over six months?
+
+00:08:11.525 --> 00:08:18.696
+<v Nora>Fair point. But bypassing tethered DBS leads is the holy grail for interventional neurotech.
+
+00:08:18.696 --> 00:08:29.530
+<v Theo>Mechanosensitive neuromodulation proves we can trigger deep brain circuits with external magnetic fields instead of invasive wire implants.
+
+00:08:29.530 --> 00:08:43.404
+<v Nora>Time for trends. Two big shifts stand out today. First, deep physical mechanisms—like pulsed electric fields and magnetomechanics—are winning the capital race over pure software.
+
+00:08:43.404 --> 00:08:56.732
+<v Theo>And second, biosignals are moving into discreet form factors like ear canals, while smart teams split regulated algorithms from unregulated hardware to avoid FDA gridlock.
+
+00:08:56.732 --> 00:09:03.513
+<v Nora>Natural Cycles proved you can ship hardware today if your software holds the clearance.
+
+00:09:03.513 --> 00:09:17.699
+<v Theo>Career Signal for Chandni. As biosignal wearables blur clinical tools and consumer gadgets, master the regulatory boundary separating 510(k) software claims from wellness exemptions.
+
+00:09:17.699 --> 00:09:27.130
+<v Nora>If you're building ML signal processing pipelines, reach out to the head of clinical product at hybrid wearable startups.
+
+00:09:27.130 --> 00:09:35.704
+<v Theo>Pitch them on how your filtering algorithms can maintain signal integrity under FDA change-control thresholds.
+
+00:09:35.704 --> 00:09:42.018
+<v Nora>Let's recap. One: Science Corp raised 400 million for retinal and brain implants.
+
+00:09:42.018 --> 00:09:47.474
+<v Theo>Two: Galvanize secured 130 million for pulsed electric field ablation.
+
+00:09:47.474 --> 00:09:52.696
+<v Nora>Three: Natural Cycles launched NC Band 2 under wellness exemptions.
+
+00:09:52.696 --> 00:09:58.386
+<v Theo>Four: In-ear EEG validated alpha rhythms and 80 Hertz auditory responses.
+
+00:09:58.386 --> 00:10:03.920
+<v Nora>Five: Magnetic nanoplatelets achieved wire-free deep brain stimulation.
+
+00:10:03.920 --> 00:10:13.351
+<v Theo>From eye chips to ear canals, neurotech is replacing bulky hardware with elegant physics and sharper regulatory strategy.
+
+00:10:13.351 --> 00:10:20.090
+<v Nora>That's Neuro Morning for Wednesday, November 18th. Walk fast, think deep, and we'll see you tomorrow!

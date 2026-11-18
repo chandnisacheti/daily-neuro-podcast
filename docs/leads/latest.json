@@ -1,104 +1,113 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "leads": [
+  {
+   "company": "Science Corp",
+   "signal": "funding",
+   "detail": "Science Corp raised $400 million in Series D funding at a $3.5 billion valuation to advance its retinal implant and brain-computer interface technologies.",
+   "location": "Alameda, USA",
+   "nyc": false,
+   "why_relevant": "Directly aligned with neural engineering and brain-computer interfaces combining silicon hardware with biomedical signal processing.",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93RzkyalE4LU1GdXVTZWFQenVKejNSc3UydkhBb24tYUJPM0xfeV83LU52bGpBVUQ3NXBrUkkzOUtvX3NjQkRTVlBvanZTSVZoRllnUTBaeGhfNVY2d3Z5YVoyRWcyM3J2R2xEeEFOUnhlbWdXX2c?oc=5"
+  },
   {
    "company": "Indivi",
    "signal": "acquisition",
-   "detail": "Swiss neurotech company Indivi acquired Imperial College London spin-out Cogitat to advance AI-powered brain monitoring and digital biomarkers.",
+   "detail": "Indivi acquired Imperial College spin-out Cogitat to strengthen its AI-driven brain monitoring and electroencephalography analysis capabilities.",
    "location": "Basel, Switzerland",
    "nyc": false,
-   "why_relevant": "Directly focuses on machine learning algorithms applied to EEG and brain monitoring data for clinical neurotech applications.",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPd3BCYzVLZ0FtRmgtZVRuc3BFc1hJajFYNUstSFNmSjB0cHc4S3lPVlJaTkdCaDJ0dUk2UnU1WDhTTG9uSU1oUV9lNU5SaGFseXZHdS1oM0JIcExWczV3cmVJSWJjbEJyR0w1SkV6RzA5emRWbU00S2d1ejc0Zkk3NXhTT2dkTTVrNmpuc3lZVUg4SmVmRUkxRWVHTDNyQmt1blE5WnpvLU95MmpSUVd5Rlk1QjJabVJWazNjWm1BZXBnNkQwb1djZEt1WVdtaDE4Z041dWJHSQ?oc=5"
+   "why_relevant": "Highly relevant for biosignal-ML applications focused on decoding brain activity and digital biomarkers from EEG data.",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaW5XZFcyQXdGWkFrQWZ1c2dtYVRzNEIzT1R1dkp5OV9mc3d4T1BvV0dELUhLME5oWlRHRTA2ZHdGUGZYeHI2NXRKbkJfZElfLVktaV91Yk84ZkJmM2hPVEtvN3c2UUJwVXdxSXBqVm1TSERhUGJFRnB5M1pJajZkMTVZN1d2Z2lVRmN2aWdWUWwzeGN5eHJXd2FVRTRXQkt1NDZIWDBDUnRWbmlD?oc=5"
   },
   {
-   "company": "Precision Neuroscience",
-   "signal": "partnership",
-   "detail": "Precision Neuroscience partnered with Team Gleason to integrate ALS patient insights into the development and testing of its brain-computer interface system.",
-   "location": "New York, USA",
-   "nyc": true,
-   "why_relevant": "Develops high-channel micro-ECoG cortical surface arrays and biosignal decoding pipelines for motor and communication neuroprosthetics.",
-   "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPdVJIcnFxdHZ6YWhWamxCUzh1NnVmU0RZcV92R21fQ0JxcjhhYU5jOGJXVlpFSDYzQklCZlEwX3R6aGd0X0l6N0NUc3A5ZzNsQ1dmM0o2VnpZZmNNdG9SYUxhdTM5SzJYMjRkaGNoYTJ1bXgxVDBpX3ZvOE0zdWhKalJGc3l0Z29ZRVdjaVBJbXB6ZlZBVjFQajlCVFJzOThEWXRlaGtUaTB6UWZ3SnRNNnpVMEZ0YlRhN3BEbTQ4a0I5SVlSQklXQ3BmdWRSV1pWZGl2aTRNU3p4SWpoSmFTb1BiYWczTFBfNVJXY1VXRkhoYUZfR3l2OW12dmMtQnU5YW9kTG9nN0h6Y0lIYlJPYVFUVTVrYVdvX0xoQjF1Zk3SAaYCQVVfeXFMTWVnVHMyLVJCd0Q4WWZINHg2T01ieFJvbkRNLVJYQnA4a2ZOM0JxeTFvbDNjQTFyQW1pdm5JRS1LYzRPTmI2YzdicElmNnJYM3ZVQ3NaMmpkNWpWeTMyYTJMVzBYTHZwM0xZcDU2cFlsYXg0X0NPY1RrWEtER2tFRVJnaldaSXVDRWg0enF1LUMyS1NlUEhuOG02cFJxY2Z1NFhHUUhERlJhRnFsY19MWjY2QmNiamdfWEFGTUxZbDhjeEhlOW9YTEctaXppS3FxS1RQY0piNmMyR3pRMkxPWFg1WGZlUWR6YmhQWDB2UzRDWUw3cDVVeU9kcWhYNHZvRXZHTzN1QzNfYWliMU5vUDJmdXEzUnhOQ3BxOFZOX0J1OUdjSmtB?oc=5"
-  },
-  {
-   "company": "University of Texas at Austin (Wang Lab)",
+   "company": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
    "signal": "research",
-   "detail": "Researchers developed NEUSLeeP, a wearable soft patch combining noninvasive ultrasound deep-brain stimulation with real-time EEG monitoring to enhance REM sleep.",
-   "location": "Austin, USA",
+   "detail": "Researchers developed a magnetic nanoparticle technique to stimulate deep brain regions in Parkinson's models without requiring permanently implanted electrodes.",
+   "location": "Erlangen, Germany",
    "nyc": false,
-   "why_relevant": "Combines noninvasive closed-loop neuromodulation hardware with real-time electrophysiological biosignal monitoring.",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tdUpFV0tZaWtScmZZUFNEYkswYXdhZW5JR3plMkN0RFpjaWkxZURiOGZTemlwS2xNVDlTbkstLVhxX1NVWkN0ZTJlU2o0eG1lZmJydVN0dXU0aTZLamczWjk5YXJsSndaQ1drSmJXaw?oc=5"
+   "why_relevant": "Pioneers non-invasive neuromodulation techniques translating micro-scale mechanical forces into neural circuit activation.",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FYUxzLUcza2Ywb3JDTEg3RUNlaXlvcXV0QURjNkoyNFFldkJ1eF9KWFlDaEloSmUyZGNlUWdyQXZ4NFZuTWlRT25ROWJCZ2lOM1lmaEVoSWtKVW9KVGNnbUVjOFhudGMwd3hHR1NMdw?oc=5"
   },
   {
-   "company": "Memoket",
-   "signal": "funding",
-   "detail": "AI wearable hardware startup Memoket secured $4.5 million in Pre-A funding.",
-   "location": "",
-   "nyc": false,
-   "why_relevant": "Provides opportunities in on-device AI algorithms and physiological sensor data processing for emerging wearable systems.",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaUhpcm0wWnRldk9VTlBOblUtdTVHTTFJVUJyU3NHM0Z5YXB6c2NFV0FuelJldGpyMnppTUJVWlp0SkE5MG1HaDRPbHpjM1RmM1JOejBSbHl5cjFGZXdmM2w2bXlVcmc0VFJDQVp3MFBIYldwQnBZOWFzcVRXQVlZaWI4aUVzazZrbkxQeWNGbEtJdFU1LVFYNmJn?oc=5"
-  },
-  {
-   "company": "Noom",
-   "signal": "expansion",
-   "detail": "Noom launched Noom Band, a connected health wearable integrating Sensor Bio's raw PPG, HRV, and sleep signal analytics pipeline for rollout in 2027.",
-   "location": "New York, USA",
-   "nyc": true,
-   "why_relevant": "Involves processing raw optical photoplethysmography and inertial biosignals to derive HRV, respiration, and sleep metrics.",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObV9fbUkwV2FoSkZLems5RjRQMGJaWHI5c0ppUkk5ckpwbm1fMjhPLW5CcVh5d3oyekMyb05VejZGUnBSbl9Hb1U0SVMxR2t0VFhoczV2VGZjMXU0OGZ0Vy1hRzRGeVl5NHJNUThMWUs5TThGcUNQTWJCRHlKZ3FqN3BnQ2dPSXhrZW5ZNnFxcElLSzNJa2hiOFByUUVFSzVIemkxS2FEdmtHU3BrbkltbFNaVUtQNi1MMUNWMUE0N2U4RDJGbnc1dkpHSlVNOE93QnJEVg?oc=5"
-  },
-  {
-   "company": "Tandem Diabetes Care",
+   "company": "SpringRA",
    "signal": "fda",
-   "detail": "Tandem Diabetes Care earned FDA clearance for its tubeless automated insulin delivery system ahead of a planned 2027 launch.",
-   "location": "San Diego, USA",
+   "detail": "SpringRA led the FDA authorization for Levo Gen 2, a software-only tinnitus neuromodulation device.",
+   "location": "Akron, USA",
    "nyc": false,
-   "why_relevant": "Represents commercial closed-loop bio-control systems combining continuous physiological sensing with automated algorithmic delivery.",
-   "link": "https://www.medtechdive.com/news/tandem-wins-fda-clearance-for-tubeless-automated-insulin-delivery-system/874718/"
+   "why_relevant": "Demonstrates software-as-a-medical-device pathways for auditory neuromodulation and neuro-acoustic therapeutics.",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNS0JtY09LeDV0aFJzTDdaWjVoVzZrVzJWaDV3UUZWby1MQmI1THFJbTVnbU5LRXdLbGxrbmZoeldtWlp2MGdNdkMyY1lQSzNFRE5QOWp1MFdLZFM5X1RIMXNrekZWc01ZdFpITUQzNmFMUlNMeXgtUFFxazN0QVh3YjJOZWcxeklDMVJ4VFJSdWtKLXdZR2htbU5ueC1qa3FKZkV3dExPOU0yclFjNUNxdHJHWTk3MVI1bHNUWElSY2tRREZQcWNlLWtFNEZiMFpTYndn?oc=5"
   },
   {
-   "company": "MiniMed",
-   "signal": "fda",
-   "detail": "MiniMed received FDA clearance for its Fit tubeless patch insulin pump for automated glycemic management.",
-   "location": "Northridge, USA",
-   "nyc": false,
-   "why_relevant": "Offers experience in wearable therapeutic delivery systems that interface with continuous biosensing data streams.",
-   "link": "https://www.medtechdive.com/news/minimed-gets-fda-nod-for-tubeless-insulin-pump/874766/"
-  },
-  {
-   "company": "Viz.ai",
+   "company": "Dreem Health",
    "signal": "partnership",
-   "detail": "Viz.ai partnered with Wolters Kluwer to integrate clinical decision support capabilities directly into its AI-powered neurovascular imaging workflow.",
+   "detail": "Dreem Health partnered with Withings to integrate wearable health sensor data into its virtual sleep medicine care model.",
    "location": "San Francisco, USA",
    "nyc": false,
-   "why_relevant": "Applies deep learning computer vision to neuroimaging signals for real-time stroke and neurological crisis detection.",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcndRMEwybU9GRFZXZXJKMGZCeDRKa0l0d19nMTBwaEp4SVh1VDYzR2hodUlqdkdMQkpRaG85eVFNN1VlYkdSYksyVlpNc2NvRjA4NVdReGdwTENxc1dJMGZKNTNkSGlaZXdNdXp0ZWwzZFh5UXUwb2EyVEFuRl9aby1iOW9wYWU4ajJmbDhXdG9oWkhma1ExZ3E1cFRSeWFBQzhNR0U4VFhScWgweHpCQXY5bVpHZVNHZlY4ck1WMjFfOEhwZjYwc0FTTEh0LWxRYUxQYUFIUDI?oc=5"
+   "why_relevant": "Bridges consumer wearable biosensors with clinical algorithms for continuous sleep signal processing.",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTTdGUXJKVkpwVF9Hd3dtSXEyRUlfRzVjbm5XSHRaSWhUM3dOWDU5Smtmd1N0RjNYY1c1Q1JhTlctWE9yMF9JMVFZWWUzV3M4OHFFRHdJVFNaNzNTT0NUWEhNUEtPSnVRaHd0cmV1QXAwMmd4ODhUeHlZUWE5SHhaS2docmg5aHk5MzFGU1BRM0pmUFdPcmM4Wm5ISEJhV0VxRy14eURjc1FNSllWNmplVXozcTR3elZFOUE?oc=5"
+  },
+  {
+   "company": "Natural Cycles",
+   "signal": "expansion",
+   "detail": "Natural Cycles opened pre-orders for its NC Band 2 wearable featuring overnight temperature biosensing and daytime activity monitoring.",
+   "location": "Stockholm, Sweden",
+   "nyc": false,
+   "why_relevant": "Provides practical context for integrating multi-modal biometric sensors into continuous wearable algorithms.",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOa0tLQVNoVnJLaHdhQVVWZGhkNVZuQVNRZzhWVHZMY3FJaU9mRnlydDAyT3pIOTlISnZxMUtfT1FYVjNhSE5peVFiTGxjWkt6VHFXdldud2ZlU3VDaDBwRXNpS2VRWmZTazBRMTI2RTVGeXFXTkdhanR0eGdOQ051U0kwb0xzbXJHYW1Bcm5taHVNMHZmUUZOU1BFTnl6X014YmR1bmdlNE1RTVpLVUUtczhnajJjeXRyei1MVHhqc0lIcTdBR3J2UDlpZjF4SzFtWVMtU1VFWDhCeHRqalMwNUxOdw?oc=5"
+  },
+  {
+   "company": "Sophrosyne Technologies",
+   "signal": "expansion",
+   "detail": "Sophrosyne Technologies unveiled a custom biomedical sensor chipset designed for wearable health monitoring platforms.",
+   "location": "",
+   "nyc": false,
+   "why_relevant": "Targeted at hardware-level physiological signal acquisition and low-power wearable sensor design.",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdW53RllvVEs0QjVwUUszMGk4anhnWHZfaFBkdDdfMkpLLVlNdXUxMDZ4cV9xLVBMaFVYSHJJT0NrT2xKcG5VVTFkLTZBSFJleWZoN2RxV0RqOWlGMm85S2toT1ZwT0lONGM1YmJBemJwRXFiSzRibmhLbW41VnlEQ29UcUxvbDR4bEdxeFRXYWpwaTB6Qmh2cXlHUUc5dGVLN1RlNkkyNTNHOWlYWk1LdVZ5OGFHNFh2SGk2cHl1TEFidjlLZUhGWHp1d1JDUQ?oc=5"
+  },
+  {
+   "company": "Avicenna.AI",
+   "signal": "fda",
+   "detail": "Avicenna.AI alongside Bracco secured FDA clearance for AI software capable of detecting CT brain aneurysms.",
+   "location": "La Ciotat, France",
+   "nyc": false,
+   "why_relevant": "Applies computer vision and machine learning models to neurovascular imaging and diagnostic decision support.",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAtNzEzVnAyUTRqVHlzTS1UOEVHVW1uV3VJVHQ5Qy12a3Z6S1JkZGJsXzFWTHZnMlZ0WkdMamQ2Q2wtVHJHdW5kY3pfTTFtN1dX?oc=5"
+  },
+  {
+   "company": "Perfuze",
+   "signal": "fda",
+   "detail": "Perfuze received FDA clearance for its NeuroSheath 8Fr long sheath to complete its stroke thrombectomy system.",
+   "location": "Galway, Ireland",
+   "nyc": false,
+   "why_relevant": "Relevant for medical device design within neurovascular stroke care and catheter-based interventions.",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaXlqYUtwX2txRU5sLUlWQUMtazNDOHJEN2pIdFNMMG9vT2lfYnZrWHJiemxZR0RBQ25YbUx5SHNKdzE4R2N3RFItaWs2OWt2Q1lFb09IcGQxcGFrcTMzRDE0amcyQk1RM2MwOHpGODZJcUdiWkNSRi1HcjlZenlUZ3J3Q1RrU3B6dm1aWFNQOVRfclNsaEkyLVhscmF1dEtuLXhz?oc=5"
+  },
+  {
+   "company": "AstraNu",
+   "signal": "funding",
+   "detail": "AstraNu secured $3.5 million in funding to advance its chip-scale optical imaging technology.",
+   "location": "",
+   "nyc": false,
+   "why_relevant": "Miniaturized optical imaging micro-systems are key components for next-generation bio-imaging and physiological sensing.",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZHFadUN6SjNVdkNoYUVIX0prbG9TOWJWdFdXUGQ0elNDZ3BfUGRldGN4cGxlU2JnTUtEUm12eDFpYnFRcEV2Y3EzV1lxU2EzMGppTnRGM29Jdk9NYVYzT3JFQm5WT3RSNEcyODZOd1VOTEFMamtpaUc5NzExUGdydUc3U1hyeFZoSlhxMU04OWxTcEo4aEY4OVJjallYVFluQ1lFZw?oc=5"
+  },
+  {
+   "company": "Galvanize Therapeutics",
+   "signal": "funding",
+   "detail": "Galvanize Therapeutics raised $130 million in Series D funding to support its pulsed electric field ablation platform.",
+   "location": "Redwood City, USA",
+   "nyc": false,
+   "why_relevant": "Applies bioelectric pulses and targeted energy delivery for therapeutic tissue ablation and electrophysiology.",
+   "link": "https://www.medtechdive.com/news/galvanize-raises-130m-to-advance-pulsed-electric-field-ablation/874861/"
   },
   {
    "company": "Medtronic",
-   "signal": "acquisition",
-   "detail": "Medtronic agreed to acquire peripheral and carotid intervention company Contego Medical for $380 million.",
+   "signal": "fda",
+   "detail": "Medtronic received expanded FDA clearance for its Hugo robotic-assisted surgery system in general surgery procedures.",
    "location": "Minneapolis, USA",
    "nyc": false,
-   "why_relevant": "Medtronic is the largest industry developer of active implantable neuromodulation systems, deep brain stimulation, and neurovascular tech.",
-   "link": "https://www.medtechdive.com/news/medtronic-to-buy-contego-medical-for-380m/874754/"
-  },
-  {
-   "company": "Remedy Robotics",
-   "signal": "funding",
-   "detail": "Remedy Robotics raised $62 million in a Series B round to advance clinical trials for its robotic telesurgical intervention system.",
-   "location": "",
-   "nyc": false,
-   "why_relevant": "Engages robotic controls, sensorized instrumentation, and teleoperation relevant to medical device mechatronics and surgical navigation.",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYzlnSi1oZnlLbnh1bnAtS0NHQ1M0a2FCaHVaZlkxM2VhalZCN2taanlBVHJsU0tmcFdZTk11NmR5OTN2LWxSd1pFT0ZFT29qZ21tSzU2STZVWjZURFBxVFRrdzhaenhWYUswQWpJWDdzMFNEMTNTWjFZVHYwdElNMTRuaEN5UTAwWE85ZmZ2ZVdLSTRBVXpTOS01bW9CMGJsQk9rc1JKWWRWSzhQSXVLTFBvdw?oc=5"
-  },
-  {
-   "company": "OpenEvidence",
-   "signal": "partnership",
-   "detail": "OpenEvidence collaborated with Apple to launch a clinical conversational health AI study and companion research application.",
-   "location": "",
-   "nyc": false,
-   "why_relevant": "Explores clinical AI deployment and consumer health interfaces tied to digital health and wearable ecosystem data.",
-   "link": "https://www.medtechdive.com/news/apple-openevidence-conversational-health-ai-study-app/874780/"
+   "why_relevant": "Offers core medical device experience in surgical robotics, kinematic control, and real-time intraoperative systems.",
+   "link": "https://www.medtechdive.com/news/medtronics-hugo-robot-gets-expanded-fda-clearance-in-general-surgery/874904/"
   }
  ]
 }
