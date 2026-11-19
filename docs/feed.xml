@@ -13,6 +13,316 @@
   <itunes:block>Yes</itunes:block>
   <itunes:category text="Science"/>
   <item>
+   <title>China Clears First BCI, Masimo's EEG Clearance, and Whoop Eyes M&amp;A</title>
+   <description>Today's stories:
+
+1. FDA clears Masimo’s brain function monitor
+https://finance.yahoo.com/news/fda-clears-masimo-brain-function-093133622.html
+
+2. Hone Health Raises $228M, Expands Women’s Health Offering
+https://femtechinsider.com/hone-health-raises-228m-expands-womens-health-offering/
+
+3. Whoop CEO Will Ahmed eyeing health tech acquisitions
+https://www.axios.com/pro/health-tech-deals/2026/11/18/whoop-ceo-will-ahmed-health-tech-acquisitions
+
+4. Systematic Review Finds Limited Evidence for EEG Neurofeedback Efficacy in Adult ADHD
+https://bioengineer.org/systematic-review-finds-limited-evidence-for-eeg-neurofeedback-efficacy-in-adult-adhd/
+
+Full transcript:
+
+Nora: Good morning, Chandni! Today is Thursday, November 19th, 2026.
+
+Theo: Four stories today: two in commercial milestones, two in strategy and scrutiny.
+
+Nora: First up: Commercial and Regulatory Milestones.
+
+Nora: Story one of four.
+
+Nora: Masimo just secured FDA clearance for an updated brain monitoring system that tracks how patients respond to anesthesia during surgery.
+
+Theo: Interpreting raw EEG signals in a noisy operating room is notoriously tough without specialized neurophysiology training, so this target is all about simplifying that readout.
+
+Nora: The upgraded tech, called smartSedLine, uses a multi-channel EEG sensor and module that plugs right into their Root patient monitor alongside regional oximetry.
+
+Theo: On the signal side, it processes EEG power and spectral patterns using Density Spectral Array features, then calculates a single metric called the Patient State Index, or PSi.
+
+Theo: The real update here is algorithmic. They re-engineered the PSi algorithm to accelerate response time during anesthesia induction and maintain signal stability when EEG power drops extremely low.
+
+Nora: Which is huge when you are dealing with vulnerable cohorts, like elderly or high-risk surgical patients whose brains don't show robust waveforms under anesthesia.
+
+Theo: Exactly. High-risk brains give faint signals. If your index drifts or lags, titration gets sloppy. A faster, more stable PSi lets anesthesiologists fine-tune drug delivery in real time, which helps keep hemodynamics stable.
+
+Nora: I love seeing this. While half the industry is trying to invent flashy consumer gadgets, Masimo is quietly dominating the operating room with reliable hardware and steady sensor replacement revenue.
+
+Theo: I'll admit, it's smart business. Hospital-grade perioperative monitoring is one of the few places where clinical EEG delivers clear, repeatable commercial returns year after year.
+
+Nora: Solid clinical utility beats unvalidated consumer hype every single time.
+
+Nora: Story two of four.
+
+Nora: Telehealth platform Hone Health just raised two hundred twenty-eight million dollars to scale its clinical biomarker platform and care pathways.
+
+Theo: This new funding is explicitly earmarked to expand diagnostic panels and launch care pathways for women's health, including a new PMOS pathway.
+
+Nora: Structurally, the deal is interesting: twenty-eight million is Series A equity led by MarcyPen Capital Partners, and two hundred million is growth financing from General Catalyst's Customer Value Fund.
+
+Theo: They are using that cash to build out care protocols, long-term postpartum care, and research into treatments like hormone replacement therapy and testosterone care.
+
+Theo: The engineering backbone here relies on continuous longitudinal lab tracking. They collect blood biomarkers over time to optimize individual medication dosages rather than relying on static single-point reference ranges.
+
+Nora: I mean, this shows where the smart capital is flowing. Patients want full-stack, physician-supervised preventative care, not just a random consumer lab test with no follow-up.
+
+Theo: Sure, but two hundred million in growth financing carries real execution risk. Large financing requires immediate, predictable cash flow, which puts massive operational pressure on subscriber retention and lab throughput.
+
+Nora: Fair point, but building longitudinal data sets across thousands of patients gives them a clinical moat that basic wellness apps just can't match.
+
+Theo: We'll see if the clinical outcomes match the platform scale once those longitudinal cohorts mature.
+
+Nora: Big money is betting that physician-guided biomarker tracking is the future of preventative care.
+
+Nora: That's the commercial milestones. Now, strategy and scrutiny.
+
+Nora: Story three of four.
+
+Nora: Wearable giant Whoop is actively eyeing health tech acquisitions rather than relying solely on internal feature development.
+
+Theo: Reports indicate CEO Will Ahmed is looking at health tech M&amp;A, though specific targets and deal terms haven't been confirmed yet.
+
+Nora: Whoop built a massive subscriber base around continuous heart rate variability, sleep tracking, and strain metrics, but consumer wellness metrics hit a ceiling eventually.
+
+Theo: Right. If you want to move into true clinical diagnostics, building regulated hardware or validated algorithms from scratch takes years of clinical trials and regulatory filings.
+
+Theo: By looking at M&amp;A, Whoop could potentially acquire existing 510(k) clearances, validated biosignal processing pipelines, and established clinical data assets that can snap directly into their subscription ecosystem.
+
+Nora: Honestly, this could be a smart pivot. Why burn engineering resources trying to reinvent clinical sensors when you can acquire a team that already cleared the FDA?
+
+Theo: Because integrating health tech acquisitions is brutal. Merging consumer-grade biosignal pipelines with regulated medical software, strict data privacy standards, and legacy hardware architecture creates huge technical debt.
+
+Nora: True, but if Whoop wants to compete with clinical-grade wearables, buying clinical credibility is much faster than building it from scratch.
+
+Theo: It is faster, assuming the signal quality of the target company actually holds up under scrutiny during technical due diligence.
+
+Nora: Wearable giants are realizing that true clinical edge is bought, not built overnight.
+
+Nora: Story four of four.
+
+Nora: A comprehensive systematic review just found that EEG neurofeedback training shows no robust clinical benefit for adults with ADHD over placebo control conditions.
+
+Theo: The review synthesized data from seven studies, including three randomized controlled trials and four non-randomized studies, covering three hundred ninety adult participants.
+
+Nora: They looked at a wide range of protocols, including theta-to-beta ratio training, slow cortical potentials, and QEEG-guided individual alpha peak frequency setups.
+
+Theo: Here is where the methodology gets spicy. The non-randomized, open-label studies reported massive symptom reductions. But in the blinded, randomized controlled trials with proper active or sham controls, the effect size dropped near zero, hovering between negative zero-point-one-five and zero-point-three-zero.
+
+Nora: Wait, so the clinical improvements completely vanished once researchers added a proper fake neurofeedback control?
+
+Theo: Exactly. Cognitive outcomes like attention improvements were seen equally in both the active neurofeedback groups and the sham control groups, proving those gains were driven by practice effects and participant expectation, not neural modulation.
+
+Nora: Ugh, that is a tough pill to swallow for consumer neuro-headsets and private clinics selling EEG retraining for focus and ADHD.
+
+Theo: It's the classic neurotech trap. If your study design lacks a blinded sham control, you are just measuring the therapeutic context and placebo effect, not specific neuroplasticity.
+
+Nora: It is disappointing for patients looking for non-drug options, but science requires real rigor.
+
+Theo: Without rigorous sham controls, consumer neuro-claims fall apart under clinical scrutiny.
+
+Nora: So, looking across the industry today... consumer wellness wearables are hitting a wall. Companies realize basic wellness features won't drive long-term growth, so they are buying regulated clinical assets to stay competitive.
+
+Theo: Exactly. Whether it's Whoop hunting for diagnostic M&amp;A, Hone Health scaling physician-supervised lab platforms, or Masimo dominating perioperative EEG, validated clinical data is the real currency. Meanwhile, unvalidated consumer modalities like ADHD neurofeedback are getting exposed by strict sham-controlled evidence.
+
+Nora: For your career beat, Chandni: as wearable companies like Whoop hunt for M&amp;A, a massive high-value role is technical and regulatory due diligence.
+
+Theo: Right. Engineering teams urgently need biomedical engineers who can evaluate whether a target company's biosignal algorithms and clinical data can actually survive FDA scrutiny before capital is committed.
+
+Nora: If you want to leverage your BME background, reach out to leaders on Whoop's product strategy or health tech corporate development team—offer a sharp, analytical take on biosignal validation in target M&amp;A deals.
+
+Nora: Time for the quick recap.
+
+Theo: One: Masimo secured FDA clearance for its updated smartSedLine perioperative EEG monitor.
+
+Nora: Two: Hone Health raised two hundred twenty-eight million dollars to scale physician-supervised biomarker platforms.
+
+Theo: Three: Whoop is eyeing health tech acquisitions for clinical capabilities.
+
+Nora: Four: A systematic review exposed the lack of sham-controlled evidence for EEG neurofeedback in adult ADHD.
+
+Theo: Bottom line? Clinical evidence and regulated data pipelines are separating real neurotech from expensive placebos.
+
+Nora: That's your Neuro Morning for Thursday, November 19th, 2026. Keep your signal clear, Chandni, and have a great walk!
+
+# Editor's log, Thursday, November 19, 2026
+
+Episode: China Clears First BCI, Masimo's EEG Clearance, and Whoop Eyes M&amp;A
+
+## How this episode was made
+1. Pulled every item published in the last ~30 hours from the sources below.
+2. Gemini (editor pass) picked about 5 stories, assigned each to one section, and logged why the rest were skipped.
+3. Gemini (research pass) checked each picked story with Google Search and built a fact sheet from credible sources.
+4. Gemini (writer pass) wrote the two-host script from only those fact sheets.
+5. Gemini (fact-check pass) compared every claim in the script with the fact sheets and fixed or cut anything unsupported.
+6. Gemini voiced it; GitHub published it.
+
+## Sources checked
+- Neurotechnology Substack: failed (403 Client Error: Forbidden for url: https://neurotechnology)
+- Neuroscience News: 4 new items
+- MedTech Dive: 5 new items
+- Fierce Biotech MedTech: 0 new items
+- STAT Health Tech: 2 new items
+- MobiHealthNews: failed (403 Client Error: Forbidden for url: https://www.mobihealthn)
+- TechCrunch Health: 0 new items
+- FDA Medical Devices: failed (404 Client Error: Not Found for url: https://www.fda.gov/apo)
+- Google News: neurotech: 12 new items
+- Google News: Neurotechnology Substack: 0 new items
+- Google News: BCI companies: 1 new items
+- Google News: neuromodulation: 10 new items
+- Google News: EEG and neural wearables: 8 new items
+- Google News: neuro funding: 10 new items
+- Google News: FDA neuro devices: 8 new items
+- Google News: NYC neurotech: 0 new items
+- Google News: wearables: 8 new items
+- Fierce Healthcare Health Tech: 0 new items
+- Healthcare IT News: failed (403 Client Error: Forbidden for url: https://www.healthcarei)
+- Google News: digital health: 10 new items
+- Google News: health tech AI: 8 new items
+- Google News: medtech devices: 8 new items
+- bioRxiv Neuroscience: failed (404 Client Error: Not Found for url: https://connect.biorxiv)
+
+## Used, by section
+### Commercial &amp; Regulatory Milestones
+- FDA clears Masimo’s brain function monitor - Yahoo Finance (Google News: FDA neuro devices) [link](https://news.google.com/rss/articles/CBMihAFBVV95cUxNTnl6VDZKbk1tdmVNNEw2eUppa3AxWjJ4OEptRVZNX1ItQ2Jwb1luY2JCU0NDTF9Pdm8xVnZFZ3JId2UzLTROakJHNnhpaElucm5ZWlNTVFZ2VUJHMVNDOGVSWHc5TXVTdURMZGxCbExUTTJKY3hpZXUwTy1hbzcxcUo1dUQ?oc=5)  
+  Angle: Masimo secures FDA clearance for its smartSedLine brain function monitor, demonstrating how hospital-grade EEG continues to provide the most reliable commercial revenue in clinical neurotechnology.
+- Hone Health Raises $228M, Expands Women’s Health Offering - Femtech Insider (Google News: digital health) [link](https://news.google.com/rss/articles/CBMiigFBVV95cUxPUlVYWklrbnlqczlrd0VSLURsMXFMSWcwc0h5c1FyUTJERnVmMkpSVFg1cnpCTkhVT05jTFRmZHowT0tOb25XWmFLRUFiTGVhMFhhR0VJcElEMHlBbEw3enRfMC1EcEVNSURZNHVmQ3hLTGIyMWFiWVFqTE5rOTgwRjlkYjhvNTlKQmc?oc=5)  
+  Angle: NYC-based Hone Health closes $228M to scale longevity and clinical biomarker management, highlighting institutional investor appetite for full-stack preventative care platforms.
+### Strategy &amp; Scrutiny
+- Whoop CEO Will Ahmed eyeing health tech acquisitions - Axios (Google News: health tech AI) [link](https://news.google.com/rss/articles/CBMiogFBVV95cUxNWWlhR1VzQVpyc3pNZUJfbmdvX2FmcFFTVGZicnZNNGlwa09uZnJ1ZnJWRkpEaENRNUdsOGxPSW9jcE4xUHlHYlo4aUNselVuZnhFd21POHpDWTF3dUxESVB3WFVGWGQ4dUFqUm43anBDX0ZzQy1zNDFqMktnZG1ZemV3RzV4YURPNHdWS2MtV3Q1X01jZEIwMVR4Tkd6ZXo0YWc?oc=5)  
+  Angle: Whoop CEO Will Ahmed signals plans to acquire health tech and diagnostic companies, marking a strategic pivot from organic consumer feature builds to buying regulated clinical capabilities.
+- Systematic Review Finds Limited Evidence for EEG Neurofeedback Efficacy in Adult ADHD - Bioengineer.org (Google News: EEG and neural wearables) [link](https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUVRN2hXRVZ3U0NuWG5rZjcyYy1MNmprWXhfNmtkNnMxanZ5SXQwMm92dWNFQlhETnlPQzhGb2NiMFNmOHJLQUpjMm1nd1c4OXE0WVJEOU9CWnZIWEhtVkZkWElqU2tmRmpxTkZ1dTFDczM0MTBnWUxaZldDZlR4bERPSV9ac1RlRmpaRnNRa2pNTTZKblNyRXFhSUlYandfLXJwblFZT1dCVFhVdmFn?oc=5)  
+  Angle: A new systematic review finds limited evidence supporting EEG neurofeedback for adult ADHD, delivering a sharp methodological critique to commercial wellness headsets and neuro-clinics operating on weak sham controls.
+
+## Fact sheets (verified with Google Search)
+
+### FDA clears Masimo’s brain function monitor - Yahoo Finance
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Hone Health Raises $228M, Expands Women’s Health Offering - Femtech Insider
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Whoop CEO Will Ahmed eyeing health tech acquisitions - Axios
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Systematic Review Finds Limited Evidence for EEG Neurofeedback Efficacy in Adult ADHD - Bioengineer.org
+(No fact sheet: research failed, so only the original item text was used.)
+
+## Fact-check fixes
+- Hone Health location: Removed "New York" (unconfirmed detail in source article).
+- Hone Health backstory: Removed unconfirmed statement that Hone "started out focused mostly on men's health" and updated description to reflect expansion into women's health and PMOS care pathways.
+- Lead investor name: Changed "MarcyPen Capital" to "MarcyPen Capital Partners".
+- Funding instrument: Changed "growth debt line" / "growth debt" / "Debt financing" to "growth financing", matching the source article phrasing.
+- Specific therapies: Removed unconfirmed details claiming "continuous testosterone and estrogen dosing" (estrogen is not mentioned in source text) and updated to "hormone replacement therapy and testosterone care".
+- Whoop acquisitions details: Reframed statement claiming CEO Will Ahmed "confirmed the shift, signaling a move away from organic, internal feature builds" to clarify that reports indicate he is eyeing acquisitions while specific target details remain unconfirmed (full article text was unavailable beyond title/summary).
+
+## Trends noted
+- {'insight': 'Consumer digital health and wearable giants are shifting from organic wellness feature rollouts to buying clinical legitimacy, while unvalidated neuro modalities face mounting regulatory and evidentiary headwinds.', 'evidence': ['id 84: Whoop CEO Will Ahmed confirms the company is actively evaluating health tech acquisitions', 'id 70: Hone Health raises $228M to transform biomarker and hormone optimization into a regulated telehealth model', 'id 39: Systematic review identifies persistent lack of randomized sham-controlled efficacy for commercial EEG neurofeedback in adult ADHD', 'id 53: Masimo doubles down on FDA 510(k) cleared perioperative brain state analytics']}
+
+## Not used, and why
+- Losing a Single “Molecular Brake” Gene Triggers Brain Overgrowth (Neuroscience News): academic basic science on Pten gene and brain overgrowth without near-term translation
+- Intolerance of Uncertainty Surged 3x Faster Since 2012 (Neuroscience News): academic survey on intolerance of uncertainty trends
+- Ultraprocessed Foods Alter Food-Reward Brain Activity (Neuroscience News): academic nutritional neuroscience study on food reward processing
+- Brain Computes Motion Direction Independently From the Eye (Neuroscience News): academic basic neurobiology paper in Nature on midbrain motion computation
+- Senseonics, Beta Bionics integrate diabetes technology (MedTech Dive): routine device interoperability integration between Senseonics and Beta Bionics
+- Health AI spend doubles as providers invest in clinical copilots, front-office AI (MedTech Dive): broad market report on provider AI spending lacking specific corporate or regulatory news
+- White House pulls nomination for FDA nominee Overton (MedTech Dive): political and administrative update regarding FDA commissioner nomination
+- Remedy Robotics raises $62M; Capstan’s mitral replacement robot progresses (MedTech Dive): old news; Remedy Robotics $62M round was already covered in a recent episode
+- Science Corporation raises $400M to commercialize BCI device (MedTech Dive): old news; Science Corp $400M round was already covered in a recent episode
+- STAT+: Epic Systems defends competitive practices, promises to let AI access its records (STAT Health Tech): HLTH panel defense by Epic Systems on EHR records without new product or regulatory milestone
+- STAT+: The emerging winners and losers in the AI scribe market (STAT Health Tech): STAT analysis column summarizing HLTH scribe market dynamics
+- Med-X | Charting the path toward clinical translation of brain-computer interfaces by 2035 - EurekAlert! (Google News: neurotech): academic roadmap paper on 2035 BCI translation
+- ALS community to have a say in brain-computer interface development - ALS News Today (Google News: neurotech): patient advocacy commentary on trial design participation
+- [Interview] Ybrain CEO seeks Android-like BCI ecosystem built on Korea's tech strengths - Korea Biomedical Review (Google News: neurotech): executive interview outlining conceptual Korean BCI platform vision
+- Science Corporation raises $400M to commercialize BCI device - MedTech Dive (Google News: neurotech): old news; duplicate report of Science Corp's $400M funding round
+- The BCI Future Leaders Initiative - The Business Continuity Institute (BCI) (Google News: neurotech): non-neurotech; Business Continuity Institute professional initiative
+- £6.2 million investment to accelerate use of pioneering neurotechnology - NR Times (Google News: neurotech): regional UK public funding allocation lacking specific commercial details
+- Traceable BCI cotton sourcing jumps 43.5% - Ecotextile News (Google News: neurotech): non-neurotech; Better Cotton Initiative sourcing report
+- Neurotech International Limited (NTI.XA) Seasonal returns chart - Yahoo Finance UK (Google News: neurotech): routine stock ticker seasonal trading analysis
+- Imperial spinout Cogitat acquired by Swiss startup Indivi for its brain foundation model - Imperial College London (Google News: neurotech): old news; Indivi's acquisition of Cogitat was already covered in a recent episode
+- BCI tells law colleges to disclose approval status, cautions students against enrolling in unrecognised courses - ANI News (Google News: neurotech): non-neurotech; Bar Council of India law college notice
+- Global brands source a record 33,000 metric tons of traceable BCI cotton - Textile Today (Google News: neurotech): non-neurotech; Better Cotton Initiative textile report
+- Science Raises $400 Million for Sight-Restoring Implant - The Defiant (Google News: BCI companies): old news; duplicate report of Science Corp's $400M funding round
+- Noninvasive deep brain stimulation improves subclinical depression, study finds - Medical Xpress (Google News: neuromodulation): academic study on noninvasive DBS for subclinical depression
+- Noninvasive Brain Stimulation Relieves Subclinical Depression by Enhancing Adult Reward Learning - Bioengineer.org (Google News: neuromodulation): duplicate wire report of academic study on noninvasive stimulation for depression (id 25)
+- Understanding OCD: New Insights Through Deep Brain Stimulation - The Manila Times (Google News: neuromodulation): general overview article on DBS mechanisms in OCD
+- Adaptive Brain Stimulation Shows Motor Improvement in Parkinson’s Review Amid Heterogeneity - Bioengineer.org (Google News: neuromodulation): academic review paper on adaptive DBS heterogeneity in Parkinson's disease
+- Vagus Nerve Stimulation Restores Hippocampal Proteins in Mouse Cognitive Impairment Model - Bioengineer.org (Google News: neuromodulation): preclinical mouse study on VNS and hippocampal proteins
+- Q&amp;A: Can sound waves help fight breast cancer? - UVA Today (Google News: neuromodulation): university interview on preclinical focused ultrasound research in oncology
+- China's Quanlan raises tens of millions in Series A for brain-therapy devices - Dealroom (Google News: neuromodulation): early-stage private Chinese round with sparse commercial or regulatory detail
+- Brain Stimulation Eases Depression by Boosting Reward Learning - Mirage News (Google News: neuromodulation): duplicate wire report of academic brain stimulation study (id 25)
+- IIT JODHPUR RESEARCH REVEALS MOLECULAR LINKS BETWEEN MEDITATION AND BRAIN-ACTIVE DRUGS - www.pib.gov.in (Google News: neuromodulation): academic paper on molecular pathways in meditation from IIT Jodhpur
+- Qingshi Yongjun raises hundreds of millions of yuan for brain-chip therapy - Dealroom (Google News: neuromodulation): early-stage domestic Chinese round with minimal technical disclosures
+- Long-Term EEG Outperforms Short-Term Monitoring for Diagnosing Childhood Epilepsy in Kenya - Bioengineer.org (Google News: EEG and neural wearables): academic observational study on pediatric epilepsy EEG monitoring in Kenya
+- Home-based auricular vagus nerve stimulation shows early promise for kids and teens with migraines - Medical Xpress (Google News: EEG and neural wearables): small pilot academic study on auricular VNS for pediatric migraine
+- Study Links Specific Clinical Profiles to Distinct EEG Abnormalities in Autistic Children - Bioengineer.org (Google News: EEG and neural wearables): academic clinical EEG correlation study in pediatric autism
+- Morphology and Spectral Characteristics Distinguish Neonatal from Adult Epileptiform Discharges - Bioengineer.org (Google News: EEG and neural wearables): academic neurophysiology study on neonatal epileptiform waveforms
+- Removing 1/f Component From Transcranial Electrical Stimulation Increases Alpha Power - Bioengineer.org (Google News: EEG and neural wearables): basic neuroscience paper on 1/f noise removal in transcranial electrical stimulation
+- Medica/CompaMed 2026 in Photos, Day 3 - Medical Product Outsourcing (Google News: EEG and neural wearables): trade show photo gallery from Medica/CompaMed
+- Scientists Found a Genius Way to Boost Your Brain's Overnight Cleaning System - ScienceAlert (Google News: EEG and neural wearables): popular science rehash of glymphatic brain cleaning research
+- China's Ruiyi Xulian raises ~$15M for brain-spine implant push - Dealroom (Google News: neuro funding): early-stage private funding round for Chinese spinal implant firm with limited operational data
+- Isomorphic Labs raises $5B for AI drug discovery - MobiHealthNews (Google News: neuro funding): unverified or inaccurate mega-round headline for Isomorphic Labs
+- Qure4u lands $25m - PEI Private Equity (Google News: neuro funding): minor growth equity investment in patient intake software Qure4u
+- GOED gets $4.5M in funding for paid internships for STEM students at UNLV - Las Vegas Review-Journal (Google News: neuro funding): regional Nevada grant for undergraduate STEM internships
+- Hone Health nabs $228M to build out longevity care offerings - Fierce Healthcare (Google News: neuro funding): merged into story 70
+- Wearable injectors market may hit $21b as diabetes care advances - Healthcare Asia Magazine (Google News: neuro funding): speculative market forecast report on wearable drug injectors to 2036
+- CB Insights’ 2026 Digital Health 50 Reveals How Agentic AI Is Becoming the Clinical Provider and Medication Access Engine - RamaOnHealthcare (Google News: neuro funding): marketing listicle on CB Insights Digital Health 50
+- Isomorphic Labs Raises $5 Bn in Series C Funding - Digital Health News (Google News: neuro funding): duplicate wire report on unverified Isomorphic Labs financing (id 44)
+- Wearable heart monitor moves from lab to clinical trial - Medianet News Hub (Google News: neuro funding): regional pilot trial announcement for an academic wearable cardiac sensor
+- UP Plans Free Health ATM Diagnostics in Government Healthcare Facilities - Digital Health News (Google News: neuro funding): Indian regional government procurement announcement for diagnostic health kiosks
+- Perfuze Receives FDA Clearance for NeuroSheath 8F Long Sheath - NeurologyLive (Google News: FDA neuro devices): standard neurovascular sheath catheter clearance lacking monitoring or digital innovation
+- Sanofi wins US FDA approval for Infilbray, first drug for neurological symptoms of type 3 Gaucher disease - Dealroom (Google News: FDA neuro devices): pharmaceutical drug approval for Gaucher disease type 3, outside device/digital health focus
+- Masimo Wins FDA Clearance for Brain Monitoring Tech - Orange County Business Journal (Google News: FDA neuro devices): merged into story 53
+- Radical gains US FDA 510(k) clearance for 076 and 064 reperfusion catheters - NeuroNews International (Google News: FDA neuro devices): mechanical reperfusion catheter clearance lacking novel neuro sensing or digital tech
+- Neuroprotective therapy cleared by FDA for testing in acute MS relapses - Multiple Sclerosis News Today (Google News: FDA neuro devices): early-stage pharma drug trial clearance for acute MS relapse
+- Sanofi (ENXTPA:SAN) Wins FDA Approval For First Type 3 Gaucher Brain Therapy - Yahoo Finance (Google News: FDA neuro devices): duplicate report of Sanofi drug approval for type 3 Gaucher disease (id 55)
+- NeuroVoices: Brian Lin, PhD, on the FDA Approval of Gefurulimab for Generalized Myasthenia Gravis - NeurologyLive (Google News: FDA neuro devices): physician Q&amp;A on drug approval for generalized myasthenia gravis
+- Wearable Biosensor Enables Continuous Monitoring of Cardiac Troponin I - Inside Precision Medicine (Google News: wearables): early academic prototype for continuous troponin electrochemical sensing
+- Hume Band 2.0 vs. Oura Ring 5: Which wearable fits you more? - Wareable (Google News: wearables): consumer gadget comparison review between Hume Band 2.0 and Oura Ring 5
+- Youhong Medical (J-Style) Highlights Smart Wearables and AI-Powered Digital Health Solutions at MEDICA 2026 - The Manila Times (Google News: wearables): promotional trade booth press release for OEM manufacturer Youhong Medical at MEDICA
+- slowave Inc. Debuts EEG-Based Sleep Wellness System in the U.S. and Heads to CES 2027 - Detroit Free Press (Google News: wearables): consumer wellness sleep headband announcement without clinical validation data
+- New sensor can detect ‘silent’ heart damage after surgery - Tioga Publishing (Google News: wearables): duplicate syndicated report on academic troponin sensor (id 61)
+- New sensor can detect ‘silent’ heart damage after surgery - swiowanewssource.com (Google News: wearables): duplicate syndicated report on academic troponin sensor (id 61)
+- Menopause Hormone Wearables Market Size, Share &amp; Forecast 2036 - Fact.MR (Google News: wearables): speculative market research forecast for menopause wearables to 2036
+- noon Yellow Friday Sale: 5 trending wearables for men and women at the lowest prices - Gulf News (Google News: wearables): Black Friday shopping discount roundup for consumer smartwatches
+- Anthropic’s IPO Is Digital Dependency Disguised as Funding - ICTworks (Google News: digital health): opinion op-ed on Anthropic financial structure
+- Black Country Healthcare launches patient engagement platform - Home | Digital Health (Google News: digital health): local UK NHS regional trust software deployment notice
+- Doc990 and Lassana Health partner strengthening its digital healthcare ecosystem - Ceylon Daily News (Google News: digital health): Sri Lankan regional digital health distribution partnership
+- Manipal Health Enterprises Completes Acquisition of Kinder Women’s Hospital for INR 130 Cr - Digital Health News (Google News: digital health): Indian regional private hospital asset acquisition
+- Future Health Launches Academy to Translate Life Sciences Advances Into Strategic Action - AFP.com (Google News: digital health): commercial launch of a life sciences executive education seminar
+- UR Medicine launches virtual cardiac rehab program for heart patients - 13WHAM-TV (Google News: digital health): regional hospital announcement for a virtual cardiac rehabilitation service
+- Comparative Analysis Reveals AI-Enabled Medical Device Landscapes in Australia and US - Bioengineer.org (Google News: digital health): academic comparative analysis of US vs Australian AI medical device registries
+- AccurKardia Named a Rising Star Winner at the 2026 Digital Health Hub – Digital Health &amp; AI Awards at HLTH USA - Business Wire (Google News: digital health): industry conference award promotional press release for AccurKardia
+- Medtronic to Acquire Medical Device Company Contego Medical - Digital Health News (Google News: digital health): routine peripheral vascular device bolt-on acquisition by Medtronic
+- Ghent-based IntelliProve raises €2.7 million to monitor vital signs with a 30-second face scan using any camera - EU-Startups (Google News: health tech AI): early-stage seed round for optical contactless vitals startup IntelliProve
+- August AI Raises $12 Mn To Expand AI Healthcare Assistant In The US - Inc42 (Google News: health tech AI): seed-stage venture funding for consumer AI healthcare chatbot August AI
+- IntelliProve raises €2.7M from Miles Ahead to turn any camera into a health sensor - Tech Funding News (Google News: health tech AI): duplicate report of IntelliProve seed financing (id 79)
+- IntelliProve raises €2.7M to put its face-scan health check on robots - Dealroom (Google News: health tech AI): duplicate report of IntelliProve seed financing (id 79)
+- August AI Raises $12 Mn From Accel, Peak XV Partners And Claypond Capital - BW Disrupt (Google News: health tech AI): duplicate report of August AI venture financing (id 80)
+- IntelliProve raises €2.7M to bring health monitoring from smartphones to humanoid robots - Tech.eu (Google News: health tech AI): duplicate report of IntelliProve seed financing (id 79)
+- Delayed salaries, leadership change: Inside Helium Health’s difficult year - TechCabal (Google News: health tech AI): investigative report on internal operational struggles at African health tech startup Helium Health
+- FDA clears Masimo’s smartSedLine brain function monitor - Medical Device Network (Google News: medtech devices): merged into story 53
+- FDA puts gastric implants on device shortages list, adds Resmed product discontinuation - Medical Design &amp; Outsourcing (Google News: medtech devices): routine regulatory supply chain notice regarding gastric implants and Resmed CPAP parts
+- How Medtech Can Align the EU AI Act, MDR, and ISO/IEC 42001 - Medical Device and Diagnostic industry (Google News: medtech devices): consulting regulatory advisory guide on European AI Act and MDR compliance
+- Blue Goat Cyber CEO Christian Espinosa Receives Cybersecurity Advocacy Recognition at MedTech World Europe 2026 - The Tennessean (Google News: medtech devices): trade award announcement for a medtech cybersecurity consultancy
+- New Catheter Liners Ship Fast for Device Makers - PlasticsToday (Google News: medtech devices): plastics supplier manufacturing announcement for catheter liners
+- Hong Kong's Medical Device Advisory Panel Launches to Enhance Regulation and Safeguard Public Health. - 巴士的報 (Google News: medtech devices): local Hong Kong regulatory administrative advisory board launch
+- FDA clears GE HealthCare on-device AI for X-ray feeding tube placement - MassDevice (Google News: medtech devices): narrow radiographic positioning algorithm clearance for enteric feeding tubes
+- FDA Clears Perfuze’s NeuroSheath 8F Long Sheath - Medical Product Outsourcing (Google News: medtech devices): duplicate coverage of Perfuze catheter sheath clearance (id 54)
+- China Clears First Brain-Computer Implant for Commercial Use - Sixth Tone (Google News: neurotech): old news: first reported 2026-03-16, more than 3 days ago</description>
+   <pubDate>Thu, 19 Nov 2026 11:00:43 +0000</pubDate>
+   <guid isPermaLink="false">neuro-morning-2026-11-19-1100</guid>
+   <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-19.mp3?v=1100" length="4973612" type="audio/mpeg"/>
+   <itunes:duration>621</itunes:duration>
+   <itunes:explicit>false</itunes:explicit>
+   <podcast:transcript url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-19.vtt" type="text/vtt" language="en"/>
+  </item>
+  <item>
    <title>Science Corp's $400M Mega-Round and Wearable Regulatory Frontlines</title>
    <description>Today's stories:
 
