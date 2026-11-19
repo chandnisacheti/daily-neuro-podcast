@@ -76,7 +76,7 @@ def pick_models():
         TEXT_MODEL = text[0] if text else "gemini-flash-latest"
         # Backups when the newest model is overloaded (503s killed the 2026-11-10 run).
         # Older, stable models are rarely overloaded, so they come right after the newest one.
-        stable = [n for n in ("gemini-3.5-flash", "gemini-2.5-flash") if n in names]
+        stable = [n for n in ("gemini-3.5-flash", "gemini-3.5-flash-lite") if n in names]
         TEXT_FALLBACKS[:] = list(dict.fromkeys(stable + text[1:4] + ["gemini-flash-latest"]))
     if not TTS_MODEL:
         tts = [n for n in names if "tts" in n]
@@ -146,17 +146,23 @@ def gemini(model, body, tries=2):
     except RuntimeError:
         if not is_text:
             raise
-        for alt in TEXT_FALLBACKS:
-            if alt == model:
-                continue
-            log(f"falling back to {alt}")
-            try:
-                out = _gemini(alt, body, 2, timeout=180)
-                log(f"switching text model to {alt} for the rest of this run")
-                TEXT_MODEL = alt
-                return out
-            except RuntimeError:
-                continue
+        # Two passes: if every model is overloaded, wait a few minutes and try each once more
+        # (2026-11-19: all Flash models 503'd at once and the episode was lost).
+        for attempt, tries_each in ((1, 2), (2, 1)):
+            if attempt == 2:
+                log("every text model is overloaded; waiting 3 minutes before one more pass")
+                time.sleep(180)
+            for alt in [model] + TEXT_FALLBACKS if attempt == 2 else TEXT_FALLBACKS:
+                if attempt == 1 and alt == model:
+                    continue
+                log(f"falling back to {alt}")
+                try:
+                    out = _gemini(alt, body, tries_each, timeout=180)
+                    log(f"switching text model to {alt} for the rest of this run")
+                    TEXT_MODEL = alt
+                    return out
+                except RuntimeError:
+                    continue
         raise
 
 
