@@ -36,8 +36,8 @@ HOSTS = ("Nora", "Theo")
 VOICES = {"Nora": "Aoede", "Theo": "Charon"}
 FALLBACK_VOICES = {"Nora": "Kore", "Theo": "Puck"}
 STYLES = {
-    "Nora": "a real person chatting on a casual podcast with a friend, not a narrator or announcer; high-energy, animated and expressive, opinionated optimist, smiles and laughs easily, big dynamic range between excited and serious; uneven natural pacing, speeds up when excited and slows on key points, small breaths, stresses the one important word in a sentence, reacts with real surprise or amusement",
-    "Theo": "a real person chatting on a casual podcast with a friend, not a narrator; deadpan, skeptical, lower-pitched engineer with very dry wit, slower and more measured than his co-host, audible amusement when teasing; thinks out loud, slight hesitations before a key point, dry humor with a hint of a laugh, varies pitch and pace like real conversation, never reads in a flat even rhythm",
+    "Nora": "a real person chatting on a casual podcast with a friend, not a narrator or announcer; high-energy, animated and expressive, opinionated optimist, smiles and laughs easily, big dynamic range between excited and serious; a moderate, easy conversational pace (energetic but never rushed or rapid-fire), slows slightly on key points, small breaths, stresses the one important word in a sentence, reacts with real surprise or amusement",
+    "Theo": "a real person chatting on a casual podcast with a friend, not a narrator; deadpan, skeptical, lower-pitched engineer with very dry wit, speaks at a normal conversational pace (thoughtful but never slow or drawn out), keeps a similar tempo to his co-host, audible amusement when teasing; thinks out loud, slight hesitations before a key point, dry humor with a hint of a laugh, varies pitch and pace like real conversation, never reads in a flat even rhythm",
 }
 EDGE_VOICES = {"Nora": "en-US-AvaNeural", "Theo": "en-US-AndrewNeural"}
 API = "https://generativelanguage.googleapis.com/v1beta/models"
@@ -182,8 +182,13 @@ def _gemini(model, body, tries=2, timeout=180):
 
 
 EDITOR_PROMPT = """You are the editor of "Neuro Morning", a daily ~10 minute audio news briefing for Chandni, an
-MS Biomedical Engineering student at Columbia (NYC) working on biosignal ML (EEG, EMG, HRV, EDA) and
-closed-loop neuromodulation, who wants a career in neurotech, wearables, digital health and health tech.
+MS Biomedical Engineering student at Columbia (NYC) with a cognitive science background, who wants a
+career in neurotech, wearables, digital health, health tech and medtech. She is a lab-to-market, industry
+person, not an academic: she cares about products, companies, funding, regulation, go-to-market and where
+the industry is heading. Her interests are broad: product strategy and product management, R&D and product
+development, BME, data science, clinical and regulatory paths, business development and startups. Her
+hands-on experience (biosignal ML, closed-loop neuromodulation, productizing a device) is only one slice
+of that, so never reduce her to it.
 
 Pick the stories for today's episode from the numbered news items, and plan the rundown.
 
@@ -193,8 +198,11 @@ Selection rules:
   outside neurotech (digital health, health tech, medtech, wearables). Wearables can count on either
   side. Go to 4 or 6 only if the day is unusually thin or something huge happened; never more than 6.
   Pick substantive stories with real depth, because each one gets a full segment.
-- Prefer: funding, acquisitions, FDA decisions, notable research, product launches, NYC companies,
-  and anything that signals hiring or growth.
+- Prefer: funding, acquisitions, FDA decisions, product launches, commercial and clinical milestones by
+  companies, NYC companies, and anything that signals hiring, growth or where money is going.
+- RESEARCH CAP: at most ONE academic or lab research story per episode (university or journal papers,
+  lab findings without a company or product behind them). Allow a second only if it is truly
+  groundbreaking. Prefer research that is moving toward market (a startup, a trial, a license).
 - When several outlets cover the same story, that is a SIGNAL it matters: merge them into one story
   (use the best item's id; list the others in skipped as "merged into story N"). Never drop a story
   just because it has duplicates.
@@ -225,8 +233,8 @@ Recently covered stories (do not repeat): {recent}
 Return JSON:
 {{"title": "short episode title",
   "sections": [{{"name": "...", "stories": [{{"id": 3, "angle": "one line: what to emphasize and why it matters to Chandni"}}]}}],
-  "trends": ["1 or 2 BIG-PICTURE shifts in the industry right now, each one sentence of insight that is NOT a restatement of a story; cite today's stories only as examples (by id)"],
-  "career_signal": "1 or 2 sentences: one non-obvious takeaway for Chandni's career (a skill, a kind of company, or a move to make this week), not a list of the companies just mentioned",
+  "trends": [{{"insight": "one HIGH-LEVEL shift in the industry: where the money is going, what business models or product bets are working and which are struggling, where the industry is heading. Not a technical detail, and NOT a restatement of a story", "evidence": ["short factual phrases drawn from ANY of today's news items, including ones not picked as main stories, each with its id, e.g. 'id 12: Oura raised $X'"]}}],
+  "career_signal": "1 or 2 sentences: one non-obvious takeaway for Chandni's career. Rotate the angle day to day across product strategy, go-to-market, regulatory or clinical, business development, startups vs big companies, data science, and R&D; only use her biosignal or neuromodulation work when the story is truly about that. Not a list of the companies just mentioned",
   "recap": ["exactly one memorable line per main story, in the order they were told"],
   "skipped": [{{"id": 7, "reason": "short reason"}}]}}
 Every item id must appear exactly once, either in a section or in skipped.
@@ -238,12 +246,12 @@ NEWS ITEMS (JSON):
 WRITER_PROMPT = """Write the script for today's "Neuro Morning" from the editor's plan below.
 Today is {date}. Listener: Chandni (see plan). She listens while walking or commuting.
 
-HOSTS (two vivid, very different people; a listener should know who is talking with eyes closed):
-- Nora: the anchor and the optimist. High energy, fast, expressive, opinionated. Gets genuinely
+HOSTS (two vivid, very different personalities, but a similar, comfortable speaking pace; a listener should know who is talking with eyes closed):
+- Nora: the anchor and the optimist. High energy, expressive, opinionated. Gets genuinely
   excited about bold bets ("Okay, this one made me sit up."), thinks in vivid everyday analogies,
   asks the blunt human questions ("But would anyone actually wear that?", "Who pays for it?"),
   teases Theo for being a skeptic, and moves the show along. Short punchy lines, lots of energy shifts.
-- Theo: the engineer and the skeptic. Slower, deadpan, dry wit. Nerds out on how the thing actually
+- Theo: the engineer and the skeptic. Deadpan, dry wit. Nerds out on how the thing actually
   works (the signal, the hardware, the study design) and pokes holes ("Show me the n.", "Cool demo.
   Now do it outside a lab."). Gives grudging respect when something is truly impressive, and that
   should land as a moment ("Okay... I'll admit it. That's clever."). Understated jokes, never loud.
@@ -306,12 +314,17 @@ EASY TO FOLLOW BY EAR:
   This is opinion and analysis, clearly framed as their take ("My read is...", "The question I'd ask
   is..."), never new facts.
 - The closing segments are SHORT and must add something new. Never repeat the stories' facts.
-  * Trends (about 60 to 80 words): one or two big-picture shifts happening in the industry right now.
-    Say the insight first, then use one of today's stories as a quick example. It should make her
-    think, not re-hear the episode.
-  * Career Signal (about 40 to 60 words): one non-obvious takeaway for someone with Chandni's
-    background (biosignal ML, EEG/EMG/HRV, closed-loop neuromodulation, productization): a skill to
-    build, a kind of company to watch, or a move to make this week. No list of companies.
+  * Trends (about 70 to 90 words): one or two HIGH-LEVEL shifts from the plan's "trends": where the
+    money is going, what is working in the industry and what is not, where it is heading. Say the
+    insight first, then back it with the plan's evidence, which can come from other news today that
+    wasn't one of the main stories (mention it briefly, using only the evidence wording). Never retell
+    a main story's details, and never invent a statistic or a company to support the point. It should
+    make her think, like two insiders reading the market, not re-hear the episode.
+  * Career Signal (about 40 to 60 words): one non-obvious takeaway for someone like Chandni, a
+    lab-to-market BME with broad interests (product strategy and PM, R&D, data science, clinical and
+    regulatory, BD, startups): a skill to build, a kind of role or company to watch, or a move to make
+    this week. Follow the plan's career_signal angle; do not default to biosignal ML or closed-loop
+    neuromodulation. No list of companies.
     If the plan has "tracker_matches" (companies in today's stories that are on Chandni's own target
     list), build the Career Signal around ONE of them: what today's news means for someone like her
     there, and the kind of person to reach out to (a role such as "their head of clinical product" or
