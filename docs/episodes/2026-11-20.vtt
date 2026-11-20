@@ -1,0 +1,241 @@
+WEBVTT
+
+00:00:02.786 --> 00:00:04.160
+<v Nora>Good morning, Theo!
+
+00:00:04.160 --> 00:00:07.922
+<v Theo>Happy Friday, November twentieth, twenty twenty-six.
+
+00:00:07.922 --> 00:00:12.190
+<v Nora>Five stories today: three in neurotech, two in health tech.
+
+00:00:12.190 --> 00:00:16.675
+<v Theo>First up, BCI and Neuromodulation Strategy. Story one of five.
+
+00:00:16.675 --> 00:00:25.718
+<v Nora>Synchron is voluntarily pausing enrollment in its INTENT clinical trial to upgrade a hardware component on its brain implant.
+
+00:00:25.718 --> 00:00:30.782
+<v Theo>Right, so... this is for their second-generation Stentrode BCI system.
+
+00:00:30.782 --> 00:00:40.765
+<v Theo>They identified a performance issue with the lead—that's the physical cable carrying signals from the implanted device to the electronics.
+
+00:00:40.765 --> 00:00:44.816
+<v Nora>Wait, so is the issue specifically with that lead cable?
+
+00:00:44.816 --> 00:00:51.617
+<v Theo>Exactly, it's a performance issue with the lead carrying signals to the implanted electronics.
+
+00:00:51.617 --> 00:00:58.706
+<v Theo>If the wiring degrades or introduces noise, your signal quality drops and signal processing fails.
+
+00:00:58.706 --> 00:01:01.527
+<v Nora>Honestly, I think this is a smart move.
+
+00:01:01.527 --> 00:01:11.077
+<v Nora>Pausing a clinical trial to fix hardware takes guts, but it's way better than enrolling dozens more patients and getting noisy data.
+
+00:01:11.077 --> 00:01:12.596
+<v Theo>I mean... fair point.
+
+00:01:12.596 --> 00:01:20.264
+<v Theo>In chronic implantable devices, mechanical leads and interconnects are notorious single points of failure.
+
+00:01:20.264 --> 00:01:28.207
+<v Theo>If you don't solve lead fatigue now, you are looking at signal loss or explants two years down the road.
+
+00:01:28.207 --> 00:01:34.012
+<v Nora>Exactly, taking a pause now sets them up for long-term clinical reliability.
+
+00:01:34.012 --> 00:01:35.387
+<v Theo>Story two of five.
+
+00:01:35.387 --> 00:01:46.003
+<v Theo>Cognito Therapeutics is pushing for FDA clearance for its Alzheimer's device using trial subgroup data after missing its primary endpoints.
+
+00:01:46.003 --> 00:01:49.822
+<v Nora>Okay, this one is a high-stakes regulatory gamble.
+
+00:01:49.822 --> 00:01:58.758
+<v Nora>Cognito ran their Phase Three HOPE trial for Spectris AD—their non-invasive device for early symptomatic Alzheimer's.
+
+00:01:58.758 --> 00:02:07.541
+<v Theo>Right, but across the total trial population, it failed to show benefit in slowing cognitive or functional decline.
+
+00:02:07.541 --> 00:02:10.520
+<v Nora>But... here is where they are pivoting.
+
+00:02:10.520 --> 00:02:20.602
+<v Nora>In a prespecified subgroup of patients with mild Alzheimer's, they saw slower declines in cognitive abilities and daily functioning.
+
+00:02:20.602 --> 00:02:29.691
+<v Theo>Look... I get why Cognito is trying this, especially with their Breakthrough Device designation from twenty twenty-one.
+
+00:02:29.691 --> 00:02:37.558
+<v Theo>But relying on subgroup analysis after missing your primary endpoint is a classic Hail Mary at the FDA.
+
+00:02:37.558 --> 00:02:46.112
+<v Theo>Once you start slicing trial demographics after the main readout misses, statistical rigor gets questioned fast.
+
+00:02:46.112 --> 00:02:56.041
+<v Nora>True, but if the mild subgroup was prespecified in their protocol, regulators might consider a narrow, specific target population.
+
+00:02:56.041 --> 00:03:03.220
+<v Theo>Maybe... but it proves how unforgiving late-stage clinical endpoints are in neurodegeneration.
+
+00:03:03.220 --> 00:03:07.315
+<v Nora>Moving to New Products and Probes. Story three of five.
+
+00:03:07.315 --> 00:03:16.101
+<v Nora>Axoft is showing real clinical momentum with its ultra-soft Fleuron BCI probes designed to blend directly into tissue.
+
+00:03:16.101 --> 00:03:20.122
+<v Theo>Okay... I'll admit it. That's clever material science.
+
+00:03:20.122 --> 00:03:26.674
+<v Theo>The fundamental problem with chronic brain implants has always been mechanical mismatch.
+
+00:03:26.674 --> 00:03:32.630
+<v Theo>Rigid probes can be orders of magnitude stiffer than soft cortical brain tissue.
+
+00:03:32.630 --> 00:03:43.128
+<v Nora>Right, so whenever the brain moves inside the skull, rigid microelectrodes can irritate surrounding tissue, causing scarring and signal loss!
+
+00:03:43.128 --> 00:03:50.499
+<v Theo>Exactly. Axoft's Fleuron probes are ultra-soft, engineered to better match native tissue mechanics.
+
+00:03:50.499 --> 00:04:01.742
+<v Theo>By minimizing physical strain at the neural interface, soft probes aim to preserve long-term signal quality without triggering strong immune responses.
+
+00:04:01.742 --> 00:04:02.784
+<v Nora>Which is huge!
+
+00:04:02.784 --> 00:04:10.974
+<v Nora>Solving chronic tissue integration is the holy grail for keeping BCIs functional for decades instead of years.
+
+00:04:10.974 --> 00:04:14.846
+<v Theo>Now, do it outside a lab in long-term human studies.
+
+00:04:14.846 --> 00:04:23.855
+<v Theo>I want to see long-term signal stability and electrode reliability data, but the engineering foundation is really strong.
+
+00:04:23.855 --> 00:04:29.513
+<v Nora>Tissue-matched probes could finally unlock truly permanent brain interfaces.
+
+00:04:29.513 --> 00:04:35.916
+<v Nora>That's the neuro probes. Now, Digital Health and Commercial Scale. Story four of five.
+
+00:04:35.916 --> 00:04:44.587
+<v Theo>Telehealth giants Hims and Hers and Noom are officially entering the consumer peptide market with new prescription offerings.
+
+00:04:44.587 --> 00:04:54.715
+<v Nora>Yeah, both platforms announced programs offering synthetic peptides like BPC-one-fifty-seven for health optimization, energy, and muscle recovery.
+
+00:04:54.715 --> 00:05:05.189
+<v Theo>This shift happened because the Department of Health and Human Services relaxed compounding pharmacy restrictions around these short-chain amino acids.
+
+00:05:05.189 --> 00:05:10.253
+<v Nora>And it opens up a massive high-margin wellness stream for both companies!
+
+00:05:10.253 --> 00:05:18.924
+<v Nora>Hims has a market cap of more than three point five billion dollars, and Noom is valued at three point seven billion dollars.
+
+00:05:18.924 --> 00:05:26.485
+<v Nora>They already have huge customer bases, so adding popular peptides is an instant booster for revenue per user.
+
+00:05:26.485 --> 00:05:28.081
+<v Theo>Wait, hold on a second.
+
+00:05:28.081 --> 00:05:38.764
+<v Theo>Synthetic peptides are short-chain amino acids, but many of these compounded formulations lack randomized controlled trials for human safety and efficacy.
+
+00:05:38.764 --> 00:05:48.475
+<v Theo>Handing out unapproved peptides through mass-market telehealth channels carries real clinical and regulatory risk if adverse events surface.
+
+00:05:48.475 --> 00:05:58.048
+<v Nora>Fair point on clinical evidence, but commercially, it shows how quickly digital health giants will pivot when regulatory doors swing open.
+
+00:05:58.048 --> 00:05:59.366
+<v Theo>Story five of five.
+
+00:05:59.366 --> 00:06:09.008
+<v Nora>DarioHealth is partnering with WebMD Health Services to plug its multi-condition management platform into sixty-five million covered lives.
+
+00:06:09.008 --> 00:06:20.870
+<v Theo>Dario is integrating its DarioIQ AI engine and clinical care modules directly into WebMD ONE, which reaches over thirty-five hundred enterprise employers and health plans.
+
+00:06:20.870 --> 00:06:32.177
+<v Nora>They're covering cardiometabolic health, behavioral support, musculoskeletal care, sleep apnea, and GLP-one programs, with revenue starting in twenty twenty-seven.
+
+00:06:32.177 --> 00:06:35.948
+<v Theo>What I like here is the enterprise distribution model.
+
+00:06:35.948 --> 00:06:45.515
+<v Theo>Instead of burning millions on direct-to-consumer ad spending, Dario is piggybacking directly on WebMD's existing channel infrastructure.
+
+00:06:45.515 --> 00:06:52.499
+<v Nora>Exactly! Direct-to-consumer health tech customer acquisition costs are brutally expensive right now.
+
+00:06:52.499 --> 00:07:04.789
+<v Nora>Partnering with an enterprise anchor gives Dario massive distribution, while WebMD gets a platform that claims to cut total payer healthcare costs by up to ten percent in-year.
+
+00:07:04.789 --> 00:07:14.287
+<v Theo>The open question is long-term member engagement across multiple conditions, but as a commercial distribution strategy, it's very clean.
+
+00:07:14.287 --> 00:07:21.480
+<v Nora>Piggybacking on established enterprise channels is becoming the gold standard for digital health scale.
+
+00:07:21.480 --> 00:07:23.714
+<v Theo>That brings us to market trends.
+
+00:07:23.714 --> 00:07:36.913
+<v Nora>The big theme today? Companies across neurotech and digital health are stepping away from rigid, all-or-nothing bets to favor flexible commercial distribution and iterative hardware pivots.
+
+00:07:36.913 --> 00:07:46.829
+<v Theo>Exactly. Synchron paused its trial to upgrade physical leads, and Cognito pivoted toward mild Alzheimer's subgroup data after endpoint misses.
+
+00:07:46.829 --> 00:07:57.863
+<v Nora>Meanwhile, Hims and Noom jumped on immediate regulatory shifts in compounding, and Dario partnered with WebMD to reach enterprise lives without high ad spend.
+
+00:07:57.863 --> 00:08:03.170
+<v Theo>Capital efficiency and strategic flexibility are winning over raw cash burn.
+
+00:08:03.170 --> 00:08:08.478
+<v Nora>Here is today's career signal for biomedical engineers and product managers.
+
+00:08:08.478 --> 00:08:18.464
+<v Theo>When developing medical devices or digital health platforms, design mid-course iteration milestones directly into your initial project roadmap.
+
+00:08:18.464 --> 00:08:25.307
+<v Nora>Relying on post-hoc subgroup analysis to rescue a failed clinical trial is a huge regulatory risk.
+
+00:08:25.307 --> 00:08:36.263
+<v Theo>Building hardware iteration checkpoints and commercial flexibility early keeps your platform resilient when real-world clinical friction hits.
+
+00:08:36.263 --> 00:08:39.349
+<v Nora>Let me do a quick recap of today's show.
+
+00:08:39.349 --> 00:08:46.138
+<v Theo>One: Synchron pauses its BCI trial to upgrade lead hardware before expanding enrollment.
+
+00:08:46.138 --> 00:08:55.474
+<v Nora>Two: Cognito pushes for FDA clearance of its Alzheimer's device using mild subgroup data after missing primary endpoints.
+
+00:08:55.474 --> 00:09:04.269
+<v Theo>Three: Axoft advances its ultra-soft Fleuron probes to solve chronic tissue mechanical mismatch in brain implants.
+
+00:09:04.269 --> 00:09:11.598
+<v Nora>Four: Hims and Noom expand into clinical peptides following relaxed compounding pharmacy rules.
+
+00:09:11.598 --> 00:09:21.551
+<v Theo>Five: DarioHealth partners with WebMD Health Services to distribute its multi-condition platform across enterprise covered lives.
+
+00:09:21.551 --> 00:09:29.883
+<v Nora>The bottom line today? Flexibility in engineering and distribution is what keeps health tech moving forward.
+
+00:09:29.883 --> 00:09:31.426
+<v Theo>Catch you on Monday.
+
+00:09:31.426 --> 00:09:33.047
+<v Nora>Have a great weekend!

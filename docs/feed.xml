@@ -13,6 +13,357 @@
   <itunes:block>Yes</itunes:block>
   <itunes:category text="Science"/>
   <item>
+   <title>Synchron Pauses Trial for Hardware Iteration, Cognito Pivots FDA Strategy, and Telehealth Embraces Peptides</title>
+   <description>Today's stories:
+
+1. Synchron Pauses Clinical Trial On Brain Interface, Plans To Resume Trial With Upgraded System
+https://insights.citeline.com/medtech-insight/business/r-and-d/clinical-trials/synchron-pauses-clinical-trial-on-brain-interface-plans-to-resume-trial-with-upgraded-system-EI6NFVRTHVF3TPIX7NKBDAXLOE/
+
+2. Cognito Leans On Mild Alzheimer’s Subgroup In FDA Push After Pivotal Trial Misses Endpoints
+https://insights.citeline.com/medtech-insight/business/r-and-d/clinical-trials/cognito-leans-on-mild-alzheimers-subgroup-in-fda-push-after-pivotal-trial-misses-endpoints-MV37IDQZLRGATASCKUCG6ZRUAE/
+
+3. Axoft Unveils Meaningful Clinical Momentum of Its Ultra-Soft Fleuron™ Brain Computer Interface Probes
+https://www.businesswire.com/news/home/20261119071329/en/Axoft-Unveils-Meaningful-Clinical-Momentum-of-Its-Ultra-Soft-Fleuron-Brain-Computer-Interface-Probes
+
+4. STAT+: Peptide market poised to explode with new Hims and Noom launches
+https://www.statnews.com/2026/11/19/hims-noom-enter-peptide-market-mainstream-products-health-risks/?utm_campaign=rss
+
+5. Dario and WebMD Health Services Announce Strategic Partnership to Deliver Dario's Multi-Condition Platform to Millions of Covered Lives
+https://www.prnewswire.com/il/news-releases/dario-and-webmd-health-services-announce-strategic-partnership-to-deliver-darios-multi-condition-platform-to-millions-of-covered-lives-302944408.html
+
+Full transcript:
+
+Nora: Good morning, Theo!
+
+Theo: Happy Friday, November twentieth, twenty twenty-six.
+
+Nora: Five stories today: three in neurotech, two in health tech.
+
+Theo: First up, BCI and Neuromodulation Strategy. Story one of five.
+
+Nora: Synchron is voluntarily pausing enrollment in its INTENT clinical trial to upgrade a hardware component on its brain implant.
+
+Theo: Right, so... this is for their second-generation Stentrode BCI system.
+
+Theo: They identified a performance issue with the lead—that's the physical cable carrying signals from the implanted device to the electronics.
+
+Nora: Wait, so is the issue specifically with that lead cable?
+
+Theo: Exactly, it's a performance issue with the lead carrying signals to the implanted electronics.
+
+Theo: If the wiring degrades or introduces noise, your signal quality drops and signal processing fails.
+
+Nora: Honestly, I think this is a smart move.
+
+Nora: Pausing a clinical trial to fix hardware takes guts, but it's way better than enrolling dozens more patients and getting noisy data.
+
+Theo: I mean... fair point.
+
+Theo: In chronic implantable devices, mechanical leads and interconnects are notorious single points of failure.
+
+Theo: If you don't solve lead fatigue now, you are looking at signal loss or explants two years down the road.
+
+Nora: Exactly, taking a pause now sets them up for long-term clinical reliability.
+
+Theo: Story two of five.
+
+Theo: Cognito Therapeutics is pushing for FDA clearance for its Alzheimer's device using trial subgroup data after missing its primary endpoints.
+
+Nora: Okay, this one is a high-stakes regulatory gamble.
+
+Nora: Cognito ran their Phase Three HOPE trial for Spectris AD—their non-invasive device for early symptomatic Alzheimer's.
+
+Theo: Right, but across the total trial population, it failed to show benefit in slowing cognitive or functional decline.
+
+Nora: But... here is where they are pivoting.
+
+Nora: In a prespecified subgroup of patients with mild Alzheimer's, they saw slower declines in cognitive abilities and daily functioning.
+
+Theo: Look... I get why Cognito is trying this, especially with their Breakthrough Device designation from twenty twenty-one.
+
+Theo: But relying on subgroup analysis after missing your primary endpoint is a classic Hail Mary at the FDA.
+
+Theo: Once you start slicing trial demographics after the main readout misses, statistical rigor gets questioned fast.
+
+Nora: True, but if the mild subgroup was prespecified in their protocol, regulators might consider a narrow, specific target population.
+
+Theo: Maybe... but it proves how unforgiving late-stage clinical endpoints are in neurodegeneration.
+
+Nora: Moving to New Products and Probes. Story three of five.
+
+Nora: Axoft is showing real clinical momentum with its ultra-soft Fleuron BCI probes designed to blend directly into tissue.
+
+Theo: Okay... I'll admit it. That's clever material science.
+
+Theo: The fundamental problem with chronic brain implants has always been mechanical mismatch.
+
+Theo: Rigid probes can be orders of magnitude stiffer than soft cortical brain tissue.
+
+Nora: Right, so whenever the brain moves inside the skull, rigid microelectrodes can irritate surrounding tissue, causing scarring and signal loss!
+
+Theo: Exactly. Axoft's Fleuron probes are ultra-soft, engineered to better match native tissue mechanics.
+
+Theo: By minimizing physical strain at the neural interface, soft probes aim to preserve long-term signal quality without triggering strong immune responses.
+
+Nora: Which is huge!
+
+Nora: Solving chronic tissue integration is the holy grail for keeping BCIs functional for decades instead of years.
+
+Theo: Now, do it outside a lab in long-term human studies.
+
+Theo: I want to see long-term signal stability and electrode reliability data, but the engineering foundation is really strong.
+
+Nora: Tissue-matched probes could finally unlock truly permanent brain interfaces.
+
+Nora: That's the neuro probes. Now, Digital Health and Commercial Scale. Story four of five.
+
+Theo: Telehealth giants Hims and Hers and Noom are officially entering the consumer peptide market with new prescription offerings.
+
+Nora: Yeah, both platforms announced programs offering synthetic peptides like BPC-one-fifty-seven for health optimization, energy, and muscle recovery.
+
+Theo: This shift happened because the Department of Health and Human Services relaxed compounding pharmacy restrictions around these short-chain amino acids.
+
+Nora: And it opens up a massive high-margin wellness stream for both companies!
+
+Nora: Hims has a market cap of more than three point five billion dollars, and Noom is valued at three point seven billion dollars.
+
+Nora: They already have huge customer bases, so adding popular peptides is an instant booster for revenue per user.
+
+Theo: Wait, hold on a second.
+
+Theo: Synthetic peptides are short-chain amino acids, but many of these compounded formulations lack randomized controlled trials for human safety and efficacy.
+
+Theo: Handing out unapproved peptides through mass-market telehealth channels carries real clinical and regulatory risk if adverse events surface.
+
+Nora: Fair point on clinical evidence, but commercially, it shows how quickly digital health giants will pivot when regulatory doors swing open.
+
+Theo: Story five of five.
+
+Nora: DarioHealth is partnering with WebMD Health Services to plug its multi-condition management platform into sixty-five million covered lives.
+
+Theo: Dario is integrating its DarioIQ AI engine and clinical care modules directly into WebMD ONE, which reaches over thirty-five hundred enterprise employers and health plans.
+
+Nora: They're covering cardiometabolic health, behavioral support, musculoskeletal care, sleep apnea, and GLP-one programs, with revenue starting in twenty twenty-seven.
+
+Theo: What I like here is the enterprise distribution model.
+
+Theo: Instead of burning millions on direct-to-consumer ad spending, Dario is piggybacking directly on WebMD's existing channel infrastructure.
+
+Nora: Exactly! Direct-to-consumer health tech customer acquisition costs are brutally expensive right now.
+
+Nora: Partnering with an enterprise anchor gives Dario massive distribution, while WebMD gets a platform that claims to cut total payer healthcare costs by up to ten percent in-year.
+
+Theo: The open question is long-term member engagement across multiple conditions, but as a commercial distribution strategy, it's very clean.
+
+Nora: Piggybacking on established enterprise channels is becoming the gold standard for digital health scale.
+
+Theo: That brings us to market trends.
+
+Nora: The big theme today? Companies across neurotech and digital health are stepping away from rigid, all-or-nothing bets to favor flexible commercial distribution and iterative hardware pivots.
+
+Theo: Exactly. Synchron paused its trial to upgrade physical leads, and Cognito pivoted toward mild Alzheimer's subgroup data after endpoint misses.
+
+Nora: Meanwhile, Hims and Noom jumped on immediate regulatory shifts in compounding, and Dario partnered with WebMD to reach enterprise lives without high ad spend.
+
+Theo: Capital efficiency and strategic flexibility are winning over raw cash burn.
+
+Nora: Here is today's career signal for biomedical engineers and product managers.
+
+Theo: When developing medical devices or digital health platforms, design mid-course iteration milestones directly into your initial project roadmap.
+
+Nora: Relying on post-hoc subgroup analysis to rescue a failed clinical trial is a huge regulatory risk.
+
+Theo: Building hardware iteration checkpoints and commercial flexibility early keeps your platform resilient when real-world clinical friction hits.
+
+Nora: Let me do a quick recap of today's show.
+
+Theo: One: Synchron pauses its BCI trial to upgrade lead hardware before expanding enrollment.
+
+Nora: Two: Cognito pushes for FDA clearance of its Alzheimer's device using mild subgroup data after missing primary endpoints.
+
+Theo: Three: Axoft advances its ultra-soft Fleuron probes to solve chronic tissue mechanical mismatch in brain implants.
+
+Nora: Four: Hims and Noom expand into clinical peptides following relaxed compounding pharmacy rules.
+
+Theo: Five: DarioHealth partners with WebMD Health Services to distribute its multi-condition platform across enterprise covered lives.
+
+Nora: The bottom line today? Flexibility in engineering and distribution is what keeps health tech moving forward.
+
+Theo: Catch you on Monday.
+
+Nora: Have a great weekend!
+
+# Editor's log, Friday, November 20, 2026
+
+Episode: Synchron Pauses Trial for Hardware Iteration, Cognito Pivots FDA Strategy, and Telehealth Embraces Peptides
+
+## How this episode was made
+1. Pulled every item published in the last ~30 hours from the sources below.
+2. Gemini (editor pass) picked about 5 stories, assigned each to one section, and logged why the rest were skipped.
+3. Gemini (research pass) checked each picked story with Google Search and built a fact sheet from credible sources.
+4. Gemini (writer pass) wrote the two-host script from only those fact sheets.
+5. Gemini (fact-check pass) compared every claim in the script with the fact sheets and fixed or cut anything unsupported.
+6. Gemini voiced it; GitHub published it.
+
+## Sources checked
+- Neurotechnology Substack: failed (403 Client Error: Forbidden for url: https://neurotechnology)
+- Neuroscience News: 3 new items
+- MedTech Dive: 1 new items
+- Fierce Biotech MedTech: 0 new items
+- STAT Health Tech: 3 new items
+- MobiHealthNews: failed (403 Client Error: Forbidden for url: https://www.mobihealthn)
+- TechCrunch Health: 0 new items
+- FDA Medical Devices: failed (404 Client Error: Not Found for url: https://www.fda.gov/apo)
+- Google News: neurotech: 12 new items
+- Google News: Neurotechnology Substack: 0 new items
+- Google News: BCI companies: 0 new items
+- Google News: neuromodulation: 9 new items
+- Google News: EEG and neural wearables: 8 new items
+- Google News: neuro funding: 10 new items
+- Google News: FDA neuro devices: 8 new items
+- Google News: NYC neurotech: 0 new items
+- Google News: wearables: 8 new items
+- Fierce Healthcare Health Tech: 0 new items
+- Healthcare IT News: failed (403 Client Error: Forbidden for url: https://www.healthcarei)
+- Google News: digital health: 10 new items
+- Google News: health tech AI: 8 new items
+- Google News: medtech devices: 8 new items
+- bioRxiv Neuroscience: failed (404 Client Error: Not Found for url: https://connect.biorxiv)
+
+## Used, by section
+### BCI &amp; Neuromodulation Strategy
+- Synchron Pauses Clinical Trial On Brain Interface, Plans To Resume Trial With Upgraded System - Medtech Insight (Google News: neurotech) [link](https://news.google.com/rss/articles/CBMipgJBVV95cUxPYVdGTng1SDhvSHAxUVFreDBkRzQ3UW1XeUk5cEhySTN2R3p4RDVyQnMwZDhIQU52RVlRcm1zeGJrVXQydjVycFNzYlRnZ0k4SjhqNFh1Zmx6TzBFc0NPRUlJaWlxbHBLYmZWczR4SkVZanAtaUVtb3RIUDBkM0JWREpxczNJUzFKTlVBLWZrb0U5UmlOUzVPd0YzSDAzeUs3Y0dDbmFLX1lYSk9VZ25oM05mV21xeXg1N29DdkJzZktTM01EekdqbkpRV2tMNy1wX0F4M3RuX0FydGJsVklTRlhUcU9Xa29xMXpzUE1RY0lva2ZCRHNEb0VYY2lxeTF0a2ZPVHFURml6UkpqbmxwQkRXY1lvZVdSTll0bWRJNV9oRHFSLXc?oc=5)  
+  Angle: Pausing a pivotal trial to iterate hardware demonstrates the delicate trade-off between clinical speed and long-term system reliability in commercial BCI deployment.
+- Cognito Leans On Mild Alzheimer’s Subgroup In FDA Push After Pivotal Trial Misses Endpoints - Medtech Insight (Google News: medtech devices) [link](https://news.google.com/rss/articles/CBMiowJBVV95cUxOSkZaZ2E4bUhTel9oQUw1a1VpanBxaFByNnRBVnFRX19ISmd0U01SNER4VmlfN1E4TTFadmdQQW52cU1aZS1QUkdwVTN4ZFJjdmN5dWxQem5GMDJ2VTV5aVBxYnNkc21kcXpBUmk2WTR0b3dJODZXUmZEWlZ2OW94aGlqZlZTSTBaZFpnQWN5Nlo3Q3l6dWxBTDRRbFZVR19UNFNSbEFGaktVOUdVTm9rekJLUTUwNkVUMFFZdEliQW5keUF6Wmh1YWF5VUZJT3d5dXN2QXJwV2FlT29nQWpSTmhSRUUwRzVQdFZuUndHUTNNUDRVQzRBdVNvNHU3V1YtaDVVbnhYNjNHRTdTSDVkWnNXZDQ4OGR1cnQxR0QydnljWEU?oc=5)  
+  Angle: Cognito's push for FDA clearance via subgroup analysis after missing pivotal endpoints highlights the high-stakes regulatory gamble facing non-invasive neuromodulation startups.
+### New Products &amp; Probes
+- Axoft Unveils Meaningful Clinical Momentum of Its Ultra-Soft Fleuron™ Brain Computer Interface Probes - Business Wire (Google News: neurotech) [link](https://news.google.com/rss/articles/CBMi7gFBVV95cUxNeHgzTl9URVY3UDUteE05SzUwMkR3aUJQSzB4RnlUWWwwYVJUSThKbFdaM0Z4c2cyb0NOOTJCNnNkNjJpOFQxM0lnSTJuWVd2OU9DMlpybFFublB0eWZKWVdjcVZINk84ODJDOGxSMV94ckdIS3J0SHRJUGVzdmxWU19vVnlNSFVVcWhKWXpaZGNISXh5ck1TZC1wU3BFckYzYURSeno0R05CX01nY0o3YnlDTVh0QVEwRFhJZ0tNUFV6RGsyUVNiOVZhY3ZpMkNEMHhmWU40SkJyRU1oRHlGRFRMOERoZms5S1FOVEZ3?oc=5)  
+  Angle: Advancing ultra-soft, tissue-matched probes from materials engineering into clinical momentum is critical to solving long-term chronic bio-compatibility for implantable BCIs.
+### Digital Health &amp; Commercial Scale
+- STAT+: Peptide market poised to explode with new Hims and Noom launches (STAT Health Tech) [link](https://www.statnews.com/2026/11/19/hims-noom-enter-peptide-market-mainstream-products-health-risks/?utm_campaign=rss)  
+  Angle: Exploiting compounding pharmacy regulatory shifts allows digital health giants to quickly open high-margin wellness lines alongside standard clinical offerings.
+- Dario and WebMD Health Services Announce Strategic Partnership to Deliver Dario's Multi-Condition Platform to Millions of Covered Lives - PR Newswire (Google News: digital health) [link](https://news.google.com/rss/articles/CBMingJBVV95cUxQaHdqaFk1d2tqTUY1SkhJbkExX29TVmJINlRSaGt2S0ljZDZndWg4MEQwTC1vdXM5aDhuYkRjM0FZM2oyMTFXLUpNRTBMYm1EcTBZVHVacEwxZ1NSZHhNdHdCSFVNY3h0OExBOWFlUzRiTkE4bFMwNmtvcEhXUzBXZEpsNkNLcEJBMGQzckM1bVRJc0FCTzJzcjFhRDllX0VFNnVzVVJhZ0JPOXdwaGJLZ0VlQWVkMmhlcVkzZGZWLW9HbU03TXp4M05rMFRQUm5nM0FIU1c1SlRQdkp6Q3d6eVlZYS1nbF9OUkNHQkpRNk9JVVZ3MERTLWFnZUQ1Q2lzZnlYUXpsYUVBSm9MNVkwOGlpYXlEbVFxdXlJSjd3?oc=5)  
+  Angle: Enterprise co-distribution partnerships with established health channels offer digital health vendors a scalable path to covered lives without burning capital on DTC acquisition.
+
+## Fact sheets (verified with Google Search)
+
+### Synchron Pauses Clinical Trial On Brain Interface, Plans To Resume Trial With Upgraded System - Medtech Insight
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Cognito Leans On Mild Alzheimer’s Subgroup In FDA Push After Pivotal Trial Misses Endpoints - Medtech Insight
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Axoft Unveils Meaningful Clinical Momentum of Its Ultra-Soft Fleuron™ Brain Computer Interface Probes - Business Wire
+(No fact sheet: research failed, so only the original item text was used.)
+
+### STAT+: Peptide market poised to explode with new Hims and Noom launches
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Dario and WebMD Health Services Announce Strategic Partnership to Deliver Dario's Multi-Condition Platform to Millions of Covered Lives - PR Newswire
+(No fact sheet: research failed, so only the original item text was used.)
+
+## Fact-check fixes
+- Fixed co-host greeting ("Chandni" to "Theo").
+- Synchron story: Removed unconfirmed technical details about stent location ("superior sagittal sinus"), signal types ("local field potentials", "electrocorticography-style signals"), "electronics chest unit", and "machine learning decoder", sticking to verified text regarding lead performance carrying signals to implanted electronics.
+- Cognito Therapeutics story: Removed unconfirmed mechanism details ("forty-hertz auditory and visual stimulation, aiming to entrain gamma oscillations and stimulate microglial clearance of neural debris" and comparison to "sham"), aligning with verified text stating Spectris AD is a non-invasive device for early symptomatic Alzheimer's disease.
+- Axoft story: Removed unconfirmed stiffness numbers ("gigapascal range", "low kilopascal range"), specific polymer material claims, and 18-month impedance testing claims, framing probe mechanics as general interpretation due to missing source body text.
+- Hims &amp; Hers story: Corrected market capitalization phrasing from "a three point five billion dollar public giant" to "a market cap of more than three point five billion dollars" to match the source text.
+
+## Trends noted
+- {'insight': 'Health tech and neurotech companies are increasingly shifting from high-risk all-or-nothing clinical bets toward flexible commercial distribution and iterative hardware/regulatory pivots to safeguard capital.', 'evidence': ['id 11: Synchron paused its BCI trial to upgrade system hardware before expanding enrollment', "id 83: Cognito Therapeutics is leveraging mild Alzheimer's subgroup data for FDA push after primary trial endpoints missed", 'id 6: Telehealth platforms Hims and Noom rapidly expanded into peptide compounding to capture immediate consumer demand', 'id 67: DarioHealth partnered with WebMD to instantly reach millions of covered lives rather than relying on direct-to-consumer marketing']}
+
+## Not used, and why
+- Blocking Gut Cannabinoid Receptors Restores Memory in Fragile X (Neuroscience News): lab research on gut cannabinoid receptors in mouse models
+- Brain’s Insula Shapes Pain, Emotion, and the Placebo Effect (Neuroscience News): academic fMRI/intracranial study on insula placebo mapping
+- Screen Time and Fitness Reshape Grey Matter in Teen Brains (Neuroscience News): academic MRI study on teen screen time and grey matter
+- GeneDx appoints Everett Cunningham as CEO (MedTech Dive): routine executive appointment at genetic testing firm
+- Patients have little say in how brain implant trials are done. Ian Burkhart wants to change that (STAT Health Tech): patient advocacy commentary on trial design participation
+- STAT+: Epic defends competitive practices; promises AI access to records (STAT Health Tech): broad health tech digest covering EHR industry defense
+- Minimum Viable Enterprise: Defining What your Organisation Needs to Survive - The Business Continuity Institute (BCI) (Google News: neurotech): irrelevant organization (Business Continuity Institute acronym collision)
+- A7-BCI - Boeing 787-8 Dreamliner - Qatar Airways - Flightradar24 (Google News: neurotech): irrelevant flight tracking report (aircraft registration collision)
+- China's Zhongke Borui raises $15M to scale brain-computer interface devices - Dealroom (Google News: neurotech): lower priority early-stage Chinese BCI funding item
+- BCI: Salt construction advances toward a CY2027 first harvest, with funding in place - TradingView (Google News: neurotech): irrelevant mining company item
+- BCI opens nominations for 2027 Distinguished Service Award - www.bestmag.co.uk (Google News: neurotech): irrelevant trade association award item
+- Validation: PP6 Using Exercises Across Every Stage of the BCMS Lifecycle - The Business Continuity Institute (BCI) (Google News: neurotech): irrelevant business continuity training document
+- Discipline and Rules-Based Execution in BCI Response - Stock Traders Daily (Google News: neurotech): irrelevant financial trading commentary
+- Potter powers Mustangs to CWOSSA football final - Brantford Expositor (Google News: neurotech): irrelevant high school sports report
+- MindSpire's Sona raises £1 million Seed round for AI neurotech - Dealroom (Google News: neurotech): smaller scale UK seed funding round
+- BCI Minerals Files Final Director's Interest Notice for Christopher Salisbury - Kalkine (Google News: neurotech): irrelevant mining corporate filing
+- Calibrating Delivery of TMS Brain Stimulation With Real-Time Neural Oscillation Patterns in the Brain To Improve Therapeutic Effectiveness - Brain &amp; Behavior Research Foundation (Google News: neuromodulation): academic TMS calibration methodology research
+- Unilateral Deep Brain Stimulation Matches Bilateral Quality of Life in Essential Tremor - Bioengineer.org (Google News: neuromodulation): academic DBS essential tremor clinical study
+- Focused ultrasound aimed deep into the brain may ease delusions, pilot study suggests - PsyPost (Google News: neuromodulation): small pilot research study on focused ultrasound for delusions
+- Non-invasive deep brain stimulation improves subclinical depression, finds research - Medical Dialogues (Google News: neuromodulation): early-stage academic study on non-invasive DBS
+- Engineering Innovations Could Make Brain Stimulation Research More Accessible - India Education Diary (Google News: neuromodulation): generic academic innovation commentary
+- Short-Course Brain Stimulation Helps Teens With Depression - Medscape (Google News: neuromodulation): academic study on brain stimulation in adolescents
+- Magnetic nanoparticles could offer less invasive Parkinson’s treatment - NR Times (Google News: neuromodulation): early lab research on magnetic nanoparticles
+- Non-Invasive Brain Stimulation Targets Relieve Pain and Emotional Distress in Chronic Illness - Bioengineer.org (Google News: neuromodulation): academic paper on non-invasive stimulation targets
+- Ceretas Reports All Five Annual General Meeting Resolutions Carried - TipRanks (Google News: neuromodulation): routine corporate annual general meeting results
+- EEG Study Links Auditory–Visual Synesthesia to Sequential Left-Hemisphere Brain Activation - Bioengineer.org (Google News: EEG and neural wearables): academic EEG study on synesthesia
+- Dynamic alpha-band EEG network balance differs across clinically defined cognitive groups: a cross-sectional study - springermedicine.com (Google News: EEG and neural wearables): merged into story 32
+- Home EEG Study Shows Gaboxadol Modulates Brain Oscillations in Fragile X Syndrome - Bioengineer.org (Google News: EEG and neural wearables): small clinical trial paper on drug modulation of EEG
+- Dynamic Alpha Brain Wave Network Balance Differs Across Clinical Cognitive Groups - Bioengineer.org (Google News: EEG and neural wearables): academic EEG dynamic network balance research paper
+- Precisely Timed Pink Noise Strengthens Brain Fluid Flow Waves During Sleep - Denkstrom (Google News: EEG and neural wearables): merged into story 34
+- Sound pulses boost brain fluid flow during sleep, small study finds - سانا (Google News: EEG and neural wearables): small academic study on acoustic pulses during sleep
+- Here's Why You Should Retain NeuroPace Stock in Your Portfolio for Now - TradingView (Google News: EEG and neural wearables): routine stock market analyst recommendation
+- Science Raises $400 Million To Expand PRIMA Brain-Computer Interface - Pulse 2.0 (Google News: EEG and neural wearables): merged into story 37 (old news)
+- Science Corporation garners $400M and more funding news - MobiHealthNews (Google News: neuro funding): old news: Science Corp $400M funding already covered in recent episode
+- Science Raises $400M in Series D Funding - FinSMEs (Google News: neuro funding): merged into story 37 (old news)
+- Lightweight Neural Network Decodes EEG Emotion Across Sessions With High Efficiency - Bioengineer.org (Google News: neuro funding): academic paper on EEG emotion decoding algorithms
+- Stroke innovation roundup: AI, wearables and personalised rehab lead latest research - NR Times (Google News: neuro funding): generic regional innovation roundup
+- BrightAI Raises $97M in New Funding to Expand Physical AI for Monitoring Critical Infrastructure - AI Insider (Google News: neuro funding): irrelevant infrastructure monitoring physical AI news
+- Philips Launches Ultrasound Data Platform to Improve Equipment Utilisation - Digital Health News (Google News: neuro funding): routine commercial hospital IT platform release
+- Digital Health Coffee Time Briefing ☕ - Home | Digital Health (Google News: neuro funding): generic newsletter summary post
+- F1 wants to get under its drivers’ skin: a new WHOOP partnership raises privacy questions - Sports Gazette (Google News: neuro funding): sports marketing sponsorship and privacy commentary
+- Meta bets on $300 Muse Charm to expand its AI hardware business - news.lavx.hu (Google News: neuro funding): unconfirmed consumer hardware speculation
+- Google Presents AI Tools to Visakhapatnam Collector for Public Healthcare - Digital Health News (Google News: neuro funding): regional public health tool presentation
+- Oral Infilbray Wins Early FDA Approval as First Treatment for Brain-Related Symptoms of Type 3 Gaucher Disease - Medical Daily (Google News: FDA neuro devices): merged into story 49
+- FDA Approval for Sanofi Drug Marks an Important First in Rare Disease - MedCity News (Google News: FDA neuro devices): merged into story 49
+- Sanofi secures first FDA approval to treat neurological symptoms in rare metabolic disease - BioSpace (Google News: FDA neuro devices): pharma drug approval (non-device metabolic rare disease drug)
+- Sanofi Wins First FDA Approval for Brain-Penetrating Gaucher Drug; South Korea's Yuhan Eyes Once-Monthly Dosing in Follow-On Challenge - BigGo Finance (Google News: FDA neuro devices): merged into story 49
+- FDA clears Masimo’s brain function monitor - Medical Device Network (Google News: FDA neuro devices): old news: Masimo brain monitor clearance already covered in recent episode
+- Siemens Healthineers gets FDA clearance for Syngo.CT Coronary Cockpit - AuntMinnie (Google News: FDA neuro devices): merged into story 70
+- FDA-Approved Vagus Nerve Stimulation Device for Rheumatoid Arthritis Debuts in Michigan - Bioengineer.org (Google News: FDA neuro devices): regional rollout of previously approved vagus nerve stimulation device
+- InspireMD announces first US commercial TCAR procedures using US FDA-approved CGuard Prime transcarotid stent system - NeuroNews International (Google News: FDA neuro devices): routine procedural milestone announcement
+- Wearable Frontal Electrical Stimulation Prolongs N2 Sleep and Increases Spindle Density - Bioengineer.org (Google News: wearables): small academic electrical stimulation sleep study
+- Noom Introduces Noom Band to Expand Metabolic Health Monitoring - HLTH (Google News: wearables): old news: Noom Band launch already covered in recent episode
+- Sweat Sensor: Types, Working Principles &amp; Specs - CASRAI (Google News: wearables): generic technical overview article on sweat sensors
+- Sleep.ai Raises $5.3M | Proximal Ventures Announces $27.5 Million Debut Fund - Healthcare IT Today (Google News: wearables): early seed funding / debut VC fund announcement
+- Wearable sensor helps detect hidden heart damage after surgery - healthcare-in-europe.com (Google News: wearables): early observational study on post-surgery wearable monitoring
+- Garmin, Apple Watch or Oura? HRV and VO2max Accuracy Winner - the5krunner (Google News: wearables): consumer gadget review and comparison article
+- Smart Jewellery Market Size Worth USD 2,247.60 Million by 2035 - Market.us Scoop (Google News: wearables): generic market research report summary
+- Ultrahuman Black Friday Deal 2026: Save Over $100 on Ring PRO - Wareable (Google News: wearables): consumer Black Friday retail discount promotion
+- Peptide market poised to explode with new Hims and Noom launches - STAT (Google News: digital health): merged into story 6
+- MHRA launches Women’s Health Programme to close evidence gaps in medicines and medical devices - Med-Tech Insights (Google News: digital health): government evidence-gathering initiative announcement
+- MediCard launches new MedGo app to make healthcare simpler, faster and more accessible - Inquirer Technology (Google News: digital health): regional consumer health management app release
+- DarioHealth Expects 2027 Recurring Revenue From WebMD Partnership - Securities.io (Google News: digital health): merged into story 67
+- Rocket Doctor AI Launches 90-Day Digital Healthcare Pilot Across 25 Canadian Pharmacy Locations - kalkine.ca (Google News: digital health): small digital health pilot study in regional pharmacies
+- Isomorphic Labs Raises $5 Bn in Series C Funding - Digital Health News (Google News: digital health): pharma AI drug discovery mega-raise (non-medtech/neuro)
+- Siemens Healthineers earns FDA clearance for coronary artery disease management software - MassDevice (Google News: digital health): routine CT software algorithm clearance
+- Manipal Health Enterprises Completes Acquisition of Kinder Women’s Hospital for INR 130 Cr - Digital Health News (Google News: digital health): regional hospital chain acquisition in India
+- UNDP and Japan support Ghana Health Service to advance data-driven healthcare through eTracker - Tech Review Africa (Google News: digital health): non-profit global health infrastructure project
+- Kentasu raises $526K seed to automate insurance claims in Southeast Asia - Dealroom (Google News: health tech AI): early seed round for insurance backend automation
+- Portland startup launches portable rapid AI-powered blood test platform - newscentermaine.com (Google News: health tech AI): early regional startup product release
+- Elizabeth Holmes went from a startup darling to powerful seductress – these gendered portrayals profited investors - The Conversation (Google News: health tech AI): retrospective opinion piece on historical fraud case
+- Lenexa Medical wins three prizes at VIC AI Awards - IT Brief Australia (Google News: health tech AI): regional innovation competition award announcement
+- Exclusive: Lilly adds General Medicine for Alzheimer's disease diagnosis - Endpoints News (Google News: health tech AI): pharma co-marketing partnership for Alzheimer's diagnosis
+- Spain's Wilco raises €2.5M for AI that keeps clinic patients from dropping off - Dealroom (Google News: health tech AI): small seed funding round for European clinic software
+- DawaDose Raises Seed Funding to Expand Its Digital Pharmacy Platform in Saudi Arabia and the Gulf - entARABI (Google News: health tech AI): regional pharmacy platform seed funding
+- South Africa's Lungi Nyathi Uses Alignd to Connect Healthcare, Technology and Insurance - We are Tech (Google News: health tech AI): founder profile on regional healthcare platform
+- FDA Seeks Feedback on Remote Operated Robotic Medical Devices - In Compliance Magazine (Google News: medtech devices): early FDA call for public feedback on surgical robotics guidance
+- PE-backed Resonetics acquires Medical Component Specialists' New Boston, NH facility's nitinol gun drilling assets - PEI Private Equity (Google News: medtech devices): niche contract manufacturing component asset sale
+- 6 Medtech Companies Hungry for M&amp;A Going into 2027 - Medical Device and Diagnostic industry (Google News: medtech devices): generic speculative medtech M&amp;A listicle
+- Gastric Stimulators for Severe Gastroparesis Join FDA Shortage List, With Tight Supply Expected Through Late 2027 - Medical Daily (Google News: medtech devices): medtech device supply chain shortage notification
+- MedtechVendors.com Releases 2027 Ranking of 7 Best Sales Tools for Device CDMOs - IndyStar (Google News: medtech devices): promotional ranking listicle of CDMO sales tools
+- Medline reports more deaths in bed recall - MassDevice (Google News: medtech devices): hospital bed recall safety update
+- FDA updates device shortages list - Medical Buyer (Google News: medtech devices): merged into story 85</description>
+   <pubDate>Fri, 20 Nov 2026 09:42:17 +0000</pubDate>
+   <guid isPermaLink="false">neuro-morning-2026-11-20-0942</guid>
+   <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-20.mp3?v=0942" length="4616684" type="audio/mpeg"/>
+   <itunes:duration>577</itunes:duration>
+   <itunes:explicit>false</itunes:explicit>
+   <podcast:transcript url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-20.vtt" type="text/vtt" language="en"/>
+  </item>
+  <item>
    <title>China Clears First BCI, Masimo's EEG Clearance, and Whoop Eyes M&amp;A</title>
    <description>Today's stories:
 

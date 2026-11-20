@@ -1,0 +1,92 @@
+[
+ {
+  "company": "Science Corporation",
+  "signal": "funding",
+  "detail": "Science Corporation raised $400 million in Series D funding to expand its PRIMA brain-computer interface.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "The company's massive funding for high-density brain-computer interfaces offers direct opportunities in neural decoding and neuromodulation engineering.",
+  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTEVRVGxoNVlWMGVvYUtTcTExeGxvdjdacDZwaVhNWGFDekV2SmUzek5IMUQ4cFJwM3VpSEZsM3lyaVVUeGtzSnVmRlU1MkY1dkhHTFFQdlR5R09lcTZUYnRMd2xZQjNrb1NMNmtWSThidG44dzZhZHAtS1BDVWNrWnJ6Q3BsV3hkVEItQ3dYdE0?oc=5"
+ },
+ {
+  "company": "Zhongke Borui",
+  "signal": "funding",
+  "detail": "Zhongke Borui raised $15 million in funding to scale its brain-computer interface devices.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Funding expansion in BCI device development directly aligns with biosignal processing and invasive/non-invasive neural hardware engineering.",
+  "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRXlHY2xnSDNyVVpaNkFSQkI3QVI2SVJoZHp3aVcyczZINkZMOU52SHFDTlR1LU15Y3hYMmVjQk9ZZHI1WTUzZWJyNDVRMWxlVXVCN3NnQ1_BZGNtZ2E0akpFZHZ4R1RISFV5RnRlVWE0akdWN3Rvc2dRRDVYUEcxNjVCSWpoWmlBaFVoRTFFOVdKVFNiTVFGZElDdlRMSVR0Ni04ZHM5Um5BY0NJ?oc=5"
+ },
+ {
+  "company": "MindSpire",
+  "signal": "funding",
+  "detail": "MindSpire raised £1 million in Seed funding for its Sona AI neurotech platform.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "MindSpire directly integrates artificial intelligence with neurotechnology, providing a strong target for machine learning on biosignal data.",
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNVBpQWJBS0JwR0NtZlhLNGw4T3VJbnJNWGRuQzBYWjZRajdrWEpFV01teUw0eS1XY2VvbDRnaWFKUHc3Qm5HSDRXQTh3OTYtWDdQa2hsTmZ2VVdCWlhXdndpZUVBVU5ZYU1ocE1NWmlEd2RzMjNFS1_WVjY4dENLYUpXVkxRRTdVWXhhazRWcWZobXJXSkhNampdQ?oc=5"
+ },
+ {
+  "company": "Axoft",
+  "signal": "research",
+  "detail": "Axoft unveiled clinical momentum for its ultra-soft Fleuron brain-computer interface probes.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Development of flexible, soft neural probes is key to long-term bioelectronic interfaces and neuromodulation research.",
+  "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNeHgzTl9URVY3UDUteE05SzUwMkR3aUJQSzB4RnlUWWwwYVJUSThKbFdaM0Z4c2cyb0NOOTJCNnNkNjJpOFQxM0lnSTJuWVd2OU9DMlpybFFublB0eWZKWVdjcVZINk84ODJDOGxSMV_xrGHJL3RSHRJUGVzdmxWU19vVnlNSFVVcWhKWXpaZGNISXh5ck1TZC1wU3BFckYzYURSeno0R05CX01nY0o3YnlDTVh0QVEwRFhJZ0tNUFV6RGsyUVNiOVZhY3ZpMkNEMHhmWU40SkJyRU1oRHlGRFRMOERoZms5S1FOVEZ3?oc=5"
+ },
+ {
+  "company": "Masimo",
+  "signal": "fda",
+  "detail": "Masimo secured FDA clearance for its novel brain function monitor.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "FDA-cleared brain monitoring technology relies heavily on real-time EEG signal processing and clinical biosignal analysis.",
+  "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZVc0VE9MYVk4X3FIZVdEUG9yd2xsdl_2Wnd4QWhCeE1paVhpR0RObUVrSS05aXR0QWNDUG0zdURmSWp4cWhldkJzcEtSTXRGTDM4UEpkVFQzM1J5X0I5SU5hamlvRFp6MUtxNm9sSG9UcUh2alVvU0ZWRzVqang1VDhlbkYtd0w3cGc?oc=5"
+ },
+ {
+  "company": "Sleep.ai",
+  "signal": "funding",
+  "detail": "Sleep.ai raised $5.3 million in seed funding to advance its health technology.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Sleep tech heavily relies on wearable sensors, epoch classification, and machine learning models applied to physiological signals.",
+  "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSnQ1OGd5YzFMTTFURGN2V0FpU2ZVOUF4a1Bzc2VMVDZTeE9hLTI4M2pRM1VhVkd1LVFKRmVDV2lFZk1mWnowZEtNcHAteHFUUDBvdEluZlpPMG90ZGN4YW1zOV_fbkR0OWg3LUpoQ09tN3Y3aVZERWdsd1RJYU9EM1ltY1hvQUNxQ1_yblk1Tmp1c0pPVjIyLTZjakNSdDVqdjBQMWN4SE9ZRXBMazhXYktxdDhhcVFpRWc?oc=5"
+ },
+ {
+  "company": "Noom",
+  "signal": "expansion",
+  "detail": "Noom introduced the Noom Band to expand its metabolic health monitoring offerings.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Expanding into hardware wearables involves continuous physiological sensing and sensor-fusion machine learning.",
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMV_jNVdwVXF4ak5iUGRFV2dOQ1ZWTEQ3WWd0MmsyZWM2SUFiMWNDbTFPNEYtNk10cmJQZ01QNjNRM2V2eTlyc1daa2M2Q2JPR1dsdGNTbUpaY0JBQW1EUU1icUt6X0pKZ0xvY0JzOWxsNlhCNjBkN3VzNEY4eDNiSTdDT0VFbVhoSUNWOExDaVFpbDlNUXNydDNB?oc=5"
+ },
+ {
+  "company": "WHOOP",
+  "signal": "partnership",
+  "detail": "WHOOP formed a new partnership with F1 to monitor driver physiological metrics.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "High-performance biometric monitoring generates real-time physiological signal data ideal for wearable ML applications.",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPT0lWR1FvaHNMYTE0OEVuVnRCQVI3MUdWQy1aSTVNVldjYW10Ui1SOHpBc2hCcWpPNFFYZV_jVDJDV1pKSnpYY0hzTnRrZXhEMDd5eDBNUUloWHFFNFFKM3lMaHBjQUx3TmFfRkRPdk1kaDRpOXJjeFo0VEtBZ0AydlEwRGlBU21wcHVjeV_vcWVvVDhVOVgwQTNhbmZ0JnJ2T2Y2LTVHckZtQjNMM1lQZ3JRNk1UVTE?oc=5"
+ },
+ {
+  "company": "DarioHealth",
+  "signal": "partnership",
+  "detail": "DarioHealth entered a strategic partnership with WebMD Health Services to deliver its AI-powered multi-condition care platform to millions of covered lives.",
+  "location": "New York, USA",
+  "nyc": true,
+  "why_relevant": "The partnership emphasizes multi-condition health monitoring using AI engines, relevant for healthtech ML algorithm development.",
+  "link": "https://www.prnewswire.com/il/news-releases/dario-and-webmd-health-services-announce-strategic-partnership-to-deliver-darios-multi-condition-platform-to-millions-of-covered-lives-302944408.html"
+ },
+ {
+  "company": "Isomorphic Labs",
+  "signal": "funding",
+  "detail": "Isomorphic Labs raised $5 billion in Series C funding to scale its AI platform.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Large-scale AI funding highlights growth in computational health and predictive machine learning models.",
+  "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTXAwbzRGY2VoZ0xCOWtOTmVzT1V5M2hpVzNRb1JXVzdHMTlGVHNsT0M3dDZVUFoxZ0lTSHVzX2dZTnpPVVdvOVNTOGRJUjlHakVqMWw4QnkyaWhwZzV3ZXVoNjNwbFB4enY1UmFBcUZSdEl4Z0hWVzNQLVp1WEJEOENHYTJ1R0HDOw?oc=5"
+ }
+]
