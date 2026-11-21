@@ -13,6 +13,318 @@
   <itunes:block>Yes</itunes:block>
   <itunes:category text="Science"/>
   <item>
+   <title>Bioelectronics Reach Commercial Scale, PE Bets Big on Medtech Manufacturing, and BCI Trial Design Shift</title>
+   <description>Today's stories:
+
+1. KKR Acquires Integer Holdings in $5.7 Bn All-Cash Deal
+https://www.digitalhealthnews.com/kkr-acquires-integer-holdings-in-5-7-bn-all-cash-deal
+
+2. New Nerve Implant for Rheumatoid Arthritis Now Available
+https://www.tomorrowsworldtoday.com/health-and-wellness/new-nerve-implant-for-rheumatoid-arthritis-now-available/
+
+3. Neuralink participant steers GTA VI speedboat using brain implant in new demonstration
+https://interestingengineering.com/culture/neuralink-brain-implant-gta-vi-blindsight-approval
+
+4. Patients have little say in how brain implant trials are done. Ian Burkhart wants to change that
+https://www.statnews.com/2026/11/20/ian-burkhart-how-brain-implant-trials-can-serve-patients-better/?utm_campaign=rss
+
+5. GAO Spotlight Flags Regulatory and Safety Gaps in Mental Health AI Chatbots
+https://casrai.org/news/gao-spotlight-ai-chatbots-mental-health-regulatory-gaps-2026
+
+Full transcript:
+
+Nora: Good morning, Chandni!
+
+Theo: Saturday, November 21, 2026.
+
+Nora: Five stories today: three in neurotech, two in health tech.
+
+Theo: Okay, first up: who expanded this week.
+
+Nora: KKR just bought Integer Holdings for five point seven billion dollars in an all-cash deal.
+
+Theo: Integer is a medical device outsourcing company headquartered in Plano, Texas, serving cardiovascular, neuromodulation, and cardiac rhythm management markets.
+
+Nora: Private equity is consolidating the whole supply chain behind the scenes, you know?
+
+Theo: It makes sense when you look at the hardware side, Nora. Building custom neurotech components is brutal, and outsourced manufacturing is where the actual margin lives.
+
+Nora: My read is that PE is betting hard on the picks and shovels of medtech before software valuations settle.
+
+Theo: Show me the operational efficiency, though. Scaling titanium hermetic sealing and battery welding isn't like spinning up a SaaS app.
+
+Nora: True, but if you control the manufacturing capacity for every neuromodulation startup in the country, you control the pace of the whole field.
+
+Theo: Okay... I'll admit it. That's clever.
+
+Nora: Moving on to story two of five: bioelectronic medicine hitting commercial scale.
+
+Theo: Henry Ford Health just performed the first commercial implant of SetPoint Medical’s wireless vagus nerve stimulator for rheumatoid arthritis.
+
+Nora: It’s a tiny device, about the size of a multivitamin, sitting right on the vagus nerve to trigger natural anti-inflammatory pathways.
+
+Theo: Patients get just one minute of electrical stimulation a day, usually while they sleep, and recharge it weekly with a neck-worn charger.
+
+Nora: We talk about bioelectronics like they're only for neurology or paralysis, but treating systemic autoimmune conditions via the inflammatory reflex is a massive shift.
+
+Theo: The clinical trial data showed over seventy-five percent of patients didn't need to add another drug after a year.
+
+Nora: But would anyone actually want a surgical implant just for arthritis when biologics exist?
+
+Theo: For patients who failed every drug out there with brutal side effects? Absolutely. That's why GTM adoption here is going to be fascinating to watch.
+
+Nora: That's the deals. Now, research and clinical milestones.
+
+Theo: Story three of five: Neuralink's latest gaming demo.
+
+Nora: A clinical trial participant just played Grand Theft Auto Six using their brain implant.
+
+Nora: They released a two-minute video showing the user steering a speedboat through a narrow channel using intended hand movements decoded by the Telepathy system.
+
+Theo: The hardware is reading brain activity in the region responsible for controlling hand movements, translating signals into mouse or controller inputs.
+
+Nora: Honestly, watching someone navigate a brand-new, complex open-world game on launch day is wild PR.
+
+Theo: It's a killer consumer-adjacent benchmark for signal fidelity and latency, for sure.
+
+Nora: But who pays for it, Theo? Is this actually helping patients live independently, or is it just an expensive tech demo?
+
+Theo: Both can be true, Nora. High-dimensional control in a complex digital environment proves the BCI can handle high-speed software interactions, not just clicking a basic keyboard.
+
+Nora: Fair enough. Let's head to story four of five: trial design and patient agency.
+
+Theo: BCI pioneer Ian Burkhart is pushing for a total overhaul of how clinical trials are run for implanted devices.
+
+Nora: After his own trial ended, researchers wanted to surgically remove his functioning device just because funding paused, treating him more like a lab rat than a human.
+
+Theo: The BCI Pioneers Coalition just dropped a new report with thirteen recommendations covering post-trial care, informed consent, and neural data privacy.
+
+Nora: Think about the psychological toll of getting your mobility back, and then having the plug pulled because the study ended.
+
+Theo: From an engineering standpoint, device explantation carries real surgical risks and scar tissue buildup.
+
+Nora: My take is that patient co-design is going to make or break trial retention as more companies enter the human space.
+
+Theo: If you treat participants as disposable subjects, you're going to get high dropouts and terrible long-term data.
+
+Nora: Exactly. Now, story five of five: digital health watch.
+
+Theo: The U.S. Government Accountability Office issued a stark warning about safety gaps and regulatory holes in mental health AI chatbots.
+
+Nora: Around twenty percent of young Americans turned to generative AI for mental health support in 2025, and zero of those chatbots are actually cleared by the FDA as medical devices.
+
+Theo: The core technical risk here is algorithmic sycophancy—models validating harmful user ideation and failing to trigger crisis escalations because they're optimized to please the user.
+
+Nora: Vendors hide behind general wellness disclaimers while operating in a total privacy vacuum outside HIPAA.
+
+Theo: States like California and Illinois are rushing in with strict laws, creating a fragmented regulatory mess for digital health developers.
+
+Nora: My read is that the era of unvalidated mental health apps is closing, and the FDA is about to drop the hammer on standalone AI therapeutics.
+
+Theo: That's the news. Now, today's trends.
+
+Nora: Medtech capital is splitting in two directions right now.
+
+Theo: On one side, private equity is locking down heavy manufacturing infrastructure, like KKR buying Integer Holdings.
+
+Nora: On the other, non-invasive and bioelectronic therapies like SetPoint's nerve implant are finally reaching commercial availability.
+
+Theo: Meanwhile, mid-stage software tools are getting hammered by rising regulatory friction, highlighted by the GAO's warning on unvalidated mental health chatbots.
+
+Nora: Capital wants physical scale or proven clinical reimbursement, and software without a clear SaMD pathway is hitting a wall.
+
+Theo: Here is your career signal for the week.
+
+Nora: If you're designing clinical trials for invasive neurotech or novel wearables, treat your participants as end-user design partners from day one.
+
+Theo: Retaining participant agency directly protects protocol adherence, data quality, and your eventual market adoption.
+
+Nora: If you're looking at companies like SetPoint or Neuralink on your target list, look at how they structure their patient experience teams.
+
+Theo: Reach out to folks leading clinical product or patient operations there—understanding how they manage user retention through trial phases is the skill to build right now.
+
+Nora: Let's run the recap.
+
+Theo: One: KKR bought Integer Holdings for five point seven billion dollars, signaling a massive PE bet on medtech manufacturing.
+
+Nora: Two: SetPoint Medical's vagus nerve implant for rheumatoid arthritis hit commercial availability, expanding bioelectronics into systemic autoimmune care.
+
+Theo: Three: Neuralink demonstrated real-time BCI control in GTA Six, setting new public benchmarks for high-complexity software interaction.
+
+Nora: Four: Ian Burkhart pushed for patient-centered trial design to fix retention and usability bottlenecks in brain implants.
+
+Theo: Five: A GAO report spotlighted safety and regulatory gaps in mental health AI chatbots, foreshadowing strict FDA oversight.
+
+Nora: That ties our whole week together: hardware supply chains and clinical agency are finally catching up to the hype.
+
+Theo: Have a great Saturday, Chandni. We'll see you on Monday.
+
+# Editor's log, Saturday, November 21, 2026
+
+Episode: Bioelectronics Reach Commercial Scale, PE Bets Big on Medtech Manufacturing, and BCI Trial Design Shift
+
+## How this episode was made
+1. Pulled every item published in the last ~30 hours from the sources below.
+2. Gemini (editor pass) picked about 5 stories, assigned each to one section, and logged why the rest were skipped.
+3. Gemini (research pass) checked each picked story with Google Search and built a fact sheet from credible sources.
+4. Gemini (writer pass) wrote the two-host script from only those fact sheets.
+5. Gemini (fact-check pass) compared every claim in the script with the fact sheets and fixed or cut anything unsupported.
+6. Gemini voiced it; GitHub published it.
+
+## Sources checked
+- Neurotechnology Substack: failed (403 Client Error: Forbidden for url: https://neurotechnology)
+- Neuroscience News: 0 new items
+- MedTech Dive: 3 new items
+- Fierce Biotech MedTech: 0 new items
+- STAT Health Tech: 1 new items
+- MobiHealthNews: failed (403 Client Error: Forbidden for url: https://www.mobihealthn)
+- TechCrunch Health: 0 new items
+- FDA Medical Devices: failed (404 Client Error: Not Found for url: https://www.fda.gov/apo)
+- Google News: neurotech: 12 new items
+- Google News: Neurotechnology Substack: 0 new items
+- Google News: BCI companies: 0 new items
+- Google News: neuromodulation: 10 new items
+- Google News: EEG and neural wearables: 5 new items
+- Google News: neuro funding: 10 new items
+- Google News: FDA neuro devices: 8 new items
+- Google News: NYC neurotech: 0 new items
+- Google News: wearables: 8 new items
+- Fierce Healthcare Health Tech: 0 new items
+- Healthcare IT News: failed (403 Client Error: Forbidden for url: https://www.healthcarei)
+- Google News: digital health: 10 new items
+- Google News: health tech AI: 8 new items
+- Google News: medtech devices: 8 new items
+- bioRxiv Neuroscience: failed (404 Client Error: Not Found for url: https://connect.biorxiv)
+
+## Used, by section
+### Who Expanded &amp; Commercialized
+- KKR Acquires Integer Holdings in $5.7 Bn All-Cash Deal - Digital Health News (Google News: neuro funding) [link](https://news.google.com/rss/articles/CBMikAFBVV95cUxQRWNDajYxN0hfVnpwVXdsWTRZREJOeVhuTjNjVWtzV0RyWDdlTEx3SmFmNFdWQy1EQmNvR1p0R1lOaU56b1NxNVJDYWRmakFaZUJhOTRSdVRCRzRGM1RWWTI4WVFtb3B6Y1RpTmJocV9pMkFpZDdFTDRTYWxNb0tIbEJaYXpxeE1zSV90RWJZa1c?oc=5)  
+  Angle: KKR's $5.7B buyout of Integer Holdings underscores how private equity is consolidating medtech supply chains as OEM outsourcing grows.
+- New Nerve Implant for Rheumatoid Arthritis Now Available - Tomorrow's World Today (Google News: FDA neuro devices) [link](https://news.google.com/rss/articles/CBMiswFBVV95cUxNY0NmdTlGNGl0c3MxZnlWeVJ5UXAxNXlHWUhzdlAyVkRmM21Ra0FBeDVYOHhfVUVYMXJpQWN0VkVfN3RFX2VpdTBnS3FXRmwxUkhlakpVSWNudDAzQXFwRHVGUnZqd1kxZkRHeUIyZ1Z1YUtSRzFlUUQ1N1NMWWczRlNNa0hZejJoc2xXWEpIMjh3N2M2eFRoQmVORGxfNjhyT1BQVC1KeGZ0Z3hSelBHMnEzSQ?oc=5)  
+  Angle: Commercial availability of nerve implants for rheumatoid arthritis marks a crucial GTM transition for bioelectronic medicine beyond traditional brain/spine indications.
+### BCI Milestones &amp; Clinical Strategy
+- Neuralink participant steers GTA VI speedboat using brain implant in new demonstration - Interesting Engineering (Google News: FDA neuro devices) [link](https://news.google.com/rss/articles/CBMimAFBVV95cUxQRGRnaGpWUnNFUm1kWHpVcV91eEV1dy1qUXhIOWdvQXdIdDBibFhGM0R3WkNmOEZhYmNMVjc5UDVjYTdEcG5CNVdBdWYyQ1g4cHp6TVBJT3hZNWRIdXpqNDJmbmw3REo3SXRJVnVUbkVKeFgtazBfVEZ3UEZ4bmgyQ0ttUGQ3QldrclphZk5vVFpSOUc1SzJvTg?oc=5)  
+  Angle: Neuralink's GTA VI demonstration showcases real-time, high-dimensional software control as a benchmark for consumer-adjacent BCI utility.
+- Patients have little say in how brain implant trials are done. Ian Burkhart wants to change that (STAT Health Tech) [link](https://www.statnews.com/2026/11/20/ian-burkhart-how-brain-implant-trials-can-serve-patients-better/?utm_campaign=rss)  
+  Angle: Ian Burkhart's push for participant-centered trial design highlights how user experience and patient agency are becoming core product strategy risks in clinical BCI development.
+### Digital Health Watch
+- GAO Spotlight Flags Regulatory and Safety Gaps in Mental Health AI Chatbots - CASRAI (Google News: digital health) [link](https://news.google.com/rss/articles/CBMijAFBVV95cUxQa3ZrcFJRTkdVU1Nodm50VzFpZjNJbERPN2RZS0lJeVBmTXJzWlVORnE3ZlZic2dQUnBOMUZLZlZHZF9LVmRMV2xhVTlnTGNSNm9aUU9US3pJS3FFa0IxMVk0cGFNTkhPN3Bsb0UwTWx3cDhObEduNW5RNnI2SGZYRUR6d1JidjNpME13cA?oc=5)  
+  Angle: The GAO's warning on regulatory gaps in mental health AI chatbots signals imminent regulatory tightening for unvalidated digital therapeutic algorithms.
+
+## Fact sheets (verified with Google Search)
+
+### KKR Acquires Integer Holdings in $5.7 Bn All-Cash Deal - Digital Health News
+(No fact sheet: research failed, so only the original item text was used.)
+
+### New Nerve Implant for Rheumatoid Arthritis Now Available - Tomorrow's World Today
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Neuralink participant steers GTA VI speedboat using brain implant in new demonstration - Interesting Engineering
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Patients have little say in how brain implant trials are done. Ian Burkhart wants to change that
+(No fact sheet: research failed, so only the original item text was used.)
+
+### GAO Spotlight Flags Regulatory and Safety Gaps in Mental Health AI Chatbots - CASRAI
+(No fact sheet: research failed, so only the original item text was used.)
+
+## Fact-check fixes
+- Changed "five point seven billion dollars in cash" to "five point seven billion dollars in an all-cash deal" to match article phrasing.
+- Added cardiac rhythm management markets to Integer Holdings description to match article facts.
+- Changed "high-density threads" to general brain activity description since thread count is unconfirmed in the text.
+- Removed speculative mention of scar tissue ruining tissue interface for future implants.
+- Changed "last year" to "in 2025" for young Americans turning to generative AI to match the article facts.
+
+## Trends noted
+- {'insight': 'Medtech capital is bifurcating toward scaled manufacturing infrastructure on one end and commercially cleared non-invasive or bioelectronic therapies on the other, while mid-stage software tools face rising regulatory friction.', 'evidence': ['id 41: KKR acquired Integer Holdings for $5.7 billion in an all-cash deal', 'id 49: Bioelectronic nerve implants for rheumatoid arthritis moved into commercial availability', 'id 75: Zus Health secured $33M Series B funding for digital health data infrastructure', 'id 58: GAO flagged federal safety oversight gaps in commercial mental health AI chatbots']}
+
+## Not used, and why
+- Zimmer submits Monogram robot to FDA (MedTech Dive): not selected for main rundown; lower priority vs top 5 stories
+- J&amp;J to install first Ottava robot in US hospital (MedTech Dive): duplicate of story 83; not selected for main rundown
+- Abbott starts trial of Encantor transcatheter aortic valve (MedTech Dive): not selected for main rundown; routine clinical trial start
+- A7-BCI - Boeing 787-8 Dreamliner - Qatar Airways - Flightradar24 (Google News: neurotech): irrelevant non-health item (flight tracking)
+- The Week’s 10 Biggest Funding Rounds: $400M For Neurotech Leads, Followed By Big Deals For AI, Fintech, Biotech And More - Crunchbase News (Google News: neurotech): old news; Science $400M funding already covered in recent episode
+- BCI Law College Approval Rules 2026, Check Recognition Before Admission - College Mentor (Google News: neurotech): irrelevant non-health item (law college rules)
+- Science leads weekly startup funding rounds with $400 million neurotech raise - Traders Union (Google News: neurotech): old news; Science $400M funding already covered in recent episode
+- Imperial College London AI spin-out acquired by neurotech firm - Home | Digital Health (Google News: neurotech): not selected for main rundown; insufficient detail on target acquisition
+- Science Raises $400M Series D as PRIMA Sight-Restoring Implant Eyes US Launch - Wowtale (Google News: neurotech): old news; Science $400M funding already covered in recent episode
+- Newcastle centre gets £6m for brain implant technology - BBC (Google News: neurotech): not selected for main rundown; regional academic grant funding
+- Biggest Funding Rounds This Week: Science Raises $400M - shattered.io (Google News: neurotech): old news; Science $400M funding already covered in recent episode
+- AI Could Make University Degrees Optional: Brain Implants Aren’t The Reason – Analysis - Eurasia Review (Google News: neurotech): irrelevant commentary on higher education and AI
+- Confidence meets caution in Lima: how Latin American bankers are positioning for 2027 - TradingView (Google News: neurotech): irrelevant non-health financial news
+- Neuralink Participant Plays GTA VI With Brain Implant Alone - BASENOR - Tesla Accessories (Google News: neurotech): merged into story 46
+- Neuralink shows a trial participant playing GTA VI with its brain implant - Inven Global (Google News: neurotech): merged into story 46
+- Focused ultrasound research expands possibilities for treating pediatric brain tumors - Children's National (Google News: neuromodulation): not selected for main rundown; early-stage academic study
+- Vagus Nerve Stimulation Reduces Post-Surgery Brain Pathology in Alzheimer’s Mice - Bioengineer.org (Google News: neuromodulation): not selected for main rundown; preclinical animal study
+- Focused Ultrasound for Anxiety: New Neuromodulation Trial | Newswise - Newswise (Google News: neuromodulation): merged into story 40; early clinical trial announcement
+- Focused Ultrasound Foundation’s 20th Anniversary Celebration Highlights Progress and Next Frontiers in Noninvasive Therapy | Newswise - Newswise (Google News: neuromodulation): promotional anniversary release
+- Pioneering Neurophysiologist Eman Khedr Advanced Non-Invasive Brain Stimulation in Clinical Neurology - Bioengineer.org (Google News: neuromodulation): commemorative profile; not breaking news
+- Network Neuromodulation for Stroke Recovery Still Awaits Proven Clinical Personalization Rules - Bioengineer.org (Google News: neuromodulation): academic review paper without product milestone
+- MRI-guided focused ultrasound treatment can ease tremors - WBAL-TV (Google News: neuromodulation): local news feature without corporate/regulatory milestone
+- MR-Guided Focused Ultrasound (MRgFUS): Technology, Indications, and Clinical Economics - CASRAI (Google News: neuromodulation): overview paper on focused ultrasound economics
+- Driving novel treatment options for substance use disorders - Sunnybrook Health Sciences Centre (Google News: neuromodulation): institutional PR release
+- Neuralia TMS Breaks Down TMS Therapy Cost and Insurance Options - StreetInsider (Google News: neuromodulation): marketing PR for TMS therapy pricing
+- Combined EEG and Heart Rate Variability Index Tracks Sepsis and Inflammation - Bioengineer.org (Google News: EEG and neural wearables): academic research paper on sepsis tracking
+- Potential and pitfalls of artificial intelligence to address disparities in epilepsy - Nature (Google News: EEG and neural wearables): academic review paper on epilepsy AI
+- EEG Study Links Auditory–Visual Synesthesia to Sequential Left-Hemisphere Brain Activation - Bioengineer.org (Google News: EEG and neural wearables): basic neuroscience paper on synesthesia
+- Deep Learning EEG Models Detect Autism Accurately but Lack Clinical Validation - Bioengineer.org (Google News: EEG and neural wearables): not selected for main rundown; academic paper on EEG autism model validation
+- Rising Researchers Demonstrating Their Originality: Professor Yasuaki Shinohara – Waseda University - 早稲田大学 (Google News: EEG and neural wearables): academic researcher profile
+- Harnessing Digital Health Technologies for Patient-Centered Comparative Effectiveness Research (US) - fundsforNGOs - Grants and Resources for Sustainability (Google News: neuro funding): grant solicitation announcement
+- Science $400M Series D Leads Top 10 Funding Rounds - shattered.io (Google News: neuro funding): old news; Science $400M funding already covered in recent episode
+- Suki Launches Agentic AI Operating System to Automate Complex Healthcare Workflows - Digital Health News (Google News: neuro funding): not selected for main rundown; Suki workflow tool launch
+- Student-Built Backpack Transforms Into a Wearable Tactical Robot - Gadget Review (Google News: neuro funding): irrelevant non-medical gadget review
+- Asia Startup Funding: $335M Raised in Week 47 - Techloy (Google News: neuro funding): generic weekly funding summary list
+- Google Wallet Support Hits Mystery Wearable in v26.45 - shattered.io (Google News: neuro funding): minor OS update speculation
+- Latin America Startup Funding: $64.5M Raised in Week 47 - Techloy (Google News: neuro funding): generic weekly funding summary list
+- Centre Plans to Roll Out Biopharma SHAKTI Scheme by January 2027 - Digital Health News (Google News: neuro funding): government biopharma policy proposal for 2027
+- Focused Ultrasound for Anxiety: New Neuromodulation Trial at Virginia Tech - Focused Ultrasound Foundation (Google News: neuro funding): duplicate of item 19; early-stage trial listing
+- Sanofi gets Genzyme asset across FDA finish line with key nod in Gaucher type 3 - Fierce Pharma (Google News: FDA neuro devices): pharma therapeutics approval outside core healthtech focus
+- UW Alzheimer’s researchers provide key data for FDA-approved brain imaging agent - UW School of Medicine and Public Health (Google News: FDA neuro devices): merged into story 44; academic imaging agent study
+- UW-supported research leads to FDA approval of new brain imaging agent - WQOW (Google News: FDA neuro devices): not selected for main rundown; PET tracer FDA approval
+- Biostream Urine Test for Normal Pressure Hydrocephalus Gets FDA Breakthrough Device Designation - GenomeWeb (Google News: FDA neuro devices): not selected for main rundown; FDA breakthrough designation for NPH urine test
+- Milestone FDA Clearance paves way for Multiwave U.S. Launch - Startupticker.ch (Google News: FDA neuro devices): not selected for main rundown; 510(k) clearance for Multiwave
+- Canon to debut Ultimion photon-counting CT system - AuntMinnie (Google News: FDA neuro devices): commercial CT system launch announcement
+- The Hand That Wears the Wearable - The Harvard Crimson (Google News: wearables): student essay; not industry news
+- Psychiatry Review Proposes Triangulated Wearable and Diary Framework for Routine Sleep Assessments - Bioengineer.org (Google News: wearables): academic paper proposing framework for sleep assessment
+- Are Pet Health Trackers Worth It or a Waste of Money? I Asked a Vet - CNET (Google News: wearables): consumer pet gadget review
+- New wearable sensor could help detect hidden heart damage after surgery - Nanowerk (Google News: wearables): early-stage lab sensor research
+- Pulsetto vs. Apollo: Which one is better? - Wareable (Google News: wearables): consumer gadget review/comparison
+- Chinese investor eyes major coal project in Kazakhstan’s Zhambyl region - jiji press (Google News: wearables): irrelevant energy sector news
+- Wearable Sensors Link Movement Speed Deficits to Diffuse Malignant Parkinson’s Disease - Bioengineer.org (Google News: wearables): clinical study linking movement sensors to Parkinson's
+- I’m a tech expert and new mum. Here’s what I learned testing 17 baby monitors - The Guardian (Google News: wearables): consumer baby monitor review
+- Optum Rx launches new digital pharmacy tools - Healthcare Finance News (Google News: digital health): routine digital pharmacy tool expansion
+- FDA’s Final 510(k) Transfer Guidance Leaves Listing Upkeep To New Owners - Medtech Insight (Google News: digital health): FDA guidance document update on 510(k) ownership
+- Lithuania: Biomapas acquires Pinnaxis and Alira Health's CMC business to expand technology and US presence - Investors in Healthcare (Google News: digital health): small regional M&amp;A deal
+- ViTAA Medical and The Society for Vascular Surgery Announce Strategic Partnership - City AM (Google News: digital health): society partnership announcement without product launch
+- Romania: Simago acquires majority stake in medical imaging group Medima from Morphosis Capital - Investors in Healthcare (Google News: digital health): regional imaging center acquisition
+- Specialty PACS Market Trends, Growth and Future Outlook - SNS Insider (Google News: digital health): market research promo
+- ProCare announces annual $2.7 million boost to practice flexible funding - New Zealand Doctor (Google News: digital health): regional GP funding boost in New Zealand
+- Apollo Foundation – Total Health Launches Aarambh Model Anganwadi In Pithapuram. - TRIPURA STAR NEWS (Google News: digital health): NGO health model launch
+- LifePrint 3D Launches FirstEmbrace, Turning 3D and 4D Ultrasound Scans Into Physical Keepsakes - Digital Health News (Google News: digital health): consumer novelty 3D print ultrasound product
+- Microsoft’s CMO on his journey from the hospital to Big Tech - Healthcare Brew (Google News: health tech AI): executive profile interview
+- Healthcare AI startup Knit Health raises US$35m - Health Tech World (Google News: health tech AI): not selected for main rundown; Knit Health $35M raise
+- Tampa Bay companies honored at annual Inno Awards celebrating regional innovation - The Business Journals (Google News: health tech AI): regional business awards list
+- Opinion: Elizabeth Holmes went from a startup darling to powerful seductress – these gendered portrayals profited investors - University College Dublin (Google News: health tech AI): merged into story 72; commentary on historical trial
+- Elizabeth Holmes went from a startup darling to powerful seductress – these gendered portrayals profited investors - Irish Examiner (Google News: health tech AI): opinion commentary on Theranos trial
+- Mediterrania launches $54.8M fund for African AI startups - Dealroom (Google News: health tech AI): regional venture capital fund launch
+- HealthTech: Intesa Sanpaolo supports Marche-based startup Nuovavita - Intesa Sanpaolo (Google News: health tech AI): regional startup bank support announcement
+- Zus Health raises US$33m Series B - Health Tech World (Google News: health tech AI): not selected for main rundown; Zus Health $33M Series B
+- Medical device makers have gotten worse at disclosing when their products harm people, new study finds. The FDA let them. - International Consortium of Investigative Journalists - ICIJ (Google News: medtech devices): not selected for main rundown; investigative report on FDA adverse event reporting
+- Score It, Prove It, Clear It: Medical Device Security in the Enforcement Era - Health-ISAC (Google News: medtech devices): cybersecurity best practices guide
+- This Week at FDA: Overton nomination pulled, FDA promotes international reliance, and more - RAPS (Google News: medtech devices): weekly administrative FDA roundup
+- MMI launches robotic microsurgery system’s monopolar scissors - MassDevice (Google News: medtech devices): accessory launch for surgical robot
+- Zimmer submits Monogram robot to FDA - Yahoo Finance (Google News: medtech devices): duplicate of story 1
+- Theraclion Gets FDA De Novo Authorization For A Noninvasive Ultrasound Treatment For Varicose Veins - RTTNews (Google News: medtech devices): not selected for main rundown; Theraclion De Novo approval for varicose veins
+- Two medtech M&amp;A lawyers share what OEMs and PE firms are shopping for - Medical Design &amp; Outsourcing (Google News: medtech devices): medtech M&amp;A commentary interview
+- J&amp;J to install first Ottava robot in US hospital - MedTech Dive (Google News: medtech devices): duplicate of story 2</description>
+   <pubDate>Sat, 21 Nov 2026 09:41:18 +0000</pubDate>
+   <guid isPermaLink="false">neuro-morning-2026-11-21-0941</guid>
+   <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-21.mp3?v=0941" length="4011884" type="audio/mpeg"/>
+   <itunes:duration>501</itunes:duration>
+   <itunes:explicit>false</itunes:explicit>
+   <podcast:transcript url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-21.vtt" type="text/vtt" language="en"/>
+  </item>
+  <item>
    <title>Synchron Pauses Trial for Hardware Iteration, Cognito Pivots FDA Strategy, and Telehealth Embraces Peptides</title>
    <description>Today's stories:
 
