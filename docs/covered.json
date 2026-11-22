@@ -1,15 +1,5 @@
 [
  {
-  "slug": "2026-11-15",
-  "titles": [
-   "Ohio State–Microsoft partnership, reported at $250M, targets 70–80% shift to Azure - MarketScale",
-   "Implanted Brain-Computer Interfaces Help Paralyzed Clinical Trial Participants Restore Expressive Communication - Bioengineer.org",
-   "Machine Learning Identifies Varied Signal Patterns Across Diverse Tremor Interventions - Bioengineer.org",
-   "Systematic Review Finds Very Low Certainty for Ultrasound Brain Stimulation in Aging - Bioengineer.org",
-   "ObesityWeek 2026 Opens: Matthew Buman Speaks Monday on Wearables; Wrist Sensors Score Wake as Sleep - Tech Times"
-  ]
- },
- {
   "slug": "2026-11-16",
   "titles": [
    "Brain-Computer Interface Restores Emotional Speech and Singing in ALS Patient - DongA Science",
@@ -66,6 +56,16 @@
    "Neuralink participant steers GTA VI speedboat using brain implant in new demonstration - Interesting Engineering",
    "Patients have little say in how brain implant trials are done. Ian Burkhart wants to change that",
    "GAO Spotlight Flags Regulatory and Safety Gaps in Mental Health AI Chatbots - CASRAI"
+  ]
+ },
+ {
+  "slug": "2026-11-22",
+  "titles": [
+   "Science Corp.'s $400M series D, Inovalon acquires DrFirst - Axios",
+   "Nurosym Announces Wearable VNS Device as UK Interest in Sleep Health Increases - USA Today",
+   "Rutgers' Noninvasive Brain-Computer Interface Reaches 30.7 Characters per Minute With AI Word Suggestions - XenoSpectrum",
+   "Suki OS Launches to Automate Healthcare Workflows - Voice of Healthcare",
+   "Milestone FDA Clearance paves way for Multiwave U.S. Launch - Startupticker.ch"
   ]
  }
 ]

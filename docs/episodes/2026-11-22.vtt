@@ -1,0 +1,232 @@
+WEBVTT
+
+00:00:02.786 --> 00:00:04.352
+<v Nora>Good morning, Chandni!
+
+00:00:04.352 --> 00:00:06.844
+<v Nora>Today is Sunday, November 22, 2026.
+
+00:00:06.844 --> 00:00:11.044
+<v Theo>Five stories today: three in neurotech, two in health tech.
+
+00:00:11.044 --> 00:00:15.173
+<v Nora>Okay, first up: who expanded this week. Story one of five.
+
+00:00:15.173 --> 00:00:20.726
+<v Nora>Science Corp just raised a massive four hundred million dollar Series D round.
+
+00:00:20.726 --> 00:00:25.495
+<v Theo>Four hundred million... that is serious capital for neuro hardware.
+
+00:00:25.495 --> 00:00:36.672
+<v Nora>Right? While the full breakdown of how they'll allocate the funds isn't yet confirmed in the report, it gives them massive capital for their neural hardware.
+
+00:00:36.672 --> 00:00:45.002
+<v Theo>That's huge. In neurotech hardware, scaling commercial systems and clearing clinical hurdles requires serious runway.
+
+00:00:45.002 --> 00:00:52.761
+<v Nora>Exactly, and having four hundred million dollars behind a round provides substantial backing for development.
+
+00:00:52.761 --> 00:01:02.230
+<v Theo>Still... taking complex neural hardware through regulatory clearance and commercial manufacturing is a massive engineering challenge.
+
+00:01:02.230 --> 00:01:09.562
+<v Nora>True, but this funding gives them a long runway to address those engineering and clinical requirements.
+
+00:01:09.562 --> 00:01:16.539
+<v Theo>I'll give them credit. If they can pull off commercial scaling with that capital, it's impressive.
+
+00:01:16.539 --> 00:01:23.302
+<v Nora>My read is, this proves deep-pocketed investors are ready to back hard neuro-hardware at scale.
+
+00:01:23.302 --> 00:01:31.916
+<v Nora>Story two of five. Nurosym is launching its wearable vagus nerve stimulation device as UK interest in sleep health grows.
+
+00:01:31.916 --> 00:01:34.218
+<v Theo>Wait... wearable VNS for sleep?
+
+00:01:34.218 --> 00:01:39.638
+<v Nora>Yep! They announced the device for sleep health, starting over in the UK.
+
+00:01:39.638 --> 00:01:48.029
+<v Theo>Okay, hold on. Noninvasive vagus nerve stimulation typically aims to boost parasympathetic tone to support sleep.
+
+00:01:48.029 --> 00:01:54.711
+<v Nora>Right, helping support the body's natural recovery processes so people can actually sleep.
+
+00:01:54.711 --> 00:02:00.874
+<v Theo>But here's my question: what are the exact device specs and stimulation parameters?
+
+00:02:00.874 --> 00:02:07.260
+<v Nora>The report doesn't confirm specific technical parameters or the exact form factor yet.
+
+00:02:07.260 --> 00:02:16.616
+<v Theo>That's what I wondered. Without published technical specs on the stimulation method, real-world efficacy will be key to watch.
+
+00:02:16.616 --> 00:02:23.967
+<v Nora>Fair, but for people dealing with sleep health issues, a wearable noninvasive option is compelling.
+
+00:02:23.967 --> 00:02:30.352
+<v Theo>Sure, assuming user comfort and consistent contact stay reliable throughout the night.
+
+00:02:30.352 --> 00:02:38.966
+<v Nora>Ha, classic Theo! But commercially, tapping into the growing interest in sleep health in the UK is a strategic move.
+
+00:02:38.966 --> 00:02:42.901
+<v Theo>That's the deals. Now, research. Story three of five.
+
+00:02:42.901 --> 00:02:51.811
+<v Theo>Researchers at Rutgers just demonstrated a noninvasive BCI system that reaches thirty point seven characters per minute.
+
+00:02:51.811 --> 00:02:58.494
+<v Nora>Wait, thirty characters a minute off scalp EEG? That sounds insanely fast for noninvasive!
+
+00:02:58.494 --> 00:03:03.394
+<v Theo>Let me break down the signal processing before we get too excited.
+
+00:03:03.394 --> 00:03:15.552
+<v Theo>They used a classic P300 speller setup—scalp electrodes reading that positive ERP deflection about three hundred milliseconds after a target flashes on screen.
+
+00:03:15.552 --> 00:03:19.910
+<v Nora>Okay... so how did they achieve those P300 typing speeds?
+
+00:03:19.910 --> 00:03:32.527
+<v Theo>Software architecture, not sensor hardware. They paired the EEG with a local large language model, Llama, fine-tuned on everyday speech from ALS patients using LoRA.
+
+00:03:32.527 --> 00:03:41.090
+<v Nora>Ah! So instead of selecting letter by letter, the AI offers contextual word and phrase predictions in real time.
+
+00:03:41.090 --> 00:03:52.254
+<v Theo>Exactly. Plus they added an adaptive stopping algorithm, so the system stops flashing visual rows as soon as signal confidence hits the threshold.
+
+00:03:52.254 --> 00:03:59.442
+<v Nora>That's brilliant. One single selection can enter an entire phrase like "Please give me water."
+
+00:03:59.442 --> 00:04:10.987
+<v Theo>But here's the catch from the paper... when subjects had to type exact verbatim sentences, speed dropped to nineteen point seven characters per minute.
+
+00:04:10.987 --> 00:04:19.704
+<v Nora>Right, but thirty point seven was for "meaning transfer"—where the user just needs to convey the intended request.
+
+00:04:19.704 --> 00:04:34.156
+<v Theo>Sure, but because the two task conditions differ, you can't read that speed gap directly as a system upgrade. Still, real-time testing across ten healthy subjects is a legitimate benchmark.
+
+00:04:34.156 --> 00:04:44.096
+<v Nora>I love this approach. It shows how smart predictive language models can make noisy scalp EEG practical for everyday communication.
+
+00:04:44.096 --> 00:04:55.259
+<v Nora>Story four of five. Suki introduced Suki OS at HLTH twenty twenty-six, transitioning from a voice assistant to an ambient AI infrastructure layer.
+
+00:04:55.259 --> 00:05:00.076
+<v Theo>Ambient AI operating system... what does that mean in practice?
+
+00:05:00.076 --> 00:05:13.152
+<v Nora>They're moving past simple scribe work like transcribing doctor-patient conversations into EHR notes. Now they're deploying autonomous AI agents across clinical workflows.
+
+00:05:13.152 --> 00:05:13.916
+<v Theo>Like what?
+
+00:05:13.916 --> 00:05:24.788
+<v Nora>Specific agentic tools for prior authorization and Clinical Documentation Improvement—gathering records and catching chart gaps to help revenue cycles.
+
+00:05:24.788 --> 00:05:32.996
+<v Theo>Prior auth is a massive administrative bottleneck, sure, but giving AI agents authority to process workflow steps?
+
+00:05:32.996 --> 00:05:43.292
+<v Nora>They built in human oversight, plus a performance guarantee where eligible health systems get up to a full refund if agreed targets aren't met.
+
+00:05:43.292 --> 00:05:50.347
+<v Theo>A money-back guarantee on enterprise healthcare AI software? Okay... I'll admit it. That's clever.
+
+00:05:50.347 --> 00:06:00.427
+<v Nora>Right? They raised ninety million in Series E last month and reported patient encounters grew over one hundred and ninety percent this year.
+
+00:06:00.427 --> 00:06:10.219
+<v Theo>My read is, ambient dictation was just the wedge. The real margin is becoming the automation plumbing across the whole hospital backend.
+
+00:06:10.219 --> 00:06:14.971
+<v Nora>Next up: regulatory and commercial milestones. Story five of five.
+
+00:06:14.971 --> 00:06:22.315
+<v Nora>Geneva-based medtech Multiwave achieved FDA clearance for its portable brain MRI scanner, the MGNTQv0.
+
+00:06:22.315 --> 00:06:28.075
+<v Theo>Wait, a portable brain MRI clearing the FDA? What are the system hardware specs?
+
+00:06:28.075 --> 00:06:34.339
+<v Nora>It's ultra-low field, AI-powered, and weighs just over two hundred and fifty kilograms.
+
+00:06:34.339 --> 00:06:43.842
+<v Theo>Two hundred fifty kilos? That's light enough to roll straight down a hospital hallway. Standard three Tesla MRIs weigh several tons.
+
+00:06:43.842 --> 00:06:51.186
+<v Nora>Exactly! It plugs into a standard wall outlet, needs no cooling, and requires zero magnetic shielding.
+
+00:06:51.186 --> 00:06:59.178
+<v Theo>And they're targeting five to ten times lower cost than standard scanners. What about the image reconstruction?
+
+00:06:59.178 --> 00:07:06.090
+<v Nora>They rely on AI-powered software to process image quality from that low magnetic field strength.
+
+00:07:06.090 --> 00:07:16.192
+<v Theo>That's where the engineering shines. Reconstructing high-resolution neuroimages from low-field RF signals takes serious signal processing work.
+
+00:07:16.192 --> 00:07:26.294
+<v Nora>They're building an assembly hub in Lowell, Massachusetts, preparing for a U.S. launch in twenty twenty-seven using a subscription-based model.
+
+00:07:26.294 --> 00:07:35.407
+<v Theo>Having mobile, low-field MRI right in intensive care units or emergency rooms could change hyper-acute stroke screening entirely.
+
+00:07:35.407 --> 00:07:39.575
+<v Nora>A huge milestone for accessible point-of-care neuroimaging!
+
+00:07:39.575 --> 00:07:41.976
+<v Nora>Now for our market trend analysis.
+
+00:07:41.976 --> 00:07:52.855
+<v Theo>Across today's news, the clear pattern is neurotech and health tech prioritizing noninvasive interfaces and AI software layers to accelerate market entry.
+
+00:07:52.855 --> 00:08:04.935
+<v Nora>Look at Science Corp raising four hundred million in Series D funding, Nurosym launching wearable VNS for sleep health, and Rutgers using LLMs to make scalp EEG practical.
+
+00:08:04.935 --> 00:08:16.874
+<v Theo>Skipping surgical implants and pairing noninvasive signals with predictive software lets companies sidestep slow clinical adoption curves and get to market years faster.
+
+00:08:16.874 --> 00:08:18.781
+<v Nora>Time for the Career Signal.
+
+00:08:18.781 --> 00:08:29.660
+<v Theo>For engineers like Chandni bringing lab tech to market, true product-market fit comes from pairing raw signal acquisition with predictive software models.
+
+00:08:29.660 --> 00:08:40.680
+<v Nora>Focus your R&D skills on software-driven latency reduction and user experience, which translates across both medtech hardware and enterprise digital health.
+
+00:08:40.680 --> 00:08:56.504
+<v Theo>If today's FDA news from Multiwave caught your eye, reach out to their head of clinical product or their low-field image reconstruction team—that software-signal bridge is where the high-value roles are opening up right now.
+
+00:08:56.504 --> 00:08:58.835
+<v Nora>Let's recap today's five stories.
+
+00:08:58.835 --> 00:09:04.134
+<v Nora>One: Science Corp secured four hundred million dollars in Series D funding.
+
+00:09:04.134 --> 00:09:10.793
+<v Theo>Two: Nurosym expanded its wearable vagus nerve stimulation device into consumer sleep health.
+
+00:09:10.793 --> 00:09:18.670
+<v Nora>Three: Rutgers reached thirty point seven characters per minute on noninvasive BCI using AI phrase prediction.
+
+00:09:18.670 --> 00:09:25.687
+<v Theo>Four: Suki launched Suki OS to automate prior authorization and clinical workflows with AI agents.
+
+00:09:25.687 --> 00:09:31.989
+<v Nora>Five: Multiwave earned FDA clearance for its ultra-low-field portable brain MRI scanner.
+
+00:09:31.989 --> 00:09:41.512
+<v Theo>The big takeaway today: combining noninvasive hardware with smart software decoding is driving the fastest paths to commercial scale.
+
+00:09:41.512 --> 00:09:47.599
+<v Nora>That's today's Neuro Morning! Have a great walk, Chandni, and we'll see you tomorrow!
+
+00:09:47.599 --> 00:09:48.960
+<v Theo>Catch you tomorrow.
