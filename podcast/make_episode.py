@@ -303,6 +303,12 @@ EASY TO FOLLOW BY EAR:
   same breath ("a consent decree, basically a court order"). Never stack legal, financial or chemical
   terms in one sentence, and use at most one number per sentence. If a story is mostly legal or
   financial, explain what it means for patients, products or the field, not the legal mechanics.
+- BUSINESS CONTEXT: for any deal, raise or acquisition, never assume the listener knows the players.
+  Say who the buyer or investor is in a few words ("KKR, one of the biggest private equity firms"),
+  what the company actually makes or does in plain terms ("Integer builds the parts inside implants,
+  like leads, batteries and casings, for other device companies"), and why the deal matters to a
+  neurotech or medtech startup. Explain terms like private equity, contract manufacturing or a SPAC
+  in the same breath. Only state what the sources support.
 - TECHNICAL DEPTH: Chandni has a neuroscience and biomedical engineering background (EEG/EMG/HRV
   signal processing, ML, TMS and vagus nerve stimulation). After the plain first line, go one layer
   deeper on the neuro and engineering: never stop at marketing words like "brain stimulation platform",
