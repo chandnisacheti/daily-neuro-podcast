@@ -1,95 +1,50 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "leads": [
   {
-   "company": "Science Corp.",
+   "company": "Oyi Technology",
    "signal": "funding",
-   "detail": "Science Corp. raised $400 million in a Series D funding round.",
-   "location": "",
+   "detail": "Shanghai Aoyi Information Technology Co., Ltd. (OYi Technology) announced the completion of a D-round financing of several hundred million yuan.",
+   "location": "Shanghai/China",
    "nyc": false,
-   "why_relevant": "Science Corp. is a leading neural engineering company developing visual prosthetics and brain-computer interfaces, making it highly relevant for biosignal processing and neuromodulation.",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX1_TSy0tUHNMaWRFcmczdDhCaDdNU1ZPcjltcVpva05QTHI3dVJyQTVpWmZvcTVOdmJXX1JtVXZSTksxU25rLVlaTUt3OW1MOGVLaVBXRERTNFQ2WWo5aWtuNF9UN2ZPSEFzNVdxY1h1U1pCQzMyWFZ3Z1hLb2xhWmNmUTVHb0lXVWplSVBMYWdkN0poekdtX05n?oc=5"
+   "why_relevant": "As a BME MS student focused on biosignal-ML and neuromodulation, OYi's work bridging brain-computer interfaces, electromyography, and embodied neural interfaces offers direct exposure to neural signal decoding and hardware-software integration.",
+   "link": "https://eu.36kr.com/en/p/4077898242380676"
   },
   {
-   "company": "Neuralink",
-   "signal": "research",
-   "detail": "Neuralink demonstrated a patient controlling gameplay in GTA VI directly through thoughts using their brain-computer interface implant.",
-   "location": "",
-   "nyc": false,
-   "why_relevant": "Neuralink is a pioneer in high-channel invasive brain-computer interfaces, directly aligning with real-time neural decoding and neuromodulation research.",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdTJub1ppWE11NmlTSDJlSDdldkVUSlJXalo1SHNJRE1jcGVubERsR1I3dzdPdkhnODdSQnpadDNaSVAwM1Z2RDFCUm54ZFZKQzVrblA1a0haa1E4VllpQ2E5aE9BMklGVWFfZmM1QUZvc2VNYlZuTnFISFdhRlpsUFlXTHg0TndTTjNaNzJZczJPX1JIWDFuYTJTczlPUlVCVE5jOUFKLVZHVHJHVjRuOUxZYnJFSzRWVDctQzBhSFllWEZET3hmcDY2QmZSUjFjdE1lMXYtQTZCRjRRWHJ3?oc=5"
-  },
-  {
-   "company": "Multiwave Technologies",
+   "company": "Burl Concepts",
    "signal": "fda",
-   "detail": "Multiwave secured FDA clearance for MGNTQv0, an ultra-low-field AI-powered portable brain MRI device, enabling its commercial launch and US assembly expansion in Lowell, Massachusetts.",
-   "location": "Geneva, Switzerland",
+   "detail": "San Diego-based Burl Concepts received 510(k) clearance (number K260813) for its portable brain ultrasound system, Foqus.",
+   "location": "San Diego, CA, USA",
    "nyc": false,
-   "why_relevant": "Multiwave integrates neuroimaging hardware with AI signal processing, directly relevant to biomedical imaging and neurotech algorithm development.",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMllFQWR5TFJVa200dzNHaFlZU092ZnBKMnNzQ0NfRzVZcEJGbVZqRkRyeFhrSld4QXdpVkxaemtLSUE0OWdySGRscGJGaHROVWZ6WGw1RHJnNWdPZlJOQUhSUEtqNU9CU01Bc0FfMUp4T25IT1_WaGhJMG9GYXVfZzBxZmhlWXhpQTlkWG92dDJnRlBLTjF2T1VfNDFtcFBPZkJwQlBnNng?oc=5"
+   "why_relevant": "This portable brain ultrasound system provides a robust digital signal acquisition platform, which aligns with signal processing and diagnostic instrumentation coursework for a biomedical engineering student.",
+   "link": "https://www.medicaldaily.com/fda-clears-foqus-ultrasound-pfo-stroke-test-481584"
   },
   {
-   "company": "Nurosym",
-   "signal": "expansion",
-   "detail": "Nurosym announced the expansion of its wearable vagus nerve stimulation device to address sleep health in the UK market.",
-   "location": "London, UK",
+   "company": "Laronix",
+   "signal": "funding",
+   "detail": "The Brisbane medical technology company has raised AUD $5 million in an oversubscribed pre-Series A round.",
+   "location": "Brisbane/Australia",
    "nyc": false,
-   "why_relevant": "Nurosym develops wearable neuromodulation technology using noninvasive electrostimulation, perfectly aligned with biosignal-driven neural modulation.",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxON1J3RjRZSjdQWTlTV0otbGRRNXZMeC1valk2akNpT1ZnX29MaldpczZIeS1KcTY3ZkV0SE9WczNKLTFIVWhNQ2w3NTZkU0FzOVg1S0VTX095Q25qc1lFS21jUnVhRDdrdERpbmlNWjZpeUVpYzgyaDZHUkI5VHZvTTYybDREeDV0eEdrYmlzOW96T2QyUGVBNE9mVGtsVGpYbTFNdWZMMmNWbTlPUHJ5bFRWTUFlZE5VclZGNm9xM1VFTU5hNGZCY1_3?oc=5"
+   "why_relevant": "Laronix applies machine learning and voice AI to reconstruct speech from neural and physiological signals, presenting an exciting opportunity for an MS BME student specialized in biosignal ML.",
+   "link": "https://itbrief.com.au/story/laronix-raises-aud-5-million-to-expand-voice-restoration"
   },
   {
-   "company": "Rutgers University",
-   "signal": "research",
-   "detail": "Researchers at Rutgers University developed ChatBCI-Assist, an LLM-guided noninvasive scalp-EEG brain-computer interface reaching up to 30.7 characters per minute.",
-   "location": "New Brunswick, USA",
-   "nyc": false,
-   "why_relevant": "This project combines EEG signal decoding with real-time machine learning and language models for noninvasive BCI communication.",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE52Z3Z5cGFFcndfZG9XME94NXNJb2F1eXN5S2pDOXlRU290bDhOeEgxMVlxM2ZGRTFCc2R3ZDA4bWNpSW91ZTVydjBsVENGREVhNGhGMG03RnBGZUJnbFBVWEppTG9LVDllMExpaHNn?oc=5"
-  },
-  {
-   "company": "earKART",
+   "company": "Samsung",
    "signal": "fda",
-   "detail": "earKART obtained FDA listings across four hearing-aid device categories.",
-   "location": "",
+   "detail": "Samsung secured US FDA and Korea MFDS regulatory approvals for its upgraded sleep apnoea feature on the Galaxy Ring.",
+   "location": "Suwon/South Korea",
    "nyc": false,
-   "why_relevant": "earKART operates in the wearable auditory medtech space, relevant to biosignal processing and medical wearable device deployment.",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb0tJMy1aaEZ3N3dNQW5YamNUaGEyMXlIREdPcDc4V0ItbmJOZS1wZTZTeE5TdjNzdUcxWVZfZWxEMnBBNzRBSWNNOWllT1kzbkp5T1JzOFFQN09NWmQ0RmtVOTBRTHE3TGROZFhad2s4QUxORGl2cGlkd1FmVkhyam1rYnh6bTdUcWRWbUluZjVlUVB1ekVKM1dsMm9reExvYnU1b2Vjcy1qWmZwUTFXU3lOTQ?oc=5"
+   "why_relevant": "Consumer health wearables integrating clinical-grade algorithms like sleep apnea detection provide valuable practical insight into physiological signal processing and embedded machine learning.",
+   "link": "https://news.samsung.com/my/upgraded-sleep-apnea-feature-now-available-on-galaxy-ring-following-regulatory-approvals-from-us-fda-and-korea-mfds"
   },
   {
-   "company": "Suki",
-   "signal": "funding",
-   "detail": "Suki raised $90 million in Series E funding to expand its AI platform and ambient clinical workflow automation.",
-   "location": "",
+   "company": "PolyNovo Limited",
+   "signal": "fda",
+   "detail": "PolyNovo Limited submitted its FDA Premarket Approval Application for NovoSorb BTM in full-thickness burns.",
+   "location": "Melbourne/Australia",
    "nyc": false,
-   "why_relevant": "Suki develops AI systems for clinical applications, providing strong context for healthtech machine learning and natural language processing.",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbjZ1RUs5ZE9WQU1ESFhjX1oydjJNeUI2MTc3bEZDa0ZjQXRRNFIzUGNHdnhDXzl2YzJTTXNMVDU0enQzbTRfOTlBOGY0OEJVQ2JkMTlGOUhWdlk0VHB0MjJMUXNJVmc2SXJZNHhzRWNJdDF4YXUzMElwMTd0OC1qd1lSb1NvdE1Bd0NXWVl3VjEyN3NqbU5oU0s3ZDVTWWE1cFA2Ry0yRGlZRFEyTmNVNExQUQ?oc=5"
-  },
-  {
-   "company": "2EyesVision",
-   "signal": "funding",
-   "detail": "2EyesVision raised €473,000 in co-investment funding to advance its ophthalmic medical technologies.",
-   "location": "",
-   "nyc": false,
-   "why_relevant": "2EyesVision focuses on optical medical devices, offering insights into medtech hardware and physiological optical sensing.",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVVdRWGZFcERuSFBWTThlVmI4eTJZZlVJZEJCUEtNQjQyUVE3T0pTTXRnTHhzTVpqWHVQT1J3cmJIYURUa0dsVnVvS2I4dm9kalpnWV8wR2syZHZqSlc1RTBpTm44cndNb2xXSFJaNWNvejhBN3ZuTmN4V2lZay16Q0w1a0pyN2pRQ3JCOTlCcVZxbGdHeDFtZkFleHRHNjZDR2R6cld3?oc=5"
-  },
-  {
-   "company": "Inovalon",
-   "signal": "acquisition",
-   "detail": "Inovalon acquired DrFirst to expand its healthtech software and digital health footprint.",
-   "location": "",
-   "nyc": false,
-   "why_relevant": "Inovalon expands enterprise healthcare data solutions, relevant for large-scale clinical data analysis and healthtech software engineering.",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX1_TSy0tUHNMaWRFcmczdDhCaDdNU1ZPcjltcVpva05QTHI3dVJyQTVpWmZvcTVOdmJXX1JtVXZSTksxU25rLVlaTUt3OW1MOGVLaVBXRERTNFQ2WWo5aWtuNF9UN2ZPSEFzNVdxY1h1U1pCQzMyWFZ3Z1hLb2xhWmNmUTVHb0lXVWplSVBMYWdkN0poekdtX05n?oc=5"
-  },
-  {
-   "company": "Alignd",
-   "signal": "funding",
-   "detail": "Alignd raised funding to expand its healthcare management and care technology offerings.",
-   "location": "South Africa",
-   "nyc": false,
-   "why_relevant": "Alignd focuses on value-based digital health infrastructure, applicable for data-driven healthtech models.",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNGNfWDZ3OGxkT1JzbUo4WHE0M2JUN2NTZDVQVThQTlh6OFBPMEY5SHByMWp0R2xhVUIyeGc4RGJpb3NtSlJFb1dxcWdZcmJCa1hMdzZKdThMbEIwT2ppYXlpQVhsTEUzSHBSZXFqQWdSOG1DVzF4N1BmSXRpS3VlQU8tT3FPV0prTG93ZlozN3NPdmZoM2c?oc=5"
+   "why_relevant": "Though more biomaterials-focused, tracking FDA submissions from established medtech companies helps understand the regulatory pathways and clinical translation pipelines critical for a BME student.",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQmNZWVRucl9YNWpYc1ozeXZmM2JyUHB2eDJEUDVNS1I3UWVNNlZVbDVBTVE1MXVkVTNiQjdidFBtbEhVZlk2OXlHNklQY0lqX3BnSFJYTE9ocHZkejBmejZGSzk1b2trZWM2ck1pR2tuV1FXVklNdHMzd3czdEtJZHZKSWdodHJJZzFpSGFEamVaTFVEd25QSGlrMnBYdkxQS2xwRllORUhKai14TnA0bGpmN3MzUmZxZlFvY2s1R2F1MzFBV2hNeE9WUW9wbjh4TS1ZQ01MQ01rVXpHZzBF?oc=5"
   }
  ]
 }

@@ -13,6 +13,293 @@
   <itunes:block>Yes</itunes:block>
   <itunes:category text="Science"/>
   <item>
+   <title>Neuro Morning: Global Standards, Funding Rounds, and FDA Milestones</title>
+   <description>Today's stories:
+
+1. Upgraded Sleep Apnea Feature Now Available on Galaxy Ring Following Regulatory Approvals From US FDA and Korea MFDS
+https://news.samsung.com/my/upgraded-sleep-apnea-feature-now-available-on-galaxy-ring-following-regulatory-approvals-from-us-fda-and-korea-mfds
+
+2. Oyy Technology Closes Hundreds of Millions Yuan Series D Financing, Unveils New Embodied Intelligence Business Offerings | 36Kr Exclusive
+https://eu.36kr.com/en/p/4077898242380676
+
+3. Laronix raises AUD $5 million to expand voice restoration
+https://itbrief.com.au/story/laronix-raises-aud-5-million-to-expand-voice-restoration
+
+4. Portable Brain Ultrasound Cleared by FDA Scans for Signs of a Stroke-Linked Heart Opening in About 40 Seconds
+https://www.medicaldaily.com/fda-clears-foqus-ultrasound-pfo-stroke-test-481584
+
+5. AI Made 54 Students Think Less, EEG Study Finds
+https://shattered.io/is-ai-making-us-think-less-54-writers-3-groups-eeg-study/
+
+Full transcript:
+
+Nora: Good morning, Chandni! It is Monday, November twenty-third, twenty twenty-six.
+
+Theo: Five stories today: four in neurotech and health tech, plus one in research.
+
+Nora: Okay, first up: who expanded this device footprint this week.
+
+Theo: Story one of five.
+
+Nora: Samsung is bringing sleep apnea detection straight to the Galaxy Ring following regulatory approvals from the US FDA and Korea MFDS.
+
+Theo: Which means the consumer ring is crossing the line from general fitness tracker into regulated medical diagnostic hardware.
+
+Nora: My read is this puts real pressure on Oura and Whoop to fast-track their own clinical clearances or risk looking like glorified pedometers.
+
+Theo: The open question is how the ring handles motion artifacts during sleep, since accelerometer data alone can get noisy before it reaches those apnea algorithms.
+
+Nora: Either way, when a consumer giant like Samsung gets an FDA nod for sleep apnea, it changes consumer expectations overnight.
+
+Theo: Story two of five.
+
+Nora: OYi Technology just completed a D-round financing of several hundred million yuan, backed by institutions like China Bing Shunjing, Changjiang Capital, and Optics Valley Industrial Investment.
+
+Theo: Founded in twenty fifteen, the company focuses on the intersection of brain-computer interface and embodied intelligence, building electromyography wristbands and robotic dexterous hands.
+
+Nora: They launched an EMG-EGO system that lets an operator wear a wristband, record muscle signals while completing tasks such as grasping and assembly, and feed that multimodal data into robot training.
+
+Theo: What gets me is the scale: their Zhuhai factory has an annual production capacity of ten thousand units, and their revenue has maintained a doubling growth rate over the past four to five years.
+
+Nora: My take is that using human electromyography data to train robots is the smartest backdoor into industrial AI automation.
+
+Theo: Show me the price per hour of cleaning that raw EMG signal, but I'll admit it—reusing neural interface tech for robot hands is clever.
+
+Nora: That's the funding rounds. Now, research and clinical frontiers.
+
+Theo: Story three of five.
+
+Nora: Laronix just raised five million Australian dollars in an oversubscribed pre-Series A round to expand voice restoration tech.
+
+Theo: The Brisbane medical technology company builds a non-invasive artificial larynx called AVA Voice, using AI to recreate a patient's original voice from a short recording of just ten seconds.
+
+Nora: Backed by Seefeld Investors and Singapore-based 12 Ventures, alongside Australian entrepreneurs and medical technology investors, they want to scale rollout across hospitals in Australia and the US for patients who lost speech from conditions including throat cancer and Parkinson's.
+
+Theo: The engineering hurdle here used to be needing hours of recorded speech, but they got it down to ten seconds after working through the Google for Startups Accelerator.
+
+Nora: My bet is that voice restoration is moving from clunky robotic hardware to personalized neural-adjacent software faster than anyone predicted.
+
+Theo: The question I'd ask is how the synthesis handles vocal fatigue or changes in breath support over a full day of clinical use.
+
+Nora: Story four of five.
+
+Theo: A portable brain ultrasound system called Foqus just picked up FDA clearance for rapid stroke-risk screening.
+
+Nora: San Diego-based Burl Concepts built the system, which scans the whole brain in about forty seconds to detect a patent foramen ovale—a small heart opening linked to unexplained strokes.
+
+Theo: It listens for signals from tiny bubbles during a study, bypassing the need for a skilled operator to find a temporal bone window with Doppler.
+
+Nora: My read is that putting this directly into outpatient cardiology clinics could completely eliminate the current diagnostic bottlenecks for stroke survivors.
+
+Theo: The catch is that a 510(k) clearance means the FDA found the device substantially equivalent to one already legally on the market and is not proof that the test leads to better outcomes, so I want to see pivotal trial data comparing its sensitivity head-to-head with standard echocardiograms.
+
+Nora: Story five of five.
+
+Theo: A new preprint EEG study of fifty-four participants found that writing essays with ChatGPT showed the weakest brain connectivity compared to writing with a search engine or no outside tools.
+
+Nora: Researchers split participants into three groups—ChatGPT, search engine, and no outside tool—and found that the AI group showed the weakest reported neural coordination and lower recall or quoting of their own text.
+
+Theo: The signal here comes from scalp sensors tracking how different brain regions coordinate, though lower connectivity could just reflect a more efficient route rather than less effort.
+
+Nora: My take is that when a chatbot produces most of the sentences, the writer has less reason to remember them, and the findings show that heavy AI help leaves the writer carrying away less of it.
+
+Theo: Cool demo of EEG connectivity in a classroom setting, but until this gets peer-reviewed, I'm calling it an interesting association, not proof of permanent harm.
+
+Nora: That's the research. Now, let's look at the broader trends.
+
+Theo: Consumer health tech and wearables are aggressively crossing the regulatory boundary into FDA-cleared diagnostic tools like sleep apnea detection, backed by Samsung's Galaxy Ring clearance and portable brain ultrasound approvals.
+
+Nora: At the same time, strategic funding and state-backed industrial capital are heavily flowing into advanced robotics, neural-interfaced hardware, and sensor integration, driving massive rounds for OYi Technology and Laronix.
+
+Theo: Career signal for today: when evaluating early-stage hardware startups, look closely at how they bridge the gap between heavy industrial or state capital and fast clinical validation.
+
+Nora: Navigating regional regulatory bodies outside the US first can provide essential runway before tackling FDA pathways.
+
+Theo: Here is your recap.
+
+Nora: One: Samsung brings an upgraded sleep apnea feature to the Galaxy Ring following regulatory approvals from the US FDA and Korea MFDS.
+
+Theo: Two: OYi Technology pulls in a massive Series D financing round of several hundred million yuan to scale its embodied intelligence business offerings.
+
+Nora: Three: Laronix closes an oversubscribed five million dollar pre-Series A to expand voice restoration.
+
+Theo: Four: A portable brain ultrasound clears the FDA for rapid stroke-risk detection.
+
+Nora: Five: A preprint EEG study of fifty-four participants suggests heavy reliance on AI tools changes cognitive engagement patterns.
+
+Theo: From consumer rings to bionic voice restoration and brain ultrasound, the entire neurotech landscape is shifting from lab experiments to everyday clinical infrastructure.
+
+Nora: Have a great walk, Chandni, and we will see you tomorrow.
+
+# Editor's log, Monday, November 23, 2026
+
+Episode: Neuro Morning: Global Standards, Funding Rounds, and FDA Milestones
+
+## How this episode was made
+1. Pulled every item published in the last ~30 hours from the sources below.
+2. Gemini (editor pass) picked about 5 stories, assigned each to one section, and logged why the rest were skipped.
+3. Gemini (research pass) checked each picked story with Google Search and built a fact sheet from credible sources.
+4. Gemini (writer pass) wrote the two-host script from only those fact sheets.
+5. Gemini (fact-check pass) compared every claim in the script with the fact sheets and fixed or cut anything unsupported.
+6. Gemini voiced it; GitHub published it.
+
+## Sources checked
+- Neurotechnology Substack: failed (403 Client Error: Forbidden for url: https://neurotechnology)
+- Neuroscience News: 0 new items
+- MedTech Dive: 0 new items
+- Fierce Biotech MedTech: 0 new items
+- STAT Health Tech: 1 new items
+- MobiHealthNews: failed (403 Client Error: Forbidden for url: https://www.mobihealthn)
+- TechCrunch Health: 0 new items
+- FDA Medical Devices: failed (404 Client Error: Not Found for url: https://www.fda.gov/apo)
+- Google News: neurotech: 12 new items
+- Google News: Neurotechnology Substack: 0 new items
+- Google News: BCI companies: 0 new items
+- Google News: neuromodulation: 7 new items
+- Google News: EEG and neural wearables: 8 new items
+- Google News: neuro funding: 10 new items
+- Google News: FDA neuro devices: 8 new items
+- Google News: NYC neurotech: 0 new items
+- Google News: wearables: 8 new items
+- Fierce Healthcare Health Tech: 0 new items
+- Healthcare IT News: failed (403 Client Error: Forbidden for url: https://www.healthcarei)
+- Google News: digital health: 10 new items
+- Google News: health tech AI: 8 new items
+- Google News: medtech devices: 8 new items
+- bioRxiv Neuroscience: failed (404 Client Error: Not Found for url: https://connect.biorxiv)
+
+## Used, by section
+### Market Moves &amp; Regulatory Milestones
+- Upgraded Sleep Apnea Feature Now Available on Galaxy Ring Following Regulatory Approvals From US FDA and Korea MFDS - samsung.com (Google News: FDA neuro devices) [link](https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbDhzcU9KWDNQVndZWnd3a1A4NkhpdUpEVmcyYjJ0U1pVeWc1OTlyZGpNSUlYX3FJQ1JQeFNZVUxyT09hcWZsN0F3OWpwbzBvdGhMNXNQR25KOU5kV0x1WEdLU1doVmRsdFZwQ2FwWkhMTzBKTEw4RW9Jb1dQeHpfU1dmZ3hZUm0wQmtGVTJ2ZmhiVnRKbFRTbjdXZmdpT0lWN1NlODRWQWd4RzZaZDk2YjYzRHBaeUwxWlRXc2xzODNzTjBCYUVjOGhyNlpmVG44WGttRjVsdUdNcU0?oc=5)  
+  Angle: Samsung's Galaxy Ring gains FDA clearance for sleep apnea detection, showing how major consumer players push clinical features into form-factor wearables.
+- Oyy Technology Closes Hundreds of Millions Yuan Series D Financing, Unveils New Embodied Intelligence Business Offerings | 36Kr Exclusive - eu.36kr.com (Google News: EEG and neural wearables) [link](https://news.google.com/rss/articles/CBMiU0FVX3lxTE05V2MyLW9WZUFCZ1RsY240UmYtLWxCT0taOVJzQXRZbXBySjhqT0dkUjBaRFZOemlJMHVOcHlqNG1sMmh3NXJPaEZqQkpfbDNZT1Zn?oc=5)  
+  Angle: OYMotion closes a massive Series D round backed by state-industrial capital, scaling up embodied AI hands and neural-controlled dexterity.
+- Laronix raises AUD $5 million to expand voice restoration - IT Brief Australia (Google News: health tech AI) [link](https://news.google.com/rss/articles/CBMijgFBVV95cUxPQWItcDNwX2xvWnA1UVhpNHVLMjJGUW9aYlNrdE5IV0s4MjVyeGNLU0hOdzdoSXRONVhlNnM1WktKa2pGZTZQV3hXaEZLb0g0dDA3dXljYXZaQmF5WkhnYVRKQWZad09kemNsYS1YUHhZb0pTV1REckFVQzBieEN2NTZwWDRmLW84UmNFR2J3?oc=5)  
+  Angle: Laronix secures $5 million pre-Series A funding to scale bionic voice restoration tech globally.
+- Portable Brain Ultrasound Cleared by FDA Scans for Signs of a Stroke-Linked Heart Opening in About 40 Seconds - Medical Daily (Google News: FDA neuro devices) [link](https://news.google.com/rss/articles/CBMihgFBVV95cUxOUE5FVEswRzFqZ0hoWHpTVEJMSDREU2FzZThZUGdWM0NoWU9ydEdPUlp5RnYxQmJuUXdFQk9aUmJmS2MwY3BBYnFHUnVKYXF2QWhueW5hZV9PSUNYVE9fdkFJOGIybVRBeHRHSnoxN29oczdoQUc1ZkVSalZPbDdPdWswYmpuQQ?oc=5)  
+  Angle: A portable brain ultrasound device receives FDA clearance for rapid stroke-risk screening, cutting down diagnostic bottlenecks.
+### Research &amp; Clinical Frontiers
+- AI Made 54 Students Think Less, EEG Study Finds - shattered.io (Google News: EEG and neural wearables) [link](https://news.google.com/rss/articles/CBMihAFBVV95cUxNWS0yNHpudWE0RjFTVmVxNXZfQ1BwN0pXbWRLV1ZVOXVwSm5lNjJMaUxhYlJINWJCWmlHMnZJNTFRYUVZdWpXQm9IVklCbDJLT0JsVk1Mb3ppbHlYRnN6TVNoMVZZT1kyVTJoV2x2Y2x4X2NfZHpfakltc0JZN0pVYUduVkw?oc=5)  
+  Angle: EEG study links heavy AI reliance to reduced active cognitive engagement, highlighting interesting neural baseline shifts as tools evolve.
+
+## Fact sheets (verified with Google Search)
+
+### Upgraded Sleep Apnea Feature Now Available on Galaxy Ring Following Regulatory Approvals From US FDA and Korea MFDS - samsung.com
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Oyy Technology Closes Hundreds of Millions Yuan Series D Financing, Unveils New Embodied Intelligence Business Offerings | 36Kr Exclusive - eu.36kr.com
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Laronix raises AUD $5 million to expand voice restoration - IT Brief Australia
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Portable Brain Ultrasound Cleared by FDA Scans for Signs of a Stroke-Linked Heart Opening in About 40 Seconds - Medical Daily
+(No fact sheet: research failed, so only the original item text was used.)
+
+### AI Made 54 Students Think Less, EEG Study Finds - shattered.io
+(No fact sheet: research failed, so only the original item text was used.)
+
+## Fact-check fixes
+- Changed "OYMotion" to "OYi Technology" to match the article.
+- Changed "Series D financing round of several hundred million yuan" and added investors (China Bing Shunjing, Changjiang Capital, Optics Valley Industrial Investment) based on the OYi article.
+- Changed OYi's founding year to 2015 based on the article.
+- Changed OYi factory details from "pushing ten thousand units a year" to "an annual production capacity of 10,000 units" based on the article.
+- Changed Laronix funding round details to "oversubscribed pre-Series A round" and added specific investors (Seefeld Investors, 12 Ventures) and regions (Australia, US, Europe) based on the Laronix article.
+- Fixed Laronix artificial larynx product name to "AVA Voice" based on the article.
+- Changed Laronix accelerator mention to "working through the Google for Startups Accelerator" based on the article.
+- Changed Foqus description to match the article's phrasing on brain scanning and bubble study details.
+- Added specific context on 510(k) clearance ("not proof that the test leads to better outcomes") from the Foqus article.
+- Changed study details for story five to match the exact findings in the preprint article (54 participants, essay-writing setup, ChatGPT vs search engine vs no outside tool, weak brain connectivity, lower recall/quoting of own text).
+
+## Trends noted
+- {'insight': 'Consumer health tech and wearables are aggressively crossing the regulatory boundary into FDA-cleared diagnostic tools like sleep apnea detection.', 'evidence': ['id 43: Samsung Galaxy Ring gained FDA sleep apnea clearance', 'id 41: Portable brain ultrasound cleared by FDA for rapid stroke screening']}
+- {'insight': 'Strategic funding and state-backed industrial capital are heavily flowing into advanced robotics, neural-interfaced hardware, and sensor integration.', 'evidence': ['id 24: OYMotion closed hundreds of millions in Series D for embodied AI', 'id 67: Laronix raised AUD $5M for bionic voice restoration']}
+
+## Not used, and why
+- Opinion: If the AI bubble bursts, it could create a serious problem for health care (STAT Health Tech): opinion piece on AI bubble, lacks specific company product milestones
+- Can China lead the brain-computer interface race? New standards drive next phase - South China Morning Post (Google News: neurotech): merged into story 3
+- Brain-computer interface rules, China takes the lead this time. - eu.36kr.com (Google News: neurotech): broad policy and standards overview rather than a concrete company milestone
+- Chengdu Targets West China's Brain-Computer Interface Hub - PR Newswire (Google News: neurotech): regional hub announcement without specific product launch details
+- Nine Realms Wisdom Realm: Quantifying Emotions via Brain-Computer Interface Technology – Now Seeking New Round of Financing - eu.36kr.com (Google News: neurotech): early fundraising pitch, not yet a closed funding milestone
+- BCI Minerals Cancels 399,264 Performance Rights 2025 After Conditions Lapse on 23 November 2026 - Kalkine (Google News: neurotech): unrelated mineral company corporate filing
+- Neuralink trial participant ditches mouth stick to play GTA 6 with his mind — brain-computer interface maps imagined ring-finger taps and hand slides to a PlayStation 5 controller - Yahoo Tech (Google News: neurotech): old news; follow-up report on Neuralink gaming demo covered previously
+- Is privacy at stake in the age of neurotechnology? - Daily Observer (Google News: neurotech): general ethics discussion piece
+- Brain-Computer Interface Clinical Trials: Nationwide Race to Recruit Patients - eu.36kr.com (Google News: neurotech): general overview of clinical trial recruitment across China
+- Neurotech (ASX:NTI) Advances Its Cannabinoid Autism Study: What Next? - Kalkine Media (Google News: neurotech): routine progress update on cannabinoid study
+- BCI Minerals Names Elizabeth Shaw as Sole Company Secretary After Robert Mancini Resignation - Kalkine (Google News: neurotech): unrelated mineral company personnel change
+- BCI Minerals Issues 8.98 Million Performance Rights and Share Rights to KMP on 23 November 2026 - Kalkine (Google News: neurotech): unrelated mineral company stock rights filing
+- BCI Minerals Notifies Issue of Unquoted Performance and Share Rights - TipRanks (Google News: neurotech): unrelated mineral company filing
+- Dunedin startup Neumic seeks GBP £1 million for brain tech - IT Brief New Zealand (Google News: neuromodulation): merged into story 17
+- Chronic Subthalamic Stimulation Shows No Robust Subjective Sleep Differences in Parkinson Disease - Bioengineer.org (Google News: neuromodulation): academic research finding without product or startup context
+- Zhongnaoyun Seeks New Financing: Replacing Traditional Scale-Based Drug Trials with Innovative Brain-Computer Closed-Loop System - eu.36kr.com (Google News: neuromodulation): early financing search by a Chinese neuromodulation startup
+- NZ Startup Neumic Therapeutics Seeks $1M To Compete In Global Ultrasound Race Attracting Silicon Valley Investors - Scoop - New Zealand News (Google News: neuromodulation): early fundraising goal by a pre-seed startup, not a closed round
+- Advanced Stimulation Settings Offset Subthalamic Lead Placement Deviations in Parkinson’s Disease - Bioengineer.org (Google News: neuromodulation): academic Parkinson's stimulation study
+- 80s star makes heartbreaking admission amid Parkinson's diagnosis - AOL.co.uk (Google News: neuromodulation): celebrity health personal news
+- 80s star makes heartbreaking admission amid Parkinson's diagnosis - Daily Express (Google News: neuromodulation): duplicate of item 19
+- OYMotion raises hundreds of millions in Series D for embodied AI hands - Dealroom (Google News: EEG and neural wearables): merged into story 24
+- IS AI MAKING US THINK LESS? Brain scans suggest relying on AI for answers may weaken our use of personal knowledge and critical thinking, debating whether technology makes us smarter or simply more dependent. #DWShift - Facebook (Google News: EEG and neural wearables): social media re-report of item 21
+- Stereo-EEG Links Rare Chorea-Athetosis Hyperkinetic Seizures Directly to Temporal Lobe Networks - Bioengineer.org (Google News: EEG and neural wearables): academic epilepsy EEG case study
+- A putty-like electrode could improve vocal rehabilitation - Technology Org (Google News: EEG and neural wearables): early academic materials research
+- Weekly Recap: $107 million PIFSS payment and liability ruling dispute - TradingView (Google News: EEG and neural wearables): unrelated financial trading roundup
+- Rising Researchers Demonstrating Their Originality: Professor Yasuaki Shinohara – Waseda University - 早稲田大学 (Google News: EEG and neural wearables): university faculty spotlight
+- Laronix Bionic Voice: Brisbane Raises $5M Pre-Series A - shattered.io (Google News: neuro funding): merged into story 67
+- Cigna Group Foundation Makes $31.5 Mn in Grants Available Across 10 States - Digital Health News (Google News: neuro funding): philanthropic grant announcement
+- Do you really need an AI wearable to remember every moment? - TechNode (Google News: neuro funding): consumer gadget review/opinion
+- China's Oymotion Technologies Closes Nine-Figure D Round as State-Owned Industrial Capital Piles Into Dexterous Hand Sector - BigGo Finance (Google News: neuro funding): merged into story 24
+- Nepalese physician Rishav Das’ Wearable Wellness Guide valued at $1.2 million - OnlineKhabar English News (Google News: neuro funding): merged into story 35
+- Dunedin startup Neumic seeks GBP £1 million for brain tech - FutureFive New Zealand (Google News: neuro funding): merged into story 17
+- Nepali physician Rishav Das’ Wearable Wellness Guide valued at $1.2 million - Hamro Patro (Google News: neuro funding): local profile on individual wellness guide valuation
+- Nadda Urges Young Doctors to Adopt E-Prescriptions, Accelerate Digital Health Solutions - Digital Health News (Google News: neuro funding): governmental digital health policy speech
+- The Next Healthcare Revolution Is About Access, Not Just Innovation: AWS's Vision for AI-Powered Care - Digital Health News (Google News: neuro funding): corporate cloud vision press release
+- Samsung Medison Expands Hongcheon Manufacturing Facility in South Korea - Digital Health News (Google News: neuro funding): manufacturing facility expansion
+- With two upcoming FDA decisions, ‘oddball’ Praxis is on the cusp of commercialization - BioSpace (Google News: FDA neuro devices): anticipatory preview article ahead of decisions
+- How Biotech Upstart Beren Turned a Pharma Failure Into a First-in-Class FDA Approval - MedCity News (Google News: FDA neuro devices): retrospective analysis of a past pharmaceutical approval
+- Biotech Funds Slide Into Thanksgiving Week — Capricor’s FDA Fight And Back-To-Back Drug Decisions Top Watchlist - TradingView (Google News: FDA neuro devices): weekly biotech market roundup
+- Baoji Biopharmaceutical's KJ103 Wins FDA Orphan Drug Designation, Targeting Seven-Year Exclusivity in Guillain-Barré Syndrome - BigGo Finance (Google News: FDA neuro devices): pharmaceutical orphan drug designation, outside neurotech focus
+- New Method Treats Severe Thumb Arthritis With Joint Replacement – Just like a New Hip or Shoulder - Good News Network (Google News: FDA neuro devices): orthopedic joint replacement news
+- Aribio releases 78-week Alzheimer's drug data, targets US approval - Chosunbiz (Google News: FDA neuro devices): Alzheimer's drug trial data release
+- Wearable Devices Bring Objective Data to Orthopaedic Rehab - Cleveland Clinic (Google News: wearables): general clinical overview of wearables in rehab
+- Ditch the Apple Watch: Hatch launches a contactless sleep-tracking alarm clock - Mashable (Google News: wearables): consumer sleep hardware product launch
+- Dr. Ravi Iyer: The More Medicine Knows, the More Human It Must Become - Time Magazine (Google News: wearables): magazine essay on medical humanity
+- Thermally Healable Gelatin Interface Restores Over 97 Percent of Sensor Function - Bioengineer.org (Google News: wearables): academic materials science paper
+- Samsung adds sleep apnoea risk detection to Galaxy Ring following approvals - Telecompaper (Google News: wearables): merged into story 43
+- SMART Researchers Develop Novel Material to Enable Long-term Ultrasound Monitoring - BusinessToday Malaysia (Google News: wearables): early university materials research
+- The six best sleep trackers in the US (and which to avoid) - AOL.com (Google News: wearables): consumer shopping guide
+- Wellcome Awards £9.3M Youth Social Media Study - CASRAI (Google News: wearables): academic youth study grant
+- Vietnam-Sweden: From non-refundable aid to a strategic digital partnership - VOV World (Google News: digital health): bilateral government partnership announcement
+- Nadda launches healthcare, institutional projects worth ₹172cr - Medical Buyer (Google News: digital health): local healthcare infrastructure project launch in India
+- Karnataka’s Namma Clinics: Can Digital Workflows Strengthen Urban Primary Healthcare? - Digital Health News (Google News: digital health): regional digital clinic workflow review
+- Lunit, M42 partner to use existing chest X-rays for lung cancer detection in UAE - Korea Biomedical Review (Google News: digital health): merged into story 62
+- India’s TB Stall Logged 12,189 Visits but Published No AI Screening Count - Tech Times (Google News: digital health): reporting on implementation friction in public health
+- MedPal AI raises £2.5m as Mounjaro sales accelerate and former 1Spatial CFO joins - Share Talk (Google News: digital health): small digital health funding round outside core neuro/medtech focus
+- President William Samoei Ruto commissioned Vihiga County Teaching and Referral Hospital in Mbale town, an investment that will strengthen healthcare delivery and expand access to quality medical services for the residents of Vihiga County. - Facebook (Google News: digital health): hospital commissioning event
+- Lunit partners with UAE health tech firm on early lung cancer detection, expands global push - 머니투데이 (Google News: digital health): AI diagnostic partnership expansion
+- Princess Rajwa Al Hussein attends youth forum for health and wellbeing - Ammon News (Google News: digital health): royal attendance at youth forum
+- Union Minister Nadda Unveils New Facilities Worth INR 172.27 Cr at JIPMER - Digital Health News (Google News: digital health): merged into story 56
+- How Much Does Enterprise Agentic AI Cost, and How Can Firms Save Up to 85%? - Beinsure (Google News: health tech AI): general enterprise AI cost analysis
+- You Can See Everything is intriguing and infuriating in equal measure - ArtsHub UK (Google News: health tech AI): arts and culture exhibition review
+- Laronix raises AUD $5 million to expand voice restoration - IT Brief Australia (Google News: health tech AI): merged into story 67 (primary item selected)
+- Elizabeth Holmes went from a startup darling to powerful seductress – these gendered portrayals profited investors - Irish Examiner (Google News: health tech AI): retrospective media commentary on historical startup
+- AI Leaders Achieve 4x ROI as Governance and Skills Drive Adoption - Beinsure (Google News: health tech AI): general enterprise AI survey data
+- Investors reject a startup's new drug. What next? - Globes - Israel Business News (Google News: health tech AI): general business commentary on drug trial failure
+- European tech weekly recap: More than 65 tech funding deals worth over €6B - Tech.eu (Google News: health tech AI): broad European tech funding recap
+- AdBreakers Launches Trybe Creator Management Services for E-commerce Brands - TechBullion (Google News: health tech AI): e-commerce creator management agency launch
+- Navigating Governed AI for MedTech in the Era of FDA’s ELSA - Quality Magazine (Google News: medtech devices): regulatory compliance opinion piece for medtech
+- Medical device reprocessing has reached an inflection point - DOTmed (Google News: medtech devices): industry opinion piece on device reprocessing
+- Search is on for new leader at FDA - Boston Herald (Google News: medtech devices): political news regarding agency leadership search
+- PolyNovo Limited (ASX:PNV) Submits FDA Premarket Approval Application for NovoSorb BTM in Full-Thickness Burns - Kalkine (Google News: medtech devices): PMA application submission for burn treatment material
+- VUNO Launches Fundus Imaging AI in Brazil, Ramps Up South America Push - 아시아경제 (Google News: medtech devices): merged into story 78
+- VUNO Launches Retinal Imaging AI in Brazil to Expand in South America - Seoul Economic Daily (Google News: medtech devices): retinal AI software market expansion into South America
+- World First! LivingPHOENIX Secures China's First Medical Device Registration Certificate for Biomimetic Collagen - ANTARA News (Google News: medtech devices): biomaterial device approval in China
+- EMUGE-FRANKEN USA expands MultiDRILL Micro line - Medical Design &amp; Outsourcing (Google News: medtech devices): industrial manufacturing tool line expansion</description>
+   <pubDate>Mon, 23 Nov 2026 09:44:06 +0000</pubDate>
+   <guid isPermaLink="false">neuro-morning-2026-11-23-0944</guid>
+   <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-23.mp3?v=0944" length="3735980" type="audio/mpeg"/>
+   <itunes:duration>466</itunes:duration>
+   <itunes:explicit>false</itunes:explicit>
+   <podcast:transcript url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-23.vtt" type="text/vtt" language="en"/>
+  </item>
+  <item>
    <title>Science Corp's $400M Mega-Round, Wearable VNS, and Noninvasive BCI Breakthroughs</title>
    <description>Today's stories:
 

@@ -1,0 +1,47 @@
+[
+ {
+  "company": "Oyi Technology",
+  "signal": "funding",
+  "detail": "Shanghai Aoyi Information Technology Co., Ltd. (OYi Technology) announced the completion of a D-round financing of several hundred million yuan.",
+  "location": "Shanghai/China",
+  "nyc": false,
+  "why_relevant": "As a BME MS student focused on biosignal-ML and neuromodulation, OYi's work bridging brain-computer interfaces, electromyography, and embodied neural interfaces offers direct exposure to neural signal decoding and hardware-software integration.",
+  "link": "https://eu.36kr.com/en/p/4077898242380676"
+ },
+ {
+  "company": "Burl Concepts",
+  "signal": "fda",
+  "detail": "San Diego-based Burl Concepts received 510(k) clearance (number K260813) for its portable brain ultrasound system, Foqus.",
+  "location": "San Diego, CA, USA",
+  "nyc": false,
+  "why_relevant": "This portable brain ultrasound system provides a robust digital signal acquisition platform, which aligns with signal processing and diagnostic instrumentation coursework for a biomedical engineering student.",
+  "link": "https://www.medicaldaily.com/fda-clears-foqus-ultrasound-pfo-stroke-test-481584"
+ },
+ {
+  "company": "Laronix",
+  "signal": "funding",
+  "detail": "The Brisbane medical technology company has raised AUD $5 million in an oversubscribed pre-Series A round.",
+  "location": "Brisbane/Australia",
+  "nyc": false,
+  "why_relevant": "Laronix applies machine learning and voice AI to reconstruct speech from neural and physiological signals, presenting an exciting opportunity for an MS BME student specialized in biosignal ML.",
+  "link": "https://itbrief.com.au/story/laronix-raises-aud-5-million-to-expand-voice-restoration"
+ },
+ {
+  "company": "Samsung",
+  "signal": "fda",
+  "detail": "Samsung secured US FDA and Korea MFDS regulatory approvals for its upgraded sleep apnoea feature on the Galaxy Ring.",
+  "location": "Suwon/South Korea",
+  "nyc": false,
+  "why_relevant": "Consumer health wearables integrating clinical-grade algorithms like sleep apnea detection provide valuable practical insight into physiological signal processing and embedded machine learning.",
+  "link": "https://news.samsung.com/my/upgraded-sleep-apnea-feature-now-available-on-galaxy-ring-following-regulatory-approvals-from-us-fda-and-korea-mfds"
+ },
+ {
+  "company": "PolyNovo Limited",
+  "signal": "fda",
+  "detail": "PolyNovo Limited submitted its FDA Premarket Approval Application for NovoSorb BTM in full-thickness burns.",
+  "location": "Melbourne/Australia",
+  "nyc": false,
+  "why_relevant": "Though more biomaterials-focused, tracking FDA submissions from established medtech companies helps understand the regulatory pathways and clinical translation pipelines critical for a BME student.",
+  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQmNZWVRucl9YNWpYc1ozeXZmM2JyUHB2eDJEUDVNS1I3UWVNNlZVbDVBTVE1MXVkVTNiQjdidFBtbEhVZlk2OXlHNklQY0lqX3BnSFJYTE9ocHZkejBmejZGSzk1b2trZWM2ck1pR2tuV1FXVklNdHMzd3czdEtJZHZKSWdodHJJZzFpSGFEamVaTFVEd25QSGlrMnBYdkxQS2xwRllORUhKai14TnA0bGpmN3MzUmZxZlFvY2s1R2F1MzFBV2hNeE9WUW9wbjh4TS1ZQ01MQ01rVXpHZzBF?oc=5"
+ }
+]
