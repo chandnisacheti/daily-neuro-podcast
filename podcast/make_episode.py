@@ -195,6 +195,10 @@ the industry is heading. Her interests are broad: product strategy and product m
 development, BME, data science, clinical and regulatory paths, business development and startups. Her
 hands-on experience (biosignal ML, closed-loop neuromodulation, productizing a device) is only one slice
 of that, so never reduce her to it.
+She is from Hong Kong and studying in the US as an international student, so she values a GLOBAL view:
+innovation in Asia (China, Hong Kong, Singapore, Japan, Korea, India), how companies win traction or
+approval abroad (CE mark, NMPA, PMDA) before coming to the US and FDA, and how the US, Europe and Asian
+markets connect. When a strong Asia or cross-border story is available, prefer to include one.
 
 Pick the stories for today's episode from the numbered news items, and plan the rundown.
 
@@ -239,8 +243,8 @@ Recently covered stories (do not repeat): {recent}
 Return JSON:
 {{"title": "short episode title",
   "sections": [{{"name": "...", "stories": [{{"id": 3, "angle": "one line: what to emphasize and why it matters to Chandni"}}]}}],
-  "trends": [{{"insight": "one HIGH-LEVEL shift in the industry: where the money is going, what business models or product bets are working and which are struggling, where the industry is heading. Not a technical detail, and NOT a restatement of a story", "evidence": ["short factual phrases drawn from ANY of today's news items, including ones not picked as main stories, each with its id, e.g. 'id 12: Oura raised $X'"]}}],
-  "career_signal": "1 or 2 sentences: one non-obvious takeaway for Chandni's career. Rotate the angle day to day across product strategy, go-to-market, regulatory or clinical, business development, startups vs big companies, data science, and R&D; only use her biosignal or neuromodulation work when the story is truly about that. Not a list of the companies just mentioned",
+  "trends": [{{"insight": "one HIGH-LEVEL shift in the industry: where the money is going, what business models or product bets are working and which are struggling, where the industry is heading. Where the evidence allows, include a GLOBAL angle: Asia vs US innovation, ex-US-first regulatory paths, cross-border capital or partnerships. Not a technical detail, and NOT a restatement of a story", "evidence": ["short factual phrases drawn from ANY of today's news items, including ones not picked as main stories, each with its id, e.g. 'id 12: Oura raised $X'"]}}],
+  "career_signal": "1 or 2 sentences: one non-obvious takeaway for Chandni's career. Rotate the angle day to day across product strategy, go-to-market, regulatory or clinical, business development, startups vs big companies, data science, R&D, and building a global or cross-border career or company (US and Asia, ex-US-first launch strategies, founding in this space); only use her biosignal or neuromodulation work when the story is truly about that. Not a list of the companies just mentioned",
   "recap": ["exactly one memorable line per main story, in the order they were told"],
   "skipped": [{{"id": 7, "reason": "short reason"}}]}}
 Every item id must appear exactly once, either in a section or in skipped.
@@ -330,13 +334,16 @@ EASY TO FOLLOW BY EAR:
     money is going, what is working in the industry and what is not, where it is heading. Say the
     insight first, then back it with the plan's evidence, which can come from other news today that
     wasn't one of the main stories (mention it briefly, using only the evidence wording). Never retell
-    a main story's details, and never invent a statistic or a company to support the point. It should
+    a main story's details, and never invent a statistic or a company to support the point. Chandni is
+    from Hong Kong, so when today's news supports it, bring in the global picture: what Asia is building,
+    ex-US-first paths to FDA, and how markets connect. It should
     make her think, like two insiders reading the market, not re-hear the episode.
   * Career Signal (about 40 to 60 words): one non-obvious takeaway for someone like Chandni, a
     lab-to-market BME with broad interests (product strategy and PM, R&D, data science, clinical and
     regulatory, BD, startups): a skill to build, a kind of role or company to watch, or a move to make
     this week. Follow the plan's career_signal angle; do not default to biosignal ML or closed-loop
-    neuromodulation. No list of companies.
+    neuromodulation. Some days, frame it for a future founder or for someone building a career that
+    spans the US and Asia. No list of companies.
     If the plan has "tracker_matches" (companies in today's stories that are on Chandni's own target
     list), build the Career Signal around ONE of them: what today's news means for someone like her
     there, and the kind of person to reach out to (a role such as "their head of clinical product" or

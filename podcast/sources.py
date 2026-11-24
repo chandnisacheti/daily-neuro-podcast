@@ -34,5 +34,7 @@ FEEDS = [
     ("Google News: digital health", google_news('"digital health" (raises OR funding OR launches OR FDA OR partnership OR acquires)'), 10),
     ("Google News: health tech AI", google_news('("health tech" OR healthtech OR "AI in healthcare" OR "remote patient monitoring") (startup OR raises OR launches)'), 8),
     ("Google News: medtech devices", google_news('medtech (sensor OR diagnostic OR device) (raises OR FDA OR launches OR acquires)'), 8),
+    ("Google News: Asia neurotech", google_news('(China OR "Hong Kong" OR Singapore OR Japan OR Korea OR Taiwan OR India OR Asia) (neurotech OR "brain-computer interface" OR BCI OR neuromodulation OR medtech OR wearable OR "digital health")'), 10),
+    ("Google News: global regulatory path", google_news('(CE mark OR NMPA OR PMDA OR "approved in Europe" OR "approved in China" OR "outside the US") (neurotech OR medtech OR device OR wearable) FDA'), 6),
     ("bioRxiv Neuroscience", "https://connect.biorxiv.org/biorxiv_xml/neuroscience.xml", 6),
 ]
