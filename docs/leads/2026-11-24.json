@@ -1,0 +1,47 @@
+[
+ {
+  "company": "Paradromics",
+  "signal": "partnership",
+  "detail": "Paradromics partnered with NVIDIA to integrate high-performance AI computing into brain-computer interfaces to target thought-to-speech latency under 10 milliseconds.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Combines brain-computer interfaces with low-latency AI signal processing, directly fitting biosignal-ML and neuroengineering backgrounds.",
+  "link": "https://www.massdevice.com/paradromics-taps-nvidia-to-bring-on-device-speech-ai-to-brain-computer-interfaces-bci/"
+ },
+ {
+  "company": "Exicure",
+  "signal": "acquisition",
+  "detail": "Exicure signed an agreement to acquire between 20% and 100% of NeuroQ Biologics and provide up to $500,000 to advance the X-CUE AR smart glasses for Parkinson's freezing of gait.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Focuses on wearable AR technology aimed at treating motor symptoms in Parkinson's disease, highly applicable to neuromodulation and movement disorder research.",
+  "link": "https://shattered.io/exicure-x-cue-parkinsons-ar-smart-glasses-500000-neuroq/"
+ },
+ {
+  "company": "Neumic Therapeutics",
+  "signal": "funding",
+  "detail": "Neumic Therapeutics is seeking $1 million in pre-seed investment funding to advance its brain-tech technologies.",
+  "location": "New Zealand",
+  "nyc": false,
+  "why_relevant": "An early-stage brain-tech startup offering opportunities in novel neuromodulation and neurotechnology research.",
+  "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcFUtdW84Tk5CX203cHhoWjVtQnJ6U25MelVjN01EV3RVSWpFNy1Td0RHNkpWZ3phZU4wUVg1OERiaHQ4RTJKdkdVd1k2V0VRajVodXNXTzhYOGNKUnBmZWMtV3ByQTBoa2dwUEVMbFNFak1WOVhOYmRtZGN2T1ZjcVhOMUhET04tU2ZsYVFWcVBQTWRKcU5reVR4THA3RVp0ZUUwalh2cV9kZXJPU2dYMWxwMW9tTmhzSXFWQkdtSkU5RVRVZ2ZyJnN4WWtMRVBw?oc=5"
+ },
+ {
+  "company": "Vire Health",
+  "signal": "funding",
+  "detail": "Vire Health launched the Vire Clip waist-worn wearable backed by Oura co-founders and initiated a testing program ahead of a planned 2027 commercial rollout.",
+  "location": "Helsinki, Finland",
+  "nyc": false,
+  "why_relevant": "Focuses on continuous biosignal monitoring including body temperature, respiration, and heart rate from wearable sensors.",
+  "link": "https://femtechinsider.com/vire-health-launches-womens-health-wearable-backed-by-oura-founders/"
+ },
+ {
+  "company": "Multiwave",
+  "signal": "fda",
+  "detail": "Multiwave received FDA clearance for its portable brain MRI imaging device.",
+  "location": "Switzerland",
+  "nyc": false,
+  "why_relevant": "Develops novel portable neuroimaging hardware suitable for BME students interested in brain mapping and neurodiagnostic instrumentation.",
+  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNGMxUHFqUnhqdzJZUHV5MVBBc1dsdFFaUmZ0emQtSTllc0xOTC1OaTNVb29sMzluVTBMM0RnaGFneUtjSTFFd005WVFCNVVfNy1ybWEzOXA4MllZWHNmbG9yUDF1Q1ZraDBXNGd3QlNlbGVJNlVBUW96TFlDVWhuWQ?oc=5"
+ }
+]

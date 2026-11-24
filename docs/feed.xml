@@ -13,6 +13,413 @@
   <itunes:block>Yes</itunes:block>
   <itunes:category text="Science"/>
   <item>
+   <title>Paradromics Taps NVIDIA, China Drives Global BCI Standards, and Siemens Wins FDA De Novo for MS</title>
+   <description>Today's stories:
+
+1. Paradromics taps Nvidia to bring on-device speech AI to brain-computer interfaces
+https://www.massdevice.com/paradromics-taps-nvidia-to-bring-on-device-speech-ai-to-brain-computer-interfaces-bci/
+
+2. Siemens Healthineers Receives FDA De Novo Authorization for MS Blood Test
+https://www.genomeweb.com/business-news/regulatory/fda/approval/gnw-siemens-nfl-fda-authorization-20261123/
+
+3. Vire Health Launches Women’s Health Wearable, Backed by Oura Founders
+https://femtechinsider.com/vire-health-launches-womens-health-wearable-backed-by-oura-founders/
+
+4. China moves to lead global brain-computer interface standards, challenging Neuralink
+https://www.digitaltoday.co.kr/en/view/129732/china-moves-to-lead-global-brain-computer-interface-standards-challenging-neuralink
+
+5. Exicure X-CUE Smart Glasses: $500,000 for Parkinson’s
+https://shattered.io/exicure-x-cue-parkinsons-ar-smart-glasses-500000-neuroq/
+
+Full transcript:
+
+Nora: Good morning, Chandni!
+
+Nora: Today is Tuesday, November 24, 2026.
+
+Theo: Five stories today: three in neurotech, two in health tech.
+
+Nora: Grab your coffee, let's jump right in.
+
+Nora: Okay, first up: who expanded and scaled this week. Story one of five.
+
+Nora: Brain-computer interface developer Paradromics is partnering with semiconductor giant NVIDIA to process speech AI directly on brain-computer interface hardware.
+
+Theo: They are bringing NVIDIA’s processing power straight into their neural signal processing chain.
+
+Theo: The goal is to bring speech AI decoding directly onto the BCI device.
+
+Nora: Speech AI on-device! That could be a major step toward real-time decoding.
+
+Theo: For speech synthesis, latency is everything.
+
+Theo: If your decoding lag is too high, it breaks natural conversational flow.
+
+Nora: Right! It feels like talking over a bad satellite connection.
+
+Theo: Exactly. But streaming thousands of microelectrode channels at high sample rates creates a massive data bottleneck.
+
+Theo: If you try sending raw neural data over wireless to an off-device server, latency spikes instantly.
+
+Nora: So moving the processing directly onto the device chip solves the cloud lag.
+
+Nora: It’s a huge focus area for neurotech hardware teams right now.
+
+Theo: Okay... I'll admit it. That is clever hardware integration.
+
+Theo: But here is my skeptic question: what about the thermal envelope?
+
+Nora: Ah, the classic hardware question!
+
+Theo: Running continuous deep learning inference on an edge chip draws real wattage.
+
+Theo: If you place high-throughput compute near human tissue, how do you dissipate heat without causing tissue damage?
+
+Nora: They haven't published detailed thermal dissipation specs yet, but if they hit safe on-device processing, it untethers BCI from heavy external compute carts.
+
+Theo: That's the real milestone. Less tethering, faster decoding.
+
+Nora: Now to story two of five.
+
+Nora: Siemens Healthineers just earned FDA De Novo authorization for a blood-based diagnostic test for Multiple Sclerosis.
+
+Theo: This authorization brings a cleared blood test option for MS diagnostic pathways.
+
+Nora: That is huge for MS patients. Historically, monitoring MS progression meant invasive spinal fluid collection or expensive, repetitive MRI scans.
+
+Theo: A blood-based diagnostic gives clinicians another tool to monitor disease activity over time.
+
+Theo: Instead of relying purely on imaging or invasive procedures, trace markers in blood plasma can provide critical data.
+
+Nora: But detecting those tiny marker amounts in blood used to be extremely difficult, right?
+
+Theo: Exactly. Achieving the analytical sensitivity required to measure those concentrations consistently was a major hurdle.
+
+Theo: Siemens adapted their testing platform to deliver the required sensitivity for clinical diagnostic use.
+
+Nora: So instead of waiting for a major lesion to show up on an MRI scan, a neurologist can run a routine blood draw to track disease activity.
+
+Theo: Right. It gives clinicians a quantitative blood biomarker to monitor patients over time.
+
+Nora: My question is reimbursement and clinical adoption. Will insurance payers cover routine MS blood draws as standard care, or treat it as an optional add-on?
+
+Theo: That will take time. And I want to see longitudinal data across real-world, diverse patient populations to check false-positive rates.
+
+Nora: Fair point. But securing an FDA De Novo creates a brand-new regulatory pathway for neurodegenerative blood diagnostics.
+
+Theo: Grudging respect to Siemens on this one. It moves blood-based brain monitoring out of research labs and straight into clinical labs.
+
+Nora: Staying in expansion, story three of five.
+
+Nora: Femtech startup Vire Health launched a novel women's health wearable called the Vire Clip, backed by the founding team of Oura.
+
+Theo: Petteri Lahtela, Oura's co-founder, backed the company, and Oura's former Chief Science Officer Hannu Kinnunen joined as a technical advisor.
+
+Nora: That is serious wearable royalty coming out of Finland. But here's the kicker: it's not a ring, and it's not a watch.
+
+Theo: Right. It is a waist-worn sensor clip priced at four hundred forty-nine euros.
+
+Nora: Four hundred forty-nine euros for a waistband clip! Okay, Theo, bring out your sensor breakdown. Why the waist?
+
+Theo: From a biomedical signal perspective, the waist placement is actually smart.
+
+Theo: Wrist optical sensors get hammered by motion artifacts, shivering, and rapid swings in ambient room temperature.
+
+Theo: Clipping a device directly to your waistband puts continuous thermal sensors right next to core body tissue.
+
+Nora: Which means better data on core temperature, sleep posture, perspiration, and breathing dynamics than a wristband could ever capture.
+
+Theo: Exactly. They are starting with a hundred-person co-creation program ahead of a planned broader commercial rollout in 2027.
+
+Theo: They are also testing it in the Our Transitions clinical study with non-profit 4YouandMe to see if continuous physiological tracking can detect hot flashes and assess perimenopause changes.
+
+Nora: I love seeing founders move past generic step counting into targeted autonomic tracking for women's health.
+
+Theo: The engineering makes sense. My question is user behavior.
+
+Theo: Will women want to clip a four hundred forty-nine euro device onto their clothes every single day?
+
+Nora: If the cycle tracking and hot flash detection are accurate, absolutely. But compliance will make or break it.
+
+Nora: That's the scaling news. Now, global strategy and standards.
+
+Nora: Story four of five. China has launched major national initiatives to set global technical standards for brain-computer interfaces.
+
+Theo: China’s Ministry of Industry and Information Technology formed a dedicated working group under its BCI standardization technical committee.
+
+Theo: They are hosting a BCI Standards Week event in Wuhan to establish practical industrial standards.
+
+Nora: And this isn't starting from scratch. China's market regulators recently led the publication of an international BCI reference architecture standard through ISO and IEC.
+
+Theo: They have formally elevated BCI into their 15th Five-Year Plan, categorizing it alongside quantum computing and 6G telecommunications as strategic infrastructure for 2030.
+
+Nora: Meanwhile, on the hardware side, the China Academy of Information and Communications Technology reported that global BCI companies jumped from eight hundred to nearly twelve hundred this year.
+
+Theo: And domestic clinical trials are accelerating fast. Their implantable BCI system, Beinao Number One, has been tested in over forty human patients, with medical device registration planned for next year.
+
+Nora: Western media focuses almost entirely on Neuralink patient demos, but China is systematically building the regulatory, industrial, and architectural benchmarks for Asia.
+
+Theo: Exactly. Silicon Valley builds impressive individual prototypes. Beijing is attempting to own the international standard for hardware safety, signal formatting, and interoperability.
+
+Nora: If Asian regulatory bodies align around these Chinese standards, Western neurotech firms will have to re-engineer their systems just to sell into Asian markets.
+
+Theo: Smart strategy. Dominating technical standards is how you build a long-term commercial defense.
+
+Nora: Moving to our final topic today: new product development. Story five of five.
+
+Nora: Micro-cap biotech Exicure announced a strategic agreement to fund AR smart glasses for Parkinson's disease symptom management.
+
+Theo: Exicure signed an agreement with NeuroQ Biologics and Laonz to advance the X-CUE smart glasses, a system designed to treat freezing of gait.
+
+Nora: Freezing of gait is devastating. A Parkinson's patient steps forward, and suddenly their feet feel glued to the floor, causing severe fall risks.
+
+Theo: The X-CUE glasses project augmented-reality visual cues, like lines or targets, directly into the patient's field of view to help trigger motor stepping.
+
+Nora: We know visual cueing works clinically—physiotherapists have used floor tape and laser pointers for decades. Putting it in lightweight smart glasses is a great concept.
+
+Theo: Conceptually, yes. But let's look at the financial engineering here.
+
+Theo: Exicure is a Nasdaq-listed micro-cap company proposing to acquire anywhere between twenty percent and one hundred percent of NeuroQ.
+
+Nora: And the total funding check they are promising? Up to five hundred thousand dollars.
+
+Theo: Five hundred thousand dollars. That is a tiny check for a deal spanning twenty to full acquisition.
+
+Theo: And that money is explicitly subject to board approvals, funding availability, and definitive legal arrangements. No cash has actually transferred yet.
+
+Nora: Right! Five hundred thousand dollars barely covers six months of regulatory consulting and clinical trial site fees, let alone commercial launch.
+
+Theo: They claim the latest optical prototype has completed development and is entering a six-month clinical evaluation.
+
+Theo: But they haven't disclosed display specs, weight, battery runtime, or sensor fusion details.
+
+Nora: A half-million-dollar conditional pledge across four developmental phases is a red flag. The tech vision is solid, but the financial runway looks razor-thin.
+
+Nora: Let's step back and look at today's high-level market trends.
+
+Theo: BCI commercialization is fundamentally shifting from raw electrophysiology hardware to edge compute architecture and international regulatory standards.
+
+Nora: In the US, companies like Paradromics are partnering with semiconductor leaders like NVIDIA to bring speech AI on-device.
+
+Theo: Meanwhile in Asia, state-backed technical committees and ISO frameworks are defining regional standards.
+
+Nora: It shows that high channel counts alone won't win the market—defensible moats require low-latency compute integration and early regulatory alignment.
+
+Nora: Which leads us straight into today's Career Signal for Chandni and lab-to-market engineers.
+
+Theo: When you evaluate neurotech startups, look past the core biosignal sensor. Examine their edge compute architecture and international regulatory pipeline.
+
+Nora: If you are building a career bridging R&amp;D and commercial strategy, now is the time to reach out to compute hardware integration teams—like those working on NVIDIA integrations at Paradromics—or regulatory standards leads.
+
+Theo: Ask them how they are managing real-time power limits and meeting emerging ISO standards. That cross-disciplinary knowledge is gold right now.
+
+Nora: Let's hit the quick daily recap.
+
+Nora: One: Paradromics teamed up with NVIDIA to bring speech AI directly onto BCI hardware.
+
+Theo: Two: Siemens Healthineers scored FDA De Novo clearance for an MS blood diagnostic test.
+
+Nora: Three: Vire Health introduced a waist-worn women's health wearable backed by Oura's founders.
+
+Theo: Four: China launched national BCI technical committees to shape global regulatory standards.
+
+Nora: Five: Exicure announced a conditional half-million-dollar deal for Parkinson's visual cueing smart glasses.
+
+Theo: The takeaway today: edge compute and regulatory infrastructure are defining the next era of neurotech.
+
+Nora: That is your Neuro Morning for Tuesday, November 24, 2026. Keep moving, Chandni, and have a fantastic day!
+
+Theo: Catch you tomorrow.
+
+# Editor's log, Tuesday, November 24, 2026
+
+Episode: Paradromics Taps NVIDIA, China Drives Global BCI Standards, and Siemens Wins FDA De Novo for MS
+
+## How this episode was made
+1. Pulled every item published in the last ~30 hours from the sources below.
+2. Gemini (editor pass) picked about 5 stories, assigned each to one section, and logged why the rest were skipped.
+3. Gemini (research pass) checked each picked story with Google Search and built a fact sheet from credible sources.
+4. Gemini (writer pass) wrote the two-host script from only those fact sheets.
+5. Gemini (fact-check pass) compared every claim in the script with the fact sheets and fixed or cut anything unsupported.
+6. Gemini voiced it; GitHub published it.
+
+## Sources checked
+- Neurotechnology Substack: failed (403 Client Error: Forbidden for url: https://neurotechnology)
+- Neuroscience News: 5 new items
+- MedTech Dive: 2 new items
+- Fierce Biotech MedTech: 0 new items
+- STAT Health Tech: 3 new items
+- MobiHealthNews: failed (403 Client Error: Forbidden for url: https://www.mobihealthn)
+- TechCrunch Health: 0 new items
+- FDA Medical Devices: failed (404 Client Error: Not Found for url: https://www.fda.gov/apo)
+- Google News: neurotech: 12 new items
+- Google News: Neurotechnology Substack: 0 new items
+- Google News: BCI companies: 0 new items
+- Google News: neuromodulation: 10 new items
+- Google News: EEG and neural wearables: 7 new items
+- Google News: neuro funding: 10 new items
+- Google News: FDA neuro devices: 8 new items
+- Google News: NYC neurotech: 0 new items
+- Google News: wearables: 5 new items
+- Fierce Healthcare Health Tech: 0 new items
+- Healthcare IT News: failed (403 Client Error: Forbidden for url: https://www.healthcarei)
+- Google News: digital health: 10 new items
+- Google News: health tech AI: 8 new items
+- Google News: medtech devices: 8 new items
+- Google News: Asia neurotech: 10 new items
+- Google News: global regulatory path: 6 new items
+- bioRxiv Neuroscience: failed (404 Client Error: Not Found for url: https://connect.biorxiv)
+
+## Used, by section
+### Who Expanded &amp; Scaled
+- Paradromics taps Nvidia to bring on-device speech AI to brain-computer interfaces - MassDevice (Google News: neurotech) [link](https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWpYY0x4c29LR3otMWRxUDZoNHI0RFItUG5WZGFNRmlQZHBSYjJtUUtFZmxLOHJpMFNvOXRoMFA4Q0ZfS25ISURNcW1zTi1iX1NHZENjUENsQlp5YVI4UWRoMGRPdVlPVUV4ZlFNd2N4QkNoNmlzdkZpc0VKNktYMElhc0ZmODhTdzhzNUZGajhXZ1h4SzAwX3hBTW1WWUlVZFB4NXpqZHhwcVdwR2R3US02TQ?oc=5)  
+  Angle: Paradromics is partnering with NVIDIA Holoscan to run real-time, low-latency (&lt;10ms) speech AI directly on BCI hardware, a computing integration that triggered immediate gains in Asian BCI concept stocks.
+- Siemens Healthineers Receives FDA De Novo Authorization for MS Blood Test - GenomeWeb (Google News: global regulatory path) [link](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSHQzQnhNaTZoNk9PUzNFMDJNbE0tRFVFaVhuNk1pbDlDeDYxVVpEM1ExdGNwUUI0blJDbGdLZ0FSMWlkdkZIMlVUY2trbzZJV29TTjBITTIwLVRpeV9WOHM0SV9Ebll3U3g0dFI2OXViemktcnFaSkZZVml6bE52LU1ZNmJ2MlphSnpJTmozRkhVMzd3OURYRjBvNVpUQmdUc1Z6RjgyODdlYnM?oc=5)  
+  Angle: Siemens Healthineers secured FDA De Novo authorization for the first blood-based biomarker test for Multiple Sclerosis, creating a non-invasive diagnostic pathway for neurodegenerative monitoring.
+- Vire Health Launches Women’s Health Wearable, Backed by Oura Founders - Femtech Insider (Google News: wearables) [link](https://news.google.com/rss/articles/CBMimwFBVV95cUxOM0MwOFRCcWVJaUc4VkdEZzhQcUdiVXRVRTk0TjBldXVwM3dONGN4TzFjVGhMQWhoSlVFR3B0WEpra0VwWXVRU2lEa19XT2lLWU0ydHN1TWZLT3VtTHdlSXN6clBQaGE1aXM3TXdBSGZ6YnRBVTRXbE9iczlmYjFoVGQzTGhfWF81TFVjYmp2cnhnN0hNdkpTeEU1Zw?oc=5)  
+  Angle: Femtech startup Vire Health launched a novel women's health wearable backed by Oura's co-founders, showcasing how veteran wearable founders are spinning off domain-specific sensor products.
+### Global Strategy &amp; Standards
+- China moves to lead global brain-computer interface standards, challenging Neuralink - 디지털투데이 (Google News: Asia neurotech) [link](https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbjFZVWcybkhJaHIwX3BWU0piQjBKTVZQcld6Wnp0U20xWklBTXpiYXRxMVNPb2hzTmlnZDV0blRtMmRqVHhzYUpQemJzY2o3MDZnRE9Ia29pbVVQYkJray1fSFR2UXpRT3Jpbm5nZ3lGakZERDZRYzVnZ3haYXg3UzRseHE2bGI5VlFod1RZVGsxSTNtSmVXWWhoWVJEdEpHNzZiX1FpcnYtY0pZWXFUc3hNQS03aUM0RDU5cDFlNFdQNlV4Qk1MbQ?oc=5)  
+  Angle: China has launched national initiatives to establish technical standards and regional research alliances for BCI, aiming to shape international regulatory benchmarks and rival US dominance.
+### New Product Development
+- Exicure X-CUE Smart Glasses: $500,000 for Parkinson’s - shattered.io (Google News: neuro funding) [link](https://news.google.com/rss/articles/CBMigwFBVV95cUxQazZaZVFUWmJ3NHJrN2pHTWh0NFJneUJDTC02SnZTRVctN0R3YW9vOU9ROGVPaWtkMGM3NnpPeEZYUUpNU0pvRlhqaUVpeFNqeGpvR0xCanEtb2M0UVZXb2YxQUFJaWtaeWk4QUkzVGIxZXZIbGU1T0xkaVFDQWlRVzRBRQ?oc=5)  
+  Angle: Exicure raised $500,000 to advance its X-CUE Smart Glasses, bringing specialized computer vision and optical sensors into a wearable form factor for Parkinson's symptom tracking.
+
+## Fact sheets (verified with Google Search)
+
+### Paradromics taps Nvidia to bring on-device speech AI to brain-computer interfaces - MassDevice
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Siemens Healthineers Receives FDA De Novo Authorization for MS Blood Test - GenomeWeb
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Vire Health Launches Women’s Health Wearable, Backed by Oura Founders - Femtech Insider
+(No fact sheet: research failed, so only the original item text was used.)
+
+### China moves to lead global brain-computer interface standards, challenging Neuralink - 디지털투데이
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Exicure X-CUE Smart Glasses: $500,000 for Parkinson’s - shattered.io
+(No fact sheet: research failed, so only the original item text was used.)
+
+## Fact-check fixes
+- Paradromics: Cut unconfirmed specific product details ("NVIDIA's Holoscan edge compute platform", "target decoding latency under ten milliseconds", "fifty milliseconds lag causing echo effect") and invented market reaction ("sparked immediate gains in Asian BCI concept stocks"), as the source text only confirms Paradromics partnering with Nvidia to bring on-device speech AI to BCIs.
+- Siemens Healthineers: Removed unconfirmed assay specifics (measuring neurofilament light chain / NfL, single-digit picograms per milliliter, automated immunoassay platform, lumbar punctures) that were not present in the source text; retained focus on FDA De Novo authorization for an MS blood test.
+- Vire Health: Changed "predict perimenopausal hot flashes" to "detect hot flashes and assess perimenopause changes" to accurately match the source text.
+- China BCI: Changed "semi-invasive implant" to "implantable BCI system" to strictly match the source text description of Beinao No. 1.
+- Synthesis &amp; Recap: Removed unconfirmed claims ("sub-ten-millisecond", "Holoscan", "first MS blood biomarker test") to align with verified sources.
+
+## Trends noted
+- {'insight': 'BCI commercialization is shifting from raw electrophysiology hardware to compute infrastructure and global standards, with US startups partnering with semiconductor giants while Asian ecosystems rally around state-backed standardization to build defensible commercial moats.', 'evidence': ['id 20: Paradromics partnered with NVIDIA for sub-10ms on-device BCI speech processing', 'id 22: Hong Kong BCI concept stocks rallied following US BCI-compute partnership announcements', 'id 93: China launched national BCI standardization bodies to challenge Western regulatory control']}
+
+## Not used, and why
+- Self-Objectification Alters Brain Response to Media (Neuroscience News): Academic paper on body image neural response without commercial product connection.
+- Brain Speech Hub Builds a “Blueprint” Before We Speak (Neuroscience News): Basic neuroscience research on Wernicke's area blueprinting without a clinical or commercial asset.
+- Air Pollution Reprograms Brain Immune Cells, Raises Dementia Risk by 25% (Neuroscience News): Academic research paper on air pollution and dementia risk.
+- Why We Slow Down With Age: Brain Serotonin Blocks Movement (Neuroscience News): Basic academic study on brain serotonin and aging movement pathways.
+- Rice-Sized Wasp Brains Recognize Faces Just Like Humans (Neuroscience News): Academic basic research on facial recognition in paper wasps.
+- Smith + Nephew names new CFO (MedTech Dive): Executive CFO appointment at an established orthopedics firm.
+- Danaher partners with Microsoft to create an agentic AI platform (MedTech Dive): General lab automation software partnership between Danaher and Microsoft.
+- How artificial intelligence is offering new hope for stroke patients in the Last Frontier (STAT Health Tech): Regional implementation case study of existing stroke triage AI software in Alaska.
+- STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer? (STAT Health Tech): Conference discussion summary regarding draft AI radiology reports.
+- Opinion: If the AI bubble bursts, it could create a serious problem for health care (STAT Health Tech): Opinion piece analyzing general healthcare AI market valuations.
+- Plan Your 2027 Exercise Programme: Crawl, Walk, Run - The Business Continuity Institute (BCI) (Google News: neurotech): Unrelated article on business continuity planning exercises.
+- Paradromics &amp; Nvidia Holoscan BCI Hardware - CASRAI (Google News: neurotech): Merged into story 20.
+- Neuralink secures U.S. patent for BCI that uses living neurons - MobiHealthNews (Google News: neurotech): Secondary patent issuance report without immediate commercial product announcement.
+- Brain-computer interface decodes speech long term in ALS patient - ALS News Today (Google News: neurotech): Follow-up coverage on previously reported clinical trial patient.
+- Brain-Computer Interface Momentum Accelerates: NVIDIA Enters Speech Restoration Technology; Neuralink Demonstrates Mind-Controlled Gameplay of GTA VI - Moomoo (Google News: neurotech): Merged into story 20; Neuralink GTA VI demonstration was previously covered.
+- Paradromics Advances High-Performance AI Computing for Brain-Computer Interfaces with NVIDIA - BioSpace (Google News: neurotech): Merged into story 20.
+- Nvidia Teams Up with Paradromics on Brain-Computer Interfaces, Targeting Thought-to-Speech Latency Under 10 Milliseconds - BigGo Finance (Google News: neurotech): Merged into story 20.
+- From behind-the-ear BCI terminals to future brainwave communication: Yunyueya follows an unconventional path. - 36Kr (Google News: neurotech): General profile of Chinese BCI startup Yunyueya without concrete funding or regulatory milestone.
+- Researchers At TUM Test Novel Brain-computer Interface - Mirage News (Google News: neurotech): Academic lab test news of BCI prototype at TUM.
+- Athena wins police ABIS contract using ROC, Neurotechnology matching engine - Biometric Update (Google News: neurotech): Unrelated police biometric contract using non-medical matching software.
+- Hong Kong Stocks in Motion | BCI Concept Stocks Rise Broadly as Paradromics Partners with NVIDIA to Strengthen Computing Power Support in the BCI Sector - 富途牛牛 (Google News: neurotech): Merged into story 20.
+- Unilateral Thalamic Deep Brain Stimulation Reduced Epileptic Spasms in Single Case - Bioengineer.org (Google News: neuromodulation): Single patient case report on thalamic DBS.
+- When magnetic stimulation fails in bipolar depression, the dose may be the reason - EurekAlert! (Google News: neuromodulation): Academic paper on rTMS dosing in bipolar depression.
+- Study Links Inadequate Deep Brain Stimulation Maintenance to Preventable Patient Harms - Bioengineer.org (Google News: neuromodulation): Academic safety review on DBS maintenance.
+- New Zealand's brain-tech startup Neumic Therapeutics seeks $1 M in pre-seed investment - BioSpectrum Asia (Google News: neuromodulation): Early-stage $1M pre-seed ask with low technical details.
+- San Roque University Hospitals in Las Palmas de Gran Canaria successfully perform their first personalized treatment for Parkinson's disease using new high-precision electrodes - Maspalomas 24h (Google News: neuromodulation): Routine hospital adoption of DBS electrodes in Gran Canaria.
+- Cerebellar Network Metrics Distinguish Dystonic Hamster Models and Track Deep Brain Stimulation - Bioengineer.org (Google News: neuromodulation): Preclinical animal model study on hamster DBS.
+- Precision Oncology Paves the Way for Immunotherapy in Brain Tumors - Targeted Onc (Google News: neuromodulation): Oncology precision medicine article unrelated to neurotech or medtech devices.
+- E-News | Office of Innovation and Commercialization hosts first innovator celebration - West Virginia University (Google News: neuromodulation): University commercialization event announcement.
+- Spinal cord stimulation now helps more people living with chronic pain: Cleveland Clinic specialist explains how it works - WKYC (Google News: neuromodulation): Generic clinical overview of spinal cord stimulation for chronic pain.
+- Reimagining Depression Care: Why rTMS Should Be First-Line Treatment - Psychiatric Times (Google News: neuromodulation): Opinion commentary on rTMS as first-line therapy.
+- Pilot EEG Study Links Gun Violence Exposure to Altered Attentional Alerting - Bioengineer.org (Google News: EEG and neural wearables): Academic EEG pilot study on gun violence exposure.
+- Autism-related repetitive behavior may support child's self-regulation - Medical Xpress (Google News: EEG and neural wearables): Academic behavioral study on autism self-regulation.
+- Local Open-Weight Language Models Standardize Emergency EEG Narratives Into Structured Clinical Descriptors - Bioengineer.org (Google News: EEG and neural wearables): Academic paper on LLMs structuring emergency room EEG notes.
+- Rising Researchers Demonstrating Their Originality: Professor Yasuaki Shinohara – Waseda University - 早稲田大学 (Google News: EEG and neural wearables): Academic researcher spotlight profile at Waseda University.
+- Revised Design Computing Framework Classifies Research Questions Across Multiple Major Conferences - Bioengineer.org (Google News: EEG and neural wearables): Academic computer science conference classification paper.
+- Coughing and Deep Breathing Reveal Distinct Cortical Control Patterns in Healthy Adults - Bioengineer.org (Google News: EEG and neural wearables): Academic EEG motor control study on coughing and breathing.
+- Single Central EEG Channel Distinguishes Major Depression With Over 93 Percent Accuracy - Bioengineer.org (Google News: EEG and neural wearables): Academic paper on single-channel EEG algorithms without commercial platform.
+- Want Digital Health Funding? Start With the Conversation After the Panel - ICTworks (Google News: neuro funding): Generic advice article on digital health venture networking.
+- Your Series B Proved Investors Believe You — It Won’t Prove Anything to a Payer - MedCity News (Google News: neuro funding): Generic commentary on Series B reimbursement strategy.
+- Paradromics partners with NVIDIA on brain interfaces - MobiHealthNews (Google News: neuro funding): Merged into story 20.
+- Weird finger-wearable gaming mouse raises $43,000 on Kickstarter, a staggering 8x its crowdfunding goal — but thumb-only controls, AI images, and timeline mismatches raise red flags - Tom's Hardware (Google News: neuro funding): Crowdfunding campaign for a gaming peripheral with timeline and authenticity flags.
+- Beyond Devices: How MedTech Is Reshaping Clinical Decision Making - Digital Health News (Google News: neuro funding): Generic medtech industry opinion piece.
+- Meta smart glasses in the UAE: When does hands-free recording become a privacy concern? - Gulf News (Google News: neuro funding): Consumer privacy commentary regarding smart glasses in the UAE.
+- PM Abiy Calls for African Ownership of AI and Digital Health to Transform the Continent’s Healthcare Future - Fana Media Corporation S.C (Google News: neuro funding): Political speech transcript regarding digital health in Africa.
+- Digital Health Coffee Time Briefing ☕️ - Home | Digital Health (Google News: neuro funding): Generic newsletter aggregate briefing.
+- Seers joins KOSDAQ 150 and expands in UAE as earnings falter - Chosunbiz (Google News: neuro funding): Financial index rebalancing update for KOSDAQ 150.
+- Multiwave’s portable brain MRI receives FDA clearance - Greater Geneva Bern area (GGBa) (Google News: FDA neuro devices): Old news; Multiwave portable MRI FDA clearance was previously covered.
+- FDA Approves MK-6240 for Alzheimer’s Disease Imaging - Applied Radiology (Google News: FDA neuro devices): Pharma radiotracer approval without medical device implications.
+- Pfizer steps into in vivo CAR T space with $2.6B licensing deal - Drug Discovery News (Google News: FDA neuro devices): Pharma CAR-T licensing agreement.
+- XCath Robotics’ Iris System Earns FDA Breakthrough Device Designation - Medical Product Outsourcing (Google News: FDA neuro devices): Secondary FDA Breakthrough Device designation for endovascular robotics.
+- A medicine’s innovation journey does not end after FDA approval - PhRMA (Google News: FDA neuro devices): Pharma policy advocacy article.
+- Dr Shaw Breaks Down the Data Behind Neladalkib’s FDA Approval in ALK+ NSCLC - Targeted Onc (Google News: FDA neuro devices): Pharma oncology drug study breakdown.
+- Diabetes Dialogue: MiniMed Fit FDA Clearance and the Tubeless Pump Landscape - HCPLive (Google News: FDA neuro devices): Commentary on tubeless insulin pump landscape.
+- Zimmer Biomet Files 510(k) for Monogram Robot — After CEO Dodges Friday the 13th - Medical Device and Diagnostic industry (Google News: FDA neuro devices): Procedural 510(k) filing notice for orthopedic robot.
+- Multi-Institutional SENTINEL Project Developing Wearable Patch to Track Inflammation - UConn Today (Google News: wearables): Early multi-institutional grant project for wearable patch development.
+- Want to track your sleep and recovery? Whoop memberships are up to $60 off - The Courier-Journal (Google News: wearables): Consumer retail discount promotion for Whoop strap.
+- This New Wearable Sleep Patch Helped Participants Reach REM Sleep 43 Minutes Faster, Study Says - Yahoo News Canada (Google News: wearables): Consumer product marketing review for sleep patch.
+- Predictive Sleep Systems Market Size, Share &amp; Forecast 2036 - Fact.MR (Google News: wearables): Market research report marketing summary.
+- ‘The core mission for digital health’: Innovating for better care, greater access and global reach - EurekAlert! (Google News: digital health): Generic commentary on global digital health access.
+- Special edition: Driving progress in maternal health - Devex (Google News: digital health): Special interest global health newsletter.
+- Rutgers University Launches Summer Program to Train Medical Students in Alzheimer’s Research | Newswise - Newswise (Google News: digital health): University summer training program announcement.
+- Recon: FDA approves first early-stage breast cancer hormone therapy in two decades; Lilly to acquire Huntington's disease drug developer LoQus23 - RAPS (Google News: digital health): Pharma drug acquisition and approval roundup.
+- AHN Taps Ferrum Health for Imaging AI Across 16 Hospitals - Securities.io (Google News: digital health): Routine hospital network software license agreement.
+- ViTAA Medical and SVS announce strategic partnership - Vascular News (Google News: digital health): Professional society strategic partnership.
+- Healthcare Triangle Launches Digital Gut-Mind Program in $1.4... - Quantisnow (Google News: digital health): Duplicate press release for India digital gut program rollout.
+- Russia &amp; India Explore Partnerships in Healthcare &amp; Medical Technologies - Digital Health News (Google News: digital health): Bilateral government discussions on healthcare trade.
+- Lupin Receives Approval from U.S. FDA for Ferric Citrate Tablets - TradingView (Google News: digital health): Pharma pill approval.
+- Google Cloud launches sovereign AI accelerator for Europe - SecurityBrief UK (Google News: digital health): Cloud infrastructure accelerator for European sovereign AI.
+- Here are Cincinnati’s tech startups to watch - University of Cincinnati (Google News: health tech AI): Local regional startup showcase list.
+- Elizabeth Holmes went from a startup darling to powerful seductress – these gendered portrayals profited investors - Women's Agenda (Google News: health tech AI): Retrospective commentary on historical Theranos media coverage.
+- 12 startups named winners at 2026 South African Startup Awards - - Disrupt Africa (Google News: health tech AI): Regional African startup award list.
+- Ansa Biotechnologies raises US$71.5m to scale DNA synthesis tech - Health Tech World (Google News: health tech AI): Synthetic biology DNA synthesis funding without clinical device integration.
+- Healthcare Triangle Launches ZILOY Gut Program Across India - Securities.io (Google News: health tech AI): Commercial program launch press release for gut software in India.
+- Raiys launches affordable ADHD assessment service - BusinessCloud (Google News: health tech AI): Regional UK telehealth ADHD service launch.
+- Apple Launches 200,000-Participant Study on Health AI Trust - Small Business Trends (Google News: health tech AI): Apple health AI survey study announcement.
+- 80+ startups seek Rs 2,000 crore funding at ASSOCHAM Investor Connect - SME Futures (Google News: health tech AI): Regional startup pitch event aggregate statistics.
+- LEMO launches lead-free B Series solutions for medical device connectivity - Medical Design &amp; Outsourcing (Google News: medtech devices): Medical device connector component product release.
+- AdvaMed Urges District Court to Reconsider Ruling on Independent Sales Agent (ISA) Arrangements - AdvaMed® - Advanced Medical Technology Association® (Google News: medtech devices): Medtech trade association legal update.
+- Roche’s Newly Cleared RP3 Pairs Customizable Testing With A Pitch To Curb Antibiotic Overuse - Medtech Insight (Google News: medtech devices): Diagnostic testing kit launch for hospital antibiotic overuse.
+- Medical Device Procurement Austria: 2026 SaMD Guide - Global Advisory Experts (Google News: medtech devices): Regional procurement policy guide for Austrian software as a medical device.
+- Medical Device Cleaning Validation and IFUs Explained for Sterile Processing Teams - Infection Control Today (Google News: medtech devices): Educational guide on sterile processing protocols.
+- After selling one device company, Houston founder eyes second exit as FDA clears sperm-separation tool - The Business Journals (Google News: medtech devices): FDA clearance for sperm-separation tool.
+- MMI launches robotic electrosurgical tool in Europe - Medical Device Network (Google News: medtech devices): Surgical robot electrosurgical accessory launch in Europe.
+- Household nicotine use raises teen risk for substance use - News-Medical (Google News: medtech devices): Public health study on household nicotine exposure.
+- Francis Kee on the Future of Digital Health in China - Healthcare Digital (Google News: Asia neurotech): Executive Q&amp;A on general Chinese digital health market trends.
+- China BCI Standards &amp; Chengdu Research Alliance - CASRAI (Google News: Asia neurotech): Merged into story 93.
+- Digital Mental Health in India Requires Stronger Safeguards as Conventional Therapy Alternative - Bioengineer.org (Google News: Asia neurotech): Policy commentary on Indian mental health platforms.
+- Lawyers report ‘huge’ outbound opportunity as WIPR reveals China Patent Rankings - Life Sciences IP Review (Google News: Asia neurotech): IP law firm marketing report on Chinese patent statistics.
+- Brain-Computer Interface Conference in Beijing highlights application scenarios - 巴士的報 (Google News: Asia neurotech): Merged into story 93.
+- Sunfox Technologies appoints Subrata Mazumdar as Vice President – Strategy &amp; Growth - https://hrtoday.in/ (Google News: Asia neurotech): Executive hire announcement at Indian ECG startup.
+- From novelty to trend: How smart wearables are opening a fresh consumer frontier - Global Times (Google News: Asia neurotech): Consumer wearable market commentary.
+- Dr Jitendra Sharma Receives Qimpro Gold Standard Award 2026 for Contribution to India’s MedTech Sector - Machine Maker (Google News: Asia neurotech): Individual industry award announcement in India.
+- Deployed across 3,000 points regionally: How this S'pore innovation that helps prevent falls went from prototyping to production - The Business Times (Google News: Asia neurotech): Case study on deployment of Singapore fall prevention device.
+- "For us, AI is not an investment thesis in itself" - CTech (Google News: global regulatory path): Venture capital investor commentary on AI thesis.
+- MS Blood Test Wins FDA Authorization, Siemens Says, but Moves Risk Just 5 Percentage Points - Tech Times (Google News: global regulatory path): Merged into story 103.
+- IHT Medical receives CE mark for Obtura liquid embolic system - NeuroNews International (Google News: global regulatory path): CE mark for neurovascular embolic liquid, secondary pick.
+- FDA Grants De Novo Authorization to Blood Test for MS Disease Activity - Clinical Lab Products (Google News: global regulatory path): Merged into story 103.
+- CytoSorbents Announces Closing of $6.25 Million Common Stock Financing and Concurrent Restructuring of Avenue Credit Facility - TradingView (Google News: global regulatory path): Micro-cap stock financing and debt restructuring announcement.</description>
+   <pubDate>Tue, 24 Nov 2026 09:42:01 +0000</pubDate>
+   <guid isPermaLink="false">neuro-morning-2026-11-24-0942</guid>
+   <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-24.mp3?v=0942" length="6303404" type="audio/mpeg"/>
+   <itunes:duration>787</itunes:duration>
+   <itunes:explicit>false</itunes:explicit>
+   <podcast:transcript url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-24.vtt" type="text/vtt" language="en"/>
+  </item>
+  <item>
    <title>Neuro Morning: Global Standards, Funding Rounds, and FDA Milestones</title>
    <description>Today's stories:
 

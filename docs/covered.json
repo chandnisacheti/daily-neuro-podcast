@@ -1,15 +1,5 @@
 [
  {
-  "slug": "2026-11-17",
-  "titles": [
-   "Swiss neurotech Indivi acquires Cogitat to advance AI-powered brain monitoring - Tech.eu",
-   "Remedy Robotics raises $62M in Series B funding round - MassDevice",
-   "Speech BCI Retains Stable Syllable Decoding Over 25 Months in ALS - Bioengineer.org",
-   "New wearable ultrasound patch boosts REM sleep without drugs or surgery - Science Daily",
-   "Noom Band Unveiled at HLTH 2026: Its 34% Weight-Loss Claim Counts Any Connected Wearable - Tech Times"
-  ]
- },
- {
   "slug": "2026-11-18",
   "titles": [
    "Science Corp Raises $400 Million at $3.5 Billion Valuation to Advance Retinal and Brain Implants - BigGo Finance",
@@ -66,6 +56,16 @@
    "Laronix raises AUD $5 million to expand voice restoration - IT Brief Australia",
    "Portable Brain Ultrasound Cleared by FDA Scans for Signs of a Stroke-Linked Heart Opening in About 40 Seconds - Medical Daily",
    "AI Made 54 Students Think Less, EEG Study Finds - shattered.io"
+  ]
+ },
+ {
+  "slug": "2026-11-24",
+  "titles": [
+   "Paradromics taps Nvidia to bring on-device speech AI to brain-computer interfaces - MassDevice",
+   "Siemens Healthineers Receives FDA De Novo Authorization for MS Blood Test - GenomeWeb",
+   "Vire Health Launches Women’s Health Wearable, Backed by Oura Founders - Femtech Insider",
+   "China moves to lead global brain-computer interface standards, challenging Neuralink - 디지털투데이",
+   "Exicure X-CUE Smart Glasses: $500,000 for Parkinson’s - shattered.io"
   ]
  }
 ]
