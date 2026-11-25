@@ -1,50 +1,68 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "leads": [
+  {
+   "company": "Science Corp.",
+   "signal": "funding",
+   "detail": "Science Corp. raised $400 million in Series D funding to advance its brain-computer interface platform.",
+   "location": "",
+   "nyc": false,
+   "why_relevant": "As a prominent BCI developer, Science Corp. offers direct alignment with neural engineering and brain-computer interface research.",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVkdoSFlvNzcwRVg2ZGhYTGlhekJMQ0d2VGtXcDdKX1NzaUJXSk1nazBOSnNhVG1RZlk3clBVOHZWVXNuUjdhUUkydHZ2a3JSSjdfYWdQOXYyakhjYkVMU29hNGRrLTRQYcRDSzJoWTVVTDRobFhlT2FZTTlkaUNjWjFiZ2hVMVEzc2pZQVhFNVJ5STd1azBxV1FGYk5fdW9MUUV0ZEk1bDM1T0l2RG01SQ?oc=5"
+  },
+  {
+   "company": "WearOptimo",
+   "signal": "funding",
+   "detail": "WearOptimo raised A$7.75 million in funding to advance the development and commercialization of its AI-powered microwearable sensors for continuous physiological monitoring.",
+   "location": "Australia",
+   "nyc": false,
+   "why_relevant": "WearOptimo's AI-driven microwearable platform directly intersects biosignal processing, continuous sensor hardware, and machine learning.",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaDdUc2FBU3VVbjExREdyYVNuVXN3ckxLdkZzNU5aZ2J0SU0yZXZoR3B3NWs0ZHNMaVFXVE9WanVjX3E1d3JQWnMtU0d0bk51ampIc09rRDJWUHFGWko0dDFQMEdTVmd6bTFmZUp1S2dDeUdaM0pjYmcyNlByT1E1QndfVUpMZWxjTTgtRVZzZlBfZ3hhMDhDUUZfOU1LNkFxNnhrTEVhRGg4ak5pQmtCdi1aZEg4UDJ6SXQw?oc=5"
+  },
   {
    "company": "Paradromics",
    "signal": "partnership",
-   "detail": "Paradromics partnered with NVIDIA to integrate high-performance AI computing into brain-computer interfaces to target thought-to-speech latency under 10 milliseconds.",
+   "detail": "Paradromics partnered with NVIDIA to advance AI computing infrastructure for brain-computer interfaces.",
    "location": "",
    "nyc": false,
-   "why_relevant": "Combines brain-computer interfaces with low-latency AI signal processing, directly fitting biosignal-ML and neuroengineering backgrounds.",
-   "link": "https://www.massdevice.com/paradromics-taps-nvidia-to-bring-on-device-speech-ai-to-brain-computer-interfaces-bci/"
+   "why_relevant": "Paradromics is building high-data-rate neural interfaces, offering top-tier experience in machine learning applied to high-density neural signals.",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWFN0SnNJRjJMdmVpMm1Cd1pnRXdCTEgxWVQ0NFNocDd6UmZTVUdiUU0tMTNNUVNnUlVSSHlkanFBbDc1X01TYnlSaE5PMzRjYlVHU1pmeTRXUkFpbC1KcERVU2VVRFdNOTdjRk44ZWlyQUlPa2ZOM00xN2NmV1U4MXQtYVVZUHZkSnBnWHBRSWQ4S0xWdjIzQlJlenRGbkRvczlVcFNPTWc1dGZ5YlBTNnE1em1ycTdSeERFMA?oc=5"
   },
   {
-   "company": "Exicure",
-   "signal": "acquisition",
-   "detail": "Exicure signed an agreement to acquire between 20% and 100% of NeuroQ Biologics and provide up to $500,000 to advance the X-CUE AR smart glasses for Parkinson's freezing of gait.",
+   "company": "Cambridge NeuroWorks",
+   "signal": "expansion",
+   "detail": "Cambridge NeuroWorks launched to accelerate the translation of novel neurotechnology research into practical clinical applications.",
+   "location": "Cambridge, UK",
+   "nyc": false,
+   "why_relevant": "Focusing on neurotech translation provides relevant insight into translational neuroscience and clinical neural device development.",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVnhSSm5oRUlQeEFiZWJIaHNzczQ0dWtITFo2TnNSblV6RGQxU1A4MXdMa3BTSVhHRml3UEc5WXFfU2xWTHZnTmJRTXlKMW1OQ0lkbnp2Nkp3d1VyRVQ0TzlIV05JZU8yYzZLZGcwM2pCM3JZNEYzdlFYMDF2eGdqZVQzOUktVWgyaFZqcUM1dkNqZUVvMHFFVnJJN3NaVFFOWVE5d0l4V3JvY0hINjU2bXZiSWhPcXdHZy10Tnk5WHh5Ql91WEJqZ2J2Zw?oc=5"
+  },
+  {
+   "company": "NextWave TMS",
+   "signal": "expansion",
+   "detail": "NextWave TMS expanded its depression treatment options through the deployment of accelerated transcranial magnetic stimulation.",
+   "location": "Columbus, USA",
+   "nyc": false,
+   "why_relevant": "Transcranial magnetic stimulation is a core non-invasive neuromodulation modality relevant to BME students interested in brain stimulation therapies.",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPQ0ZjVFlnNDZUOXAtYk90OEdqWXhwLXpNbVRZY0tJM0pBRXU2SVlqbHZMN01qUEZENHdkaVNYVVRlRUdzeUtURGlhN0VhYm1aSDlPX3BJdG10dlZESmFKU1U3dGwyYWhzS0FGTWMyU2ptcl9KbVBaeGM4MVBfb0hlTDF2QmlvV1FMWHpaOC1aZDBSTXlqLWxKMlh5X0kraGk1dHFraDBaTlY0NVVFVFU4SnpYSXdHeEtRV2FoUTJlM25EUDc3OFd4VGJfS0RwRVJ1UTJ0Xy1qQ2ZpWS1wU1lFTU9POFR3dmZtZnRxSXZwcW4?oc=5"
+  },
+  {
+   "company": "ROOK",
+   "signal": "partnership",
+   "detail": "ROOK partnered with Burn Boot Camp to streamline the integration of wearable health sensor data.",
    "location": "",
    "nyc": false,
-   "why_relevant": "Focuses on wearable AR technology aimed at treating motor symptoms in Parkinson's disease, highly applicable to neuromodulation and movement disorder research.",
-   "link": "https://shattered.io/exicure-x-cue-parkinsons-ar-smart-glasses-500000-neuroq/"
+   "why_relevant": "ROOK's focus on aggregating wearable biosignal data aligns well with biosignal processing and data engineering skill sets.",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeFhXdW1yaExkWHppZDhhcTFPNk9DN3p3U3M0aFpaMjlRWHBFNjhJNmliQkZQeElZbFlLYU45OTdFbDR3c3RsUk90MkdHWkptbWpJbk15QWdmb1Q2OWlEMEdqRFhidVZZeVpnRU5NZVFZdEdTQUxXMWxDb1I0SV9nWmlOb0szWlk0enpJVE8tcXpaYkZxTmV6eUI1ZnBENGFjaEZCeEREUjR4a2VwSHpJbGY1VERqZWJVaTVF?oc=5"
   },
   {
-   "company": "Neumic Therapeutics",
-   "signal": "funding",
-   "detail": "Neumic Therapeutics is seeking $1 million in pre-seed investment funding to advance its brain-tech technologies.",
-   "location": "New Zealand",
+   "company": "MiniMed",
+   "signal": "expansion",
+   "detail": "MiniMed is expanding its product line with its first upcoming insulin patch pump and continuous diabetes devices.",
+   "location": "",
    "nyc": false,
-   "why_relevant": "An early-stage brain-tech startup offering opportunities in novel neuromodulation and neurotechnology research.",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcFUtdW84Tk5CX203cHhoWjVtQnJ6U25MelVjN01EV3RVSWpFNy1Td0RHNkpWZ3phZU4wUVg1OERiaHQ4RTJKdkdVd1k2V0VRajVodXNXTzhYOGNKUnBmZWMtV3ByQTBoa2dwUEVMbFNFak1WOVhOYmRtZGN2T1ZjcVhOMUhET04tU2ZsYVFWcVBQTWRKcU5reVR4THA3RVp0ZUUwalh2cV9kZXJPU2dYMWxwMW9tTmhzSXFWQkdtSkU5RVRVZ2ZyJnN4WWtMRVBw?oc=5"
-  },
-  {
-   "company": "Vire Health",
-   "signal": "funding",
-   "detail": "Vire Health launched the Vire Clip waist-worn wearable backed by Oura co-founders and initiated a testing program ahead of a planned 2027 commercial rollout.",
-   "location": "Helsinki, Finland",
-   "nyc": false,
-   "why_relevant": "Focuses on continuous biosignal monitoring including body temperature, respiration, and heart rate from wearable sensors.",
-   "link": "https://femtechinsider.com/vire-health-launches-womens-health-wearable-backed-by-oura-founders/"
-  },
-  {
-   "company": "Multiwave",
-   "signal": "fda",
-   "detail": "Multiwave received FDA clearance for its portable brain MRI imaging device.",
-   "location": "Switzerland",
-   "nyc": false,
-   "why_relevant": "Develops novel portable neuroimaging hardware suitable for BME students interested in brain mapping and neurodiagnostic instrumentation.",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNGMxUHFqUnhqdzJZUHV5MVBBc1dsdFFaUmZ0emQtSTllc0xOTC1OaTNVb29sMzluVTBMM0RnaGFneUtjSTFFd005WVFCNVVfNy1ybWEzOXA4MllZWHNmbG9yUDF1Q1ZraDBXNGd3QlNlbGVJNlVBUW96TFlDVWhuWQ?oc=5"
+   "why_relevant": "Wearable drug-delivery patch pumps represent key medical device engineering applications combining embedded sensors and closed-loop algorithms.",
+   "link": "https://www.medtechdive.com/news/minimed-targets-competition-with-upcoming-diabetes-devices/875637/"
   }
  ]
 }
