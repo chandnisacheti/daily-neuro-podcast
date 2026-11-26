@@ -1,0 +1,56 @@
+Neuro Morning: Pivotal Trials, Cross-Border Funding, and AI Diagnostics
+
+Nora: Good morning, Theo!
+Theo: Thursday, November 26, 2026.
+Nora: Five stories today: three in neurotech, two in health tech.
+Theo: Let's get into it.
+Nora: Okay, first up: who expanded this week.
+Theo: Story one of five.
+Nora: Neuralink just got FDA approval to launch its first pivotal BCI trial in ALS.
+Theo: Okay, that's a massive regulatory milestone.
+Nora: They're testing their implantable brain-computer interface on people with severe paralysis from ALS.
+Theo: And they are building on over thirty participants from early feasibility studies across the US, Canada, and the UK.
+Nora: Thousands of hours of real-world use, right?
+Theo: Exactly. Playing video games, communicating, even studying.
+Nora: My read is this pushes invasive neurotech from experimental frontier straight into commercial race mode.
+Theo: Sure, but the real question is how fast they convert trial sites into actual patient recruitment.
+Nora: Story two of five.
+Nora: Lumius, a Duke University spinout building real-time three D ultrasound, just raised four point five million dollars in seed funding.
+Nora: Backed by FundersClub, Y Combinator, and a whole crew of cross-border investors.
+Theo: Their device, LumiAlta, overlays AI on live ultrasound to show vessels, nerves, and needle tips in real-time three D.
+Nora: And they claim it costs about one-tenth of high-end gear from GE HealthCare or Philips.
+Theo: That's the part that catches my eye. If they pull off that price point, every point-of-care clinic becomes a target.
+Nora: Plus, co-founder Tri Vu is originally from Vietnam, showing real Southeast Asia-to-US deep tech momentum.
+Theo: Story three of five.
+Nora: Salvia BioElectronics just banked twenty-five million euros in debt funding from the European Investment Bank.
+Theo: Non-dilutive debt from the EIB is a great way to fund trials without giving away equity.
+Nora: They make bioelectronic neuromodulation therapies, targeting chronic pain and migraine. (Unconfirmed)
+Theo: So this money goes straight to scaling clinical and commercial execution for their implants.
+Nora: That's the deals. Now, research.
+Theo: Story four of five.
+Nora: DeepHealth scored FDA clearance for an AI-driven cancer risk prediction tool.
+Theo: Software-as-a-medical-device speed is just relentless right now.
+Nora: These predictive algorithms keep clearing the FDA hurdle, pushing diagnostic software straight into clinical workflows.
+Theo: My only question is how hospitals actually integrate it without driving radiologists crazy with false positives.
+Nora: Story five of five.
+Nora: A new study shows the human brain processes spoken Mandarin quite differently than English.
+Theo: Finally, some non-Western-centric speech data.
+Nora: Researchers recorded brain activity from thirty-four native Mandarin speakers listening to an audiobook.
+Theo: And unlike English, where the brain heavily predicts individual phonemes, Mandarin listeners rely on tone-integrated sub-syllables.
+Nora: Lexical pitch combines with speech sounds to form the core prediction unit.
+Theo: If you're building neural decoders for global markets, your architecture has to handle tonal languages from day one.
+Nora: That's the news. Now, the trends.
+Theo: Venture capital and institutional debt are aggressively backing hardware-software integration across both invasive neurotech and portable imaging.
+Nora: Startups are leveraging targeted clinical milestones to secure non-dilutive and cross-border financing, just like Neuralink, Salvia, and Lumius showed this week.
+Theo: When you watch founders from Asia building deep tech in the US, the capital playbook is shifting fast.
+Nora: Career signal time.
+Theo: When evaluating early-stage startups versus established device giants, look closely at how they structure clinical trial milestones and non-dilutive debt.
+Nora: Mastering both FDA regulatory pathways and international funding sources is a high-value skill for bridging lab innovations to commercial markets.
+Theo: Here is your recap.
+Nora: One: Neuralink cleared the FDA hurdle for its pivotal ALS BCI trial.
+Theo: Two: Lumius secured four point five million dollars for its portable three D ultrasound.
+Nora: Three: Salvia BioElectronics pulled in twenty-five million euros in EIB debt.
+Theo: Four: DeepHealth bagged FDA clearance for its cancer risk prediction AI.
+Nora: Five: Mandarin speech research proved neurotech algorithms must account for global linguistic diversity.
+Theo: Hardware velocity and cross-border capital are driving neurotech forward.
+Nora: Have a great Thursday. We'll see you tomorrow.

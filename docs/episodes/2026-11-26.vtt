@@ -1,0 +1,163 @@
+WEBVTT
+
+00:00:02.786 --> 00:00:04.332
+<v Nora>Good morning, Theo!
+
+00:00:04.332 --> 00:00:06.612
+<v Theo>Thursday, November 26, 2026.
+
+00:00:06.612 --> 00:00:11.415
+<v Nora>Five stories today: three in neurotech, two in health tech.
+
+00:00:11.415 --> 00:00:12.880
+<v Theo>Let's get into it.
+
+00:00:12.880 --> 00:00:16.055
+<v Nora>Okay, first up: who expanded this week.
+
+00:00:16.055 --> 00:00:17.521
+<v Theo>Story one of five.
+
+00:00:17.521 --> 00:00:23.789
+<v Nora>Neuralink just got FDA approval to launch its first pivotal BCI trial in ALS.
+
+00:00:23.789 --> 00:00:27.371
+<v Theo>Okay, that's a massive regulatory milestone.
+
+00:00:27.371 --> 00:00:35.512
+<v Nora>They're testing their implantable brain-computer interface on people with severe paralysis from ALS.
+
+00:00:35.512 --> 00:00:44.874
+<v Theo>And they are building on over thirty participants from early feasibility studies across the US, Canada, and the UK.
+
+00:00:44.874 --> 00:00:48.456
+<v Nora>Thousands of hours of real-world use, right?
+
+00:00:48.456 --> 00:00:53.259
+<v Theo>Exactly. Playing video games, communicating, even studying.
+
+00:00:53.259 --> 00:01:01.726
+<v Nora>My read is this pushes invasive neurotech from experimental frontier straight into commercial race mode.
+
+00:01:01.726 --> 00:01:09.623
+<v Theo>Sure, but the real question is how fast they convert trial sites into actual patient recruitment.
+
+00:01:09.623 --> 00:01:10.893
+<v Nora>Story two of five.
+
+00:01:10.893 --> 00:01:20.278
+<v Nora>Lumius, a Duke University spinout building real-time three D ultrasound, just raised four point five million dollars in seed funding.
+
+00:01:20.278 --> 00:01:25.923
+<v Nora>Backed by FundersClub, Y Combinator, and a whole crew of cross-border investors.
+
+00:01:25.923 --> 00:01:34.179
+<v Theo>Their device, LumiAlta, overlays AI on live ultrasound to show vessels, nerves, and needle tips in real-time three D.
+
+00:01:34.179 --> 00:01:40.318
+<v Nora>And they claim it costs about one-tenth of high-end gear from GE HealthCare or Philips.
+
+00:01:40.318 --> 00:01:48.504
+<v Theo>That's the part that catches my eye. If they pull off that price point, every point-of-care clinic becomes a target.
+
+00:01:48.504 --> 00:01:55.913
+<v Nora>Plus, co-founder Tri Vu is originally from Vietnam, showing real Southeast Asia-to-US deep tech momentum.
+
+00:01:55.913 --> 00:01:57.324
+<v Theo>Story three of five.
+
+00:01:57.324 --> 00:02:05.087
+<v Nora>Salvia BioElectronics just banked twenty-five million euros in debt funding from the European Investment Bank.
+
+00:02:05.087 --> 00:02:11.296
+<v Theo>Non-dilutive debt from the EIB is a great way to fund trials without giving away equity.
+
+00:02:11.296 --> 00:02:18.423
+<v Nora>They make bioelectronic neuromodulation therapies, targeting chronic pain and migraine. (Unconfirmed)
+
+00:02:18.423 --> 00:02:24.915
+<v Theo>So this money goes straight to scaling clinical and commercial execution for their implants.
+
+00:02:24.915 --> 00:02:27.173
+<v Nora>That's the deals. Now, research.
+
+00:02:27.173 --> 00:02:28.514
+<v Theo>Story four of five.
+
+00:02:28.514 --> 00:02:33.949
+<v Nora>DeepHealth scored FDA clearance for an AI-driven cancer risk prediction tool.
+
+00:02:33.949 --> 00:02:38.466
+<v Theo>Software-as-a-medical-device speed is just relentless right now.
+
+00:02:38.466 --> 00:02:46.866
+<v Nora>These predictive algorithms keep clearing the FDA hurdle, pushing diagnostic software straight into clinical workflows.
+
+00:02:46.866 --> 00:02:54.772
+<v Theo>My only question is how hospitals actually integrate it without driving radiologists crazy with false positives.
+
+00:02:54.772 --> 00:02:56.113
+<v Nora>Story five of five.
+
+00:02:56.113 --> 00:03:02.536
+<v Nora>A new study shows the human brain processes spoken Mandarin quite differently than English.
+
+00:03:02.536 --> 00:03:05.783
+<v Theo>Finally, some non-Western-centric speech data.
+
+00:03:05.783 --> 00:03:13.124
+<v Nora>Researchers recorded brain activity from thirty-four native Mandarin speakers listening to an audiobook.
+
+00:03:13.124 --> 00:03:22.370
+<v Theo>And unlike English, where the brain heavily predicts individual phonemes, Mandarin listeners rely on tone-integrated sub-syllables.
+
+00:03:22.370 --> 00:03:27.664
+<v Nora>Lexical pitch combines with speech sounds to form the core prediction unit.
+
+00:03:27.664 --> 00:03:35.852
+<v Theo>If you're building neural decoders for global markets, your architecture has to handle tonal languages from day one.
+
+00:03:35.852 --> 00:03:38.181
+<v Nora>That's the news. Now, the trends.
+
+00:03:38.181 --> 00:03:48.487
+<v Theo>Venture capital and institutional debt are aggressively backing hardware-software integration across both invasive neurotech and portable imaging.
+
+00:03:48.487 --> 00:03:59.851
+<v Nora>Startups are leveraging targeted clinical milestones to secure non-dilutive and cross-border financing, just like Neuralink, Salvia, and Lumius showed this week.
+
+00:03:59.851 --> 00:04:07.343
+<v Theo>When you watch founders from Asia building deep tech in the US, the capital playbook is shifting fast.
+
+00:04:07.343 --> 00:04:08.738
+<v Nora>Career signal time.
+
+00:04:08.738 --> 00:04:20.049
+<v Theo>When evaluating early-stage startups versus established device giants, look closely at how they structure clinical trial milestones and non-dilutive debt.
+
+00:04:20.049 --> 00:04:30.773
+<v Nora>Mastering both FDA regulatory pathways and international funding sources is a high-value skill for bridging lab innovations to commercial markets.
+
+00:04:30.773 --> 00:04:32.168
+<v Theo>Here is your recap.
+
+00:04:32.168 --> 00:04:37.163
+<v Nora>One: Neuralink cleared the FDA hurdle for its pivotal ALS BCI trial.
+
+00:04:37.163 --> 00:04:43.626
+<v Theo>Two: Lumius secured four point five million dollars for its portable three D ultrasound.
+
+00:04:43.626 --> 00:04:49.282
+<v Nora>Three: Salvia BioElectronics pulled in twenty-five million euros in EIB debt.
+
+00:04:49.282 --> 00:04:54.570
+<v Theo>Four: DeepHealth bagged FDA clearance for its cancer risk prediction AI.
+
+00:04:54.570 --> 00:05:02.208
+<v Nora>Five: Mandarin speech research proved neurotech algorithms must account for global linguistic diversity.
+
+00:05:02.208 --> 00:05:07.570
+<v Theo>Hardware velocity and cross-border capital are driving neurotech forward.
+
+00:05:07.570 --> 00:05:10.949
+<v Nora>Have a great Thursday. We'll see you tomorrow.

@@ -1,14 +1,5 @@
 [
  {
-  "slug": "2026-11-19",
-  "titles": [
-   "FDA clears Masimo’s brain function monitor - Yahoo Finance",
-   "Hone Health Raises $228M, Expands Women’s Health Offering - Femtech Insider",
-   "Whoop CEO Will Ahmed eyeing health tech acquisitions - Axios",
-   "Systematic Review Finds Limited Evidence for EEG Neurofeedback Efficacy in Adult ADHD - Bioengineer.org"
-  ]
- },
- {
   "slug": "2026-11-20",
   "titles": [
    "Synchron Pauses Clinical Trial On Brain Interface, Plans To Resume Trial With Upgraded System - Medtech Insight",
@@ -66,6 +57,16 @@
    "WearOptimo Raises A$7.75 Million in Funding Backed by Synthesis Capital and HESTA - citybiz",
    "Cambridge NeuroWorks Aims To Accelerate Neurotechnology Translation - Technology Networks",
    "MiniMed targets competition with upcoming diabetes devices"
+  ]
+ },
+ {
+  "slug": "2026-11-26",
+  "titles": [
+   "Neuralink Receives FDA Approval to Launch LINK Pivotal Study - Neuralink",
+   "Southeast Asia-rooted Lumius raises $4.5M seed for 3D ultrasound - TNGlobal",
+   "Salvia BioElectronics Receives €25M in Debt Funding From EIB - FinSMEs",
+   "DeepHealth wins FDA clearance for AI tool that predicts cancer risk - MobiHealthNews",
+   "Brain Predicts Spoken Mandarin Differently Than English"
   ]
  }
 ]
