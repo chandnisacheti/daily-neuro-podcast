@@ -1,0 +1,74 @@
+[
+ {
+  "company": "Neuralink",
+  "signal": "fda",
+  "detail": "Neuralink received FDA approval for its first U.S. pivotal clinical trial of an implantable brain-computer interface targeting ALS patients.",
+  "location": "Fremont, California, USA",
+  "nyc": false,
+  "why_relevant": "Directly advances invasive brain-computer interfaces and neural decoding for motor restoration, matching neuromodulation and biosignal processing interests.",
+  "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbDkxbXkwTnRoYU1lN0hoNThHaTZnZkFIcGRpNm04MUFJd3VBNVNnbUFnek43ZVl3eE5DVm85SnhDekhYZjgxLWpxWUhvclZnQWFLTy1zZzdHTk90VEFRTDVIeTRNSmY0SERWQ296cGE0ZTVXTzQ1YVk5NlEzZ0hybXFfQnh1dWtMRWtnc1h0WnBpX0E3Z1AxNUJyczlKZHZoUEw3RnhFLS1hQ04tTzZkbEc2QXA4V3ZxMUlIT0poNGdLY284MkFDc3BiOVlId0p6SHEzOWwyd0t0NWpNbWc?oc=5"
+ },
+ {
+  "company": "Nurovo",
+  "signal": "funding",
+  "detail": "Nurovo secured backing from Genesis to develop an EEG-based wearable device designed to measure pain.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Combines EEG signal acquisition and real-time physiological decoding in a wearable form factor.",
+  "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQlRmMXNhbHljdFlYUTBlWVU4X1d0c04tOGZGNDFyWHF4OHhyX1ZoanFPOTNWUFVfWlEwZVBFYzNMVm5sSnpFSXJzYUE4UVFPbTRnVmdJNDhfeFZOTWlRejg1ZkdvTnB1SE92UVhIeDNqSmdqd1BGVDZvMW1acU5EZzEyVUZ2VmkzSnFBbzFn?oc=5"
+ },
+ {
+  "company": "Hyperdimensional Brainpower",
+  "signal": "research",
+  "detail": "Hyperdimensional Brainpower demonstrated ZAPCAP, a consumer-grade non-invasive dry-EEG baseball cap capable of controlling device cursors without conductive gel.",
+  "location": "China",
+  "nyc": false,
+  "why_relevant": "Focuses on non-invasive dry electrode biosignal acquisition and real-time machine learning intent classification for wearables.",
+  "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3WGRyczdURUN0dkpxd3B2NmVENXBiMnBELTJoRkdxQnlKbDZzWFRWMHBJSzVWdXNodHZLT0NKTVMxV0ZFSXN1MEtsSWJkYTl4RFF3?oc=5"
+ },
+ {
+  "company": "Lampsy Health",
+  "signal": "funding",
+  "detail": "Lampsy Health raised €1.1 million to commercialize an AI-powered bedside monitoring lamp for detecting nocturnal epileptic seizures.",
+  "location": "Lisbon, Portugal",
+  "nyc": false,
+  "why_relevant": "Applies machine learning to continuous, non-contact physiological sensing for neurological monitoring.",
+  "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQXZxSVBBTGF3WEZBTzBWaERPcDlIb3ZIbFNIYXpfZGh5R0tmc19uSWJNenVSeFVVelJsRHFVSVpCZUtMaDQ1bXhLbnJUN3JGM2pQTWxILTd4ejcyNGY4NTZkenJzV3RoWDIteGJrTkI1Z21RMzBWcXhfWHU5Nnk1ZnpLblJNMGp4aWRTS3plRTZrWWkxOTJYYTdwVEoxMnUtWGlUOWJMS2d0WGQzMnc3OVo2QXdtMjk4NVVKWW5YOWFlcXNzRXY4SEl0TjZ0aHV3ejRxeDJWUktUakpCamRVaGRKRXJHTVpNVXAw?oc=5"
+ },
+ {
+  "company": "Altair Semiconductor",
+  "signal": "funding",
+  "detail": "Altair Semiconductor closed a $100 million Series A round to mass-produce ultra-low-power cellular modems for AI wearables and smart glasses.",
+  "location": "Israel",
+  "nyc": false,
+  "why_relevant": "Provides essential hardware connectivity and low-power infrastructure for real-time wearable AI biosensing.",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Ha09rdnp0RVoyU0Z1d28wSjdacTZTSUlZZUtDczlLTzljMFRZWnY3eUE5Ui1YZE9BQW9lSW5kQzlla1JRQVJZN1F1NDRoSEl2eDY4ajVUZG5jaS1TQVNnenl0Z1kxRDhsQVkzQm9wOVpRcnVxWnc?oc=5"
+ },
+ {
+  "company": "SPCTR",
+  "signal": "funding",
+  "detail": "SPCTR raised €2.8 million to advance real-time intraoperative optical tissue assessment during cancer surgery.",
+  "location": "Netherlands",
+  "nyc": false,
+  "why_relevant": "Integrates biomedical optics and real-time signal processing to assist intraoperative decision-making in medtech.",
+  "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPamk4dkVsX1pjV3hKLVZNdS1sNnJJNEw0SmRfeGtYSG9USENMODVzTkRRTWJCZWxGdWxiMzNVM1pNNmd5bTlOVS1uV0Z1NVZhUDJtajdoWm9aYmR2alp0TFRmR08yRXpSanFTb19Qay1qOHlJa3JDSnplOU50MVptVFdYVVBqTjBmdVBHWFVCQzdlUHE3bEdFdVJObkg4S0F4OHY4UnEwdVFLQnRrRUlHcGFBb0VxeG9VRk1STzFienpFUC1HUW1WZDNINHBGNzZYTVNCRg?oc=5"
+ },
+ {
+  "company": "Lumius",
+  "signal": "funding",
+  "detail": "Lumius raised $4.5 million to deploy high-resolution 3D ultrasound imaging systems into hospital workflows.",
+  "location": "",
+  "nyc": false,
+  "why_relevant": "Demonstrates growth in medical imaging technology and digital signal processing applications for medtech.",
+  "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRk1LcnlzZ0l2ZkRyUkVibHoyZ1dNaTBHQkMxQks2RTdGdEw3Y3c4X2xWZnVZakdQWV8wYmdDMFhJd0Zkb2FuVXBmTHpqdDBfLVR1VlRaQllRQXlJeHRyck1WMVdSRjBsWFBHZGRRNHNpOXZYWTNjS0tQYmxQNmNIaEF3dFlNQXFoTE5Hd09mZkdSRnFyQUE?oc=5"
+ },
+ {
+  "company": "Vantedge Medical",
+  "signal": "acquisition",
+  "detail": "Vantedge Medical acquired medical device component manufacturer Hobson & Motzer to scale custom medtech manufacturing capacity.",
+  "location": "USA",
+  "nyc": false,
+  "why_relevant": "Reflects growth and manufacturing expansion in medical device design and hardware production.",
+  "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSVNUeWx4ekE3LW80TEYwcFhkUi1ZUE1iWkZheE1JVExKYV9SUGVlcnJnNzlndWRmeUxyQ1NQMTgxN0xBdl9sZ0duMEtYSEh2STVmUkYxM0dpcnlad21qVzdjM2EyU0NEcHhiRkxCdHZWbnpZZVBMNVFLWno0X191MXU4cWlSRkluS2RHV010V1pUTzZDZjkwYWRYY3A0c3d6dGNKWlB5ZjZNaW9KS21EQmdIUVJra25ialFWclV5X3RRY1hO?oc=5"
+ }
+]

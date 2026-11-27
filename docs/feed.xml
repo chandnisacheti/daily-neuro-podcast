@@ -13,6 +13,330 @@
   <itunes:block>Yes</itunes:block>
   <itunes:category text="Science"/>
   <item>
+   <title>Untethered AI Wearables, BCI Form Factors, and Biosignal Validation Debates</title>
+   <description>Today's stories:
+
+1. Altair Lands $100 Million Series A to Build Cellular Links for AI Wearables
+https://finance.biggo.com/news/1377cd2a-3a37-4d1a-93c8-285ce1d693e9
+
+2. Genesis backs Nurovo's EEG wearable to measure pain
+https://app.dealroom.co/news/note/genesis-backs-nurovo-s-eeg-wearable-to-measure-pain
+
+3. Super Dimensional Brain Power ZAPCAP Brain-Computer Baseball Cap | All-In-One Integrated Brain-Computer System Cap for Daily Wear
+https://eu.36kr.com/en/p/4076421213918081
+
+4. Review Finds Combined Light and Brain Stimulation in Alzheimer Disease Unproven
+https://bioengineer.org/review-finds-combined-light-and-brain-stimulation-in-alzheimer-disease-unproven/
+
+5. New study finds daytime HRV tracking is still a challenge for Oura
+https://gadgetsandwearables.com/2026/11/26/oura-ring-4-daytime-hrv-accuracy-study/
+
+Full transcript:
+
+Nora: Good morning, Chandni! Happy Friday, November 27th, 2026.
+
+Theo: Grab your coffee. We’ve got a packed show for your morning walk.
+
+Nora: Five stories today: two in funding and expansion, three in new products and real-world validation.
+
+Theo: Let me guess, Nora... more low-power chips and shiny consumer form factors?
+
+Nora: You know me too well, Theo. First up: who expanded this week. Story one of five! Israeli modem maker Altair just closed a massive one-hundred-million-dollar Series A to build low-power cellular microchips for standalone AI wearables.
+
+Theo: Right, this is their ALT1550 chip. Maverick Silicon led the round, with Pitango jumping in too. Remember, Altair spun out of Sony earlier this year, so this is their big push to scale volume manufacturing by 2027.
+
+Nora: Okay, but here’s why I got excited about this one. Right now, smart glasses and AI pins are tethered to your phone’s Bluetooth like a leash. Altair is cramming 5G eRedCap, 4G Cat 1bis, LTE-M, and satellite connectivity into one tiny chip. That means your smart glasses can run AI in the cloud without needing a phone in your pocket!
+
+Theo: Intellectually, cool engineering move. By handling the cellular protocol stack on a dedicated low-power modem, device makers don't have to redesign their primary application processor to shift from 4G to 5G. But... let's be real for a second, Nora. Who actually wants to pay a second cellular data plan for their eyewear?
+
+Nora: Me! If I'm out for a run, I don't want to carry a slab of glass just so my head-worn display can stream continuous audio or process visual prompts.
+
+Theo: Fair enough, but cellular modems eat battery for breakfast. Even with RedCap reducing bandwidth to save energy, thermal management in a frame that sits on your face is brutal. Altair says demand is ahead of plan, but I'll believe the untethered wearable dream when I see smart glasses last twelve hours without getting hot.
+
+Nora: Fair point, skeptic. But a hundred million bucks says major hardware brands are trying to solve that exact problem.
+
+Theo: Moving to story two of five! Venture firm Genesis just put capital behind Nurovo, a startup attempting to turn scalp EEG wearables into objective clinical pain monitors.
+
+Nora: Oh, now this is huge if they can land it. Right now, when you're in a hospital, clinicians literally point to a chart of cartoon faces and ask, "On a scale of one to ten, how much does it hurt?" It is totally subjective.
+
+Theo: It’s terrible, but it's terrible because measuring pain objectively is a biological nightmare. Nurovo is trying to decode non-invasive scalp EEG signals into a reliable pain biomarker for clinical settings.
+
+Nora: Right, but think about the market pull! Post-surgical monitoring, intensive care, non-verbal patients... if a lightweight EEG array can tell a nurse when a patient's pain spikes, you eliminate so much guesswork in dosage.
+
+Theo: Sure, the clinical pull is massive. But... here's the signal processing reality. Scalp EEG signal-to-noise ratio is notoriously bad, especially when you're looking for subtle cortical responses to pain amid high-amplitude muscle artifacts from facial clenching.
+
+Nora: But with modern machine learning models filtering the raw telemetry—
+
+Theo: I knew you'd bring up ML, Nora. Models are great, but garbage in, garbage out. Did Nurovo disclose their specific lead placement, or their baseline validation cohort size? Because until I see sham-controlled data across diverse patient populations, it’s an open question whether EEG can separate acute pain from general sensory distress.
+
+Nora: Okay, okay, point taken. But at least investors are funding the attempt.
+
+Theo: That's the expansion news. Now, research and new products.
+
+Nora: Story three of five! Chinese startup Hyperdimensional Brainpower just demonstrated a consumer brain-computer interface built entirely into an everyday baseball cap. It’s called ZAPCAP.
+
+Theo: Okay... I’ll admit it. That’s clever packaging.
+
+Nora: See! I told you! It’s a sapphire blue terry-cloth cap. No exposed wires, no conductive paste, no head cages. They crammed tens of thousands of one-millimeter dry electrode units into a flexible four-layer lining inside the hat.
+
+Theo: Wait, tens of thousands of micro-dry units? How are they managing skin impedance through a full head of hair without gel?
+
+Nora: They claim the dry units press directly through hair to collect scalp EEG. The hardware pre-processes and filters the signal right on the cap, then uses an EEG foundation model with custom calibration to let users move a screen cursor, click targets, and scroll pages on their phone or PC.
+
+Theo: Huh. So while Silicon Valley’s Sabi has been hyping website waitlists for mind-typing, the team in China actually demonstrated a daily-wear form factor for basic navigation.
+
+Nora: Exactly! It gives you an "extra hand" for your phone or computer. Would you wear one on your morning walk, Theo?
+
+Theo: Honestly? Only if it survives head sweat. A sweat-wicking band frame is fine in theory, but sweat alters skin capacitance. The moment your scalp warms up during a walk, your baseline impedance drifts. That foundation model is going to have to work overtime to suppress motion and sweat artifacts outside a pristine lab setting.
+
+Nora: Still, bringing BCI out of the clinic and putting it into a hat people would actually wear out in public is a massive milestone for consumer neurotech.
+
+Theo: Story four of five! A new narrative review published in Frontiers in Photonics by Kamel Lairedj and colleagues is throwing cold water on combined light and brain stimulation treatments for Alzheimer's disease.
+
+Nora: Ugh, party pooper alert. What did the study find?
+
+Theo: The authors synthesized seventy-five papers on transcranial photobiomodulation—using wavelengths like eight-hundred-and-eight or eight-hundred-and-ten nanometers to stimulate mitochondrial bioenergetics. They acknowledged that isolated trials, like a recent eighty-person study by Chun and team using bilateral prefrontal light therapy, showed positive short-term cognitive gains on the Korean MoCA.
+
+Nora: Okay, so light therapy on its own has some promising signal!
+
+Theo: On its own, in small short-term trials, yes. But the authors warned that clinics and device makers claiming you can combine photobiomodulation with electrical or magnetic brain stimulation for synergistic Alzheimer's treatment are selling unproven science.
+
+Nora: Right, because boosting mitochondrial ATP production and lowering reactive oxygen species in damaged neurons sounds great on paper, but complex neurodegeneration isn't just a simple light switch.
+
+Theo: Exactly. Microglial activation shifts from protective amyloid clearance early in disease to destructive inflammation later. If you stack unproven multi-modal therapies without understanding how microglial dynamics respond to combined energy and electrical fields, you could easily do more harm than good.
+
+Nora: So the takeaway for clinicians is clear: don't market combined neuromodulation stacks for dementia until rigorous sham-controlled trials actually prove the synergy works.
+
+Theo: Precisely. Show me the double-blind data first.
+
+Nora: And finally, story five of five! A new university study just put the Oura Ring 4 through a stress test, and... it turns out daytime activity is still a major blind spot for ring-based heart rate variability.
+
+Theo: I love a good benchmark paper. Researchers at the University of British Columbia put sixty-two participants through cognitive stress—mental math, memory recall, and even singing—while wearing the Oura Ring 4, Nowatch X, and Empatica EmbracePlus against a gold-standard laboratory ECG.
+
+Nora: And Oura actually did really well on pure accuracy! Its heart rate error was under two-point-five beats per minute, and its HRV error was just seven-point-one-seven milliseconds, beating both smartwatches.
+
+Theo: True, but here is the catch, Nora. Twenty-six percent of Oura's daytime HRV measurements were completely missing.
+
+Nora: Wait, a quarter of the data just vanished?
+
+Theo: Vanished. Because the ring's algorithms detected motion or poor optical photoplethysmography signal quality and tossed the data out to protect its accuracy score. And Empatica was even worse—missing fifty-three percent of its HRV readings.
+
+Nora: Wow. So when consumer wearables advertise "real-time daytime stress tracking," they're trying to build continuous stress curves while throwing away twenty-five percent of the underlying physiological data beats.
+
+Theo: Exactly. Shaving two milliseconds off sensor error doesn't matter if your artifact rejection algorithm leaves massive dark spots during the exact daytime moments a user feels stressed.
+
+Nora: That brings us to our market trends for today!
+
+Theo: The big picture right now: neurotech and health tech hardware is miniaturizing at a breakneck pace—from low-power cellular modems to BCI caps—but regulatory and academic scrutiny over real-world signal validity is escalating just as fast.
+
+Nora: Asia is clearly sprinting ahead on consumer-first form factors like ZAPCAP, while Western clinical literature is doubling down on foundational validation—calling out daytime motion gaps in PPG rings and demanding sham-controlled proof for multi-modal brain stimulation.
+
+Theo: Which brings us to today's Career Signal for health tech product managers and BME leaders like Chandni.
+
+Nora: If you are translating biosignal algorithms into market products, do not rely on quiet laboratory data or unproven multi-modal claims. The market is getting smarter, and independent validation papers will expose noisy signals fast.
+
+Theo: If you're eyeing consumer neurotech or wearable startups, reach out to their head of clinical product or algorithm lead this week. Ask them directly how their pipeline handles daytime motion artifact rejection and sham-controlled clinical endpoints. That's how you spot who is building real tech versus high-tech noise.
+
+Nora: Let's recap today's five stories!
+
+Theo: One: Altair raised one hundred million dollars for low-power wearable cellular chips.
+
+Nora: Two: Genesis backed Nurovo to turn scalp EEG into objective clinical pain metrics.
+
+Theo: Three: Hyperdimensional Brainpower demonstrated an all-in-one BCI baseball cap in China.
+
+Nora: Four: A new review warned that combined light and brain stimulation for Alzheimer's remains scientifically unproven.
+
+Theo: And five: A UBC study revealed that Oura Ring 4 loses twenty-six percent of daytime HRV data due to motion filtering.
+
+Nora: The common thread today? Form factor gets hardware onto the body, but rigorous signal processing is what keeps it in the clinic and on the consumer.
+
+Theo: Well said, Nora.
+
+Nora: That is your Neuro Morning for Friday, November 27th, 2026. Have a great walk, Chandni, and a wonderful weekend!
+
+Theo: Catch you all on Monday.
+
+# Editor's log, Friday, November 27, 2026
+
+Episode: Untethered AI Wearables, BCI Form Factors, and Biosignal Validation Debates
+
+## How this episode was made
+1. Pulled every item published in the last ~30 hours from the sources below.
+2. Gemini (editor pass) picked about 5 stories, assigned each to one section, and logged why the rest were skipped.
+3. Gemini (research pass) checked each picked story with Google Search and built a fact sheet from credible sources.
+4. Gemini (writer pass) wrote the two-host script from only those fact sheets.
+5. Gemini (fact-check pass) compared every claim in the script with the fact sheets and fixed or cut anything unsupported.
+6. Gemini voiced it; GitHub published it.
+
+## Sources checked
+- Neurotechnology Substack: failed (403 Client Error: Forbidden for url: https://neurotechnology)
+- Neuroscience News: 0 new items
+- MedTech Dive: 0 new items
+- Fierce Biotech MedTech: 0 new items
+- STAT Health Tech: 0 new items
+- MobiHealthNews: failed (403 Client Error: Forbidden for url: https://www.mobihealthn)
+- TechCrunch Health: 0 new items
+- FDA Medical Devices: failed (404 Client Error: Not Found for url: https://www.fda.gov/apo)
+- Google News: neurotech: 12 new items
+- Google News: Neurotechnology Substack: 0 new items
+- Google News: BCI companies: 2 new items
+- Google News: neuromodulation: 8 new items
+- Google News: EEG and neural wearables: 6 new items
+- Google News: neuro funding: 10 new items
+- Google News: FDA neuro devices: 8 new items
+- Google News: NYC neurotech: 1 new items
+- Google News: wearables: 8 new items
+- Fierce Healthcare Health Tech: 0 new items
+- Healthcare IT News: failed (403 Client Error: Forbidden for url: https://www.healthcarei)
+- Google News: digital health: 10 new items
+- Google News: health tech AI: 8 new items
+- Google News: medtech devices: 8 new items
+- Google News: Asia neurotech: 10 new items
+- Google News: global regulatory path: 5 new items
+- bioRxiv Neuroscience: failed (404 Client Error: Not Found for url: https://connect.biorxiv)
+
+## Used, by section
+### Who Expanded
+- Altair Lands $100 Million Series A to Build Cellular Links for AI Wearables - BigGo Finance (Google News: neuro funding) [link](https://news.google.com/rss/articles/CBMidkFVX3lxTE9Ha09rdnp0RVoyU0Z1d28wSjdacTZTSUlZZUtDczlLTzljMFRZWnY3eUE5Ui1YZE9BQW9lSW5kQzlla1JRQVJZN1F1NDRoSEl2eDY4ajVUZG5jaS1TQVNnenl0Z1kxRDhsQVkzQm9wOVpRcnVxWnc?oc=5)  
+  Angle: Highlight the hardware infrastructure shift toward low-power cellular microchips that allow AI health wearables to operate untethered from smartphones.
+- Genesis backs Nurovo's EEG wearable to measure pain - Dealroom (Google News: EEG and neural wearables) [link](https://news.google.com/rss/articles/CBMijgFBVV95cUxNQlRmMXNhbHljdFlYUTBlWVU4X1d0c04tOGZGNDFyWHF4OHhyX1ZoanFPOTNWUFVfWlEwZVBFYzNMVm5sSnpFSXJzYUE4UVFPbTRnVmdJNDhfeFZOTWlRejg1ZkdvTnB1SE92UVhIeDNqSmdqd1BGVDZvMW1acU5EZzEyVUZ2VmkzSnFBbzFn?oc=5)  
+  Angle: Focus on the venture capital pull for translating EEG neural wearables into objective clinical diagnostics for pain management.
+### New Products &amp; Validation
+- Super Dimensional Brain Power ZAPCAP Brain-Computer Baseball Cap | All-In-One Integrated Brain-Computer System Cap for Daily Wear - 36Kr (Google News: neuro funding) [link](https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3WGRyczdURUN0dkpxd3B2NmVENXBiMnBELTJoRkdxQnlKbDZzWFRWMHBJSzVWdXNodHZLT0NKTVMxV0ZFSXN1MEtsSWJkYTl4RFF3?oc=5)  
+  Angle: Emphasize Asia's rapid go-to-market pace in packaging BCI hardware into daily consumer form factors like baseball caps ahead of Western clinical cycles.
+- Review Finds Combined Light and Brain Stimulation in Alzheimer Disease Unproven - Bioengineer.org (Google News: neuromodulation) [link](https://news.google.com/rss/articles/CBMipwFBVV95cUxNM28zWnNWY1lDYVRNeXYxRzV1T0toQi1vQmRYbDdNcXlTNXRHMjBrc3VqNVY5c2dvMkFKbE1LQ1h6R0JyVmNmNnp1bXlfMjQwRmhnZHg1VDFTdDVFTmpCYmxENTJHNW5KVXVMVEY1bF9iOXpzYTNrLUhYMVJJUDNtZV9pdThhdFlvaGVuclYyOWdNZ2x0cFRsVE1CcktqSG5DaUdQTF9jWQ?oc=5)  
+  Angle: Detail the clinical backlash against unproven multi-modal neurotech claims, stressing the need for rigorous sham-controlled evidence.
+- New study finds daytime HRV tracking is still a challenge for Oura - Gadgets &amp; Wearables (Google News: wearables) [link](https://news.google.com/rss/articles/CBMiigFBVV95cUxNQWJlQzdQYlhYM0N1dE9sanJaSjZoSURaWWdhQ3Ezd3VyYjJ1OC1aUXVKSTNJVGh5SElWUmczaWNRcE1HZVcyNnVCQkl5VDY0VDItamVCSUNqZTgxOXdMcHRCNkRVblVEalFPVU0yQTRINEVqcndQbXRscDRheVFmV0lwc2puT2doeWc?oc=5)  
+  Angle: Examine the technical signal-processing limitations of ring PPG sensors during daytime activity and what it means for digital health validation.
+
+## Fact sheets (verified with Google Search)
+
+### Altair Lands $100 Million Series A to Build Cellular Links for AI Wearables - BigGo Finance
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Genesis backs Nurovo's EEG wearable to measure pain - Dealroom
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Super Dimensional Brain Power ZAPCAP Brain-Computer Baseball Cap | All-In-One Integrated Brain-Computer System Cap for Daily Wear - 36Kr
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Review Finds Combined Light and Brain Stimulation in Alzheimer Disease Unproven - Bioengineer.org
+(No fact sheet: research failed, so only the original item text was used.)
+
+### New study finds daytime HRV tracking is still a challenge for Oura - Gadgets &amp; Wearables
+(No fact sheet: research failed, so only the original item text was used.)
+
+## Fact-check fixes
+- Changed "just to get off Wi-Fi" to "to shift from 4G to 5G" (the source specifies shifting from 4G to 5G without changing the app processor, not Wi-Fi offboarding).
+- Changed "just launched" to "just demonstrated" for Hyperdimensional Brainpower's ZAPCAP (the article specifies the team demonstrated the product, not that it was officially launched/shipped for sale).
+- Changed "actually shipped" to "actually demonstrated" regarding Hyperdimensional Brainpower (they demonstrated working cap functionality, while commercial launch for sale was not reported).
+- Changed "launched" to "demonstrated" in the recap for Hyperdimensional Brainpower.
+- Changed "A UBC clinical trial" to "A UBC study" in the recap (the source describes it as a university benchmark study/paper comparing wearable devices against lab equipment, not a clinical trial).
+
+## Trends noted
+- {'insight': 'Wearable and neurotech developers are pushing aggressive form-factor miniaturization for daily consumer use, even as clinical regulators and independent researchers escalate scrutiny over real-world signal accuracy and efficacy claims.', 'evidence': ['id 30: Altair raised $100 million Series A for standalone cellular connectivity chips in AI wearables', 'id 37: ZAPCAP launched an integrated consumer BCI baseball cap in China for daily wear', "id 50: Clinical study identified significant daytime motion artifact limits in Oura Ring's HRV tracking", "id 17: Systematic review found combined photobiomodulation and brain stimulation claims in Alzheimer's unproven", 'id 25: Nurovo secured VC backing to translate EEG wearables into objective clinical pain monitoring']}
+
+## Not used, and why
+- FDA approves Neuralink’s LINK Pivotal Study, the first US pivotal trial of an implantable brain-computer interface - 2 Minute Medicine (Google News: neurotech): already covered: Neuralink FDA pivotal study approval
+- IA y Resiliencia: Preparando la Organización para el Futuro - The Business Continuity Institute (BCI) (Google News: neurotech): not about neurotech; Business Continuity Institute
+- Physical climate risk takes centre stage in BCI’s new transition plan - Responsible Investor (Google News: neurotech): not about neurotech; British Columbia Investment Management
+- Neuralink Wins FDA Clearance for Pivotal Trial, Implantable Brain-Computer Interface Nears Market Filing - BigGo Finance (Google News: neurotech): already covered: Neuralink FDA pivotal study approval
+- ACS, PDHS win OFSAA games; BCI loses in CWOSSA football final - Brantford Expositor (Google News: neurotech): not health tech; high school athletics
+- Neuralink's brain-computer interface chip is progressing to an FDA-approved trial, but China is catching up - Yahoo Tech (Google News: neurotech): already covered: Neuralink FDA pivotal study approval
+- Elon Musk's Brain-Computer Interface Nears Market Launch: Key Clinical Trials Approved, Controlling GTA 6 With Thought Power Becomes a Reality - 36氪 (Google News: neurotech): already covered: Neuralink FDA pivotal study approval
+- Musk's Neuralink gets FDA approval for pivotal brain implant trial - Anadolu Ajansı (Google News: neurotech): already covered: Neuralink FDA pivotal study approval
+- Neuralink Obtains FDA Approval for ALS Brain Implant Trial - Gizmodo (Google News: neurotech): already covered: Neuralink FDA pivotal study approval
+- FDA clears Neuralink to start the first pivotal US trial of an implantable brain-computer interface - Digital Trends (Google News: neurotech): already covered: Neuralink FDA pivotal study approval
+- Musk's Neuralink receives approval for its first pivotal brain implant trial in the US - Mezha (Google News: neurotech): already covered: Neuralink FDA pivotal study approval
+- Neurotech International Director Andrew Chapman Acquires 1,000,000 Shares for $14,668 - Kalkine (Google News: neurotech): insider transaction; thin financial news
+- Neuralink FDA Pivotal Study Follows 30+ Implant Users - shattered.io (Google News: BCI companies): already covered: Neuralink FDA pivotal study approval
+- Elon Musk’s Neuralink is recruiting for ‘Telepathy’ brain-chip trial, here's how to apply - UNILAD Tech (Google News: BCI companies): already covered: Neuralink FDA pivotal study approval
+- Sunnybrook tests focused ultrasound for severe substance use disorder - www.hospitalnews.com (Google News: neuromodulation): early clinical trial update without new commercial milestone
+- Parkinson’s Disease: How a brain implant helped 62-year-old gain better control, balance - The Indian Express (Google News: neuromodulation): individual patient case report
+- Award: Prof. Dr. med. Joachim Krauss - Medizinische Hochschule Hannover : MHH (Google News: neuromodulation): individual academic award
+- Turning discoveries into real-world impact: 2025–2026 UHN Research Report - UHN Foundation (Google News: neuromodulation): institutional annual report
+- Caltech Nanorobots Carry Five Times More Chemo Past Mouse Blood-Brain Barrier Than Unlit Copies - Tech Times (Google News: neuromodulation): preclinical mouse study on BBB nanorobots
+- Macro-Micro Depth Electrode Market Size, Share &amp; Forecast 2036 - Fact.MR (Google News: neuromodulation): generic market research report
+- Comprehensive Review Details Bidirectional Neural and Humoral Pathways of Liver-Brain Axis - Bioengineer.org (Google News: neuromodulation): academic literature review
+- Study Finds Daubechies Wavelets Lead Resting EEG Analysis Across Brain Bands - Bioengineer.org (Google News: EEG and neural wearables): academic signal processing methodology paper
+- Dog brains share a humanlike bias for consonants in speech - The Brighter Side of News (Google News: EEG and neural wearables): academic animal cognition study
+- EEG Recurrence Analysis Reveals Nonlinear Brain Dynamics Across Design Creativity States - Bioengineer.org (Google News: EEG and neural wearables): academic EEG analysis paper
+- 12-bed brain stroke ICU at New Civil to boost neuro care - The Times of India (Google News: EEG and neural wearables): local hospital facility update
+- Conformity Assessment According to DIN SPEC 91434: Ylektra Launches Free Agri-PV Calculator Online - openPR.com (Google News: EEG and neural wearables): not health tech; agricultural solar calculator
+- Global Digital Health Forum 2026 - World Health Organization (WHO) (Google News: neuro funding): event listing
+- Digital health in Scotland: Building on progress and unlocking new opportunities - HTN Health Tech News (Google News: neuro funding): regional policy overview
+- NHA CEO Highlights Digital Healthcare Priorities, Reviews Implementation in Northeast States - Digital Health News (Google News: neuro funding): regional health policy update
+- Meta launches R12.2m AI funding initiative covering SA - Bizcommunity (Google News: neuro funding): regional AI grant initiative
+- SC Agrotech Enters Digital Healthcare Segment with AI-Powered Health Suite Launch - Digital Health News (Google News: neuro funding): agrotech company corporate pivot
+- Park Medi World Completes Acquisition of Mehar Hospital Zirakpur - Digital Health News (Google News: neuro funding): regional hospital M&amp;A
+- Israeli chipmaker Altair raises $100 million to connect the next generation of AI devices - CTech (Google News: neuro funding): merged into story 30 (Altair Series A)
+- Retrievant Secures $755K Seed Funding to Scale AI Medical Automation - Inter Press Service (Google News: neuro funding): small seed funding for medical administrative software
+- Neuralink FDA Approval: ALS-Only Pivotal Trial Leaves Enrollment, Endpoints, Sites Undisclosed - Tech Times (Google News: FDA neuro devices): already covered: Neuralink FDA pivotal study approval
+- Neuralink Wins FDA Approval For Pivotal Brain Implant Trial - Dataconomy (Google News: FDA neuro devices): already covered: Neuralink FDA pivotal study approval
+- Neuralink gets FDA approval for a late-stage brain implant trial in ALS - The Next Web (Google News: FDA neuro devices): already covered: Neuralink FDA pivotal study approval
+- Musk's Neuralink gets FDA approval for brain implant trial - MedWatch (Google News: FDA neuro devices): already covered: Neuralink FDA pivotal study approval
+- Elon Musk’s Neuralink Wins FDA Clearance for Brain Implant Trial in Patients With ALS - Benzinga (Google News: FDA neuro devices): already covered: Neuralink FDA pivotal study approval
+- Elon Musk'a Jesus-level brain chip technology earns new approval; says can be tested on patients with ... - The Times of India (Google News: FDA neuro devices): already covered: Neuralink FDA pivotal study approval
+- Neuralink Receives FDA Approval for Key Brain Implant Trials - ForkLog (Google News: FDA neuro devices): already covered: Neuralink FDA pivotal study approval
+- Neuralink’s brain chip just got FDA approval for its biggest trial yet - Interesting Engineering (Google News: FDA neuro devices): already covered: Neuralink FDA pivotal study approval
+- Dutch startup SPCTR raises €2.8 million to bring real-time tumour margin assessment to cancer surgery - EU-Startups (Google News: NYC neurotech): early stage intraoperative fluorescence imaging funding
+- Textile Mechanoreceptor Array Delivers Tunable Pressure Sensing for Wearable Health Monitoring - Bioengineer.org (Google News: wearables): academic paper on smart textiles
+- 5 sleep gadgets that actually help me get more rest – and are on sale for Black Friday - ZDNET (Google News: wearables): shopping guide / holiday deal promotion
+- Muse Black Friday deals take 25% off its brain-sensing wearables - USA Today (Google News: wearables): shopping guide / holiday deal promotion
+- Black Friday Sleep Tracker Deals 2026: 25% Off EEG Brain-Sensing Wearables - IGN (Google News: wearables): shopping guide / holiday deal promotion
+- Best Black Friday Fitness Tracker Deals 2026 - Wareable (Google News: wearables): shopping guide / holiday deal promotion
+- Actxa launches screenless Spark Band with glucose awareness - IT Brief Asia (Google News: wearables): regional consumer smart band release
+- Next-Generation Wearables and Nearables for Health, Rehabilitation and Sport - Loughborough University (Google News: wearables): academic paper collection
+- Nelson Advisors: This Week in European HealthTech, MedTech and Health AI: 27th November 2026 - https://www.healthcare.digital/ (Google News: digital health): generic weekly newsletter roundup
+- KNUST launches TekMed App as Responsible AI Lab advances digital health innovation - Tech Review Africa (Google News: digital health): regional digital health app launch
+- Aditya Birla launches wellness-focused international travel insurance plan - ITIJ (Google News: digital health): insurance product announcement
+- Digital Health’s monthly roundup of contracts and go lives - Home | Digital Health (Google News: digital health): monthly NHS contract roundup
+- DHSC to host webinar for Med-Tech sector with Rebuilding Futures Alliance - Med-Tech Insights (Google News: digital health): webinar announcement
+- Remidio Launches Systemic Health AI for Retinal Screening of Heart and Kidney Disease - Voice of Healthcare (Google News: digital health): retinal AI diagnostic tool launch
+- GM delegation visits Germany’s Ruhr as part of innovation partnership - TheBusinessDesk.com (Google News: digital health): regional delegation visit
+- DHO launches DHIS2 to strengthen digital health reporting - | Associated Press Of Pakistan (Google News: digital health): public health data platform release
+- Huawei Launches European Health Platform Terve Research and Unveils HUAWEI WATCH D3 - HUAWEI Global (Google News: digital health): regional consumer smartwatch release
+- Can Digital Tools Improve Follow-Up Care for Patients Who Leave Hospitals? - Digital Health News (Google News: digital health): generic opinion commentary
+- Lisbon's Lampsy Health raises €1.1 million for its AI bedside lamp that detects epileptic seizures during sleep - EU-Startups (Google News: health tech AI): early seed funding for consumer bedside seizure detection lamp
+- Israeli startup turns to AI to tackle shortage of specialists in spinal surgery - CTech (Google News: health tech AI): early stage surgical AI startup announcement
+- $4.5M for Lumius to bring their 3D ultrasounds into hospitals - BackScoop (Google News: health tech AI): already covered: Lumius $4.5M seed round
+- Fault Line raises £2.3m to develop clinical AI safety testing - Health Tech World (Google News: health tech AI): early stage AI safety platform funding
+- HotDoc launches AI document assistant for Australian clinics - IT Brief Australia (Google News: health tech AI): clinic admin AI assistant release
+- MrMed Introduces Five-Day Paid Caregiver Leave, Urges Workplaces to Recognise Invisible Caregiving - Indian Startup Times (Google News: health tech AI): corporate HR policy announcement
+- 👨🏿‍🚀TechCabal Daily – La Visa loca - TechCabal (Google News: health tech AI): unrelated news digest
+- CoFlo raises US$6m to make injectable medicines easier to administer - Health Tech World (Google News: health tech AI): injectable drug delivery medtech funding
+- Aterian-backed Vantedge Medical acquires medical device manufacturer Hobson &amp; Motzer - PEI Private Equity (Google News: medtech devices): private equity contract manufacturing acquisition
+- Lampsy Health raises €1.1M to shine a light on undetected night-time seizures - Tech.eu (Google News: medtech devices): merged into story 66 (Lampsy Health)
+- Thermo Fisher receives expanded clearance for multiple myeloma assay - Medical Device Network (Google News: medtech devices): expanded assay clearance for IVD
+- Remote Telesurgery Systems Not Necessarily A Regulatory Novelty - Medtech Insight (Google News: medtech devices): regulatory analysis commentary
+- FDA Submits CDRH Voluntary Regulatory Misconduct Reporting Framework for OMB Renewal - CASRAI (Google News: medtech devices): procedural FDA notice renewal
+- Cloud Connectivity in Medical Devices: What It Means for Patient Care, Safety and Compliance - Medical News Bulletin (Google News: medtech devices): generic cloud connectivity overview
+- Neuralink Wins FDA Nod for First U.S. Pivotal Brain Implant Trial, but China's NEO Is Already Selling - BigGo Finance (Google News: medtech devices): already covered: Neuralink FDA pivotal study approval
+- FDA seeks stakeholders’ feedback on robotic medical devices - Medical Buyer (Google News: medtech devices): FDA stakeholder feedback request
+- CG MedTech takes human tissue CDMO business commercial with Raycia launch - Korea Biomedical Review (Google News: Asia neurotech): human tissue CDMO commercialization
+- Top 10 China‘s Smart Wearable Suppliers Show Where Landed Cost Exceeds the Quoted Price - EIN Presswire (Google News: Asia neurotech): supply chain landed cost overview
+- Singapore’s MedTech sector and locally made medical devices punching above their weight - Singapore Economic Development Board (EDB) (Google News: Asia neurotech): regional economic policy update
+- India’s Indigenous Robotic System Advances Beating Heart Cardiac Surgery - BW Healthcare World (Google News: Asia neurotech): regional cardiac surgical robot installation
+- InnoCare Expands Pediatric Cancer Treatment, Samsung Bioepis Taps Protein Degradation, and Taiwan Advances Parkinson's Drug Development - GeneOnline (Google News: Asia neurotech): regional biopharma news round-up
+- US excess-capacity tariffs put India’s MedTech MSMEs under margin strain - Medical Buyer (Google News: Asia neurotech): trade tariff analysis
+- Hong Kong Startup Takes Deposits on Smart Glasses With Display; Privacy Policy Skips Microphone Data - Tech Times (Google News: Asia neurotech): early deposit phase for consumer AR glasses with privacy concerns
+- Alice + Olivia reopens redesigned boutiques in Hong Kong and Macau - Inside Retail Asia (Google News: Asia neurotech): retail fashion store reopening
+- Microtome market could reach $690m by 2031 on diagnostic demand - Healthcare Asia Magazine (Google News: Asia neurotech): market research report summary
+- South Korea shows interest in manufacturing medical devices at AMTZ - Medical Buyer (Google News: Asia neurotech): regional medical device manufacturing interest
+- Regulatory roundup – November 2026 - Today's Medical Developments (Google News: global regulatory path): generic monthly regulatory roundup
+- GE HealthCare introduces new CT platforms and workflow enhancements - Yahoo Finance (Google News: global regulatory path): imaging system product enhancements
+- Meet DermaSensor: The Company Behind the First FDA-Cleared AI Device for Skin Cancer Detection, Now Open to Everyday Investors - Barchart.com (Google News: global regulatory path): crowdfunding campaign promotion for previously cleared device
+- ABT vs. TMO: Which Clinical Diagnostics Stock Is the Better Bet Now? - TradingView (Google News: global regulatory path): financial stock comparison analysis
+- What Makes Abbott (NYSE:ABT) Latest FDA Approval a Major Milestone? - Kalkine Media (Google News: global regulatory path): stock analysis on historical approval</description>
+   <pubDate>Fri, 27 Nov 2026 09:41:24 +0000</pubDate>
+   <guid isPermaLink="false">neuro-morning-2026-11-27-0941</guid>
+   <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-27.mp3?v=0941" length="6008108" type="audio/mpeg"/>
+   <itunes:duration>750</itunes:duration>
+   <itunes:explicit>false</itunes:explicit>
+   <podcast:transcript url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-27.vtt" type="text/vtt" language="en"/>
+  </item>
+  <item>
    <title>Neuro Morning: Pivotal Trials, Cross-Border Funding, and AI Diagnostics</title>
    <description>Today's stories:
 
