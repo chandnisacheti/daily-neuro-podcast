@@ -43,6 +43,7 @@ EDGE_VOICES = {"Nora": "en-US-AvaNeural", "Theo": "en-US-AndrewNeural"}
 API = "https://generativelanguage.googleapis.com/v1beta/models"
 KEY = os.environ.get("GEMINI_API_KEY", "")
 TEXT_MODEL = os.environ.get("GEMINI_TEXT_MODEL", "")  # empty = pick newest Flash model automatically
+BEST_TEXT_MODEL = ""  # the model picked at start; the writer retries it after a fallback
 TTS_MODEL = os.environ.get("GEMINI_TTS_MODEL", "")    # empty = pick newest TTS model automatically
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
 
@@ -54,7 +55,7 @@ def _ver(name):
 
 def pick_models():
     """Google retires model names often, so ask the API which models this key can use."""
-    global TEXT_MODEL, TTS_MODEL
+    global TEXT_MODEL, TTS_MODEL, BEST_TEXT_MODEL
     if TEXT_MODEL and TTS_MODEL:
         return
     names, token = [], None
@@ -82,6 +83,7 @@ def pick_models():
         tts = [n for n in names if "tts" in n]
         tts.sort(key=lambda n: (_ver(n), "flash" in n, "lite" not in n), reverse=True)
         TTS_MODEL = tts[0] if tts else ""
+    BEST_TEXT_MODEL = TEXT_MODEL
     log(f"using text model {TEXT_MODEL}, tts model {TTS_MODEL or '(none, Edge voices)'}")
 DRY = os.environ.get("DRY_RUN") == "1"
 
@@ -417,17 +419,69 @@ def write_script(items, plan, date):
     body = {"contents": [{"parts": [{"text": WRITER_PROMPT.format(date=date, plan=json.dumps(plan, ensure_ascii=False),
                                                                     items=json.dumps(used_items, ensure_ascii=False))}]}],
             "generationConfig": {"temperature": 0.9}}
-    out = gemini(TEXT_MODEL, body)
+    out = _writer_call(body)
     text = "".join(p.get("text", "") for p in out["candidates"][0]["content"]["parts"])
-    title, lines = plan.get("title") or f"Neuro Morning, {date}", []
+    title, lines = plan.get("title") or f"Neuro Morning, {date}", _parse_lines(text)
+    if len(lines) < 6:
+        raise RuntimeError("Script came back too short:\n" + text[:1000])
+    # 2026-11-26: a fallback model wrote a 684-word (5 min) script. Ask once for a fuller version.
+    words = sum(len(t.split()) for _, t in lines)
+    if words < MIN_WORDS:
+        log(f"script is only {words} words; asking for a fuller version")
+        exp = {"contents": [{"parts": [{"text": EXPAND_PROMPT.format(
+            words=words, script="\n".join(f"{s}: {t}" for s, t in lines),
+            items=json.dumps(used_items, ensure_ascii=False))}]}],
+            "generationConfig": {"temperature": 0.8}}
+        try:
+            out2 = _writer_call(exp)
+            lines2 = _parse_lines("".join(p.get("text", "") for p in out2["candidates"][0]["content"]["parts"]))
+            words2 = sum(len(t.split()) for _, t in lines2)
+            log(f"expanded script: {words2} words")
+            if words2 > words:
+                lines = lines2
+        except (RuntimeError, KeyError, IndexError) as e:
+            log(f"expand pass failed, keeping the short script: {e}")
+    return title, lines
+
+
+MIN_WORDS = 1100
+EXPAND_PROMPT = """This "Neuro Morning" script is only {words} words, but it must be 1,300 to 1,450 words
+(about 10 minutes). Rewrite it at full length. Keep every section, the story order, the hosts (Nora and
+Theo), the "Good morning, Chandni!" opening and every rule the script already follows. Give each main
+story about 150 to 190 words: what happened, how it works, who the players are, why it matters, and a
+real back-and-forth between the hosts (Theo pushing on the data, Nora on the opportunity). Use ONLY facts
+from the script and the source items below; where the sources don't say something, have a host flag it
+as an open question instead of guessing. Output only the script lines, each starting "Nora:" or "Theo:".
+
+SCRIPT:
+{script}
+
+SOURCE ITEMS:
+{items}
+"""
+
+
+def _parse_lines(text):
+    lines = []
     for raw in text.splitlines():
         raw = raw.strip().replace("**", "")
         m = re.match(r"^(Nora|Theo)\s*:\s*(.+)$", raw)
         if m:
             lines.append((m.group(1), m.group(2)))
-    if len(lines) < 6:
-        raise RuntimeError("Script came back too short:\n" + text[:1000])
-    return title, lines
+    return lines
+
+
+def _writer_call(body):
+    """The writer matters most for quality, so if planning fell back to a lighter model, give the
+    best model one more try first (overloads often clear within minutes)."""
+    best = BEST_TEXT_MODEL
+    if best and best != TEXT_MODEL:
+        try:
+            log(f"writer: trying {best} again")
+            return _gemini(best, body, 1, timeout=180)
+        except RuntimeError:
+            log(f"writer: {best} still unavailable, using {TEXT_MODEL}")
+    return gemini(TEXT_MODEL, body)
 
 
 
