@@ -13,6 +13,328 @@
   <itunes:block>Yes</itunes:block>
   <itunes:category text="Science"/>
   <item>
+   <title>Paradromics Advances to US Trials, China's Mandarin BCI, and Pre-FDA Fast Tracks in Asia</title>
+   <description>Today's stories:
+
+1. Paradromics Gains FDA Nod for Nationwide Brain Trial
+https://wisevoter.com/world/us/2026/11/27/paradromics-fda-nationwide-brain-interface-trial
+
+2. Lampsy Health secures €1.1 million for AI bedside lamp that detects epileptic seizures
+https://htworld.co.uk/news/ai/lampsy-health-secures-e1-1-million-for-ai-bedside-lamp-that-detects-epileptic-seizures/
+
+3. China develops Mandarin BCI for speech restoration
+https://www.chinadaily.com.cn/a/202611/27/WS6b0974e4e4b03ebf8519f18f.html
+
+4. Chargerless Launches Preorders for Ray, a Solar-Powered Health Wearable
+https://insider.fitt.co/press-release/chargerless-launches-preorders-for-ray-a-solar-powered-health-wearable/
+
+5. China’s early-access pathways offer medtech companies a faster route to market
+https://www.consultancy.asia/news/6926/chinas-early-access-pathways-offer-medtech-companies-a-faster-route-to-market
+
+Full transcript:
+
+Nora: Good morning, Chandni!
+
+Theo: Today is Saturday, November 28, 2026.
+
+Nora: Five stories today: three in neurotech, two in health tech.
+
+Nora: Okay, first up: who expanded this week. Story one of five.
+
+Nora: Paradromics got greenlit by the FDA to expand its high-channel brain-computer interface trials nationwide.
+
+Theo: That’s a pretty significant regulatory shift. Up until now, their Connexus system was running under a single-site feasibility study—specifically at the University of Michigan back in June, where surgeons implanted a woman who lost her ability to speak due to a neurodegenerative condition.
+
+Nora: Right, and now they can move from that one-off testing to actual multi-center execution across the US. But Theo, for anyone not tracking the hardware... how is Connexus actually reading those signals?
+
+Theo: Well, it’s an invasive implant, so they’re placing microelectrode arrays directly onto the cortex to record single-unit spike activity—literally reading individual neurons.
+
+Nora: Which means their deep-learning algorithms decode full speech intent as the patient tries to speak.
+
+Theo: Exactly. But here’s my question... single-site pilot data is one thing. Now they have to prove surgeons across five or ten different centers can place these arrays with consistent signal yield, without spiking surgical complications.
+
+Nora: Ha, classic Theo skeptic mode! But honestly, going nationwide puts real pressure on Neuralink, who’s also building right down the road in Austin. It signals that multi-center BCI clinical trials are finally becoming the industry standard, not just single-patient demos.
+
+Nora: Moving to story two of five. A Portuguese startup called Lampsy Health just raised one point one million euros to detect night-time epileptic seizures... using a bedside lamp.
+
+Theo: Okay... I'll admit it. That's clever.
+
+Nora: Wait, really? You're not poking holes in the hardware?
+
+Theo: Well, look at what they're bypassing. No chest patches, no scalp electrodes, no wristbands that fall off or need charging. It's just a conventional-looking lamp with an integrated camera and infrared LEDs.
+
+Nora: So it sees in complete darkness, right? It uses computer vision to track physical motion patterns of tonic-clonic seizures while the patient sleeps, then automatically pings an app and calls designated contacts.
+
+Theo: Right, and their paper in IEEE Access reported over ninety-seven percent accuracy across two thousand two hundred hours of video data, with eighteen times fewer false alarms than existing alternatives.
+
+Nora: Wow. I mean, that's huge, considering research suggests something like eighty-six percent of nocturnal seizures go completely unnoticed.
+
+Theo: Though I do wonder how well the visual model holds up if a patient pulls a thick, heavy duvet completely over their head.
+
+Nora: Fair point! But pulling in seed money from Ageas and Portugal Ventures to launch in Europe by early 2027 shows investors are hungry for ambient hardware that completely skips direct body contact.
+
+Nora: That's the deals. Now, research and new products. Story three of five.
+
+Nora: Researchers in Shanghai just ran the first clinical trial for an invasive BCI designed specifically to decode Mandarin speech.
+
+Theo: This one really caught my eye, because language architecture completely changes the signal processing challenge.
+
+Nora: Right! English relies mainly on phoneme combinations, but Mandarin is tonal. The exact same syllable, like "ma", means completely different things depending entirely on pitch inflection.
+
+Theo: Exactly. So you can't just take a decoding model trained on English phonemes and port it over. The team—which included Fudan University and local neurotech firm StairMed—used a dual-target implant strategy.
+
+Nora: Explain that hardware setup, because two target regions sounds intense.
+
+Theo: They implanted two distinct two hundred fifty-six-channel flexible electrode arrays into the brain of an ALS patient. One array sits over articulatory motor areas to pick up phonemes... and the second array captures the neural signatures of tone inflection.
+
+Nora: And the real-time results were wild. During imagined speech, her decoding accuracy hit over ninety percent at around one hundred ten characters per minute!
+
+Theo: That completely blows past non-invasive scalp EEG or eye-tracking, which usually top out under forty characters a minute.
+
+Nora: It’s a brilliant strategic move. Building language-specific neural decoders opens up massive localized market strategies—especially since, you know, over half the world’s languages are actually tonal.
+
+Nora: Story four of five! A startup called Chargerless just opened pre-orders for Ray, a solar-powered health band that never needs to be plugged into a wall.
+
+Theo: No charging port at all. Just a seven-gram machined steel case with a tiny solar cell tucked right under the glass.
+
+Nora: Honestly, as someone who constantly forgets to charge her watch, this hit home. They claim just one minute of direct outdoor sunlight per day keeps it running indefinitely.
+
+Theo: And if you're stuck indoors, the internal storage cell holds about sixty days of reserve power. It tracks sleep stages, heart rate, heart rate variability, and body temperature.
+
+Nora: But wait... indoor lighting doesn't really charge it, right?
+
+Theo: Ambient indoor lighting isn't strong enough. It needs actual outdoor sunlight, though shade, clouds, or light through a car window still harvest enough juice.
+
+Nora: Still, zero daily charging friction and no monthly subscription fees at two hundred nineteen dollars? That hits the single biggest friction point in continuous biosignal tracking—wearable abandonment.
+
+Theo: My open question is long-term sensor power allocation. If someone wears it under long jacket sleeves all winter, does their power management algorithm force lower sampling rates on the photoplethysmography sensors?
+
+Nora: Valid question! But wait, actually... it proves startups are aggressively rebuilding hardware to eliminate daily user maintenance.
+
+Nora: Now, story five of five. Global Strategy Watch. Strategic analysis out this week highlights how medtech startups are using early-access regulatory channels in China to shorten their time to market.
+
+Theo: Historically, launching an innovative medical device in China meant waiting an average of over four years after securing US FDA approval.
+
+Nora: Right, but regional frameworks like Hainan's Bo'ao Lecheng pilot zone and the Greater Bay Area's "Medicine and Equipment Connect" are completely flipping that timeline.
+
+Theo: Under the Greater Bay Area framework, if a device is already approved and used in Hong Kong or Macao public hospitals, designated mainland hospitals can import and use it clinically before full national NMPA approval.
+
+Nora: And in Hainan, over three hundred thirty medical devices have entered through special clinical need pathways, including take-home monitoring hardware since 2023.
+
+Theo: What this means for an engineering or clinical team is you can collect real-world clinical data and generate actual commercial revenue... years before full national NMPA approval.
+
+Nora: Exactly! It turns Asia from a late-stage expansion market into an early-stage clinical launchpad.
+
+Nora: Let's look at the broader trends driving the market right now. We're seeing a massive structural shift toward ex-US-first regulatory strategies.
+
+Theo: Absolutely. Founders used to treat the US FDA as step one, two, and three, while treating Asia as a distant afterthought.
+
+Nora: But with Hainan and the Greater Bay Area opening fast-track channels, the global center of gravity is moving.
+
+Theo: Running early-stage clinical work in Asia lets companies generate high-integrity real-world evidence and commercial revenue simultaneously, de-risking their eventual FDA submissions.
+
+Nora: Which brings us to our career signal today for biomedical engineers and product strategists like Chandni.
+
+Theo: When you're designing early clinical and go-to-market roadmaps, don't default to a US-only FDA timeline.
+
+Nora: Evaluate early-access pathways in the Greater Bay Area or Hainan to build real-world evidence early.
+
+Theo: If you're building a career spanning R&amp;D and strategy, reach out to clinical regulatory leads who have experience bridging Hong Kong public hospital approvals into mainland trial frameworks—that cross-border regulatory expertise is pure gold right now.
+
+Nora: Time for the recap!
+
+Theo: One: Paradromics gained nationwide FDA clearance for its multi-center BCI clinical trial.
+
+Nora: Two: Lampsy Health raised one point one million euros for its contactless bedside seizure lamp.
+
+Theo: Three: Chinese researchers demonstrated a dual-target BCI specifically tailored to decode tonal Mandarin speech.
+
+Nora: Four: Chargerless launched pre-orders for its solar-powered Ray health band that eliminates daily charging.
+
+Theo: And five: Early-access pathways in Asia are offering medtech startups a fast route to commercial revenue and real-world clinical data.
+
+Nora: Across every story today, the winning play isn't just building better sensors—it's executing smarter, global regulatory pathways.
+
+Theo: That’s it for today's Neuro Morning. Have a great Saturday walk, Chandni!
+
+Nora: Catch you next time!
+
+# Editor's log, Saturday, November 28, 2026
+
+Episode: Paradromics Advances to US Trials, China's Mandarin BCI, and Pre-FDA Fast Tracks in Asia
+
+## How this episode was made
+1. Pulled every item published in the last ~30 hours from the sources below.
+2. Gemini (editor pass) picked about 5 stories, assigned each to one section, and logged why the rest were skipped.
+3. Gemini (research pass) checked each picked story with Google Search and built a fact sheet from credible sources.
+4. Gemini (writer pass) wrote the two-host script from only those fact sheets.
+5. Gemini (fact-check pass) compared every claim in the script with the fact sheets and fixed or cut anything unsupported.
+6. Gemini voiced it; GitHub published it.
+
+## Sources checked
+- Neurotechnology Substack: failed (403 Client Error: Forbidden for url: https://neurotechnology)
+- Neuroscience News: 0 new items
+- MedTech Dive: 0 new items
+- Fierce Biotech MedTech: 0 new items
+- STAT Health Tech: 1 new items
+- MobiHealthNews: failed (403 Client Error: Forbidden for url: https://www.mobihealthn)
+- TechCrunch Health: 0 new items
+- FDA Medical Devices: failed (404 Client Error: Not Found for url: https://www.fda.gov/apo)
+- Google News: neurotech: 12 new items
+- Google News: Neurotechnology Substack: 0 new items
+- Google News: BCI companies: 1 new items
+- Google News: neuromodulation: 8 new items
+- Google News: EEG and neural wearables: 7 new items
+- Google News: neuro funding: 10 new items
+- Google News: FDA neuro devices: 8 new items
+- Google News: NYC neurotech: 0 new items
+- Google News: wearables: 8 new items
+- Fierce Healthcare Health Tech: 0 new items
+- Healthcare IT News: failed (403 Client Error: Forbidden for url: https://www.healthcarei)
+- Google News: digital health: 10 new items
+- Google News: health tech AI: 8 new items
+- Google News: medtech devices: 8 new items
+- Google News: Asia neurotech: 10 new items
+- Google News: global regulatory path: 0 new items
+- bioRxiv Neuroscience: failed (404 Client Error: Not Found for url: https://connect.biorxiv)
+
+## Used, by section
+### Who Expanded
+- Paradromics Gains FDA Nod for Nationwide Brain Trial - Wisevoter (Google News: BCI companies) [link](https://news.google.com/rss/articles/CBMilAFBVV95cUxQRDZveXVWb2xITVNTc0NnSU83RUpyWTJLUG9MY2tGa3EyVFd1MktpcjlHTXp6VmRzeU8yc05kODlrcnN5TWdSeU5KcmVpVDYzMnIyX3FfSFJEY1kwbUZISUVtdkpYVDcyUV8tRWpPR0c5NFdpMEkxYzI2bkJ2TWVhbG1RWWFxdUxpNzdRT2YwRXd0UWxi?oc=5)  
+  Angle: Paradromics securing FDA IDE clearance for nationwide human trials marks a critical shift from feasibility testing to multi-center clinical execution and commercial readiness.
+- Lampsy Health secures €1.1 million for AI bedside lamp that detects epileptic seizures - Health Tech World (Google News: health tech AI) [link](https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaklqZXhkWFd0eV9LcUFzQVUwWFBkV25pc3hjZGU0TEszdW0xY25Yc1RiQmFzQ3dYN0daVzEtekJ6VTFReThDMXJ5Wk9JbVotZWNyRVRpVEtMVTduZURJano2YWJGRzdsTUt1MVVmeWRRMUdhQkFkUFhEUWlqNVE3SDJ3S2JWWTdiY2ZWT2E5dnhyRnlPaUt4bWUtVGl2U01DQ1JPR185UkxWX2RIZ3ZxaGExYlN0eHRC?oc=5)  
+  Angle: Lampsy Health's €1.1M seed round highlights investor appetite for non-invasive, ambient monitoring hardware that bypasses direct neural contact for nocturnal seizure detection.
+### New Research and Products
+- China develops Mandarin BCI for speech restoration - China Daily (Google News: neurotech) [link](https://news.google.com/rss/articles/CBMifkFVX3lxTE9HOXFZelczRVhjZzZGNEdpTTVDR2dsZE5FRVNNak02b21fbFQ0VEkzVmdaWmhGNFVyZVBhRzR2S3NSVlE4amxPNUdreEVoN2trSXloZ2I3QURFZ0lLYTRFdnNTLWd0YTkyZXNMUmk5NGV5TGFCZHlieWZyc0pCdw?oc=5)  
+  Angle: Developing speech-decoding BCIs optimized for tonal languages like Mandarin showcases how language architecture directly impacts neural signal decoding and localized device strategy.
+- Chargerless Launches Preorders for Ray, a Solar-Powered Health Wearable - Fitt Insider (Google News: wearables) [link](https://news.google.com/rss/articles/CBMirgFBVV95cUxOSW9aU2trbUxnZFdpbzhHemNEcEJ5VHBpX2NBcGtoN0JQa21CbDRaVmVrdHNtNmdublQyZDRkMWllekxWc3h3ZFZLc2lJM1NHU2tTcGMxTlBVaHZqMWcwMXotLWJNVG9vZ0pua0JtYXgxd1ZNRzhYLWx2RzJxMlN0b3ozU2sxUlU3NXF3ZjFwN3FPR2xiNVRGYVdtd0djblVsekdlckpCSEVvcjZxb0E?oc=5)  
+  Angle: Chargerless opening pre-orders for a solar-powered health ring tackles the primary UX friction point in continuous biosignal tracking—battery maintenance and downtime.
+### Global Strategy Watch
+- China’s early-access pathways offer medtech companies a faster route to market - Consultancy.asia (Google News: Asia neurotech) [link](https://news.google.com/rss/articles/CBMitwFBVV95cUxQaDZNLTdJU3hwYkNEV0V6OTdROEFBV1YwSlBjdjZQMmxfSTd3Q1hxUlBaX1hSZEJBMmlxbHhjTnMzaXhEbVBTUW90ZE1jdkZxVW82cTFLZ09jMENsMG4zOWZHX0p3Szc4VGVqVi1hWU52aUlCcWtVNGZZYVVwNlk0c0pNemhUcFFsSUlpRHJDSEE2YXVZNEtBT1dVTTNqSWFVZUVSazhSNVZ2bk9GRWFxNWo1SzlzcjDSAbwBQVVfeXFMTzIwUGtKYmszNlg2N1BLQ1A1SDQxME9ub2hSSHNia1ZNcDJVUXpmYmo5R3YtcjFwaUN0cDV3aDAxOUZZZWgyNDBsaWItRlQyRGhOM3VTdWtqTTRyNkVPZk1TRWtJU3BFWU5SY1VKNndiSmRWVTdRYWpZcG9EUy1hS3pnUmJoekxINzRJTV94clZTRFE0VVZQRDF1NlVlTTJjZHpTZlpTNFNMSTZYYW9GRm0teVlzMTFwYTY3aFo?oc=5)  
+  Angle: China's early-access pathways in Hainan and the Greater Bay Area give medtech founders a tactical playbook to earn revenue and gather real-world clinical data before entering US FDA trials.
+
+## Fact sheets (verified with Google Search)
+
+### Paradromics Gains FDA Nod for Nationwide Brain Trial - Wisevoter
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Lampsy Health secures €1.1 million for AI bedside lamp that detects epileptic seizures - Health Tech World
+(No fact sheet: research failed, so only the original item text was used.)
+
+### China develops Mandarin BCI for speech restoration - China Daily
+(No fact sheet: research failed, so only the original item text was used.)
+
+### Chargerless Launches Preorders for Ray, a Solar-Powered Health Wearable - Fitt Insider
+(No fact sheet: research failed, so only the original item text was used.)
+
+### China’s early-access pathways offer medtech companies a faster route to market - Consultancy.asia
+(No fact sheet: research failed, so only the original item text was used.)
+
+## Fact-check fixes
+- Corrected Paradromics trial description: The patient at the University of Michigan lost speech due to a neurodegenerative condition, not ALS.
+- Corrected Lampsy Health metric comparison: IEEE Access study reported 18 times fewer false alarms than "existing alternatives," not "existing wearables."
+- Corrected China medtech early-access context: Changed "skip traditional FDA waiting periods" to "shorten their time to market," as the early-access pathways shorten time to Chinese market access relative to national NMPA registration, rather than replacing FDA processes.
+- Corrected early-access commercial timeline claim: Changed "years before your pivotal US FDA trial even finishes" to "years before full national NMPA approval."
+- Removed unconfirmed claim: Cut the invented mention of "Indian manufacturer Shukra Medtech raising seventy-seven million dollars".
+
+## Trends noted
+- {'insight': 'Medtech and neurotech ventures are increasingly leveraging ex-US regulatory pathways in Asia to generate commercial traction and real-world clinical data ahead of lengthy US FDA approvals.', 'evidence': ["id 82: China's Hainan and Greater Bay Area early-access pathways provide accelerated market entry for novel medtech devices prior to NMPA or FDA approval", 'id 14: Paradromics secured FDA clearance for nationwide BCI trials after extensive pre-clinical testing', 'id 68: Lampsy Health raised €1.1M for non-invasive AI seizure detection hardware', 'id 89: Shukra Medtech raised Rs 648 Crore (~$77M) in promoter funding for expanding Indian medical device manufacturing']}
+
+## Not used, and why
+- STAT+: Here are some health AI conversation starters for the holidays (STAT Health Tech): non-news consumer holiday article
+- Verizon in talks to buy Searchlight and BCI-backed fibre operator Fidium for ~$6B - Dealroom (Google News: neurotech): non-neurotech telecom acquisition talks
+- From Risk to Resilience A bcNAVIGATOR Demo - The Business Continuity Institute (BCI) (Google News: neurotech): non-neurotech demo for Business Continuity Institute
+- Neurotech International Reports Director’s Acquisition of 1 Million Shares - The Globe and Mail (Google News: neurotech): thin insider share transaction news
+- A7-BCI - Boeing 787-8 Dreamliner - Qatar Airways - Flightradar24 (Google News: neurotech): non-health flight tracking code
+- Vadodara University’s law student can pursue IIT Madras online course, Bar Council tells High Court - The Indian Express (Google News: neurotech): non-health Bar Council of India legal education update
+- Manufacturing output stagnates as power disruptions double: BIDS-BCI survey - The Daily Star (Google News: neurotech): non-health economic survey by Business Confidence Index
+- Plea before Delhi High Court challenges BCI circular barring internship for law students outside vacation period - Bar and Bench (Google News: neurotech): non-health Bar Council of India legal internship dispute
+- Austin Is Becoming the Brain-Tech Capital, and Two Local Companies Just Proved It - KEYE (Google News: neurotech): generic regional ecosystem overview
+- Verizon in talks over $6 billion deal for Fidium, FT reports - Reuters (Google News: neurotech): merged into story 2 (telecom deal)
+- Verizon in talks to buy Fidium in $6B deal — FT - TradingView (Google News: neurotech): merged into story 2 (telecom deal)
+- Factories scale back hiring as industrial activity remains stagnant: Survey - The Business Standard (Google News: neurotech): non-health industrial activity survey
+- Dual-Target Deep Brain Stimulation Demonstrates Feasibility in Severe Treatment-Resistant Depression - Bioengineer.org (Google News: neuromodulation): academic lab study on dual-target DBS for depression without immediate commercial path
+- Deep Brain Stimulation for Depression: Colombian Researchers Report Remission, Then Partial Relapse - Tech Times (Google News: neuromodulation): small academic clinical trial report from Colombia
+- Ear Nerve Stimulation Modulates Heart Rate Variability and Brain Activity in Parkinson’s - Bioengineer.org (Google News: neuromodulation): early lab research on non-invasive ear nerve stimulation
+- Vagus nerve stimulation slows growth and spread of pancreatic cancer - New Scientist (Google News: neuromodulation): early animal research on vagus nerve stimulation in pancreatic cancer
+- Transcranial Magnetic Stimulation May Aid Weight Loss - EMJ (Google News: neuromodulation): preliminary study on TMS for weight loss
+- Prof. Ulf Ziemann has been recognised as a Highly Cited Researcher for the eighth time - idw – Informationsdienst Wissenschaft (Google News: neuromodulation): individual academic citation award
+- Brain Stimulation Combined with Physical Therapy Yields Short-Term Chronic Pain Relief - Bioengineer.org (Google News: neuromodulation): small pilot research study on brain stimulation and physical therapy
+- Transcranial Magnetic Stimulation Linked to Weight Loss - Wisevoter (Google News: neuromodulation): merged into story 19 (TMS for weight loss study)
+- Parkinson’s Reseach – Neural Processing and Control Lab - The University of Rhode Island (Google News: EEG and neural wearables): university lab webpage update
+- Portable Wireless Neonatal Brain Monitor Shows High Correlation With Conventional Devices - Bioengineer.org (Google News: EEG and neural wearables): academic validation study for wireless neonatal brain monitor without commercial milestone
+- Norwegian Gambling Authority rules out DNS blocking for EEG websites - Yogonet (Google News: EEG and neural wearables): non-health regulatory decision regarding website brand
+- What We Got Wrong About Comas - The Atlantic (Google News: EEG and neural wearables): general popular science essay on comas
+- New Study Finds That Dogs May Understand Our Language in More Ways Than We Thought - My Modern Met (Google News: EEG and neural wearables): animal cognition research paper
+- People with borderline personality disorder are more likely to mistake accidental harm for deliberate harm, study finds - PsyPost (Google News: EEG and neural wearables): general psychological study on borderline personality disorder
+- Man Group (LSE:EMG) On Its $107 Million Legal Ruling And Whether Shares Still Look Undervalued - Simply Wall St (Google News: EEG and neural wearables): non-health financial litigation regarding asset manager ticker EMG
+- WearOptimo secures A$7.75m for next-gen wearable health sensors - Health Tech World (Google News: neuro funding): old news: WearOptimo funding round previously covered
+- Nelson Advisors: 10 Differentiators for European HealthTech, MedTech, Digital Health and Health AI Companies to Attract Strategic Buyers and Financial Sponsors - https://www.healthcare.digital/ (Google News: neuro funding): opinion advisory post for European healthtech
+- Cambridge researchers develop wearable device to treat balance disorders - News-Medical (Google News: neuro funding): academic grant announcement for balance disorder wearable
+- Meta announces entrepreneurship-focused investment plans for Türkiye | Daily Sabah - Daily Sabah (Google News: neuro funding): general tech investment plans in Turkey
+- Altair Raises $100 Million to Keep AI Glasses and Wearables Connected All Day - Ventureburn (Google News: neuro funding): old news: Altair $100M Series A previously covered
+- Altair Funding Backs a 2027 Modem Production Ramp - remio (Google News: neuro funding): old news: duplicate of story 34
+- Digital health in Scotland: Building on progress and unlocking new opportunities - HTN Health Tech News (Google News: neuro funding): regional public health policy overview
+- ETH Zurich develops tiny sensor that enables silent communication with AI - Robotics &amp; Automation News (Google News: neuro funding): early university research sensor proof-of-concept
+- Oura Ring for Weight Loss: Does It Help or Is It Just a Tracker? - Prefeitura de São José do Rio Preto (SP) (Google News: neuro funding): consumer article on Oura ring weight loss claims
+- Cambridge researchers secure £398,000 to develop wearable device for balance disorders - Health Tech World (Google News: neuro funding): merged into story 32 (Cambridge grant)
+- Brain imaging agent used by UW Alzheimer’s researchers approved by FDA - WSAW (Google News: FDA neuro devices): diagnostic brain imaging agent approval without broader device impact
+- FDA Clears Neuralink ALS Trial: What the Brain Implant Must Show - TechRepublic (Google News: FDA neuro devices): old news: Neuralink FDA ALS trial approval previously covered
+- Elon Musk's Neuralink gets FDA approval for major human brain implant trial - standardmedia.co.ke (Google News: FDA neuro devices): old news: duplicate of story 41
+- Novo Nordisk to launch Wegovy pill in Swedish pharmacies on Christmas Eve - MedWatch (Google News: FDA neuro devices): pharmaceutical oral drug launch
+- Neuralink launches the final trial of its implant ahead of going on sale - Korben (Google News: FDA neuro devices): old news: duplicate of story 41
+- Cloud One Breach Exposes Sensitive US Air Force Data – DTH - Daily Tech News Show (Google News: FDA neuro devices): defense sector cybersecurity breach
+- Weekly Buzz: RDNT, COGT Win FDA Nod; SNY Buys INSM; GSK, DWTX Hit Goals; RCUS Halts Phase 3 Trial - RTTNews (Google News: FDA neuro devices): generic biopharma stock and drug approval roundup
+- Neuralink gets US FDA nod for brain-implant trial in ALS patients - Inshorts (Google News: FDA neuro devices): old news: duplicate of story 41
+- More REM sleep is linked to lower risk of dozens of diseases, wearable data from 95,000 adults suggest - PsyPost (Google News: wearables): observational sleep study without device innovation
+- Disrupted Daily Lifestyle Patterns Predict Elevated Immunometabolic Risk in Young Adults - Bioengineer.org (Google News: wearables): observational lifestyle tracking study
+- Black Friday Smartwatch and Fitness Tracker Deals: Save Up to 50% on Wearables from Apple, Fitbit, Polar, Samsung, and More - PCMag (Google News: wearables): consumer shopping deal roundup
+- Low levels of common vitamin could be stealing nearly 30 minutes of your sleep - Fox News (Google News: wearables): generic wellness advice article
+- Amazon has Black Friday fitness wearables for runners, hikers, and anyone who wants better sleep data - Digital Trends (Google News: wearables): consumer shopping guide
+- 4 Earbuds With Helpful Sleep Features - BGR (Google News: wearables): consumer shopping guide for sleep earbuds
+- Hume Band 2.0 review: Is it worth upgrading in 2026? - Wareable (Google News: wearables): consumer hardware gadget review
+- WHO Launches Development of International Classification of Health Interventions Traditional Medicine Code Set - CASRAI (Google News: digital health): administrative WHO classification update
+- Accounting for Self-Report Bias Raises Machine Learning Stroke Discrimination to 0.874 - Bioengineer.org (Google News: digital health): specialized machine learning paper on survey bias correction
+- Optometry Australia renews partnership with Vision 2020 - Insight News (Google News: digital health): optometry association partnership renewal
+- Rubrik Launches Configuration Resilience for Microsoft 365 - IT Voice Media (Google News: digital health): enterprise cloud IT software launch
+- Bureti Polytechnic Principal urges treasury, education ministry to align funding with TVET calendar - Education News (Google News: digital health): non-health vocational education funding news
+- Lupin Announces U.S. FDA Approval and Launch of Sitagliptin Tablets, USP in the United States - Yahoo Finance Singapore (Google News: digital health): generic pharmaceutical FDA approval
+- 5 Health Partnerships That Show How the Carlos Slim Foundation Works in Latin America - fundsforNGOs (Google News: digital health): non-profit foundation overview
+- The DWP shutdown is a warning for connected healthcare - Med-Tech Insights (Google News: digital health): policy commentary on connected healthcare security
+- Medical Facilities launches a fresh buyback plan as value returns to focus (TSX:DR) - kalkine.ca (Google News: digital health): hospital network stock buyback plan
+- Lupin receives US FDA approval for Sitagliptin Tablets launch in the US - TaxGuru (Google News: digital health): duplicate of story 61
+- Saudi healthtech DawaDose closes undisclosed seed round for Gulf push - Dealroom (Google News: health tech AI): undisclosed seed round for regional pharmacy delivery app
+- Top Treasury Official Is Too Busy Vibe Coding a Crappy Video Game Clone Instead of Addressing a Historic Hack - Futurism (Google News: health tech AI): non-health political tech story
+- Portuguese startup Lampsy raises €1.1m for AI seizure lamp - AICEP (Google News: health tech AI): merged into story 68 (Lampsy Health funding)
+- Portuguese startup Lampsy raises €1.1M for an AI lamp that detects epilepsy seizures during sleep - Tech Funding News (Google News: health tech AI): merged into story 68 (Lampsy Health funding)
+- Leash Biosciences Raises $11M for AI Drug Discovery - Voice of Healthcare (Google News: health tech AI): non-device AI drug discovery venture funding
+- Beyond the taboo: Polari Labs brings biotech innovation to anorectal health - Tech.eu (Google News: health tech AI): specialized non-neuro biotech startup launch
+- Preventative healthcare venture Ohas launches in London - BusinessCloud (Google News: health tech AI): UK preventative health app launch
+- Why interoperability is becoming the next challenge for medical IoT - IOT Insider (Google News: medtech devices): trade commentary on medical IoT interoperability
+- FDA Classifies Post-Ablation Tissue Response Prediction Radiology Software as Class II Device - CASRAI (Google News: medtech devices): niche radiology software reclassification
+- Opinion: When medical judgment becomes evidence, cancer care suffers - The Coast News Group (Google News: medtech devices): opinion column on medical evidence standards
+- Hospitals Told to Pull Portex Breathing Tubes Sized for Newborns after Soft Material Was Linked to One Death - Medical Daily (Google News: medtech devices): medical device recall notice for breathing tubes
+- When a proven sterilisation standard becomes a critical issue for the future - Med-Tech Insights (Google News: medtech devices): trade article on sterilization standards
+- Cytiva Launches India-Made TFF System for Biopharma - Voice of Healthcare (Google News: medtech devices): biomanufacturing equipment launch
+- Lampsy Health Raises €1.1M in Funding - FinSMEs (Google News: medtech devices): merged into story 68 (Lampsy Health funding)
+- Hetero Launches Generic Twice-Yearly HIV Prevention Injection in Africa - Medical Dialogues (Google News: medtech devices): pharmaceutical injection launch
+- Atovio X wearable air purifier review: A breath of fresh air on the go - The Times of India (Google News: Asia neurotech): consumer air purifier gadget review
+- Frontiers in Pharmacology Editorial Examines Digital Health Technologies for Maternal, Rare, and Infectious Disease Care in Africa - GeneOnline (Google News: Asia neurotech): academic editorial on digital health in Africa
+- TechKnow: Dutch healthcare seeks India’s medtech fixes for shortages - Bangalore Mirror (Google News: Asia neurotech): trade overview of Dutch-Indian medtech imports
+- Supreme Court Asks Centre To Consider Restricted India Entry For Blacklisted OCI Cardholder Khalid Jahangir Qazi - LawChakra (Google News: Asia neurotech): non-health legal immigration story
+- 2026 bowed out with record deals; 2027 brings the bill - Medical Buyer (Google News: Asia neurotech): retrospective financial overview on healthcare deals
+- How Many Students Appeared for AIBE 22 Exam 2026? - Shiksha.com (Google News: Asia neurotech): non-health law exam statistics in India
+- Shukra Medtech to raise Rs.648-Cr more from promoters via pref issue - Venture Intelligence News (Google News: Asia neurotech): internal promoter capital raise for Indian medtech manufacturer
+- Ahmedabad: Two-day medtech expo begins at Science City - The Times of India (Google News: Asia neurotech): local trade expo event announcement
+- Courtroom Shortage Stops P&amp;H High Court From Recommending New Judges - LawChakra (Google News: Asia neurotech): non-health judicial administration news</description>
+   <pubDate>Sat, 28 Nov 2026 09:41:51 +0000</pubDate>
+   <guid isPermaLink="false">neuro-morning-2026-11-28-0941</guid>
+   <enclosure url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-28.mp3?v=0941" length="5012972" type="audio/mpeg"/>
+   <itunes:duration>626</itunes:duration>
+   <itunes:explicit>false</itunes:explicit>
+   <podcast:transcript url="https://chandnisacheti.github.io/daily-neuro-podcast/episodes/2026-11-28.vtt" type="text/vtt" language="en"/>
+  </item>
+  <item>
    <title>Untethered AI Wearables, BCI Form Factors, and Biosignal Validation Debates</title>
    <description>Today's stories:
 

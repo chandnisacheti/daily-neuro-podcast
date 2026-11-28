@@ -1,0 +1,65 @@
+[
+ {
+  "company": "Paradromics",
+  "signal": "fda",
+  "detail": "Paradromics secured FDA approval to expand its Connexus brain-computer interface trial nationwide.",
+  "location": "Austin, USA",
+  "nyc": false,
+  "why_relevant": "Paradromics develops invasive BCI neural implants that decode single-neuron signals using AI for speech restoration.",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRDZveXVWb2xITVNTc0NnSU83RUpyWTJLUG9MY2tGa3EyVFd1MktpcjlHTXp6VmRzeU8yc05kODlrcnN5TWdSeU5KcmVpVDYzMnIyX3FfSFJEY1kwbUZISUVtdkpYVDcyUV8tRWpPR0c5NFdpMEkxYzI2bkJ2TWVhbG1RWWFxdUxpNzdRT2YwRXd0UWxi?oc=5"
+ },
+ {
+  "company": "Neuralink",
+  "signal": "fda",
+  "detail": "Neuralink obtained US FDA approval for a human brain-implant trial in ALS patients.",
+  "location": "Austin, USA",
+  "nyc": false,
+  "why_relevant": "Neuralink builds high-density invasive brain-computer interfaces utilizing advanced neural decoding and machine learning algorithms.",
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSlhoclpxdmwtaURGQjVZU2dmRmxCSFlTU1YzcjRGOF9FZ2dMWWRyYkFpbFY3U18xTzVpVExUMXVjRVAzU0plRHFEcHkzR0NzSzV4d0Fsa3JIVFE5bHJZZWhVSk83enNock45RUdmSUxhRndISXlvdjdhaWtGVDhWRWY5MGVZSXMwbjVySnd2V0Jab0ZaSGVqVFlHQkNJdTdRamM1Tk9JdGMzRmZ2ZTJITWtR?oc=5"
+ },
+ {
+  "company": "StairMed",
+  "signal": "research",
+  "detail": "StairMed provided the wireless BCI system used in a 256-channel clinical trial in Shanghai to decode Mandarin speech for an ALS patient.",
+  "location": "Shanghai, China",
+  "nyc": false,
+  "why_relevant": "StairMed's system processes multi-channel neural signals and applies deep learning algorithms for real-time speech decoding and neuromodulation research.",
+  "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9HOXFZelczRVhjZzZGNEdpTTVDR2dsZE5FRVNNak02b21fbFQ0VEkzVmdaWmhGNFVyZVBhRzR2S3NSVlE4amxPNUdreEVoN2trSXloZ2I3QURFZ0lLYTRFdnNTLWd0YTkyZXNMUmk5NGV5TGFCZHlieWZyc0pCdw?oc=5"
+ },
+ {
+  "company": "Phantom Neuro",
+  "signal": "research",
+  "detail": "Phantom Neuro initiated human clinical trial implants in Melbourne to test subcutaneous limb sensors that translate muscle signals into prosthetic hand control.",
+  "location": "Austin, USA",
+  "nyc": false,
+  "why_relevant": "Phantom Neuro combines implanted sensors and AI algorithms to translate myoelectric biosignals into real-time neuroprosthetic control.",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRDZveXVWb2xITVNTc0NnSU83RUpyWTJLUG9MY2tGa3EyVFd1MktpcjlHTXp6VmRzeU8yc05kODlrcnN5TWdSeU5KcmVpVDYzMnIyX3FfSFJEY1kwbUZISUVtdkpYVDcyUV8tRWpPR0c5NFdpMEkxYzI2bkJ2TWVhbG1RWWFxdUxpNzdRT2YwRXd0UWxi?oc=5"
+ },
+ {
+  "company": "Lampsy Health",
+  "signal": "funding",
+  "detail": "Lampsy Health raised €1.1 million in funding for its contactless AI bedside lamp that detects nocturnal epileptic seizures using computer vision.",
+  "location": "Lisbon, Portugal",
+  "nyc": false,
+  "why_relevant": "Lampsy Health applies computer vision and machine learning for non-invasive seizure detection and neurological monitoring.",
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaklqZXhkWFd0eV9LcUFzQVUwWFBkV25pc3hjZGU0TEszdW0xY25Yc1RiQmFzQ3dYN0daVzEtekJ6VTFReThDMXJ5Wk9JbVotZWNyRVRpVEtMVTduZURJano2YWJGRzdsTUt1MVVfeWRRMUdhQkFkUFhEUWlqNVE3SDJ3S2JWWTdiY2ZWT2A5dnhyRnlPaUt4bWUtVGl2U01DQ1JPR185UkxWX2RIZ3ZxaGExYlN0eHRC?oc=5"
+ },
+ {
+  "company": "WearOptimo",
+  "signal": "funding",
+  "detail": "WearOptimo secured A$7.75 million in funding to advance its next-generation wearable health sensors.",
+  "location": "Australia",
+  "nyc": false,
+  "why_relevant": "WearOptimo develops continuous wearable physiological sensors relevant to wearable healthtech and biosignal monitoring.",
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUEdlclg4X2YzYzh0OVMxV3RzcGVVanQzNjB2ZXNucE9NR3lRQmpCekwyOFhpcVN2N2hoWVhNVnRzTjZvejQ4TXBVa3RZaGZ4YWRfQndDeGNOU1pRWEJySGVUS3JVY1lROXJGM3NzYUtLRHkxNW82UVdfOG9uN0NHTVVleGRxZmx3QU1KWUYyTFA3S0traUNTYUR1NmxkVUxmb0Zzd0t3VFFOUQ?oc=5"
+ },
+ {
+  "company": "Chargerless",
+  "signal": "expansion",
+  "detail": "Chargerless launched preorders for Batch 3 of Ray, a 7-gram solar-powered health wearable tracking sleep stages, heart rate variability, and body temperature.",
+  "location": "San Francisco, USA",
+  "nyc": false,
+  "why_relevant": "Chargerless designs self-powered wearable hardware collecting continuous physiological biosignals such as HRV and sleep metrics.",
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSW9aU2trbUxnZFdpbzhHemNEcEJ5VHBpX2NBcGtoN0JQa21CbDRaVmVrdHNtNmdublQyZDRkMWllekxWc3h3ZFZLc2lJM1NHU2tTcGMxTlBVaHZqMWcwMXotLWJNVG9vZ0pua0JtYXgxd1ZNRzhYLWx2RzJxMlN0b3ozU2sxUlU3NXF3ZjFwN3FPR2xiNVRGYVdtd0djblVsekdlckpCSEVvcjZxb0E?oc=5"
+ }
+]

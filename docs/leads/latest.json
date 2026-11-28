@@ -1,77 +1,68 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "leads": [
+  {
+   "company": "Paradromics",
+   "signal": "fda",
+   "detail": "Paradromics secured FDA approval to expand its Connexus brain-computer interface trial nationwide.",
+   "location": "Austin, USA",
+   "nyc": false,
+   "why_relevant": "Paradromics develops invasive BCI neural implants that decode single-neuron signals using AI for speech restoration.",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRDZveXVWb2xITVNTc0NnSU83RUpyWTJLUG9MY2tGa3EyVFd1MktpcjlHTXp6VmRzeU8yc05kODlrcnN5TWdSeU5KcmVpVDYzMnIyX3FfSFJEY1kwbUZISUVtdkpYVDcyUV8tRWpPR0c5NFdpMEkxYzI2bkJ2TWVhbG1RWWFxdUxpNzdRT2YwRXd0UWxi?oc=5"
+  },
   {
    "company": "Neuralink",
    "signal": "fda",
-   "detail": "Neuralink received FDA approval for its first U.S. pivotal clinical trial of an implantable brain-computer interface targeting ALS patients.",
-   "location": "Fremont, California, USA",
+   "detail": "Neuralink obtained US FDA approval for a human brain-implant trial in ALS patients.",
+   "location": "Austin, USA",
    "nyc": false,
-   "why_relevant": "Directly advances invasive brain-computer interfaces and neural decoding for motor restoration, matching neuromodulation and biosignal processing interests.",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbDkxbXkwTnRoYU1lN0hoNThHaTZnZkFIcGRpNm04MUFJd3VBNVNnbUFnek43ZVl3eE5DVm85SnhDekhYZjgxLWpxWUhvclZnQWFLTy1zZzdHTk90VEFRTDVIeTRNSmY0SERWQ296cGE0ZTVXTzQ1YVk5NlEzZ0hybXFfQnh1dWtMRWtnc1h0WnBpX0E3Z1AxNUJyczlKZHZoUEw3RnhFLS1hQ04tTzZkbEc2QXA4V3ZxMUlIT0poNGdLY284MkFDc3BiOVlId0p6SHEzOWwyd0t0NWpNbWc?oc=5"
+   "why_relevant": "Neuralink builds high-density invasive brain-computer interfaces utilizing advanced neural decoding and machine learning algorithms.",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSlhoclpxdmwtaURGQjVZU2dmRmxCSFlTU1YzcjRGOF9FZ2dMWWRyYkFpbFY3U18xTzVpVExUMXVjRVAzU0plRHFEcHkzR0NzSzV4d0Fsa3JIVFE5bHJZZWhVSk83enNock45RUdmSUxhRndISXlvdjdhaWtGVDhWRWY5MGVZSXMwbjVySnd2V0Jab0ZaSGVqVFlHQkNJdTdRamM1Tk9JdGMzRmZ2ZTJITWtR?oc=5"
   },
   {
-   "company": "Nurovo",
-   "signal": "funding",
-   "detail": "Nurovo secured backing from Genesis to develop an EEG-based wearable device designed to measure pain.",
-   "location": "",
-   "nyc": false,
-   "why_relevant": "Combines EEG signal acquisition and real-time physiological decoding in a wearable form factor.",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQlRmMXNhbHljdFlYUTBlWVU4X1d0c04tOGZGNDFyWHF4OHhyX1ZoanFPOTNWUFVfWlEwZVBFYzNMVm5sSnpFSXJzYUE4UVFPbTRnVmdJNDhfeFZOTWlRejg1ZkdvTnB1SE92UVhIeDNqSmdqd1BGVDZvMW1acU5EZzEyVUZ2VmkzSnFBbzFn?oc=5"
-  },
-  {
-   "company": "Hyperdimensional Brainpower",
+   "company": "StairMed",
    "signal": "research",
-   "detail": "Hyperdimensional Brainpower demonstrated ZAPCAP, a consumer-grade non-invasive dry-EEG baseball cap capable of controlling device cursors without conductive gel.",
-   "location": "China",
+   "detail": "StairMed provided the wireless BCI system used in a 256-channel clinical trial in Shanghai to decode Mandarin speech for an ALS patient.",
+   "location": "Shanghai, China",
    "nyc": false,
-   "why_relevant": "Focuses on non-invasive dry electrode biosignal acquisition and real-time machine learning intent classification for wearables.",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3WGRyczdURUN0dkpxd3B2NmVENXBiMnBELTJoRkdxQnlKbDZzWFRWMHBJSzVWdXNodHZLT0NKTVMxV0ZFSXN1MEtsSWJkYTl4RFF3?oc=5"
+   "why_relevant": "StairMed's system processes multi-channel neural signals and applies deep learning algorithms for real-time speech decoding and neuromodulation research.",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9HOXFZelczRVhjZzZGNEdpTTVDR2dsZE5FRVNNak02b21fbFQ0VEkzVmdaWmhGNFVyZVBhRzR2S3NSVlE4amxPNUdreEVoN2trSXloZ2I3QURFZ0lLYTRFdnNTLWd0YTkyZXNMUmk5NGV5TGFCZHlieWZyc0pCdw?oc=5"
+  },
+  {
+   "company": "Phantom Neuro",
+   "signal": "research",
+   "detail": "Phantom Neuro initiated human clinical trial implants in Melbourne to test subcutaneous limb sensors that translate muscle signals into prosthetic hand control.",
+   "location": "Austin, USA",
+   "nyc": false,
+   "why_relevant": "Phantom Neuro combines implanted sensors and AI algorithms to translate myoelectric biosignals into real-time neuroprosthetic control.",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRDZveXVWb2xITVNTc0NnSU83RUpyWTJLUG9MY2tGa3EyVFd1MktpcjlHTXp6VmRzeU8yc05kODlrcnN5TWdSeU5KcmVpVDYzMnIyX3FfSFJEY1kwbUZISUVtdkpYVDcyUV8tRWpPR0c5NFdpMEkxYzI2bkJ2TWVhbG1RWWFxdUxpNzdRT2YwRXd0UWxi?oc=5"
   },
   {
    "company": "Lampsy Health",
    "signal": "funding",
-   "detail": "Lampsy Health raised €1.1 million to commercialize an AI-powered bedside monitoring lamp for detecting nocturnal epileptic seizures.",
+   "detail": "Lampsy Health raised €1.1 million in funding for its contactless AI bedside lamp that detects nocturnal epileptic seizures using computer vision.",
    "location": "Lisbon, Portugal",
    "nyc": false,
-   "why_relevant": "Applies machine learning to continuous, non-contact physiological sensing for neurological monitoring.",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQXZxSVBBTGF3WEZBTzBWaERPcDlIb3ZIbFNIYXpfZGh5R0tmc19uSWJNenVSeFVVelJsRHFVSVpCZUtMaDQ1bXhLbnJUN3JGM2pQTWxILTd4ejcyNGY4NTZkenJzV3RoWDIteGJrTkI1Z21RMzBWcXhfWHU5Nnk1ZnpLblJNMGp4aWRTS3plRTZrWWkxOTJYYTdwVEoxMnUtWGlUOWJMS2d0WGQzMnc3OVo2QXdtMjk4NVVKWW5YOWFlcXNzRXY4SEl0TjZ0aHV3ejRxeDJWUktUakpCamRVaGRKRXJHTVpNVXAw?oc=5"
+   "why_relevant": "Lampsy Health applies computer vision and machine learning for non-invasive seizure detection and neurological monitoring.",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaklqZXhkWFd0eV9LcUFzQVUwWFBkV25pc3hjZGU0TEszdW0xY25Yc1RiQmFzQ3dYN0daVzEtekJ6VTFReThDMXJ5Wk9JbVotZWNyRVRpVEtMVTduZURJano2YWJGRzdsTUt1MVVfeWRRMUdhQkFkUFhEUWlqNVE3SDJ3S2JWWTdiY2ZWT2A5dnhyRnlPaUt4bWUtVGl2U01DQ1JPR185UkxWX2RIZ3ZxaGExYlN0eHRC?oc=5"
   },
   {
-   "company": "Altair Semiconductor",
+   "company": "WearOptimo",
    "signal": "funding",
-   "detail": "Altair Semiconductor closed a $100 million Series A round to mass-produce ultra-low-power cellular modems for AI wearables and smart glasses.",
-   "location": "Israel",
+   "detail": "WearOptimo secured A$7.75 million in funding to advance its next-generation wearable health sensors.",
+   "location": "Australia",
    "nyc": false,
-   "why_relevant": "Provides essential hardware connectivity and low-power infrastructure for real-time wearable AI biosensing.",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Ha09rdnp0RVoyU0Z1d28wSjdacTZTSUlZZUtDczlLTzljMFRZWnY3eUE5Ui1YZE9BQW9lSW5kQzlla1JRQVJZN1F1NDRoSEl2eDY4ajVUZG5jaS1TQVNnenl0Z1kxRDhsQVkzQm9wOVpRcnVxWnc?oc=5"
+   "why_relevant": "WearOptimo develops continuous wearable physiological sensors relevant to wearable healthtech and biosignal monitoring.",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUEdlclg4X2YzYzh0OVMxV3RzcGVVanQzNjB2ZXNucE9NR3lRQmpCekwyOFhpcVN2N2hoWVhNVnRzTjZvejQ4TXBVa3RZaGZ4YWRfQndDeGNOU1pRWEJySGVUS3JVY1lROXJGM3NzYUtLRHkxNW82UVdfOG9uN0NHTVVleGRxZmx3QU1KWUYyTFA3S0traUNTYUR1NmxkVUxmb0Zzd0t3VFFOUQ?oc=5"
   },
   {
-   "company": "SPCTR",
-   "signal": "funding",
-   "detail": "SPCTR raised €2.8 million to advance real-time intraoperative optical tissue assessment during cancer surgery.",
-   "location": "Netherlands",
+   "company": "Chargerless",
+   "signal": "expansion",
+   "detail": "Chargerless launched preorders for Batch 3 of Ray, a 7-gram solar-powered health wearable tracking sleep stages, heart rate variability, and body temperature.",
+   "location": "San Francisco, USA",
    "nyc": false,
-   "why_relevant": "Integrates biomedical optics and real-time signal processing to assist intraoperative decision-making in medtech.",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPamk4dkVsX1pjV3hKLVZNdS1sNnJJNEw0SmRfeGtYSG9USENMODVzTkRRTWJCZWxGdWxiMzNVM1pNNmd5bTlOVS1uV0Z1NVZhUDJtajdoWm9aYmR2alp0TFRmR08yRXpSanFTb19Qay1qOHlJa3JDSnplOU50MVptVFdYVVBqTjBmdVBHWFVCQzdlUHE3bEdFdVJObkg4S0F4OHY4UnEwdVFLQnRrRUlHcGFBb0VxeG9VRk1STzFienpFUC1HUW1WZDNINHBGNzZYTVNCRg?oc=5"
-  },
-  {
-   "company": "Lumius",
-   "signal": "funding",
-   "detail": "Lumius raised $4.5 million to deploy high-resolution 3D ultrasound imaging systems into hospital workflows.",
-   "location": "",
-   "nyc": false,
-   "why_relevant": "Demonstrates growth in medical imaging technology and digital signal processing applications for medtech.",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRk1LcnlzZ0l2ZkRyUkVibHoyZ1dNaTBHQkMxQks2RTdGdEw3Y3c4X2xWZnVZakdQWV8wYmdDMFhJd0Zkb2FuVXBmTHpqdDBfLVR1VlRaQllRQXlJeHRyck1WMVdSRjBsWFBHZGRRNHNpOXZYWTNjS0tQYmxQNmNIaEF3dFlNQXFoTE5Hd09mZkdSRnFyQUE?oc=5"
-  },
-  {
-   "company": "Vantedge Medical",
-   "signal": "acquisition",
-   "detail": "Vantedge Medical acquired medical device component manufacturer Hobson & Motzer to scale custom medtech manufacturing capacity.",
-   "location": "USA",
-   "nyc": false,
-   "why_relevant": "Reflects growth and manufacturing expansion in medical device design and hardware production.",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSVNUeWx4ekE3LW80TEYwcFhkUi1ZUE1iWkZheE1JVExKYV9SUGVlcnJnNzlndWRmeUxyQ1NQMTgxN0xBdl9sZ0duMEtYSEh2STVmUkYxM0dpcnlad21qVzdjM2EyU0NEcHhiRkxCdHZWbnpZZVBMNVFLWno0X191MXU4cWlSRkluS2RHV010V1pUTzZDZjkwYWRYY3A0c3d6dGNKWlB5ZjZNaW9KS21EQmdIUVJra25ialFWclV5X3RRY1hO?oc=5"
+   "why_relevant": "Chargerless designs self-powered wearable hardware collecting continuous physiological biosignals such as HRV and sleep metrics.",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSW9aU2trbUxnZFdpbzhHemNEcEJ5VHBpX2NBcGtoN0JQa21CbDRaVmVrdHNtNmdublQyZDRkMWllekxWc3h3ZFZLc2lJM1NHU2tTcGMxTlBVaHZqMWcwMXotLWJNVG9vZ0pua0JtYXgxd1ZNRzhYLWx2RzJxMlN0b3ozU2sxUlU3NXF3ZjFwN3FPR2xiNVRGYVdtd0djblVsekdlckpCSEVvcjZxb0E?oc=5"
   }
  ]
 }
